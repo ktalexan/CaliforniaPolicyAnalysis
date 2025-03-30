@@ -1,0 +1,88 @@
+# SB836_14 ####
+SB836_14 <- list(
+    zotType = "BILL",
+    type = "Senate Bill",
+    project = "AI",
+    category = "S",
+    billNumber = "SB836",
+    shortTitle = "SB-836 Brain research: Cal-BRAIN program",
+    title = "SB-836: An act to add Chapter 15 (commencing with Section 92985) to Part 57 of Division 9 of Title 3 of the Education Code, relating to brain research",
+    sponsors = list(
+        list(
+            lastname = "Anderson",
+            firstname = "Joel",
+            district = "SD2",
+            party = "I",
+            url = "https://ballotpedia.org/Joel_Anderson_(California)"
+        ),
+        list(
+            lastname = "Beall",
+            firstname = "Jim",
+            district = "SD15",
+            party = "D",
+            url = "https://ballotpedia.org/James_Beall_Jr."
+        ),
+        list(
+            lastname = "Block",
+            firstname = "Marty",
+            district = "SD39",
+            party = "D",
+            url = "https://ballotpedia.org/Marty_Block"
+        ),
+        list(
+            lastname = "Cannella",
+            firstname = "Anthony",
+            district = "SD12",
+            party = "R",
+            url = "https://ballotpedia.org/Anthony_Cannella"
+        ),
+        list(
+            lastname = "Correa",
+            firstname = "Lou",
+            district = "SD34",
+            party = "D",
+            url = "https://ballotpedia.org/Lou_Correa"
+        ),
+        list(
+            lastname = "Evans",
+        ),
+    ),
+    cosponsors = c("A3", "A3"),
+    section = "2013-2014",
+    legislativeBody = "California Legislature",
+    session = "2013-2014 Regular Session",
+    code = "Amended Senate",
+    codeVolume = "Inactive Bill - Died",
+    date = "2014-01-06",
+    accessDated = "2014-05-27",
+    url = "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB836",
+    history = "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=201320140SB836",
+    digest = "Existing law establishes various health research grant programs, including the Cancer Research Program, the Breast Cancer Research Program, and the Spinal Cord Injury Research Program. This bill, the California Blueprint for Research to Advance Innovations in Neuroscience (Cal-BRAIN) Act of 2014, would request the Regents of the University of California to establish the Cal-BRAIN program to leverage California’s research assets and the federal BRAIN Initiative’s funding opportunities to accelerate the development of brain mapping techniques, including the development of new technologies, in order to achieve certain goals. The bill would additionally request the University of California to convene certain stakeholders to administer develop a governing structure for the Cal-BRAIN program designed to do specified tasks, and to provide information about the program through an Internet Web site. These provisions would only be implemented to the extent that adequate funding is appropriated to the University of California, as specified.",
+    tldr = "SB-836: An act to add Chapter 15 (commencing with Section 92985) to Part 57 of Division 9 of Title 3 of the Education Code, relating to brain research",
+    sponsorUrl = "https://ballotpedia.org/Joel_Anderson_(California)",
+    district = "SD2",
+    party = "I",
+    outcome = "Failed",
+    chapterNo = "",
+    measureVote = "Majority",
+    measureAppropriation = "false",
+    measureFiscal = "false",
+    measureLocal = "false",
+    measureUrgency = "false",
+    measureTax = "false",
+    outcomeChapter = "false",
+    # Artificial intelligence disposition for the bill
+    aiDisposition = "Supportive",
+    aiType = "",
+    aiSector = "M2",
+    aiSubsector = "M2",
+    aiDomain = "M2",
+    aiAccountability = "M2 (Low/Moderate/High)",
+    aiImpact = "M2 (Low/Moderate/High)",
+    aiEthics = "M2 (Significant/Not Significant)",
+    aiInnovation = "M2 (Low/Moderate/High)",
+    aiPrivacy = "M2 (Low/Moderate/High)",
+    aiTransparency = "M2 (Low/Moderate/High)",
+    zoteroPdf = "L1",
+    tags = c("Artificial Intelligence", "AI", "KW")
+)

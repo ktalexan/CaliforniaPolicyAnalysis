@@ -1,0 +1,18 @@
+Version: 1.0
+ProjectId: 466f1d8d-56e4-4646-a0ea-4a11b1bc83d5
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 4
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+AutoAppendNewline: Yes
+
+ProjectName: Policy Analysis

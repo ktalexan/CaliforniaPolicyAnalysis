@@ -1,0 +1,69 @@
+# billID ####
+bill <- list(
+    bblType <- "BILL", # Zotero type
+    purpose = "AI", # Purpose of the analysis (AI/LC)
+    billId = , # Bill ID (same as the billNumber in Zotero)
+    billNo = , # Numeric bill number (e.g., 21, 22, etc.)
+    billType = , # Bill type (e.g., Assembly Bill, Senate Bill, etc.)
+    shortTitle = , # Short title of the bill (topic)
+    title = , # Full title of the bill (title)
+    sponsors = list(
+        c(
+            lastname = "", 
+            firstname = "", 
+            district = "", 
+            party = "", 
+            url = "https://ballotpedia.org/"
+        )
+    ), # List of sponsors (list of lists)
+    cosponsors = list(
+        c(
+            lastname = "", 
+            firstname = "", 
+            district = "", 
+            party = "", 
+            url = "https://ballotpedia.org/"
+        )
+    ), # List of cosponsors (list of lists)
+    section = , # Legislative section (e.g., 2025-2026)
+    legislativeBody = , # Legislative body (e.g., California Legislature)
+    session = , # Legislative session (e.g., 2025-2026 Regular Session)
+    code = , # Legislative code (e.g., Introduced)
+    codeVolume = , # Legislative code volume (e.g., Active Bill - Pending Referral)
+    date = , # Date of the bill (e.g., 2024-12-02)
+    accessDated = , # Last legislative update date (e.g., 2024-12-02)
+    url = , # URL link for the bill full text
+    history = , # URL link for the bill history
+    votes = , # URL link for the votes
+    analysis = , # URL link for the analysis
+    todaysLaw = , # URL link for the Today's Law
+    compare = , # URL link for the bill version comparison
+    digest = , # Digest of the bill (summary)
+    tldr = , # TLDR of the bill (summary)
+    urlSponsor = , # URL link for the sponsor (e.g., https://ballotpedia.org/<name>)
+    district = , # Legislative district (e.g., 75)
+    party = , # Party affiliation (e.g., R/D/I/NP/Other/Unknown)
+    outcome = , # Outcome of the bill (e.g., In Progress/Failed/Chaptered)
+    chapterNo = , # Chapter number (e.g., 35)
+    measureVote = , # Measure vote type (e.g., Majority/Two Thirds/Three Fourths)
+    measureAppropriation = , # Measure appropriation (e.g., true/false)
+    measureFiscal = , # Measure fiscal (e.g., true/false)
+    measureLocal = , # Measure local (e.g., true/false)
+    measureUrgency = , # Measure urgency (e.g., true/false)
+    measureTax = , # Measure tax (e.g., true/false)
+    outcomeChapter = , # Outcome chapter (e.g., true/false)
+    aiDisposition = , # AI disposition (e.g., Neutral/Supportive/Restrictive)
+    aiType = , # AI type (category)
+    aiSector = , # AI sector (main sector/theme of AI)
+    aiSubsector = , # AI subsector (subsector/subtheme of AI)
+    aiDomain = , # AI domain (domain of AI)
+    aiAccountability = , # AI accountability (Low/Moderate/High)
+    aiImpact = , # AI impact (Low/Moderate/High)
+    aiEthics = , # AI ethics (Significant/Not Significant)
+    aiInnovation = , # AI innovation (Low/Moderate/High)
+    aiPrivacy = , # AI privacy (Low/Moderate/High)
+    aiTransparency = , # AI transparency (Low/Moderate/High)
+    bblPdf = , # Zotero PDF link (for RIS-L1, e.g., file/<billId>.pdf)
+    filePdf = , # File PDF link (the name of the pdf in the data directory)
+    tags = c("") # Tags for the bill (lowercase, words separated by dash)
+)
