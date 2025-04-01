@@ -1,3 +1,20 @@
-digest = "Existing law establishes, within the Government Operations Agency, the Department of Technology under the supervision of the Director of Technology, who also serves as the State Chief Information Officer. The department is generally responsible for the approval and oversight of information technology projects by, among other things, consulting with state agencies during initial project planning to ensure that project proposals are based on well-defined programmatic needs. This bill would establish in state government the Artificial Intelligence in State Government Services Commission comprised of 8 members, as specified, and would require the advisory commission to annually convene a public process to gather input on how artificial intelligence and data science could be used to improve state services. This bill would require the commission to propose a plan for soliciting artificial intelligence and data science related demonstration projects for critical state services and incorporating successful artificial intelligence and data science related demonstration projects into existing state government services. The bill would require the commission to establish guiding principles for the proposed plan on or before November 1, 2020. The bill would require the commission to submit its recommendations based on input gathered from the public process to the Legislature and the Governor by November 1, 2020. 2021, and by November 1 of every year thereafter. The bill would make related findings and declarations. The bill would repeal its provisions on January 1, 2025."
+aiBillYears <- c("Y20132014", "Y20172018", "Y20192020", "Y20212022", "Y20232024", "Y20252026")
 
-# prov
+aiBillList <- list(
+    Y20132014 = c("sb836", "sb860", "ab1465"),
+    Y20172018 = c("acr215", "sb1470", "ab2662", "ab1809", "sb843"),
+    Y20192020 = c("sb348", "sjr6", "ab459", "ab1576", "ab976", "ab594", "sb444", "sb730", "ab156", "ab3317", "scr13", "acr125", "sb752", "ab2269", "ab3339", "ab485"),
+    Y20212022 = c("sb1216", "ab2224", "ab587", "sr11", "ab2826", "ab1545", "ab1400", "sb54", "ab1651", "ab179"),
+    Y20232024 = c("ab2652", "sb1288", "ab2013", "ab2811", "sb893", "sb1235", "sb896", "sb313", "sb970", "ab3030", "sb1229", "sb1120", "sb398", "ab3058", "sb1047", "ab3204", "ab2876", "ab2885", "ab3095", "ab1831", "sb942", "acr96", "sb933", "sb892", "ab2355", "sb1381", "ajr6", "ab1873", "scr17", "ab2905", "ab3050", "ab3211", "ab2877", "ab331", "sb1220", "ab2512", "acr227", "ab2930", "ab1027", "ab302", "scr121", "ab2412", "ab2839", "acr219", "sb1446", "scr162", "sb1154", "ab2655", "ab1008", "ab1526", "ab2200", "sb1223", "ab108", "ab103", "ab2928", "ab100", "sb100", "sb103", "ab106", "sb158", "sb106", "ab158", "ab104", "sb104", "sb107", "ab107", "ab1754"),
+    Y20252026 = c("sb813", "sb833", "sb579", "ab316", "sb524", "sb366", "sb420", "sb11", "sb468", "ab412", "ab1064", "ab489", "ab512", "ab979", "ab853", "ab1405", "ab410", "sb243", "sb503", "sb53", "ab222", "sb238", "ab1159", "ab1137", "ab682", "sb711", "ab93", "sb7", "ab723", "ab1024", "ab279", "ab1018", "ab1242", "ab392", "sjr2", "ab325", "sb57", "sb295", "ab887", "ab1170", "sb354")
+)
+
+
+aiBillData <- list()
+
+for (year in names(aiBillList)) {
+    aiBillData[[year]] <- list()
+    for (bill in aiBillList[[year]]) {
+        aiBillData[[year]][[bill]] <- list()
+    }
+}

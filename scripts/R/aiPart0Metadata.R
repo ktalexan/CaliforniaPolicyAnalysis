@@ -37,9 +37,12 @@ metadata <- projectMetadata(prjComponent = "AI", prjPart = 0)
 # Get the project directories
 prjDirs <- projectDirectories()
 
-
 # Set the initial working directory to the R data directory
 setwd(prjDirs$pathData)
+
+# Load the list of California legislature members (dataframe and list)
+load(file = "dfCalMembers.RData")
+load(file = "calMembers.RData")
 
 
 

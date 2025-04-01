@@ -3329,7 +3329,21 @@ billDataAi <- list(
             votes = "https://leginfo.legislature.ca.gov/faces/billVotesClient.xhtml?bill_id=202320240ACR96",
             analysis = "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202320240ACR96",
             todaysLaw = "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202320240ACR96&showamends=false",
-            compare = "https://leginfo.legislature.ca.gov/faces/billVersionsCompareClient.xhtml?bill_id=202320240ACR96"
+            compare = "https://leginfo.legislature.ca.gov/faces/billVersionsCompareClient.xhtml?bill_id=202320240ACR96",
+            topic = "CR-96 23 Asilomar AI Principles",
+            title = "ACR-96: Relative to the 23 Asilomar AI Principles",
+            tldr = "This resolution recognizes the 23 Asilomar AI Principles, which promote the safe and beneficial development of artificial intelligence. It emphasizes the importance of ensuring that AI systems are aligned with human values and ethics, and it encourages collaboration among stakeholders to address the challenges posed by AI technologies.",
+            tags = list("artificial-intelligence", "california", "legislation", "asilomar-ai-principles", "ai-ethics", "ai-safety"),
+            sponsors = list(
+                c("Hoover", "Josh", "AD7", "R", "https://ballotpedia.org/Josh_Hoover")
+            ),
+            cosponsors = list(
+                c("Addis", "Dawn", "AD30", "D", "https://ballotpedia.org/Dawn_Addis"),
+                c("Alanis", "Juan", "AD22", "D", "https://ballotpedia.org/Juan_Alanis_(California)"),
+                c("Alvarez", "David", "AD80", "D", "https://ballotpedia.org/David_Alvarez_(California)"),
+                c("Arambula", "Joaquin", "AD31", "D", "https://ballotpedia.org/Joaquin_Arambula"),
+                c("Bains", "Jasmeet", "AD8", "D", "https://ballotpedia.org/Jasmeet_Bains"),
+            )
         ),
         # sb933 ####
         sb933 = list(
