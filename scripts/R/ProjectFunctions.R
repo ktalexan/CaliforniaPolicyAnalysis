@@ -80,7 +80,7 @@ projectMetadata <- function(prjComponent, prjPart) { # nolint: object_name_linte
 # Define the global directory settings using the following function that returns a list of the project's directories
 projectDirectories <- function() {
     # Get the basic project directory on the OneDrive Documents directory
-    setwd(file.path(Sys.getenv("OneDriveCommercial"), "Documents", "PolicyAnalysis"))
+    setwd(file.path(Sys.getenv("OneDriveConsumer"), "Documents", "Projects", "PolicyAnalysis"))
     # Create a new data list
     data <- list(
         "pathPrj" = getwd(),
