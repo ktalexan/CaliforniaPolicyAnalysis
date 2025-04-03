@@ -1,6 +1,14 @@
-# Policy Analysis Scripts
+# Policy Analysis Project
+## Legislative Bill Analysis Repository
+Dr. Kostas Alexandridis, GISP
+
+
+![Shield Badge: Language-R](https://img.shields.io/static/v1?style=plastic&label=Language&message=R&logo=R&color=blue&logoColor=blue&labelColor=black)
+
+### Description
 
 This repository contains scripts and tools for policy analysis projects. The goal is to streamline data processing, analysis, and visualization for policy-related research.
+
 
 ## Features
 
@@ -39,4 +47,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions or feedback, please contact [Dr. Kostas Alexandridis](mailto:ktalexan@outlook.com).
