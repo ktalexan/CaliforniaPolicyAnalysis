@@ -18,7 +18,7 @@ liblist <- c("lubridate", "jsonlite", "dplyr", "magrittr", "R6", "haven", "label
 # Load the libraries
 sapply(liblist, require, character.only = TRUE)
 
-ver = 1.0
+ver <- 1.0
 
 #~~~~~~~~~~~~~~~~~~~~
 # 2. Definitions ####
