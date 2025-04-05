@@ -200,24 +200,22 @@ save(aiBillData, file = "aiBillData.RData")
 
 print(aiBillData$Y20132014$SB836$text)
 
-# Topic
+# Topic from aiBillData$Y20132014$SB836$status
 aiBillData$Y20132014$SB836$topic <- "SB-836 Brain research: Cal-BRAIN program"
 
-# Title
+# Title from aiBillData$Y20132014$SB836$status
 aiBillData$Y20132014$SB836$title <- paste0(aiBillData$Y20132014$SB836$title, "An act to add Chapter 15 (commencing with Section 92985) to Part 57 of Division 9 of Title 3 of the Education Code, relating to brain research.")
 
 # tldr for aiBillData$Y20132014$SB836$text
 aiBillData$Y20132014$SB836$tldr <- "SB-836 establishes the California Brain Research through Advancing Innovative Neurotechnologies (Cal-BRAIN) program to support research and development of neurotechnologies for brain disorders. The program aims to advance understanding of the brain and improve treatments for brain-related conditions. It is a collaborative effort involving various stakeholders, including state agencies, research institutions, and private organizations."
 
-# tags (lowercase, words separated by dash)
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
 aiBillData$Y20132014$SB836$tags <- c("artificial-intelligence", "brain-research", "cal-brain-program", "neurotechnologies", "brain-disorders", "research-and-development", "collaboration", "state-agencies", "research-institutions", "private-organizations")
 
-# sponsors
+# sponsors and cosponsors
 aiBillData$Y20132014$SB836$sponsors <- list(
     CorbettS = calMembers$Y20132014$CorbettS
 )
-
-# cosponsors
 aiBillData$Y20132014$SB836$cosponsors <- list(
     AndersonS = calMembers$Y20132014$AndersonS,
     BeallS = calMembers$Y20132014$BeallS,
@@ -238,217 +236,113 @@ aiBillData$Y20132014$SB836$cosponsors <- list(
     WaldronA = calMembers$Y20132014$WaldronA
 )
 
-# dateStart
+# dateStart, dateEnd, and dateUpdated
 aiBillData$Y20132014$SB836$dateStart <- as.Date("2014-01-06")
-
-# dateEnd
 aiBillData$Y20132014$SB836$dateEnd <- as.Date("2014-11-30")
-
-# dateUpdated
 aiBillData$Y20132014$SB836$dateUpdated <- Sys.Date()
 
-# version
+# measures
 aiBillData$Y20132014$SB836$version <- "Amended Senate"
-
-# outcome
 aiBillData$Y20132014$SB836$outcome <- "Failed"
-
-# chaptered
 aiBillData$Y20132014$SB836$chaptered <- FALSE
-
-# chapterNo
 aiBillData$Y20132014$SB836$chapterNo <- NA
-
-# active
 aiBillData$Y20132014$SB836$active <- FALSE
-
-# result
 aiBillData$Y20132014$SB836$result <- "Died"
-
-# vote
 aiBillData$Y20132014$SB836$vote <- "Majority"
-
-# appropriation
 aiBillData$Y20132014$SB836$appropriation <- FALSE
-
-# fiscal
 aiBillData$Y20132014$SB836$fiscal <- FALSE
-
-# local
 aiBillData$Y20132014$SB836$local <- FALSE
-
-# urgency
 aiBillData$Y20132014$SB836$urgency <- FALSE
-
-# tax
 aiBillData$Y20132014$SB836$tax <- FALSE
-
-# action
 aiBillData$Y20132014$SB836$action <- "From Assembly without further action"
-
-# pdf
 aiBillData$Y20132014$SB836$pdf <- "20130SB83695AMD.pdf"
 
-# aiDisposition
+# AI properties assessed from the text in aiBillData$Y20132014$SB836$text
 aiBillData$Y20132014$SB836$aiDisposition <- "Supportive"
-
-# aiType
 aiBillData$Y20132014$SB836$aiType <- "Research and Development"
-
-# aiSector
 aiBillData$Y20132014$SB836$aiSector <- "Health"
-
-# aiSubSector
 aiBillData$Y20132014$SB836$aiSubSector <- "Neuroscience"
-
-# aiDomain
 aiBillData$Y20132014$SB836$aiDomain <- "Neuroscience"
-
-# aiAccountability
 aiBillData$Y20132014$SB836$aiAccountability <- "Moderate"
-
-# aiImpact
 aiBillData$Y20132014$SB836$aiImpact <- "Moderate"
-
-# aiEthics
 aiBillData$Y20132014$SB836$aiEthics <- "Moderate"
-
-# aiInnovation
 aiBillData$Y20132014$SB836$aiInnovation <- "Low"
-
-# aiPrivacy
 aiBillData$Y20132014$SB836$aiPrivacy <- "Low"
-
-# aiTransparency
 aiBillData$Y20132014$SB836$aiTransparency <- "Moderate"
 
 ### SB-860 ####
 
 print(aiBillData$Y20132014$SB860$text)
 
-# Topic
+# Topic from aiBillData$Y20132014$SB860$status
 aiBillData$Y20132014$SB860$topic <- "SB-860 Education finance: education omnibus trailer bill"
 
-# Title
+# Title from aiBillData$Y20132014$SB860$status
 aiBillData$Y20132014$SB860$title <- paste0(aiBillData$Y20132014$SB860$title, "An act to amend Sections 69432, 69432.7, 69433.6, 70022, 70023, 79200, 81821, 84321.6, 84750.5, 84751, 87482, 89295, 92493, 92494, 92495, 92495.5, and 92675 of, to amend the heading of Article 5 (commencing with Section 79200) of Chapter 9 of Part 48 of Division 7 of Title 3 of, to add Sections 79204, 79205, 79206, 79207, 79208, 79209, 84750.6, 84754.6, 89712, 90083, 92495.6, and 94102.1 to, to add Article 1.5 (commencing with Section 78220) to Chapter 2 of Part 48 of Division 7 of Title 3 of, to add Article 5 (commencing with Section 89770) to Chapter 6 of Part 55 of Division 8 of Title 3 of, and to add Chapter 15 (commencing with Section 92985) to Part 57 of Division 9 of Title 3 of, the Education Code, to amend Sections 17581.7 and 68926.3 of the Government Code, to amend Section 13146 of the Health and Safety Code, and to amend Sections 10726 and 10742 of the Public Contract Code, relating to postsecondary education, and making an appropriation therefor, to take effect immediately, bill related to the budget.")
 
 # tldr for aiBillData$Y20132014$SB860$text
 aiBillData$Y20132014$SB860$tldr <- "SB-860 is an education omnibus trailer bill that makes various amendments to the Education Code and other related codes. It includes provisions related to postsecondary education, funding, and program implementation. The bill aims to streamline processes, enhance educational opportunities, and ensure compliance with state regulations. It also addresses budget-related matters and appropriations for educational programs."
 
-# tags
-# (lowercase, words separated by dash, include "artificial-intelligence")
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
 aiBillData$Y20132014$SB860$tags <- c("artificial-intelligence", "education-finance", "education-omnibus-trailer-bill", "postsecondary-education", "funding", "program-implementation", "streamlining-processes", "educational-opportunities", "state-regulations", "budget-related-matters")
 
-# sponsors
+# sponsors and cosponsors
 aiBillData$Y20132014$SB860$sponsors <- list(
     CommitteeOnBudgetandFiscalReviewS = calMembers$Y20132014$CommitteeOnBudgetandFiscalReviewS
 )
-
-# cosponsors
 aiBillData$Y20132014$SB860$cosponsors <- NA
 
-# dateStart
+# dateStart, dateEnd, and dateUpdated
 aiBillData$Y20132014$SB860$dateStart <- as.Date("2014-01-09")
-
-# dateEnd
 aiBillData$Y20132014$SB860$dateEnd <- as.Date("2014-06-20")
-
-# dateUpdated
 aiBillData$Y20132014$SB860$dateUpdated <- Sys.Date()
 
-# version
+# measures
 aiBillData$Y20132014$SB860$version <- "Chaptered"
-
-# outcome
 aiBillData$Y20132014$SB860$outcome <- "Chaptered"
-
-# chaptered
 aiBillData$Y20132014$SB860$chaptered <- TRUE
-
-# chapterNo
 aiBillData$Y20132014$SB860$chapterNo <- 34
-
-# active
 aiBillData$Y20132014$SB860$active <- FALSE
-
-# result
 aiBillData$Y20132014$SB860$result <- "Chaptered"
-
-# vote
 aiBillData$Y20132014$SB860$vote <- "Majority"
-
-# appropriation
 aiBillData$Y20132014$SB860$appropriation <- TRUE
-
-# fiscal
 aiBillData$Y20132014$SB860$fiscal <- TRUE
-
-# local
 aiBillData$Y20132014$SB860$local <- TRUE
-
-# urgency
 aiBillData$Y20132014$SB860$urgency <- TRUE
-
-# tax
 aiBillData$Y20132014$SB860$tax <- FALSE
-
-# action
 aiBillData$Y20132014$SB860$action <- "Chaptered by Secretary of State. Chapter 34, Statutes of 2014"
-
-# pdf
 aiBillData$Y20132014$SB860$pdf <- "20130SB86096CHP.pdf"
 
-# aiDisposition
+# AI properties assessed from the text in aiBillData$Y20132014$SB860$text
 aiBillData$Y20132014$SB860$aiDisposition <- "Neutral"
-
-# aiType
 aiBillData$Y20132014$SB860$aiType <- "Research and Development"
-
-# aiSector
 aiBillData$Y20132014$SB860$aiSector <- "Education"
-
-# aiSubSector
 aiBillData$Y20132014$SB860$aiSubSector <- "Postsecondary Education"
-
-# aiDomain
 aiBillData$Y20132014$SB860$aiDomain <- "Education"
-
-# aiAccountability
 aiBillData$Y20132014$SB860$aiAccountability <- "Moderate"
-
-# aiImpact
 aiBillData$Y20132014$SB860$aiImpact <- "Moderate"
-
-# aiEthics
 aiBillData$Y20132014$SB860$aiEthics <- "Low"
-
-# aiInnovation
 aiBillData$Y20132014$SB860$aiInnovation <- "Moderate"
-
-# aiPrivacy
 aiBillData$Y20132014$SB860$aiPrivacy <- "Moderate"
-
-# aiTransparency
 aiBillData$Y20132014$SB860$aiTransparency <- "Moderate"
 
 ### AB-1465 ####
 
 print(aiBillData$Y20132014$AB1465$text)
 
-# Topic
+# Topic from aiBillData$Y20132014$AB1465$status
 aiBillData$Y20132014$AB1465$topic <- "AB-1465 Education finance: education omnibus trailer bill"
 
-# Title
+# Title from aiBillData$Y20132014$AB1465$status
 aiBillData$Y20132014$AB1465$title <- paste0(aiBillData$Y20132014$AB1465$title, "An act to amend Sections 69432, 69432.7, 69433.6, 70022, 70023, 79200, 81821, 84321.6, 84750.5, 84751, 87482, 89295, 92493, 92494, 92495, 92495.5, and 92675 of, to amend the heading of Article 5 (commencing with Section 79200) of Chapter 9 of Part 48 of Division 7 of Title 3 of, to add Sections 79204, 79205, 79206, 79207, 79208, 79209, 84750.6, 84754.6, 89712, 90083, 92495.6, and 94102.1 to, to add Article 1.5 (commencing with Section 78220) to Chapter 2 of Part 48 of Division 7 of Title 3 of, to add Article 5 (commencing with Section 89770) to Chapter 6 of Part 55 of Division 8 of Title 3 of, and to add Chapter 15 (commencing with Section 92985) to Part 57 of Division 9 of Title 3 of, the Education Code, to amend Sections 17581.7 and 68926.3 of the Government Code, to amend Section 13146 of the Health and Safety Code, and to amend Sections 10726 and 10742 of the Public Contract Code, relating to postsecondary education, and making an appropriation therefor, to take effect immediately, bill related to the budget")
 
 # tldr for aiBillData$Y20132014$AB1465$text
 aiBillData$Y20132014$AB1465$tldr <- "AB-1465 is an education omnibus trailer bill that makes various amendments to the Education Code and other related codes. It includes provisions related to postsecondary education, funding, and program implementation. The bill aims to streamline processes, enhance educational opportunities, and ensure compliance with state regulations. It also addresses budget-related matters and appropriations for educational programs."
 
-# tags
-# (lowercase, words separated by dash, include "artificial-intelligence")
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
 aiBillData$Y20132014$AB1465$tags <- c("artificial-intelligence", "education-finance", "education-omnibus-trailer-bill", "postsecondary-education", "funding", "program-implementation", "streamlining-processes", "educational-opportunities", "state-regulations", "budget-related-matters")
 
-# sponsors
+# sponsors and cosponsors
 aiBillData$Y20132014$AB1465$sponsors <- list(
     CommitteeOnBudgetA = calMembers$Y20132014$CommitteeOnBudgetA,
     SkinnerA = calMembers$Y20132014$SkinnerA,
@@ -468,92 +362,40 @@ aiBillData$Y20132014$AB1465$sponsors <- list(
     TingA = calMembers$Y20132014$TingA,
     WeberA = calMembers$Y20132014$WeberA
 )
-
-# cosponsors
 aiBillData$Y20132014$AB1465$cosponsors <- NA
 
-# dateStart
+# dateStart, dateEnd, and dateUpdated
 aiBillData$Y20132014$AB1465$dateStart <- as.Date("2014-01-09")
-
-# dateEnd
 aiBillData$Y20132014$AB1465$dateEnd <- as.Date("2014-11-30")
-
-# dateUpdated
 aiBillData$Y20132014$AB1465$dateUpdated <- Sys.Date()
 
-# version
+# measures
 aiBillData$Y20132014$AB1465$version <- "Amended Senate"
-
-# outcome
 aiBillData$Y20132014$AB1465$outcome <- "Failed"
-
-# chaptered
 aiBillData$Y20132014$AB1465$chaptered <- FALSE
-
-# chapterNo
 aiBillData$Y20132014$AB1465$chapterNo <- NA
-
-# active
 aiBillData$Y20132014$AB1465$active <- FALSE
-
-# result
 aiBillData$Y20132014$AB1465$result <- "Died"
-
-# vote
 aiBillData$Y20132014$AB1465$vote <- "Majority"
-
-# appropriation
 aiBillData$Y20132014$AB1465$appropriation <- TRUE
-
-# fiscal
 aiBillData$Y20132014$AB1465$fiscal <- TRUE
-
-# local
 aiBillData$Y20132014$AB1465$local <- TRUE
-
-# urgency
 aiBillData$Y20132014$AB1465$urgency <- TRUE
-
-# tax
 aiBillData$Y20132014$AB1465$tax <- FALSE
-
-# action
 aiBillData$Y20132014$AB1465$action <- "Died on inactive file"
-
-# pdf
 aiBillData$Y20132014$AB1465$pdf <- "20130AB146598AMD.pdf"
 
-# aiDisposition
+# AI properties assessed from the text in aiBillData$Y20132014$AB1465$text
 aiBillData$Y20132014$AB1465$aiDisposition <- "Neutral"
-
-# aiType
 aiBillData$Y20132014$AB1465$aiType <- "Education and Training"
-
-# aiSector
 aiBillData$Y20132014$AB1465$aiSector <- "Education"
-
-# aiSubSector
 aiBillData$Y20132014$AB1465$aiSubSector <- "Postsecondary Education"
-
-# aiDomain
 aiBillData$Y20132014$AB1465$aiDomain <- "Education"
-
-# aiAccountability
 aiBillData$Y20132014$AB1465$aiAccountability <- "Moderate"
-
-# aiImpact
 aiBillData$Y20132014$AB1465$aiImpact <- "Moderate"
-
-# aiEthics
 aiBillData$Y20132014$AB1465$aiEthics <- "Low"
-
-# aiInnovation
 aiBillData$Y20132014$AB1465$aiInnovation <- "Moderate"
-
-# aiPrivacy
 aiBillData$Y20132014$AB1465$aiPrivacy <- "Moderate"
-
-# aiTransparency
 aiBillData$Y20132014$AB1465$aiTransparency <- "Moderate"
 
 ## 2017-2018 ####
@@ -563,10 +405,10 @@ aiBillData$Y20132014$AB1465$aiTransparency <- "Moderate"
 
 print(aiBillData$Y20172018$ACR215$text)
 
-# Topic
+# Topic from aiBillData$Y20172018$ACR215$status
 aiBillData$Y20172018$ACR215$topic <- "ACR-215 23 Asilomar AI Principles"
 
-# Title
+# Title from aiBillData$Y20172018$ACR215$status
 aiBillData$Y20172018$ACR215$title <- paste0(aiBillData$Y20172018$ACR215$title, "Relative to the 23 Asilomar AI Principles")
 
 # tldr for aiBillData$Y20172018$ACR215$text
@@ -575,13 +417,10 @@ aiBillData$Y20172018$ACR215$tldr <- "ACR-215 recognizes the 23 Asilomar AI Princ
 # tags (lowercase, words separated by dash, include "artificial-intelligence")
 aiBillData$Y20172018$ACR215$tags <- c("artificial-intelligence", "asilomar-ai-principles", "ethical-development", "guidelines", "safety", "transparency", "accountability", "collaboration", "responsible-ai-practices", "benefit-humanity")
 
-# sponsors
-
+# sponsors and cosponsors
 aiBillData$Y20172018$ACR215$sponsors <- list(
     KileyA = calMembers$Y20172018$Kiley
 )
-
-# cosponsors
 aiBillData$Y20172018$ACR215$cosponsors <- list(
     AcostaA = calMembers$Y20172018$AcostaA,
     AguiarCurryA = calMembers$Y20172018$AguiarCurryA,
@@ -657,195 +496,90 @@ aiBillData$Y20172018$ACR215$cosponsors <- list(
     WoodA = calMembers$Y20172018$WoodA
 )
 
-# dateStart
+# dateStart, dateEnd, and dateUpdated
 aiBillData$Y20172018$ACR215$dateStart <- as.Date("2018-04-05")
-
-# dateEnd
 aiBillData$Y20172018$ACR215$dateEnd <- as.Date("2018-09-07")
-
-# dateUpdated
 aiBillData$Y20172018$ACR215$dateUpdated <- Sys.Date()
-
-# version
 aiBillData$Y20172018$ACR215$version <- "Chaptered"
-
-# outcome
 aiBillData$Y20172018$ACR215$outcome <- "Chaptered"
-
-# chaptered
 aiBillData$Y20172018$ACR215$chaptered <- TRUE
-
-# chapterNo
 aiBillData$Y20172018$ACR215$chapterNo <- 286
-
-# active
 aiBillData$Y20172018$ACR215$active <- FALSE
-
-# result
 aiBillData$Y20172018$ACR215$result <- "Chaptered"
-
-# vote
 aiBillData$Y20172018$ACR215$vote <- "No Vote"
-
-# appropriation
 aiBillData$Y20172018$ACR215$appropriation <- FALSE
-
-# fiscal
 aiBillData$Y20172018$ACR215$fiscal <- FALSE
-
-# local
 aiBillData$Y20172018$ACR215$local <- FALSE
-
-# urgency
 aiBillData$Y20172018$ACR215$urgency <- FALSE
-
-# tax
 aiBillData$Y20172018$ACR215$tax <- FALSE
-
-# action
 aiBillData$Y20172018$ACR215$action <- "Chaptered by Secretary of State. Chapter 286, Statutes of 2018"
-
-# pdf
 aiBillData$Y20172018$ACR215$pdf <- "20170ACR215_97.pdf"
 
-# aiDisposition
+# AI properties assessed from the text in aiBillData$Y20172018$ACR215$text
 aiBillData$Y20172018$ACR215$aiDisposition <- "Supportive"
-
-# aiType
 aiBillData$Y20172018$ACR215$aiType <- "Principles and Guidelines"
-
-# aiSector
 aiBillData$Y20172018$ACR215$aiSector <- "Governance"
-
-# aiSubSector
 aiBillData$Y20172018$ACR215$aiSubSector <- "Policy and Regulation"
-
-# aiDomain
 aiBillData$Y20172018$ACR215$aiDomain <- "Ethics"
-
-# aiAccountability
 aiBillData$Y20172018$ACR215$aiAccountability <- "Moderate"
-
-# aiImpact
 aiBillData$Y20172018$ACR215$aiImpact <- "Moderate"
-
-# aiEthics
 aiBillData$Y20172018$ACR215$aiEthics <- "Moderate"
-
-# aiInnovation
 aiBillData$Y20172018$ACR215$aiInnovation <- "Low"
-
-# aiPrivacy
 aiBillData$Y20172018$ACR215$aiPrivacy <- "Low"
-
-# aiTransparency
 aiBillData$Y20172018$ACR215$aiTransparency <- "Moderate"
 
 ### SB-1470 ####
 
 print(aiBillData$Y20172018$SB1470$text)
 
-# Topic
+# Topic from aiBillData$Y20172018$SB1470$status
 aiBillData$Y20172018$SB1470$topic <- "SB-1470 Commission on the Future of Work"
 
-# Title
+# Title from aiBillData$Y20172018$SB1470$status
 aiBillData$Y20172018$SB1470$title <- paste0(aiBillData$Y20172018$SB1470$title, "An act to add Chapter 7.1 (commencing with Section 160) to Division 1 of the Labor Code, relating to employment development")
 
 # tldr for aiBillData$Y20172018$SB1470$text
 aiBillData$Y20172018$SB1470$tldr <- "SB-1470 establishes the Commission on the Future of Work to address the impact of technology, including artificial intelligence, on employment and the workforce. The commission will study and make recommendations on policies to ensure that workers are prepared for the changing job landscape and that the benefits of technological advancements are shared equitably. The bill aims to promote a fair and inclusive future of work in California."
 
-@# tags (lowercase, words separated by dash, include "artificial-intelligence")
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
 aiBillData$Y20172018$SB1470$tags <- c("artificial-intelligence", "commission-on-the-future-of-work", "employment-development", "technology-impact", "workforce-preparation", "policy-recommendations", "equitable-benefits", "fair-and-inclusive-future")
 
-# sponsors
+# sponsors and cosponsors
 aiBillData$Y20172018$SB1470$sponsors <- list(
     SternS = calMembers$Y20172018$SternS
 )
-
-# cosponsors
 aiBillData$Y20172018$SB1470$cosponsors <- NA
 
-# dateStart
+# dateStart, dateEnd, and dateUpdated
 aiBillData$Y20172018$SB1470$dateStart <- as.Date("2018-02-16")
-
-# dateEnd
 aiBillData$Y20172018$SB1470$dateEnd <- as.Date("2018-11-30")
-
-# dateUpdated
 aiBillData$Y20172018$SB1470$dateUpdated <- Sys.Date()
 
-# version
+# measures
 aiBillData$Y20172018$SB1470$version <- "Amended Assembly"
-
-# outcome
 aiBillData$Y20172018$SB1470$outcome <- "Failed"
-
-# chaptered
 aiBillData$Y20172018$SB1470$chaptered <- FALSE
-
-# chapterNo
 aiBillData$Y20172018$SB1470$chapterNo <- NA
-
-# active
 aiBillData$Y20172018$SB1470$active <- FALSE
-
-# result
 aiBillData$Y20172018$SB1470$result <- "Died"
-
-# vote
 aiBillData$Y20172018$SB1470$vote <- "Majority"
-
-# appropriation
 aiBillData$Y20172018$SB1470$appropriation <- FALSE
-
-# fiscal
 aiBillData$Y20172018$SB1470$fiscal <- TRUE
-
-# local
 aiBillData$Y20172018$SB1470$local <- FALSE
-
-# urgency
 aiBillData$Y20172018$SB1470$urgency <- FALSE
-
-# tax
 aiBillData$Y20172018$SB1470$tax <- FALSE
-
-# action
 aiBillData$Y20172018$SB1470$action <- "From Assembly without further action"
-
-# pdf
 aiBillData$Y20172018$SB1470$pdf <- "20170SB1470_98.pdf"
 
-# aiDisposition
+# AI properties assessed from the text in aiBillData$Y20172018$SB1470$text
 aiBillData$Y20172018$SB1470$aiDisposition <- "Neutral"
-
-# aiType
 aiBillData$Y20172018$SB1470$aiType <- "General"
-
-# aiSector
 aiBillData$Y20172018$SB1470$aiSector <- "Governance"
-
-# aiSubSector
 aiBillData$Y20172018$SB1470$aiSubSector <- "Policy and Regulation"
-
-# aiDomain
 aiBillData$Y20172018$SB1470$aiDomain <- "Ethics"
-
-# aiAccountability
 aiBillData$Y20172018$SB1470$aiAccountability <- "Moderate"
-
-# aiImpact
 aiBillData$Y20172018$SB1470$aiImpact <- "Moderate"
-
-# aiEthics
 aiBillData$Y20172018$SB1470$aiEthics <- "Moderate"
-
-# aiInnovation
 aiBillData$Y20172018$SB1470$aiInnovation <- "Low"
-
-# aiPrivacy
 aiBillData$Y20172018$SB1470$aiPrivacy <- "Low"
-
-# aiTransparency
 aiBillData$Y20172018$SB1470$aiTransparency <- "Moderate"
-
