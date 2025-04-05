@@ -583,3 +583,60 @@ aiBillData$Y20172018$SB1470$aiEthics <- "Moderate"
 aiBillData$Y20172018$SB1470$aiInnovation <- "Low"
 aiBillData$Y20172018$SB1470$aiPrivacy <- "Low"
 aiBillData$Y20172018$SB1470$aiTransparency <- "Moderate"
+
+### AB-2662 ####
+
+print(aiBillData$Y20172018$AB2662$text)
+
+# Topic from aiBillData$Y20172018$AB2662$status
+aiBillData$Y20172018$AB2662$topic <- "AB-2662 State government: Office of Planning and Research: electronic media: child development"
+
+# Title from aiBillData$Y20172018$AB2662$status
+aiBillData$Y20172018$AB2662$title <- paste0(aiBillData$Y20172018$AB2662$title, "AB-2662: An act to add Section 65040.16 to the Government Code, relating to state government, and making an appropriation therefor")
+
+# tldr for aiBillData$Y20172018$AB2662$text
+aiBillData$Y20172018$AB2662$tldr <- "AB-2662 establishes the Office of Planning and Research to develop and implement a comprehensive strategy for the use of electronic media in child development programs. The bill aims to enhance the effectiveness of child development initiatives through the integration of technology and digital resources. It emphasizes the importance of research, collaboration, and innovation in improving outcomes for children and families."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20172018$AB2662$tags <- c("artificial-intelligence", "state-government", "office-of-planning-and-research", "electronic-media", "child-development", "comprehensive-strategy", "technology-integration", "digital-resources", "research-and-collaboration", "innovation")
+
+# sponsors and cosponsors
+aiBillData$Y20172018$AB2662$sponsors <- list(
+    ChauA = calMembers$Y20172018$ChauA
+)
+aiBillData$Y20172018$AB2662$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20172018$AB2662$dateStart <- as.Date("2018-02-15")
+aiBillData$Y20172018$AB2662$dateEnd <- as.Date("2018-11-30")
+aiBillData$Y20172018$AB2662$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20172018$AB2662$version <- "Amended Assembly"
+aiBillData$Y20172018$AB2662$outcome <- "Failed"
+aiBillData$Y20172018$AB2662$chaptered <- FALSE
+aiBillData$Y20172018$AB2662$chapterNo <- NA
+aiBillData$Y20172018$AB2662$active <- FALSE
+aiBillData$Y20172018$AB2662$result <- "Died"
+aiBillData$Y20172018$AB2662$vote <- "Majority"
+aiBillData$Y20172018$AB2662$appropriation <- TRUE
+aiBillData$Y20172018$AB2662$fiscal <- TRUE
+aiBillData$Y20172018$AB2662$local <- FALSE
+aiBillData$Y20172018$AB2662$urgency <- FALSE
+aiBillData$Y20172018$AB2662$tax <- FALSE
+aiBillData$Y20172018$AB2662$action <- "From committee without further action"
+aiBillData$Y20172018$AB2662$pdf <- "20170AB2662_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20172018$AB2662$text
+aiBillData$Y20172018$AB2662$aiDisposition <- "Neutral"
+aiBillData$Y20172018$AB2662$aiType <- "General"
+aiBillData$Y20172018$AB2662$aiSector <- "Governance"
+aiBillData$Y20172018$AB2662$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20172018$AB2662$aiDomain <- "Ethics"
+aiBillData$Y20172018$AB2662$aiAccountability <- "Moderate"
+aiBillData$Y20172018$AB2662$aiImpact <- "Moderate"
+aiBillData$Y20172018$AB2662$aiEthics <- "Moderate"
+aiBillData$Y20172018$AB2662$aiInnovation <- "Low"
+aiBillData$Y20172018$AB2662$aiPrivacy <- "Low"
+aiBillData$Y20172018$AB2662$aiTransparency <- "Moderate"
+
