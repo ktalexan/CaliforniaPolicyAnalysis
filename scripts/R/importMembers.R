@@ -12,20 +12,23 @@
 # Empty the R environment before running the code
 rm(list = ls())
 
+# Set version number
+ver <- 1.0
+
+
 # Define the list of libraries to be loaded
 liblist <- c("lubridate", "jsonlite", "dplyr", "magrittr", "R6", "haven", "labelr", "plyr", "stringr", "purrr", "glue", "Hmisc", "psych", "tibble", "here", "tidyr", "knitr", "labelled", "collapse", "formattable", "readxl")
 
 # Load the libraries
 sapply(liblist, require, character.only = TRUE)
 
-ver = 1.0
 
 #~~~~~~~~~~~~~~~~~~~~
 # 2. Definitions ####
 #~~~~~~~~~~~~~~~~~~~~
 
 # Set the initial working directory to the data directory
-setwd(file.path(Sys.getenv("OneDriveCommercial"), "Documents", "PolicyAnalysis", "data"))
+setwd(file.path(Sys.getenv("OneDriveConsumer"), "Documents", "Projects", "PolicyAnalysis", "data"))
 
 # Load the projectMetadata and projectDirectories functions from the RData files
 load(file = "projectMetadata.RData")
@@ -100,3 +103,5 @@ save(calMembers, file = file.path(prjDirs$pathData, "calMembers.RData"))
 #~~~~~~~~~~~~~~~~~~~
 # End of Script ####
 #~~~~~~~~~~~~~~~~~~~
+
+

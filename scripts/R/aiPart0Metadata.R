@@ -1,11 +1,9 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# AI POLICY ANALYSIS PROJECT ####
-# Part 0: Project Definitions ####
-# Version: 1.0, March 2025 ####
-# Author: Dr. Kostas Alexandridis, GISP ####
+# AI POLICY ANALYSIS PROJECT 
+# Part 0: Project Definitions
+# Version: 1.0, March 2025 
+# Author: Dr. Kostas Alexandridis, GISP
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-ver <- 1.0
 
 
 #~~~~~~~~~~~~~~~~~~~~~~
@@ -14,6 +12,9 @@ ver <- 1.0
 
 # Empty the R environment before running the code
 rm(list = ls())
+
+# Version of the code
+ver <- 1.0
 
 # Define the list of libraries to be loaded
 liblist <- c("lubridate", "jsonlite", "dplyr", "magrittr", "R6", "haven", "labelr", "plyr", "stringr", "purrr", "glue", "Hmisc", "psych", "tibble", "here", "tidyr", "knitr", "labelled", "collapse", "formattable")
@@ -212,29 +213,29 @@ aiBillData$Y20132014$SB836$tldr <- "SB-836 establishes the California Brain Rese
 aiBillData$Y20132014$SB836$tags <- c("artificial-intelligence", "brain-research", "cal-brain-program", "neurotechnologies", "brain-disorders", "research-and-development", "collaboration", "state-agencies", "research-institutions", "private-organizations")
 
 # sponsors
-aiBillData$Y20132014$SB836$sponsors = list(
-    Corbett = calMembers$Y20132014$Corbett
+aiBillData$Y20132014$SB836$sponsors <- list(
+    CorbettS = calMembers$Y20132014$CorbettS
 )
 
 # cosponsors
-aiBillData$Y20132014$SB836$cosponsors = list(
-    Anderson = calMembers$Y20132014$Anderson,
-    Beall = calMembers$Y20132014$Beall,
-    Block = calMembers$Y20132014$Block,
-    Cannella = calMembers$Y20132014$Cannella,
-    Correa = calMembers$Y20132014$Correa,
-    Evans = calMembers$Y20132014$Evans,
-    Galgiani = calMembers$Y20132014$Galgiani,
-    Hancock = calMembers$Y20132014$Hancock,
-    Hill = calMembers$Y20132014$Hill,
-    Lara = calMembers$Y20132014$Lara,
-    Lieu = calMembers$Y20132014$Lieu,
-    Liu = calMembers$Y20132014$Liu,
-    Nielsen = calMembers$Y20132014$Nielsen,
-    Roth = calMembers$Y20132014$Roth,
-    Wolk = calMembers$Y20132014$Wolk,
-    Skinner = calMembers$Y20132014$Skinner,
-    Waldron = calMembers$Y20132014$Waldron
+aiBillData$Y20132014$SB836$cosponsors <- list(
+    AndersonS = calMembers$Y20132014$AndersonS,
+    BeallS = calMembers$Y20132014$BeallS,
+    BlockS = calMembers$Y20132014$BlockS,
+    CannellaS = calMembers$Y20132014$CannellaS,
+    CorreaS = calMembers$Y20132014$CorreaS,
+    EvansS = calMembers$Y20132014$EvansS,
+    GalgianiS = calMembers$Y20132014$GalgianiS,
+    HancockS = calMembers$Y20132014$HancockS,
+    HillS = calMembers$Y20132014$HillS,
+    LaraS = calMembers$Y20132014$LaraS,
+    LieuS = calMembers$Y20132014$LieuS,
+    LiuS = calMembers$Y20132014$LiuS,
+    NielsenS = calMembers$Y20132014$NielsenS,
+    RothS = calMembers$Y20132014$RothS,
+    WolkS = calMembers$Y20132014$WolkS,
+    SkinnerA = calMembers$Y20132014$SkinnerA,
+    WaldronA = calMembers$Y20132014$WaldronA
 )
 
 # dateStart
@@ -304,23 +305,22 @@ aiBillData$Y20132014$SB836$aiSubSector <- "Neuroscience"
 aiBillData$Y20132014$SB836$aiDomain <- "Neuroscience"
 
 # aiAccountability
-aiBillData$Y20132014$SB836$aiAccountability <- "Accountable"
+aiBillData$Y20132014$SB836$aiAccountability <- "Moderate"
 
 # aiImpact
-aiBillData$Y20132014$SB836$aiImpact <- "Positive"
+aiBillData$Y20132014$SB836$aiImpact <- "Moderate"
 
 # aiEthics
-aiBillData$Y20132014$SB836$aiEthics <- "Ethical"
+aiBillData$Y20132014$SB836$aiEthics <- "Moderate"
 
 # aiInnovation
-aiBillData$Y20132014$SB836$aiInnovation <- "Innovative"
+aiBillData$Y20132014$SB836$aiInnovation <- "Low"
 
 # aiPrivacy
-aiBillData$Y20132014$SB836$aiPrivacy <- "Privacy"
+aiBillData$Y20132014$SB836$aiPrivacy <- "Low"
 
 # aiTransparency
-aiBillData$Y20132014$SB836$aiTransparency <- "Transparent"
-
+aiBillData$Y20132014$SB836$aiTransparency <- "Moderate"
 
 ### SB-860 ####
 
@@ -340,12 +340,12 @@ aiBillData$Y20132014$SB860$tldr <- "SB-860 is an education omnibus trailer bill 
 aiBillData$Y20132014$SB860$tags <- c("artificial-intelligence", "education-finance", "education-omnibus-trailer-bill", "postsecondary-education", "funding", "program-implementation", "streamlining-processes", "educational-opportunities", "state-regulations", "budget-related-matters")
 
 # sponsors
-aiBillData$Y20132014$SB860$sponsors = list(
-    CommitteeBFR = calMembers$Y20132014$CommitteeBFR
+aiBillData$Y20132014$SB860$sponsors <- list(
+    CommitteeOnBudgetandFiscalReviewS = calMembers$Y20132014$CommitteeOnBudgetandFiscalReviewS
 )
 
 # cosponsors
-aiBillData$Y20132014$SB860$cosponsors = NA
+aiBillData$Y20132014$SB860$cosponsors <- NA
 
 # dateStart
 aiBillData$Y20132014$SB860$dateStart <- as.Date("2014-01-09")
@@ -414,20 +414,438 @@ aiBillData$Y20132014$SB860$aiSubSector <- "Postsecondary Education"
 aiBillData$Y20132014$SB860$aiDomain <- "Education"
 
 # aiAccountability
-aiBillData$Y20132014$SB860$aiAccountability <- "Accountable"
+aiBillData$Y20132014$SB860$aiAccountability <- "Moderate"
 
 # aiImpact
-aiBillData$Y20132014$SB860$aiImpact <- "Positive"
+aiBillData$Y20132014$SB860$aiImpact <- "Moderate"
 
 # aiEthics
-aiBillData$Y20132014$SB860$aiEthics <- "Ethical"
+aiBillData$Y20132014$SB860$aiEthics <- "Low"
 
 # aiInnovation
-aiBillData$Y20132014$SB860$aiInnovation <- "Innovative"
+aiBillData$Y20132014$SB860$aiInnovation <- "Moderate"
 
 # aiPrivacy
-aiBillData$Y20132014$SB860$aiPrivacy <- "Privacy"
+aiBillData$Y20132014$SB860$aiPrivacy <- "Moderate"
 
 # aiTransparency
-aiBillData$Y20132014$SB860$aiTransparency <- "Transparent"
+aiBillData$Y20132014$SB860$aiTransparency <- "Moderate"
+
+### AB-1465 ####
+
+print(aiBillData$Y20132014$AB1465$text)
+
+# Topic
+aiBillData$Y20132014$AB1465$topic <- "AB-1465 Education finance: education omnibus trailer bill"
+
+# Title
+aiBillData$Y20132014$AB1465$title <- paste0(aiBillData$Y20132014$AB1465$title, "An act to amend Sections 69432, 69432.7, 69433.6, 70022, 70023, 79200, 81821, 84321.6, 84750.5, 84751, 87482, 89295, 92493, 92494, 92495, 92495.5, and 92675 of, to amend the heading of Article 5 (commencing with Section 79200) of Chapter 9 of Part 48 of Division 7 of Title 3 of, to add Sections 79204, 79205, 79206, 79207, 79208, 79209, 84750.6, 84754.6, 89712, 90083, 92495.6, and 94102.1 to, to add Article 1.5 (commencing with Section 78220) to Chapter 2 of Part 48 of Division 7 of Title 3 of, to add Article 5 (commencing with Section 89770) to Chapter 6 of Part 55 of Division 8 of Title 3 of, and to add Chapter 15 (commencing with Section 92985) to Part 57 of Division 9 of Title 3 of, the Education Code, to amend Sections 17581.7 and 68926.3 of the Government Code, to amend Section 13146 of the Health and Safety Code, and to amend Sections 10726 and 10742 of the Public Contract Code, relating to postsecondary education, and making an appropriation therefor, to take effect immediately, bill related to the budget")
+
+# tldr for aiBillData$Y20132014$AB1465$text
+aiBillData$Y20132014$AB1465$tldr <- "AB-1465 is an education omnibus trailer bill that makes various amendments to the Education Code and other related codes. It includes provisions related to postsecondary education, funding, and program implementation. The bill aims to streamline processes, enhance educational opportunities, and ensure compliance with state regulations. It also addresses budget-related matters and appropriations for educational programs."
+
+# tags
+# (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20132014$AB1465$tags <- c("artificial-intelligence", "education-finance", "education-omnibus-trailer-bill", "postsecondary-education", "funding", "program-implementation", "streamlining-processes", "educational-opportunities", "state-regulations", "budget-related-matters")
+
+# sponsors
+aiBillData$Y20132014$AB1465$sponsors <- list(
+    CommitteeOnBudgetA = calMembers$Y20132014$CommitteeOnBudgetA,
+    SkinnerA = calMembers$Y20132014$SkinnerA,
+    BloomA = calMembers$Y20132014$BloomA,
+    CamposA = calMembers$Y20132014$CamposA,
+    ChesbroA = calMembers$Y20132014$ChesbroA,
+    DababnehA = calMembers$Y20132014$DababnehA,
+    DalyA = calMembers$Y20132014$DalyA,
+    DickinsonA = calMembers$Y20132014$DickinsonA,
+    GordonA = calMembers$Y20132014$GordonA,
+    JonesSawyerA = calMembers$Y20132014$JonesSawyerA,
+    MullinA = calMembers$Y20132014$MullinA,
+    MuratsuchiA = calMembers$Y20132014$MuratsuchiA,
+    NazarianA = calMembers$Y20132014$NazarianA,
+    RodriguezA = calMembers$Y20132014$RodriguezA,
+    StoneA = calMembers$Y20132014$StoneA,
+    TingA = calMembers$Y20132014$TingA,
+    WeberA = calMembers$Y20132014$WeberA
+)
+
+# cosponsors
+aiBillData$Y20132014$AB1465$cosponsors <- NA
+
+# dateStart
+aiBillData$Y20132014$AB1465$dateStart <- as.Date("2014-01-09")
+
+# dateEnd
+aiBillData$Y20132014$AB1465$dateEnd <- as.Date("2014-11-30")
+
+# dateUpdated
+aiBillData$Y20132014$AB1465$dateUpdated <- Sys.Date()
+
+# version
+aiBillData$Y20132014$AB1465$version <- "Amended Senate"
+
+# outcome
+aiBillData$Y20132014$AB1465$outcome <- "Failed"
+
+# chaptered
+aiBillData$Y20132014$AB1465$chaptered <- FALSE
+
+# chapterNo
+aiBillData$Y20132014$AB1465$chapterNo <- NA
+
+# active
+aiBillData$Y20132014$AB1465$active <- FALSE
+
+# result
+aiBillData$Y20132014$AB1465$result <- "Died"
+
+# vote
+aiBillData$Y20132014$AB1465$vote <- "Majority"
+
+# appropriation
+aiBillData$Y20132014$AB1465$appropriation <- TRUE
+
+# fiscal
+aiBillData$Y20132014$AB1465$fiscal <- TRUE
+
+# local
+aiBillData$Y20132014$AB1465$local <- TRUE
+
+# urgency
+aiBillData$Y20132014$AB1465$urgency <- TRUE
+
+# tax
+aiBillData$Y20132014$AB1465$tax <- FALSE
+
+# action
+aiBillData$Y20132014$AB1465$action <- "Died on inactive file"
+
+# pdf
+aiBillData$Y20132014$AB1465$pdf <- "20130AB146598AMD.pdf"
+
+# aiDisposition
+aiBillData$Y20132014$AB1465$aiDisposition <- "Neutral"
+
+# aiType
+aiBillData$Y20132014$AB1465$aiType <- "Education and Training"
+
+# aiSector
+aiBillData$Y20132014$AB1465$aiSector <- "Education"
+
+# aiSubSector
+aiBillData$Y20132014$AB1465$aiSubSector <- "Postsecondary Education"
+
+# aiDomain
+aiBillData$Y20132014$AB1465$aiDomain <- "Education"
+
+# aiAccountability
+aiBillData$Y20132014$AB1465$aiAccountability <- "Moderate"
+
+# aiImpact
+aiBillData$Y20132014$AB1465$aiImpact <- "Moderate"
+
+# aiEthics
+aiBillData$Y20132014$AB1465$aiEthics <- "Low"
+
+# aiInnovation
+aiBillData$Y20132014$AB1465$aiInnovation <- "Moderate"
+
+# aiPrivacy
+aiBillData$Y20132014$AB1465$aiPrivacy <- "Moderate"
+
+# aiTransparency
+aiBillData$Y20132014$AB1465$aiTransparency <- "Moderate"
+
+## 2017-2018 ####
+#~~~~~~~~~~~~~~~~
+
+### ACR-215 ####
+
+print(aiBillData$Y20172018$ACR215$text)
+
+# Topic
+aiBillData$Y20172018$ACR215$topic <- "ACR-215 23 Asilomar AI Principles"
+
+# Title
+aiBillData$Y20172018$ACR215$title <- paste0(aiBillData$Y20172018$ACR215$title, "Relative to the 23 Asilomar AI Principles")
+
+# tldr for aiBillData$Y20172018$ACR215$text
+aiBillData$Y20172018$ACR215$tldr <- "ACR-215 recognizes the 23 Asilomar AI Principles, which are guidelines for the ethical development and use of artificial intelligence. These principles emphasize the importance of safety, transparency, accountability, and collaboration in AI research and applications. The resolution aims to promote responsible AI practices and ensure that AI technologies benefit humanity while minimizing risks."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20172018$ACR215$tags <- c("artificial-intelligence", "asilomar-ai-principles", "ethical-development", "guidelines", "safety", "transparency", "accountability", "collaboration", "responsible-ai-practices", "benefit-humanity")
+
+# sponsors
+
+aiBillData$Y20172018$ACR215$sponsors <- list(
+    KileyA = calMembers$Y20172018$Kiley
+)
+
+# cosponsors
+aiBillData$Y20172018$ACR215$cosponsors <- list(
+    AcostaA = calMembers$Y20172018$AcostaA,
+    AguiarCurryA = calMembers$Y20172018$AguiarCurryA,
+    ArambulaA = calMembers$Y20172018$ArambulaA,
+    BakerA = calMembers$Y20172018$BakerA,
+    BermanA = calMembers$Y20172018$BermanA,
+    BigelowA = calMembers$Y20172018$BigelowA,
+    BloomA = calMembers$Y20172018$BloomA,
+    BontaA = calMembers$Y20172018$BontaA,
+    BurkeA = calMembers$Y20172018$BurkeA,
+    CaballeroA = calMembers$Y20172018$CaballeroA,
+    CalderonA = calMembers$Y20172018$CalderonA,
+    CarrilloA = calMembers$Y20172018$CarrilloA,
+    ChauA = calMembers$Y20172018$ChauA,
+    ChavezA = calMembers$Y20172018$ChavezA,
+    ChenA = calMembers$Y20172018$ChenA,
+    ChiuA = calMembers$Y20172018$ChiuA,
+    ChuA = calMembers$Y20172018$ChuA,
+    CooleyA = calMembers$Y20172018$CooleyA,
+    CooperA = calMembers$Y20172018$CooperA,
+    CunninghamA = calMembers$Y20172018$CunninghamA,
+    DahleA = calMembers$Y20172018$DahleA,
+    DalyA = calMembers$Y20172018$DalyA,
+    EggmanA = calMembers$Y20172018$EggmanA,
+    FloraA = calMembers$Y20172018$FloraA,
+    FongA = calMembers$Y20172018$FongA,
+    FrazierA = calMembers$Y20172018$FrazierA,
+    FriedmanA = calMembers$Y20172018$FriedmanA,
+    GabrielA = calMembers$Y20172018$GabrielA,
+    GallagherA = calMembers$Y20172018$GallagherA,
+    GarciaEA = calMembers$Y20172018$GarciaEA,
+    GarciaCA = calMembers$Y20172018$GarciaCA,
+    GipsonA = calMembers$Y20172018$GipsonA,
+    GloriaA = calMembers$Y20172018$GloriaA,
+    GrayA = calMembers$Y20172018$GrayA,
+    GraysonA = calMembers$Y20172018$GraysonA,
+    HarperA = calMembers$Y20172018$HarperA,
+    HoldenA = calMembers$Y20172018$HoldenA,
+    IrwinA = calMembers$Y20172018$IrwinA,
+    JonesSawyerA = calMembers$Y20172018$JonesSawyerA,
+    KalraA = calMembers$Y20172018$KalraA,
+    LackeyA = calMembers$Y20172018$LackeyA,
+    LevineA = calMembers$Y20172018$LevineA,
+    LimonA = calMembers$Y20172018$LimonA,
+    LowA = calMembers$Y20172018$LowA,
+    MaienscheinA = calMembers$Y20172018$MaienscheinA,
+    MathisA = calMembers$Y20172018$MathisA,
+    MayesA = calMembers$Y20172018$MayesA,
+    McCartyA = calMembers$Y20172018$McCartyA,
+    MelendezA = calMembers$Y20172018$MelendezA,
+    MullinA = calMembers$Y20172018$MullinA,
+    MuratsuchiA = calMembers$Y20172018$MuratsuchiA,
+    NazarianA = calMembers$Y20172018$NazarianA,
+    ODonnellA = calMembers$Y20172018$ODonnellA,
+    ObernolteA = calMembers$Y20172018$ObernolteA,
+    PattersonA = calMembers$Y20172018$PattersonA,
+    QuirkA = calMembers$Y20172018$QuirkA,
+    QuirkSilvaA = calMembers$Y20172018$QuirkSilvaA,
+    RendonA = calMembers$Y20172018$RendonA,
+    ReyesA = calMembers$Y20172018$ReyesA,
+    RivasA = calMembers$Y20172018$RivasA,
+    RodriguezA = calMembers$Y20172018$RodriguezA,
+    RubioA = calMembers$Y20172018$RubioA,
+    SalasA = calMembers$Y20172018$SalasA,
+    SantiagoA = calMembers$Y20172018$SantiagoA,
+    SteinorthA = calMembers$Y20172018$SteinorthA,
+    StoneMA = calMembers$Y20172018$StoneMA,
+    ThurmondA = calMembers$Y20172018$ThurmondA,
+    TingA = calMembers$Y20172018$TingA,
+    VoepelA = calMembers$Y20172018$VoepelA,
+    WaldronA = calMembers$Y20172018$WaldronA,
+    WeberA = calMembers$Y20172018$WeberA,
+    WoodA = calMembers$Y20172018$WoodA
+)
+
+# dateStart
+aiBillData$Y20172018$ACR215$dateStart <- as.Date("2018-04-05")
+
+# dateEnd
+aiBillData$Y20172018$ACR215$dateEnd <- as.Date("2018-09-07")
+
+# dateUpdated
+aiBillData$Y20172018$ACR215$dateUpdated <- Sys.Date()
+
+# version
+aiBillData$Y20172018$ACR215$version <- "Chaptered"
+
+# outcome
+aiBillData$Y20172018$ACR215$outcome <- "Chaptered"
+
+# chaptered
+aiBillData$Y20172018$ACR215$chaptered <- TRUE
+
+# chapterNo
+aiBillData$Y20172018$ACR215$chapterNo <- 286
+
+# active
+aiBillData$Y20172018$ACR215$active <- FALSE
+
+# result
+aiBillData$Y20172018$ACR215$result <- "Chaptered"
+
+# vote
+aiBillData$Y20172018$ACR215$vote <- "No Vote"
+
+# appropriation
+aiBillData$Y20172018$ACR215$appropriation <- FALSE
+
+# fiscal
+aiBillData$Y20172018$ACR215$fiscal <- FALSE
+
+# local
+aiBillData$Y20172018$ACR215$local <- FALSE
+
+# urgency
+aiBillData$Y20172018$ACR215$urgency <- FALSE
+
+# tax
+aiBillData$Y20172018$ACR215$tax <- FALSE
+
+# action
+aiBillData$Y20172018$ACR215$action <- "Chaptered by Secretary of State. Chapter 286, Statutes of 2018"
+
+# pdf
+aiBillData$Y20172018$ACR215$pdf <- "20170ACR215_97.pdf"
+
+# aiDisposition
+aiBillData$Y20172018$ACR215$aiDisposition <- "Supportive"
+
+# aiType
+aiBillData$Y20172018$ACR215$aiType <- "Principles and Guidelines"
+
+# aiSector
+aiBillData$Y20172018$ACR215$aiSector <- "Governance"
+
+# aiSubSector
+aiBillData$Y20172018$ACR215$aiSubSector <- "Policy and Regulation"
+
+# aiDomain
+aiBillData$Y20172018$ACR215$aiDomain <- "Ethics"
+
+# aiAccountability
+aiBillData$Y20172018$ACR215$aiAccountability <- "Moderate"
+
+# aiImpact
+aiBillData$Y20172018$ACR215$aiImpact <- "Moderate"
+
+# aiEthics
+aiBillData$Y20172018$ACR215$aiEthics <- "Moderate"
+
+# aiInnovation
+aiBillData$Y20172018$ACR215$aiInnovation <- "Low"
+
+# aiPrivacy
+aiBillData$Y20172018$ACR215$aiPrivacy <- "Low"
+
+# aiTransparency
+aiBillData$Y20172018$ACR215$aiTransparency <- "Moderate"
+
+### SB-1470 ####
+
+print(aiBillData$Y20172018$SB1470$text)
+
+# Topic
+aiBillData$Y20172018$SB1470$topic <- "SB-1470 Commission on the Future of Work"
+
+# Title
+aiBillData$Y20172018$SB1470$title <- paste0(aiBillData$Y20172018$SB1470$title, "An act to add Chapter 7.1 (commencing with Section 160) to Division 1 of the Labor Code, relating to employment development")
+
+# tldr for aiBillData$Y20172018$SB1470$text
+aiBillData$Y20172018$SB1470$tldr <- "SB-1470 establishes the Commission on the Future of Work to address the impact of technology, including artificial intelligence, on employment and the workforce. The commission will study and make recommendations on policies to ensure that workers are prepared for the changing job landscape and that the benefits of technological advancements are shared equitably. The bill aims to promote a fair and inclusive future of work in California."
+
+@# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20172018$SB1470$tags <- c("artificial-intelligence", "commission-on-the-future-of-work", "employment-development", "technology-impact", "workforce-preparation", "policy-recommendations", "equitable-benefits", "fair-and-inclusive-future")
+
+# sponsors
+aiBillData$Y20172018$SB1470$sponsors <- list(
+    SternS = calMembers$Y20172018$SternS
+)
+
+# cosponsors
+aiBillData$Y20172018$SB1470$cosponsors <- NA
+
+# dateStart
+aiBillData$Y20172018$SB1470$dateStart <- as.Date("2018-02-16")
+
+# dateEnd
+aiBillData$Y20172018$SB1470$dateEnd <- as.Date("2018-11-30")
+
+# dateUpdated
+aiBillData$Y20172018$SB1470$dateUpdated <- Sys.Date()
+
+# version
+aiBillData$Y20172018$SB1470$version <- "Amended Assembly"
+
+# outcome
+aiBillData$Y20172018$SB1470$outcome <- "Failed"
+
+# chaptered
+aiBillData$Y20172018$SB1470$chaptered <- FALSE
+
+# chapterNo
+aiBillData$Y20172018$SB1470$chapterNo <- NA
+
+# active
+aiBillData$Y20172018$SB1470$active <- FALSE
+
+# result
+aiBillData$Y20172018$SB1470$result <- "Died"
+
+# vote
+aiBillData$Y20172018$SB1470$vote <- "Majority"
+
+# appropriation
+aiBillData$Y20172018$SB1470$appropriation <- FALSE
+
+# fiscal
+aiBillData$Y20172018$SB1470$fiscal <- TRUE
+
+# local
+aiBillData$Y20172018$SB1470$local <- FALSE
+
+# urgency
+aiBillData$Y20172018$SB1470$urgency <- FALSE
+
+# tax
+aiBillData$Y20172018$SB1470$tax <- FALSE
+
+# action
+aiBillData$Y20172018$SB1470$action <- "From Assembly without further action"
+
+# pdf
+aiBillData$Y20172018$SB1470$pdf <- "20170SB1470_98.pdf"
+
+# aiDisposition
+aiBillData$Y20172018$SB1470$aiDisposition <- "Neutral"
+
+# aiType
+aiBillData$Y20172018$SB1470$aiType <- "General"
+
+# aiSector
+aiBillData$Y20172018$SB1470$aiSector <- "Governance"
+
+# aiSubSector
+aiBillData$Y20172018$SB1470$aiSubSector <- "Policy and Regulation"
+
+# aiDomain
+aiBillData$Y20172018$SB1470$aiDomain <- "Ethics"
+
+# aiAccountability
+aiBillData$Y20172018$SB1470$aiAccountability <- "Moderate"
+
+# aiImpact
+aiBillData$Y20172018$SB1470$aiImpact <- "Moderate"
+
+# aiEthics
+aiBillData$Y20172018$SB1470$aiEthics <- "Moderate"
+
+# aiInnovation
+aiBillData$Y20172018$SB1470$aiInnovation <- "Low"
+
+# aiPrivacy
+aiBillData$Y20172018$SB1470$aiPrivacy <- "Low"
+
+# aiTransparency
+aiBillData$Y20172018$SB1470$aiTransparency <- "Moderate"
 
