@@ -198,7 +198,8 @@ save(aiBillData, file = "aiBillData.RData")
 
 ### SB-836 ####
 
-print(aiBillData$Y20132014$SB836$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20132014$SB836$text)
 
 # Topic from aiBillData$Y20132014$SB836$status
 aiBillData$Y20132014$SB836$topic <- "SB-836 Brain research: Cal-BRAIN program"
@@ -272,7 +273,8 @@ aiBillData$Y20132014$SB836$aiTransparency <- "Moderate"
 
 ### SB-860 ####
 
-print(aiBillData$Y20132014$SB860$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20132014$SB860$text)
 
 # Topic from aiBillData$Y20132014$SB860$status
 aiBillData$Y20132014$SB860$topic <- "SB-860 Education finance: education omnibus trailer bill"
@@ -328,7 +330,8 @@ aiBillData$Y20132014$SB860$aiTransparency <- "Moderate"
 
 ### AB-1465 ####
 
-print(aiBillData$Y20132014$AB1465$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20132014$AB1465$text)
 
 # Topic from aiBillData$Y20132014$AB1465$status
 aiBillData$Y20132014$AB1465$topic <- "AB-1465 Education finance: education omnibus trailer bill"
@@ -403,7 +406,8 @@ aiBillData$Y20132014$AB1465$aiTransparency <- "Moderate"
 
 ### ACR-215 ####
 
-print(aiBillData$Y20172018$ACR215$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20172018$ACR215$text)
 
 # Topic from aiBillData$Y20172018$ACR215$status
 aiBillData$Y20172018$ACR215$topic <- "ACR-215 23 Asilomar AI Principles"
@@ -530,7 +534,8 @@ aiBillData$Y20172018$ACR215$aiTransparency <- "Moderate"
 
 ### SB-1470 ####
 
-print(aiBillData$Y20172018$SB1470$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20172018$SB1470$text)
 
 # Topic from aiBillData$Y20172018$SB1470$status
 aiBillData$Y20172018$SB1470$topic <- "SB-1470 Commission on the Future of Work"
@@ -586,7 +591,8 @@ aiBillData$Y20172018$SB1470$aiTransparency <- "Moderate"
 
 ### AB-2662 ####
 
-print(aiBillData$Y20172018$AB2662$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20172018$AB2662$text)
 
 # Topic from aiBillData$Y20172018$AB2662$status
 aiBillData$Y20172018$AB2662$topic <- "AB-2662 State government: Office of Planning and Research: electronic media: child development"
@@ -642,7 +648,8 @@ aiBillData$Y20172018$AB2662$aiTransparency <- "Moderate"
 
 ### AB-1809 ####
 
-print(aiBillData$Y20172018$AB1809$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20172018$AB1809$text)
 
 # Topic from aiBillData$Y20172018$AB1809$status
 aiBillData$Y20172018$AB1809$topic <- "AB-1809 Higher education trailer bill"
@@ -715,7 +722,8 @@ aiBillData$Y20172018$AB1809$aiTransparency <- "Low"
 
 ### SB-843 ####
 
-print(aiBillData$Y20172018$SB843$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20172018$SB843$text)
 
 # Topic from aiBillData$Y20172018$SB843$status
 aiBillData$Y20172018$SB843$topic <- "SB-843 Higher education trailer bill"
@@ -774,7 +782,8 @@ aiBillData$Y20172018$SB843$aiTransparency <- "Moderate"
 
 ### SB-348 ####
 
-print(aiBillData$Y20192020$SB348$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20192020$SB348$text)
 
 # Topic from aiBillData$Y20192020$SB348$status
 aiBillData$Y20192020$SB348$topic <- "SB-348 Department of Technology: artificial intelligence: strategic plans"
@@ -832,7 +841,8 @@ aiBillData$Y20192020$SB348$aiTransparency <- "Moderate"
 
 ### SJR-6 ####
 
-print(aiBillData$Y20192020$SJR6$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20192020$SJR6$text)
 
 # Topic from aiBillData$Y20192020$SJR6$status
 aiBillData$Y20192020$SJR6$topic <- "SJR-6 Artificial intelligence"
@@ -888,7 +898,8 @@ aiBillData$Y20192020$SJR6$aiTransparency <- "Moderate"
 
 ### AB-459 ####
 
-print(aiBillData$Y20192020$AB459$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20192020$AB459$text)
 
 # Topic from aiBillData$Y20192020$AB459$status
 aiBillData$Y20192020$AB459$topic <- "AB-459 State government: Artificial Intelligence in State Government Services Commission: report"
@@ -946,7 +957,8 @@ aiBillData$Y20192020$AB459$aiTransparency <- "Moderate"
 
 ### AB-1576 ####
 
-print(aiBillData$Y20192020$AB1576$text)
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20192020$AB1576$text)
 
 # Topic from aiBillData$Y20192020$AB1576$status
 aiBillData$Y20192020$AB1576$topic <- "AB-1576 Secretary of Government Operations: working group: technology"
@@ -999,4 +1011,66 @@ aiBillData$Y20192020$AB1576$aiEthics <- "Moderate"
 aiBillData$Y20192020$AB1576$aiInnovation <- "Low"
 aiBillData$Y20192020$AB1576$aiPrivacy <- "Low"
 aiBillData$Y20192020$AB1576$aiTransparency <- "Moderate"
+
+### AB-976 ####
+
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20192020$AB976$text)
+
+# Topic from aiBillData$Y20192020$AB976$status
+aiBillData$Y20192020$AB976$topic <- "AB-976 Artificial Intelligence in State Government Services Commission"
+
+# Title from aiBillData$Y20192020$AB976$status
+aiBillData$Y20192020$AB976$title <- paste0(aiBillData$Y20192020$AB976$title, "An act to add and repeal Chapter 8.3 (commencing with Section 11820.10) to of Part 1 of Division 3 of Title 2 of the Government Code, relating to state government")
+
+# tldr for aiBillData$Y20192020$AB976$text
+aiBillData$Y20192020$AB976$tldr <- "AB-976 establishes the Artificial Intelligence in State Government Services Commission to study and report on the use of artificial intelligence in state government services. The commission will assess the impact of AI technologies on public services, including their benefits, risks, and ethical considerations. The bill aims to ensure that AI is used effectively and responsibly in state government operations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB976$tags <- c("artificial-intelligence", "state-government", "state-government-services", "commission", "report", "public-services", "impact-assessment", "benefits-and-risks", "ethical-considerations", "responsible-use")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB976$sponsors <- list(
+    ChauA = calMembers$Y20192020$ChauA,
+    KileyA = calMembers$Y20192020$KileyA,
+    ObernolteA = calMembers$Y20192020$ObernolteA,
+    SalasA = calMembers$Y20192020$SalasA
+)
+aiBillData$Y20192020$AB976$cosponsors <- list(
+    CalderonA = calMembers$Y20192020$CalderonA
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB976$dateStart <- as.Date("2019-02-21")
+aiBillData$Y20192020$AB976$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$AB976$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB976$version <- "Amended Senate"
+aiBillData$Y20192020$AB976$outcome <- "Failed"
+aiBillData$Y20192020$AB976$chaptered <- FALSE
+aiBillData$Y20192020$AB976$chapterNo <- NA
+aiBillData$Y20192020$AB976$active <- FALSE
+aiBillData$Y20192020$AB976$result <- "Died"
+aiBillData$Y20192020$AB976$vote <- "Majority"
+aiBillData$Y20192020$AB976$appropriation <- FALSE
+aiBillData$Y20192020$AB976$fiscal <- TRUE
+aiBillData$Y20192020$AB976$local <- FALSE
+aiBillData$Y20192020$AB976$urgency <- FALSE
+aiBillData$Y20192020$AB976$tax <- FALSE
+aiBillData$Y20192020$AB976$action <- "From Senate committee without further action"
+aiBillData$Y20192020$AB976$pdf <- "20190AB976_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB976$text
+aiBillData$Y20192020$AB976$aiDisposition <- "Supportive"
+aiBillData$Y20192020$AB976$aiType <- "General"
+aiBillData$Y20192020$AB976$aiSector <- "Governance"
+aiBillData$Y20192020$AB976$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$AB976$aiDomain <- "Ethics"
+aiBillData$Y20192020$AB976$aiAccountability <- "Moderate"
+aiBillData$Y20192020$AB976$aiImpact <- "Moderate"
+aiBillData$Y20192020$AB976$aiEthics <- "Moderate"
+aiBillData$Y20192020$AB976$aiInnovation <- "Low"
+aiBillData$Y20192020$AB976$aiPrivacy <- "Low"
+aiBillData$Y20192020$AB976$aiTransparency <- "Moderate"
 
