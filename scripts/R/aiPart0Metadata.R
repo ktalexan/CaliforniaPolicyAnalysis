@@ -1252,3 +1252,60 @@ aiBillData$Y20192020$SB444$aiInnovation <- "Low"
 aiBillData$Y20192020$SB444$aiPrivacy <- "Low"
 aiBillData$Y20192020$SB444$aiTransparency <- "Moderate"
 
+### AB-156 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$AB156$text)
+
+# Topic from aiBillData$Y20192020$AB156$status
+aiBillData$Y20192020$AB156$topic <- "AB-156 Optometrists: endorsement fee"
+
+# Title from aiBillData$Y20192020$AB156$status
+aiBillData$Y20192020$AB156$title <- paste0(aiBillData$Y20192020$AB156$title, "An act to amend Section 3152 of the Business and Professions Code, relating to healing arts")
+
+# tldr for aiBillData$Y20192020$AB156$text
+aiBillData$Y20192020$AB156$tldr <- "AB-156 amends the Business and Professions Code to modify the endorsement fee for optometrists. The bill aims to streamline the process for optometrists seeking endorsement and reduce financial barriers to practice. It focuses on improving access to eye care services and ensuring that optometrists can provide quality care to patients."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB156$tags <- c("artificial-intelligence", "optometrists", "endorsement-fee", "business-and-professions-code", "healing-arts", "access-to-eye-care", "quality-care")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB156$sponsors <- list(
+    VoepelA = calMembers$Y20192020$VoepelA
+)
+aiBillData$Y20192020$AB156$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB156$dateStart <- as.Date("2019-01-07")
+aiBillData$Y20192020$AB156$dateEnd <- as.Date("2020-02-03")
+aiBillData$Y20192020$AB156$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB156$version <- "Amended Assembly"
+aiBillData$Y20192020$AB156$outcome <- "Failed"
+aiBillData$Y20192020$AB156$chaptered <- FALSE
+aiBillData$Y20192020$AB156$chapterNo <- NA
+aiBillData$Y20192020$AB156$active <- FALSE
+aiBillData$Y20192020$AB156$result <- "Died"
+aiBillData$Y20192020$AB156$vote <- "Majority"
+aiBillData$Y20192020$AB156$appropriation <- FALSE
+aiBillData$Y20192020$AB156$fiscal <- TRUE
+aiBillData$Y20192020$AB156$local <- FALSE
+aiBillData$Y20192020$AB156$urgency <- FALSE
+aiBillData$Y20192020$AB156$tax <- FALSE
+aiBillData$Y20192020$AB156$action <- "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56"
+aiBillData$Y20192020$AB156$pdf <- "20190AB156_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB156$text
+aiBillData$Y20192020$AB156$aiDisposition <- "Neutral"
+aiBillData$Y20192020$AB156$aiType <- "General"
+aiBillData$Y20192020$AB156$aiSector <- "Healthcare"
+aiBillData$Y20192020$AB156$aiSubSector <- "Optometry"
+aiBillData$Y20192020$AB156$aiDomain <- "Healthcare"
+aiBillData$Y20192020$AB156$aiAccountability <- "Low"
+aiBillData$Y20192020$AB156$aiImpact <- "Low"
+aiBillData$Y20192020$AB156$aiEthics <- "Low"
+aiBillData$Y20192020$AB156$aiInnovation <- "Low"
+aiBillData$Y20192020$AB156$aiPrivacy <- "Low"
+aiBillData$Y20192020$AB156$aiTransparency <- "Low"
+

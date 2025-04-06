@@ -945,7 +945,7 @@ billDataAi <- list(
             aiPrivacy = "Low",
             aiTransparency = "Moderate"
         ),
-        # ab1562 ####
+        # ab156 ####
         ab1562 = list(
             bblType = "BILL",
             purpose = "AI",
