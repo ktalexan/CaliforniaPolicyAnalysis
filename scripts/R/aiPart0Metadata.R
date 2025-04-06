@@ -1773,3 +1773,60 @@ aiBillData$Y20212022$SB1216$aiInnovation <- "Low"
 aiBillData$Y20212022$SB1216$aiPrivacy <- "Moderate"
 aiBillData$Y20212022$SB1216$aiTransparency <- "High"
 
+### AB-2224 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB2224$text)
+
+# Topic from aiBillData$Y20212022$AB2224$status
+aiBillData$Y20212022$AB2224$topic <- "AB-2224 Real estate: transactions: iBuyers"
+
+# Title from aiBillData$Y20212022$AB2224$status
+aiBillData$Y20212022$AB2224$title <- paste0(aiBillData$Y20212022$AB2224$title, "An act to add Chapter 3 (commencing with Section 11290) to Part 2 of Division 4 of the Business and Professions Code, relating to real estate")
+
+# tldr for aiBillData$Y20212022$AB2224$text
+aiBillData$Y20212022$AB2224$tldr <- "AB-2224 establishes regulations for iBuyer transactions in real estate. It aims to ensure transparency and fairness in the use of technology for buying and selling properties. The bill focuses on protecting consumers and promoting ethical practices in the real estate industry."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB2224$tags <- c("artificial-intelligence", "real-estate", "transactions", "ibuyers", "business-and-professions-code", "transparency", "fairness", "technology", "consumer-protection", "ethical-practices")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB2224$sponsors <- list(
+    McCartyA = calMembers$Y20212022$McCartyA
+)
+aiBillData$Y20212022$AB2224$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB2224$dateStart <- as.Date("2022-02-15")
+aiBillData$Y20212022$AB2224$dateEnd <- as.Date("2022-11-30")
+aiBillData$Y20212022$AB2224$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB2224$version <- "Amended Assembly"
+aiBillData$Y20212022$AB2224$outcome <- "Failed"
+aiBillData$Y20212022$AB2224$chaptered <- FALSE
+aiBillData$Y20212022$AB2224$chapterNo <- NA
+aiBillData$Y20212022$AB2224$active <- FALSE
+aiBillData$Y20212022$AB2224$result <- "Died"
+aiBillData$Y20212022$AB2224$vote <- "Majority"
+aiBillData$Y20212022$AB2224$appropriation <- FALSE
+aiBillData$Y20212022$AB2224$fiscal <- FALSE
+aiBillData$Y20212022$AB2224$local <- FALSE
+aiBillData$Y20212022$AB2224$urgency <- FALSE
+aiBillData$Y20212022$AB2224$tax <- FALSE
+aiBillData$Y20212022$AB2224$action <- "From Senate committee without further action"
+aiBillData$Y20212022$AB2224$pdf <- "20210AB2224_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB2224$text
+aiBillData$Y20212022$AB2224$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB2224$aiType <- "General"
+aiBillData$Y20212022$AB2224$aiSector <- "Real Estate"
+aiBillData$Y20212022$AB2224$aiSubSector <- "Transactions"
+aiBillData$Y20212022$AB2224$aiDomain <- "Commerce"
+aiBillData$Y20212022$AB2224$aiAccountability <- "Moderate"
+aiBillData$Y20212022$AB2224$aiImpact <- "Moderate"
+aiBillData$Y20212022$AB2224$aiEthics <- "Moderate"
+aiBillData$Y20212022$AB2224$aiInnovation <- "Low"
+aiBillData$Y20212022$AB2224$aiPrivacy <- "Moderate"
+aiBillData$Y20212022$AB2224$aiTransparency <- "Moderate"
+
