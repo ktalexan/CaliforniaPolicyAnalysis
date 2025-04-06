@@ -1898,3 +1898,75 @@ aiBillData$Y20212022$AB587$aiInnovation <- "Low"
 aiBillData$Y20212022$AB587$aiPrivacy <- "High"
 aiBillData$Y20212022$AB587$aiTransparency <- "High"
 
+### SR-11 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$SR11$text)
+
+# Topic from aiBillData$Y20212022$SR11$status
+aiBillData$Y20212022$SR11$topic <- "SR-11 International Women’s Day"
+
+# Title from aiBillData$Y20212022$SR11$status
+aiBillData$Y20212022$SR11$title <- paste0(aiBillData$Y20212022$SR11$title, "Relative to International Women’s Day")
+
+# tldr for aiBillData$Y20212022$SR11$text
+aiBillData$Y20212022$SR11$tldr <- "designates March 8, 2021, as International Women’s Day in California, celebrating its historical roots in labor movements and activism for women’s rights. It highlights progress in gender equality, challenges like the gender digital divide, and the disproportionate impact of COVID-19 on women. The resolution emphasizes the importance of women’s leadership, innovation, and inclusion in shaping policies and technologies for a more equitable future."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$SR11$tags <- c("artificial-intelligence", "international-womens-day", "labor-movements", "activism", "gender-equality", "gender-digital-divide", "covid-19", "women’s-rights", "leadership", "innovation", "inclusion", "equitable-future")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$SR11$sponsors <- list(
+    LeyvaS = calMembers$Y20212022$LeyvaS
+)
+
+aiBillData$Y20212022$SR11$cosponsors <- list(
+    AtkinsS = calMembers$Y20212022$AtkinsS,
+    BatesS = calMembers$Y20212022$BatesS,
+    CaballeroS = calMembers$Y20212022$CaballeroS,
+    DurazoS = calMembers$Y20212022$DurazoS,
+    EggmanS = calMembers$Y20212022$EggmanS,
+    GonzalezS = calMembers$Y20212022$GonzalezS,
+    GroveS = calMembers$Y20212022$GroveS,
+    HurtadoS = calMembers$Y20212022$HurtadoS,
+    LimonS = calMembers$Y20212022$LimonS,
+    MelendezS = calMembers$Y20212022$MelendezS,
+    BoghS = calMembers$Y20212022$BoghS,
+    RubioS = calMembers$Y20212022$RubioS,
+    SkinnerS = calMembers$Y20212022$SkinnerS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$SR11$dateStart <- as.Date("2021-02-16")
+aiBillData$Y20212022$SR11$dateEnd <- as.Date("2021-03-08")
+aiBillData$Y20212022$SR11$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$SR11$version <- "Enrolled"
+aiBillData$Y20212022$SR11$outcome <- "Enrolled"
+aiBillData$Y20212022$SR11$chaptered <- FALSE
+aiBillData$Y20212022$SR11$chapterNo <- NA
+aiBillData$Y20212022$SR11$active <- TRUE
+aiBillData$Y20212022$SR11$result <- "Passed"
+aiBillData$Y20212022$SR11$vote <- "No Vote"
+aiBillData$Y20212022$SR11$appropriation <- FALSE
+aiBillData$Y20212022$SR11$fiscal <- FALSE
+aiBillData$Y20212022$SR11$local <- FALSE
+aiBillData$Y20212022$SR11$urgency <- FALSE
+aiBillData$Y20212022$SR11$tax <- FALSE
+aiBillData$Y20212022$SR11$action <- "Read. Adopted. (Ayes 35. Noes 0. Page 399.)"
+aiBillData$Y20212022$SR11$pdf <- "20210SR11_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$SR11$text
+aiBillData$Y20212022$SR11$aiDisposition <- "Supportive"
+aiBillData$Y20212022$SR11$aiType <- "General"
+aiBillData$Y20212022$SR11$aiSector <- "Employment"
+aiBillData$Y20212022$SR11$aiSubSector <- "Labor Movements"
+aiBillData$Y20212022$SR11$aiDomain <- "Labor"
+aiBillData$Y20212022$SR11$aiAccountability <- "Moderate"
+aiBillData$Y20212022$SR11$aiImpact <- "Low"
+aiBillData$Y20212022$SR11$aiEthics <- "Low"
+aiBillData$Y20212022$SR11$aiInnovation <- "Low"
+aiBillData$Y20212022$SR11$aiPrivacy <- "Low"
+aiBillData$Y20212022$SR11$aiTransparency <- "Low"
+
