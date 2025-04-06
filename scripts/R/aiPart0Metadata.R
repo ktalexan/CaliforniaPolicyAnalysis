@@ -1599,3 +1599,60 @@ aiBillData$Y20192020$AB2269$aiInnovation <- "Low"
 aiBillData$Y20192020$AB2269$aiPrivacy <- "High"
 aiBillData$Y20192020$AB2269$aiTransparency <- "High"
 
+### AB-485 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$AB485$text)
+
+# Topic from aiBillData$Y20192020$AB485$status
+aiBillData$Y20192020$AB485$topic <- "AB-485 Local government: economic development subsidies"
+
+# Title from aiBillData$Y20192020$AB485$status
+aiBillData$Y20192020$AB485$title <- paste0(aiBillData$Y20192020$AB485$title, "An act to add Section 53083.1 to the Government Code, relating to local government")
+
+# tldr for aiBillData$Y20192020$AB485$text
+aiBillData$Y20192020$AB485$tldr <- "AB-485 establishes regulations for local government economic development subsidies. It aims to ensure transparency and accountability in the use of public funds for economic development purposes. The bill focuses on preventing misuse of subsidies and promoting fair competition among businesses."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB485$tags <- c("artificial-intelligence", "local-government", "economic-development-subsidies", "government-code", "transparency", "accountability", "public-funds", "fair-competition")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB485$sponsors <- list(
+    MedinaA = calMembers$Y20192020$MedinaA
+)
+aiBillData$Y20192020$AB485$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB485$dateStart <- as.Date("2019-02-12")
+aiBillData$Y20192020$AB485$dateEnd <- as.Date("2020-10-12")
+aiBillData$Y20192020$AB485$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB485$version <- "Chaptered"
+aiBillData$Y20192020$AB485$outcome <- "Chaptered"
+aiBillData$Y20192020$AB485$chaptered <- TRUE
+aiBillData$Y20192020$AB485$chapterNo <- 803
+aiBillData$Y20192020$AB485$active <- FALSE
+aiBillData$Y20192020$AB485$result <- "Chaptered"
+aiBillData$Y20192020$AB485$vote <- "Majority"
+aiBillData$Y20192020$AB485$appropriation <- FALSE
+aiBillData$Y20192020$AB485$fiscal <- TRUE
+aiBillData$Y20192020$AB485$local <- FALSE
+aiBillData$Y20192020$AB485$urgency <- FALSE
+aiBillData$Y20192020$AB485$tax <- FALSE
+aiBillData$Y20192020$AB485$action <- "Chaptered by Secretary of State - Chapter 803, Statutes of 2020"
+aiBillData$Y20192020$AB485$pdf <- "20190AB485_95.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB485$text
+aiBillData$Y20192020$AB485$aiDisposition <- "Restrictive"
+aiBillData$Y20192020$AB485$aiType <- "General"
+aiBillData$Y20192020$AB485$aiSector <- "Local Government"
+aiBillData$Y20192020$AB485$aiSubSector <- "Economic Development"
+aiBillData$Y20192020$AB485$aiDomain <- "Governance"
+aiBillData$Y20192020$AB485$aiAccountability <- "High"
+aiBillData$Y20192020$AB485$aiImpact <- "Moderate"
+aiBillData$Y20192020$AB485$aiEthics <- "High"
+aiBillData$Y20192020$AB485$aiInnovation <- "Low"
+aiBillData$Y20192020$AB485$aiPrivacy <- "High"
+aiBillData$Y20192020$AB485$aiTransparency <- "High"
+
