@@ -2582,3 +2582,64 @@ aiBillData$Y20232024$AB2652$aiInnovation <- "Low"
 aiBillData$Y20232024$AB2652$aiPrivacy <- "High"
 aiBillData$Y20232024$AB2652$aiTransparency <- "High"
 
+### SB-1288 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20232024$SB1288$text)
+
+# Topic from aiBillData$Y20232024$SB1288$status
+aiBillData$Y20232024$SB1288$topic <- "SB-1288 Public schools: artificial intelligence working group"
+
+# Title from aiBillData$Y20232024$SB1288$status
+aiBillData$Y20232024$SB1288$title <- paste0(aiBillData$Y20232024$SB1288$title, "An act to add and repeal Section 33328.5 of the Education Code, relating to public schools")
+
+# tldr for aiBillData$Y20232024$SB1288$text
+aiBillData$Y20232024$SB1288$tldr <- "SB-1288 establishes an artificial intelligence working group within the State Department of Education to evaluate the impact of AI on education. The group will assess AI's potential benefits and challenges, develop guidelines for its responsible use, and recommend policies to ensure equitable access to AI resources in schools."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20232024$SB1288$tags <- c("artificial-intelligence", "education", "working-group", "state-department", "guidelines", "equitable-access", "responsible-use")
+
+# sponsors and cosponsors
+aiBillData$Y20232024$SB1288$sponsors <- list(
+    BeckerS = calMembers$Y20232024$BeckerS
+)
+aiBillData$Y20232024$SB1288$cosponsors <- list(
+    MuratsuchiA = calMembers$Y20232024$MuratsuchiA,
+    BermanA = calMembers$Y20232024$BermanA,
+    DoddS = calMembers$Y20232024$DoddS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20232024$SB1288$dateStart <- as.Date("2024-02-15")
+aiBillData$Y20232024$SB1288$dateEnd <- as.Date("2024-09-28")
+aiBillData$Y20232024$SB1288$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20232024$SB1288$version <- "Chaptered"
+aiBillData$Y20232024$SB1288$outcome <- "Chaptered"
+aiBillData$Y20232024$SB1288$chaptered <- TRUE
+aiBillData$Y20232024$SB1288$chapterNo <- 893
+aiBillData$Y20232024$SB1288$active <- FALSE
+aiBillData$Y20232024$SB1288$result <- "Chaptered"
+aiBillData$Y20232024$SB1288$vote <- "Majority"
+aiBillData$Y20232024$SB1288$appropriation <- FALSE
+aiBillData$Y20232024$SB1288$fiscal <- TRUE
+aiBillData$Y20232024$SB1288$local <- FALSE
+aiBillData$Y20232024$SB1288$urgency <- FALSE
+aiBillData$Y20232024$SB1288$tax <- FALSE
+aiBillData$Y20232024$SB1288$action <- "Chaptered by Secretary of State - Chapter 893, Statutes of 2024"
+aiBillData$Y20232024$SB1288$pdf <- "20230SB1288_92.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20232024$SB1288$text
+aiBillData$Y20232024$SB1288$aiDisposition <- "Restrictive"
+aiBillData$Y20232024$SB1288$aiType <- "General"
+aiBillData$Y20232024$SB1288$aiSector <- "Education"
+aiBillData$Y20232024$SB1288$aiSubSector <- "K-12 Education"
+aiBillData$Y20232024$SB1288$aiDomain <- "Education Management"
+aiBillData$Y20232024$SB1288$aiAccountability <- "High"
+aiBillData$Y20232024$SB1288$aiImpact <- "High"
+aiBillData$Y20232024$SB1288$aiEthics <- "High"
+aiBillData$Y20232024$SB1288$aiInnovation <- "Low"
+aiBillData$Y20232024$SB1288$aiPrivacy <- "High"
+aiBillData$Y20232024$SB1288$aiTransparency <- "High"
+
