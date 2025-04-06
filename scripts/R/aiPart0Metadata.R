@@ -1485,3 +1485,60 @@ aiBillData$Y20192020$SCR13$aiInnovation <- "Low"
 aiBillData$Y20192020$SCR13$aiPrivacy <- "Low"
 aiBillData$Y20192020$SCR13$aiTransparency <- "Low"
 
+### SB-752 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$SB752$text)
+
+# Topic from aiBillData$Y20192020$SB752$status
+aiBillData$Y20192020$SB752$topic <- "SB-752 The California Master Plan on Tech Equity"
+
+# Title from aiBillData$Y20192020$SB752$status
+aiBillData$Y20192020$SB752$title <- paste0(aiBillData$Y20192020$SB752$title, "An act to add and repeal Chapter 3.7 (commencing with Section 8299) to of Division 1 of Title 2 of the Government Code, relating to state government")
+
+# tldr for aiBillData$Y20192020$SB752$text
+aiBillData$Y20192020$SB752$tldr <- "SB-752 establishes the California Master Plan on Tech Equity to address issues of equity and inclusion in the technology sector. The plan aims to promote diversity, equity, and access in technology-related fields and industries. It focuses on ensuring that all Californians have equal opportunities to participate in and benefit from the technology economy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$SB752$tags <- c("artificial-intelligence", "california-master-plan", "tech-equity", "equity", "inclusion", "technology-sector", "diversity", "access", "technology-related-fields", "technology-economy")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$SB752$sponsors <- list(
+    SternS = calMembers$Y20192020$SternS
+)
+aiBillData$Y20192020$SB752$cosponsors <-NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$SB752$dateStart <- as.Date("2019-02-22")
+aiBillData$Y20192020$SB752$dateEnd <- as.Date("2020-02-03")
+aiBillData$Y20192020$SB752$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$SB752$version <- "Amended Senate"
+aiBillData$Y20192020$SB752$outcome <- "Failed"
+aiBillData$Y20192020$SB752$chaptered <- FALSE
+aiBillData$Y20192020$SB752$chapterNo <- NA
+aiBillData$Y20192020$SB752$active <- FALSE
+aiBillData$Y20192020$SB752$result <- "Died"
+aiBillData$Y20192020$SB752$vote <- "Majority"
+aiBillData$Y20192020$SB752$appropriation <- FALSE
+aiBillData$Y20192020$SB752$fiscal <- TRUE
+aiBillData$Y20192020$SB752$local <- FALSE
+aiBillData$Y20192020$SB752$urgency <- FALSE
+aiBillData$Y20192020$SB752$tax <- FALSE
+aiBillData$Y20192020$SB752$action <- "Returned to Secretary of Senate pursuant to Joint Rule 56"
+aiBillData$Y20192020$SB752$pdf <- "20190SB752_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$SB752$text
+aiBillData$Y20192020$SB752$aiDisposition <- "Supportive"
+aiBillData$Y20192020$SB752$aiType <- "General"
+aiBillData$Y20192020$SB752$aiSector <- "Governance"
+aiBillData$Y20192020$SB752$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$SB752$aiDomain <- "Technology"
+aiBillData$Y20192020$SB752$aiAccountability <- "Moderate"
+aiBillData$Y20192020$SB752$aiImpact <- "Moderate"
+aiBillData$Y20192020$SB752$aiEthics <- "Moderate"
+aiBillData$Y20192020$SB752$aiInnovation <- "Low"
+aiBillData$Y20192020$SB752$aiPrivacy <- "Low"
+aiBillData$Y20192020$SB752$aiTransparency <- "Moderate"
+
