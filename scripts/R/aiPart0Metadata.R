@@ -1542,3 +1542,60 @@ aiBillData$Y20192020$SB752$aiInnovation <- "Low"
 aiBillData$Y20192020$SB752$aiPrivacy <- "Low"
 aiBillData$Y20192020$SB752$aiTransparency <- "Moderate"
 
+### AB=2269 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$AB2269$text)
+
+# Topic from aiBillData$Y20192020$AB2269$status
+aiBillData$Y20192020$AB2269$topic <- "AB-2269 Personal rights: automated decision systems"
+
+# Title from aiBillData$Y20192020$AB2269$status
+aiBillData$Y20192020$AB2269$title <- paste0(aiBillData$Y20192020$AB2269$title, "An act to add Title 1.81.8 (commencing with Section 1798.400) to Part 4 of Division 3 of the Civil Code, relating to automatic decision systems")
+
+# tldr for aiBillData$Y20192020$AB2269$text
+aiBillData$Y20192020$AB2269$tldr <- "AB-2269 establishes regulations for automated decision systems to protect personal rights. It aims to ensure transparency, accountability, and fairness in the use of such systems. The bill focuses on preventing discrimination and bias in automated decision-making processes, promoting ethical practices in technology."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB2269$tags <- c("artificial-intelligence", "personal-rights", "automated-decision-systems", "civil-code", "transparency", "accountability", "fairness", "discrimination", "bias", "ethical-practices")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB2269$sponsors <- list(
+    ChauA = calMembers$Y20192020$ChauA
+)
+aiBillData$Y20192020$AB2269$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB2269$dateStart <- as.Date("2019-02-14")
+aiBillData$Y20192020$AB2269$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$AB2269$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB2269$version <- "Introduced"
+aiBillData$Y20192020$AB2269$outcome <- "Failed"
+aiBillData$Y20192020$AB2269$chaptered <- FALSE
+aiBillData$Y20192020$AB2269$chapterNo <- NA
+aiBillData$Y20192020$AB2269$active <- FALSE
+aiBillData$Y20192020$AB2269$result <- "Died"
+aiBillData$Y20192020$AB2269$vote <- "Majority"
+aiBillData$Y20192020$AB2269$appropriation <- FALSE
+aiBillData$Y20192020$AB2269$fiscal <- TRUE
+aiBillData$Y20192020$AB2269$local <- FALSE
+aiBillData$Y20192020$AB2269$urgency <- FALSE
+aiBillData$Y20192020$AB2269$tax <- FALSE
+aiBillData$Y20192020$AB2269$action <- "From committee without further action"
+aiBillData$Y20192020$AB2269$pdf <- "20190AB2269_99.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB2269$text
+aiBillData$Y20192020$AB2269$aiDisposition <- "Restrictive"
+aiBillData$Y20192020$AB2269$aiType <- "Decision Systems"
+aiBillData$Y20192020$AB2269$aiSector <- "Business"
+aiBillData$Y20192020$AB2269$aiSubSector <- "Automated Decision Systems"
+aiBillData$Y20192020$AB2269$aiDomain <- "Commerce"
+aiBillData$Y20192020$AB2269$aiAccountability <- "High"
+aiBillData$Y20192020$AB2269$aiImpact <- "High"
+aiBillData$Y20192020$AB2269$aiEthics <- "High"
+aiBillData$Y20192020$AB2269$aiInnovation <- "Low"
+aiBillData$Y20192020$AB2269$aiPrivacy <- "High"
+aiBillData$Y20192020$AB2269$aiTransparency <- "High"
+
