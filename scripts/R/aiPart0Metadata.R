@@ -713,4 +713,59 @@ aiBillData$Y20172018$AB1809$aiInnovation <- "Low"
 aiBillData$Y20172018$AB1809$aiPrivacy <- "Low"
 aiBillData$Y20172018$AB1809$aiTransparency <- "Low"
 
+### SB-843 ####
+
+print(aiBillData$Y20172018$SB843$text)
+
+# Topic from aiBillData$Y20172018$SB843$status
+aiBillData$Y20172018$SB843$topic <- "SB-843 Higher education trailer bill"
+
+# Title from aiBillData$Y20172018$SB843$status
+aiBillData$Y20172018$SB843$title <- paste0(aiBillData$Y20172018$SB843$title, "An act to amend Sections 8152, 8154, 19104.5, 52523, 66021.1, 66027.8, 68075.6, 69432, 69433.6, 69435.3, 70023, 70900, 70901, 72506, 76004, 76300, 76350, 78401, 79149.3, 79149.5, 82542, 84040.5, 84750.5, 84751, 84810.5, 84900, 84901, 84906, 84913, 84916, 99151, 99152, 99153, 99154, and 99162 of, to amend the heading of Article 9 (commencing with Section 84900) of Chapter 5 of Part 50 of Division 7 of Title 3 of, to amend and repeal Sections 84750.6, 84750.7, and 88912.5 of, to add Sections 66749.6, 66749.7, 78222, 79148.1, 79149.7, 84750.4, and 84750.41 to, to add Article 10 (commencing with Section 54800) to Chapter 9 of Part 29 of Division 4 of Title 2 of, to add Part 46.5 (commencing with Section 75000), Part 52.7 (commencing with Section 88670), and Part 54.82 (commencing with Section 88930) to Division 7 of Title 3 of, to add Article 2.5 (commencing with Section 92010) to Chapter 1 of Part 57 of Division 9 of Title 3 of, to add and repeal Section 89290.5 of, to repeal Sections 88910, 88912, and 88913 of, and to repeal and add Section 79149.1 of, the Education Code, to add Sections 22874.7 and 22958.4 to, and to add Article 7 (commencing with Section 65059.1) to Chapter 1.5 of Division 1 of Title 7 of, the Government Code, to amend Section 33492.78 of the Health and Safety Code, to amend Section 95 of the Revenue and Taxation Code, to add Section 18928 to the Welfare and Institutions Code, and to amend the Budget Act of 2017 by amending Item 6870-101-0001 of Section 2.00 of that act, relating to education, and making an appropriation therefor, to take effect immediately, bill related to the budget")
+
+# tldr for aiBillData$Y20172018$SB843$text
+aiBillData$Y20172018$SB843$tldr <- "SB-843 is a higher education trailer bill that makes various amendments to the Education Code and other related codes. It includes provisions related to funding, program implementation, and administrative processes in higher education. The bill aims to streamline operations, enhance educational opportunities, and ensure compliance with state regulations. It also addresses budget-related matters and appropriations for educational programs."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20172018$SB843$tags <- c("artificial-intelligence", "higher-education-trailer-bill", "education-finance", "funding", "program-implementation", "administrative-processes", "streamlining-operations", "educational-opportunities", "state-regulations", "budget-related-matters")
+
+# sponsors and cosponsors
+aiBillData$Y20172018$SB843$sponsors <- list(
+    CommitteeOnBudgetandFiscalReviewS = calMembers$Y20172018$CommitteeOnBudgetandFiscalReviewS
+)
+aiBillData$Y20172018$SB843$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20172018$SB843$dateStart <- as.Date("2018-01-10")
+aiBillData$Y20172018$SB843$dateEnd <- as.Date("2018-11-30")
+aiBillData$Y20172018$SB843$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20172018$SB843$version <- "Amended Assembly"
+aiBillData$Y20172018$SB843$outcome <- "Failed"
+aiBillData$Y20172018$SB843$chaptered <- FALSE
+aiBillData$Y20172018$SB843$chapterNo <- NA
+aiBillData$Y20172018$SB843$active <- FALSE
+aiBillData$Y20172018$SB843$result <- "Died"
+aiBillData$Y20172018$SB843$vote <- "Majority"
+aiBillData$Y20172018$SB843$appropriation <- TRUE
+aiBillData$Y20172018$SB843$fiscal <- TRUE
+aiBillData$Y20172018$SB843$local <- TRUE
+aiBillData$Y20172018$SB843$urgency <- TRUE
+aiBillData$Y20172018$SB843$tax <- FALSE
+aiBillData$Y20172018$SB843$action <- "From Assembly without further action"
+aiBillData$Y20172018$SB843$pdf <- "20170SB843_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20172018$SB843$text
+aiBillData$Y20172018$SB843$aiDisposition <- "Neutral"
+aiBillData$Y20172018$SB843$aiType <- "General"
+aiBillData$Y20172018$SB843$aiSector <- "Education"
+aiBillData$Y20172018$SB843$aiSubSector <- "Postsecondary Education"
+aiBillData$Y20172018$SB843$aiDomain <- "Education"
+aiBillData$Y20172018$SB843$aiAccountability <- "Moderate"
+aiBillData$Y20172018$SB843$aiImpact <- "Moderate"
+aiBillData$Y20172018$SB843$aiEthics <- "Moderate"
+aiBillData$Y20172018$SB843$aiInnovation <- "Low"
+aiBillData$Y20172018$SB843$aiPrivacy <- "Low"
+aiBillData$Y20172018$SB843$aiTransparency <- "Moderate"
 
