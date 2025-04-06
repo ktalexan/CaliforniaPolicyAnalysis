@@ -1970,3 +1970,60 @@ aiBillData$Y20212022$SR11$aiInnovation <- "Low"
 aiBillData$Y20212022$SR11$aiPrivacy <- "Low"
 aiBillData$Y20212022$SR11$aiTransparency <- "Low"
 
+### AB-2826 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB2826$text)
+
+# Topic from aiBillData$Y20212022$AB2826$status
+aiBillData$Y20212022$AB2826$topic <- "AB-2826 California Platform Accountability and Transparency Act"
+
+# Title from aiBillData$Y20212022$AB2826$status
+aiBillData$Y20212022$AB2826$title <- paste0(aiBillData$Y20212022$AB2826$title, "An act to add Chapter 5.9 (commencing with 11549.75) to Part 1 of Division 3 of Title 2 of the Government Code, relating to technology")
+
+# tldr for aiBillData$Y20212022$AB2826$text
+aiBillData$Y20212022$AB2826$tldr <- "AB-2826 establishes the California Platform Accountability and Transparency Act to regulate online platforms. It aims to ensure transparency and accountability in the use of technology by requiring platforms to disclose their algorithms and data practices. The bill focuses on protecting users' rights and promoting ethical practices in the digital space."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB2826$tags <- c("artificial-intelligence", "platform-accountability", "transparency-act", "technology", "online-platforms", "data-practices", "users-rights", "ethical-practices")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB2826$sponsors <- list(
+    MuratsuchiA = calMembers$Y20212022$MuratsuchiA
+)
+aiBillData$Y20212022$AB2826$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB2826$dateStart <- as.Date("2021-02-18")
+aiBillData$Y20212022$AB2826$dateEnd <- as.Date("2022-11-30")
+aiBillData$Y20212022$AB2826$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB2826$version <- "Amended Assembly"
+aiBillData$Y20212022$AB2826$outcome <- "Failed"
+aiBillData$Y20212022$AB2826$chaptered <- FALSE
+aiBillData$Y20212022$AB2826$chapterNo <- NA
+aiBillData$Y20212022$AB2826$active <- FALSE
+aiBillData$Y20212022$AB2826$result <- "Died"
+aiBillData$Y20212022$AB2826$vote <- "Majority"
+aiBillData$Y20212022$AB2826$appropriation <- FALSE
+aiBillData$Y20212022$AB2826$fiscal <- TRUE
+aiBillData$Y20212022$AB2826$local <- FALSE
+aiBillData$Y20212022$AB2826$urgency <- FALSE
+aiBillData$Y20212022$AB2826$tax <- FALSE
+aiBillData$Y20212022$AB2826$action <- "From committee without further action"
+aiBillData$Y20212022$AB2826$pdf <- "20210AB2826_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB2826$text
+aiBillData$Y20212022$AB2826$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB2826$aiType <- "General"
+aiBillData$Y20212022$AB2826$aiSector <- "Technology"
+aiBillData$Y20212022$AB2826$aiSubSector <- "Platform Accountability"
+aiBillData$Y20212022$AB2826$aiDomain <- "Digital Space"
+aiBillData$Y20212022$AB2826$aiAccountability <- "High"
+aiBillData$Y20212022$AB2826$aiImpact <- "High"
+aiBillData$Y20212022$AB2826$aiEthics <- "High"
+aiBillData$Y20212022$AB2826$aiInnovation <- "Low"
+aiBillData$Y20212022$AB2826$aiPrivacy <- "High"
+aiBillData$Y20212022$AB2826$aiTransparency <- "High"
+

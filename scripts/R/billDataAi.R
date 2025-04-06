@@ -1609,8 +1609,8 @@ billDataAi <- list(
             analysis = "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202120220AB2826",
             todaysLaw = "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202120220AB2826&showamends=false",
             compare = "https://leginfo.legislature.ca.gov/faces/billVersionsCompareClient.xhtml?bill_id=202120220AB2826",
-            topic = "AB-2826 California Platform Accountability and Transparency Act",
-            title = "AB-2826: An act to add Chapter 5.9 (commencing with 11549.75) to Part 1 of Division 3 of Title 2 of the Government Code, relating to technology",
+            topic = "AB-2826 California Platform Accountability and TrAn act to add Chapter 5.9 (commencing with 11549.75) to Part 1 of Division 3 of Title 2 of the Government Code, relating to technologyansparency Act",
+            title = "AB-2826: ",
             tldr = "This bill would require the state to establish a California Platform Accountability and Transparency Act to ensure that platforms using artificial intelligence are transparent about their algorithms and data practices. The bill would also require these platforms to conduct impact assessments and provide information to the public.",
             tags = list("artificial-intelligence", "platform-accountability", "california", "legislation", "transparency"),
             sponsors = list(
