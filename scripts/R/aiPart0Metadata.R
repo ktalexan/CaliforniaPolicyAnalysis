@@ -2352,3 +2352,60 @@ aiBillData$Y20212022$AB178$aiInnovation <- "Low"
 aiBillData$Y20212022$AB178$aiPrivacy <- "High"
 aiBillData$Y20212022$AB178$aiTransparency <- "High"
 
+### AB-179 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB179$text)
+
+# Topic from aiBillData$Y20212022$AB179$status
+aiBillData$Y20212022$AB179$topic <- "AB-179 Budget Act of 2022"
+
+# Title from aiBillData$Y20212022$AB179$status
+aiBillData$Y20212022$AB179$title <- paste0(aiBillData$Y20212022$AB179$title, "An act to amend the Budget Act of 2022 (Chs. 43 and 45, Stats. 2022) by amending Items 0250-001-0001, 0250-101-0001, 0250-101-0932, 0250-111-0001, 0250-162-8506, 0250-301-0001, 0509-001-0001, 0509-101-0001, 0509-102-3398, 0509-104-0001, 0509-112-0001, 0511-001-0001, 0521-001-0042, 0521-001-0044, 0521-001-0046, 0521-001-0890, 0530-001-0001, 0540-001-0001, 0540-101-0001, 0540-490, 0540-492, 0540-495, 0650-001-0001, 0650-001-0890, 0650-101-0001, 0690-001-0001, 0690-003-0001, 0690-004-0001, 0690-012-0001, 0690-101-0001, 0890-001-0001, 0954-101-0001, 0985-220-0001, 2240-001-0001, 2240-102-0001, 2240-104-0001, 2240-110-0001, 2240-111-0001, 2240-121-0001, 2240-122-0001, 2240-124-0001, 2240-125-0001, 2240-126-0001, 2660-490, 3340-001-0001, 3340-003-0001, 3360-001-0465, 3360-001-0890, 3360-001-3062, 3360-002-0001, 3360-102-0001, 3480-001-3046, 3480-101-0001, 3480-491, 3480-492, 3540-001-0001, 3540-003-0001, 3540-101-0001, 3560-001-0001, 3600-001-0001, 3600-006-0001, 3600-007-0001, 3720-001-0001, 3790-001-0001, 3790-101-0263, 3790-101-3001, 3790-301-0001, 3790-301-3312, 3790-491, 3790-493, 3790-496, 3810-103-0001, 3835-101-0001, 3860-001-0001, 3860-001-3398, 3860-101-0001, 3900-001-0001, 3900-001-3228, 3900-002-3228, 3900-101-0001, 3900-101-3228, 3900-102-3228, 3930-001-0001, 3940-001-0001, 3970-001-0001, 3970-001-0133, 3970-101-0001, 3970-101-0133, 3970-101-3228, 4140-101-0001, 4140-101-3085, 4170-001-0001, 4170-101-0001, 4260-001-0001, 4260-101-0001, 4260-116-0890, 4265-001-0001, 4265-021-3398, 4265-111-0001, 4265-491, 4300-001-0890, 4300-101-0890, 4440-003-0001, 5180-001-0001, 5180-101-0001, 5180-101-0890, 5180-141-0001, 5180-151-0001, 5225-008-0001, 5225-018-0001, 5225-019-0001, 5225-022-0001, 5227-001-0001, 5227-119-0001, 6100-001-0001, 6100-004-0001, 6100-006-0001, 6100-009-0001, 6100-107-0001, 6100-112-0890, 6100-134-0890, 6100-137-0890, 6100-161-0890, 6100-195-0890, 6100-203-0001, 6100-296-0001, 6100-491, 6120-161-0001, 6360-001-0001, 6360-001-0408, 6440-001-0001, 6440-005-0001, 6870-101-0001, 6870-201-0001, 7120-001-0001, 7120-001-0890, 7350-001-0001, 7350-001-0890, 7502-001-9730, 7760-001-0001, 8260-001-0001, 8570-001-0001, 8570-002-0001, 8570-102-0001, 8570-490, 8660-001-0462, 8660-001-0890, 8660-101-0464, 8660-101-0470, 8955-001-0001, and 9210-104-0001 of Section 2.00 of, adding Items 0509-492, 0540-103-0001, 0820-101-0001, 2667-001-0046, 2720-301-0660, 3125-101-0001, 3340-002-0001, 3360-001-3228, 3360-004-0001, 3360-005-0001, 3360-007-0001, 3360-101-3228, 3360-104-0001, 3360-107-0001, 3480-103-0001, 3480-494, 3540-102-0001, 3600-102-0001, 3600-495, 3640-002-0001, 3640-103-0001, 3760-001-0001, 3760-103-0001, 3760-106-0001, 3810-001-0001, 3810-104-0001, 3825-001-0001, 3825-102-0001, 3830-101-0001, 3845-001-0001, 3845-101-0001, 3850-101-0001, 3850-495, 3855-102-0001, 3875-101-0001, 3940-002-0001, 3940-493, 3970-001-3408, 3970-011-0133, 3970-492, 5225-496, 6440-492, 6610-490, 6870-302-6087, 6870-492, 7350-002-0001, 7502-011-0890, 7600-011-0001, 8260-491, 8570-102-3228, and 8660-001-0001 to Section 2.00 of, repealing Item 0775-001-3085 of Section 2.00 of, amending Sections 8.75, 11.96, 15.14, 19.56, 39.00, and 99.50 of, adding Sections 19.58 and 39.10 to, and repealing Section 19.55 of, that act, relating to the state budget, and making an appropriation therefor, to take effect immediately, budget bill")
+
+# tldr for aiBillData$Y20212022$AB179$text
+aiBillData$Y20212022$AB179$tldr <- "AB-179 is the Budget Act of 2022, which outlines the state's budgetary allocations and appropriations. It includes provisions for various state departments and programs, ensuring funding for essential services and initiatives. The bill focuses on fiscal responsibility and effective resource management to support California's needs."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB179$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "fiscal-responsibility", "resource-management", "essential-services")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB179$sponsors <- list(
+    TingA = calMembers$Y20212022$TingA
+)
+aiBillData$Y20212022$AB179$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB179$dateStart <- as.Date("2022-01-08")
+aiBillData$Y20212022$AB179$dateEnd <- as.Date("2022-06-30")
+aiBillData$Y20212022$AB179$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB179$version <- "Chaptered"
+aiBillData$Y20212022$AB179$outcome <- "Chaptered"
+aiBillData$Y20212022$AB179$chaptered <- TRUE
+aiBillData$Y20212022$AB179$chapterNo <- 249
+aiBillData$Y20212022$AB179$active <- FALSE
+aiBillData$Y20212022$AB179$result <- "Chaptered"
+aiBillData$Y20212022$AB179$vote <- "Majority"
+aiBillData$Y20212022$AB179$appropriation <- TRUE
+aiBillData$Y20212022$AB179$fiscal <- TRUE
+aiBillData$Y20212022$AB179$local <- FALSE
+aiBillData$Y20212022$AB179$urgency <- TRUE
+aiBillData$Y20212022$AB179$tax <- FALSE
+aiBillData$Y20212022$AB179$action <- "Chaptered by Secretary of State - Chapter 249, Statutes of 2022"
+aiBillData$Y20212022$AB179$pdf <- "20210AB179_95.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB179$text
+aiBillData$Y20212022$AB179$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB179$aiType <- "General"
+aiBillData$Y20212022$AB179$aiSector <- "Budget"
+aiBillData$Y20212022$AB179$aiSubSector <- "State Budget"
+aiBillData$Y20212022$AB179$aiDomain <- "Budget Management"
+aiBillData$Y20212022$AB179$aiAccountability <- "High"
+aiBillData$Y20212022$AB179$aiImpact <- "High"
+aiBillData$Y20212022$AB179$aiEthics <- "High"
+aiBillData$Y20212022$AB179$aiInnovation <- "Low"
+aiBillData$Y20212022$AB179$aiPrivacy <- "High"
+aiBillData$Y20212022$AB179$aiTransparency <- "High"
+
