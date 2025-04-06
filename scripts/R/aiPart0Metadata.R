@@ -830,3 +830,59 @@ aiBillData$Y20192020$SB348$aiInnovation <- "Low"
 aiBillData$Y20192020$SB348$aiPrivacy <- "Low"
 aiBillData$Y20192020$SB348$aiTransparency <- "Moderate"
 
+### SJR-6 ####
+
+print(aiBillData$Y20192020$SJR6$text)
+
+# Topic from aiBillData$Y20192020$SJR6$status
+aiBillData$Y20192020$SJR6$topic <- "SJR-6 Artificial intelligence"
+
+# Title from aiBillData$Y20192020$SJR6$status
+aiBillData$Y20192020$SJR6$title <- paste0(aiBillData$Y20192020$SJR6$title, "Relative to artificial intelligence")
+
+# tldr for aiBillData$Y20192020$SJR6$text
+aiBillData$Y20192020$SJR6$tldr <- "SJR-6 is a resolution that urges the federal government to establish a national strategy for the development and regulation of artificial intelligence. The resolution emphasizes the importance of ethical considerations, transparency, and accountability in AI technologies. It calls for collaboration between government, industry, and academia to ensure that AI is developed in a manner that benefits society as a whole."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$SJR6$tags <- c("artificial-intelligence", "federal-government", "national-strategy", "development", "regulation", "ethical-considerations", "transparency", "accountability", "collaboration", "benefits-to-society")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$SJR6$sponsors <- list(
+    ChangS = calMembers$Y20192020$ChangS
+)
+aiBillData$Y20192020$SJR6$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$SJR6$dateStart <- as.Date("2019-03-11")
+aiBillData$Y20192020$SJR6$dateEnd <- as.Date("2020-07-09")
+aiBillData$Y20192020$SJR6$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$SJR6$version <- "Chaptered"
+aiBillData$Y20192020$SJR6$outcome <- "Chaptered"
+aiBillData$Y20192020$SJR6$chaptered <- TRUE
+aiBillData$Y20192020$SJR6$chapterNo <- 112
+aiBillData$Y20192020$SJR6$active <- FALSE
+aiBillData$Y20192020$SJR6$result <- "Chaptered"
+aiBillData$Y20192020$SJR6$vote <- "No Vote"
+aiBillData$Y20192020$SJR6$appropriation <- FALSE
+aiBillData$Y20192020$SJR6$fiscal <- FALSE
+aiBillData$Y20192020$SJR6$local <- FALSE
+aiBillData$Y20192020$SJR6$urgency <- FALSE
+aiBillData$Y20192020$SJR6$tax <- FALSE
+aiBillData$Y20192020$SJR6$action <- "Chaptered by Secretary of State. Chapter 112, Statutes of 2019"
+aiBillData$Y20192020$SJR6$pdf <- "20190SJR6_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$SJR6$text
+aiBillData$Y20192020$SJR6$aiDisposition <- "Supportive"
+aiBillData$Y20192020$SJR6$aiType <- "General"
+aiBillData$Y20192020$SJR6$aiSector <- "Governance"
+aiBillData$Y20192020$SJR6$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$SJR6$aiDomain <- "Ethics"
+aiBillData$Y20192020$SJR6$aiAccountability <- "Moderate"
+aiBillData$Y20192020$SJR6$aiImpact <- "Moderate"
+aiBillData$Y20192020$SJR6$aiEthics <- "Moderate"
+aiBillData$Y20192020$SJR6$aiInnovation <- "Low"
+aiBillData$Y20192020$SJR6$aiPrivacy <- "Low"
+aiBillData$Y20192020$SJR6$aiTransparency <- "Moderate"
+
