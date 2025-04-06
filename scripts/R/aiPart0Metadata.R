@@ -2238,3 +2238,60 @@ aiBillData$Y20212022$SB54$aiInnovation <- "Low"
 aiBillData$Y20212022$SB54$aiPrivacy <- "High"
 aiBillData$Y20212022$SB54$aiTransparency <- "High"
 
+### AB-1651 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB1651$text)
+
+# Topic from aiBillData$Y20212022$AB1651$status
+aiBillData$Y20212022$AB1651$topic <- "AB-1651 Worker rights: Workplace Technology Accountability Act"
+
+# Title from aiBillData$Y20212022$AB1651$status
+aiBillData$Y20212022$AB1651$title <- paste0(aiBillData$Y20212022$AB1651$title, "An act to amend Sections 12930 and 14203 of the Government Code, and to amend Section 90.5 of, and to add Part 5.6 (commencing with Section 1520) to Division 2 of, the Labor Code, relating to employment")
+
+# tldr for aiBillData$Y20212022$AB1651$text
+aiBillData$Y20212022$AB1651$tldr <- "AB-1651 establishes the Workplace Technology Accountability Act to protect worker rights in the face of advancing technology. It aims to ensure that employers are accountable for the use of technology in the workplace, particularly regarding surveillance and data collection practices. The bill focuses on promoting transparency and fairness in the use of technology that affects employees."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB1651$tags <- c("artificial-intelligence", "worker-rights", "workplace-technology", "accountability-act", "employment", "surveillance", "data-collection", "transparency", "fairness")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB1651$sponsors <- list(
+    KalraA = calMembers$Y20212022$KalraA
+)
+aiBillData$Y20212022$AB1651$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB1651$dateStart <- as.Date("2022-01-13")
+aiBillData$Y20212022$AB1651$dateEnd <- as.Date("2022-11-30")
+aiBillData$Y20212022$AB1651$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB1651$version <- "Amended Assembly"
+aiBillData$Y20212022$AB1651$outcome <- "Failed"
+aiBillData$Y20212022$AB1651$chaptered <- FALSE
+aiBillData$Y20212022$AB1651$chapterNo <- NA
+aiBillData$Y20212022$AB1651$active <- FALSE
+aiBillData$Y20212022$AB1651$result <- "Died"
+aiBillData$Y20212022$AB1651$vote <- "Majority"
+aiBillData$Y20212022$AB1651$appropriation <- FALSE
+aiBillData$Y20212022$AB1651$fiscal <- TRUE
+aiBillData$Y20212022$AB1651$local <- FALSE
+aiBillData$Y20212022$AB1651$urgency <- FALSE
+aiBillData$Y20212022$AB1651$tax <- FALSE
+aiBillData$Y20212022$AB1651$action <- "From committee without further action"
+aiBillData$Y20212022$AB1651$pdf <- "20210AB1651_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB1651$text
+aiBillData$Y20212022$AB1651$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB1651$aiType <- "General"
+aiBillData$Y20212022$AB1651$aiSector <- "Workplace Technology"
+aiBillData$Y20212022$AB1651$aiSubSector <- "Worker Rights"
+aiBillData$Y20212022$AB1651$aiDomain <- "Employment"
+aiBillData$Y20212022$AB1651$aiAccountability <- "High"
+aiBillData$Y20212022$AB1651$aiImpact <- "High"
+aiBillData$Y20212022$AB1651$aiEthics <- "High"
+aiBillData$Y20212022$AB1651$aiInnovation <- "Low"
+aiBillData$Y20212022$AB1651$aiPrivacy <- "High"
+aiBillData$Y20212022$AB1651$aiTransparency <- "High"
+
