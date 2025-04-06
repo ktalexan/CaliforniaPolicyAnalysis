@@ -1366,3 +1366,65 @@ aiBillData$Y20192020$AB3317$aiInnovation <- "Low"
 aiBillData$Y20192020$AB3317$aiPrivacy <- "Moderate"
 aiBillData$Y20192020$AB3317$aiTransparency <- "Moderate"
 
+### ACR-125 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$ACR125$text)
+
+# Topic from aiBillData$Y20192020$ACR125$status
+aiBillData$Y20192020$ACR125$topic <- "ACR-125 Bias and discrimination in hiring reduction through new technology"
+
+# Title from aiBillData$Y20192020$ACR125$status
+aiBillData$Y20192020$ACR125$title <- paste0(aiBillData$Y20192020$ACR125$title, "Relative to employment")
+
+# tldr for aiBillData$Y20192020$ACR125$text
+aiBillData$Y20192020$ACR125$tldr <- "ACR-125 is a resolution that addresses bias and discrimination in hiring practices through the use of new technology. It emphasizes the importance of ensuring that technology used in hiring processes is fair, transparent, and does not perpetuate existing biases. The resolution calls for the development of guidelines and best practices to mitigate bias in hiring algorithms and promote equitable employment opportunities."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$ACR125$tags <- c("artificial-intelligence", "bias", "discrimination", "hiring-reduction", "new-technology", "employment", "guidelines", "best-practices", "equitable-employment-opportunities")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$ACR125$sponsors <- list(
+    JonesSawyerA = calMembers$Y20192020$JonesSawyerA,
+    HoldenA = calMembers$Y20192020$HoldenA
+)
+aiBillData$Y20192020$ACR125$cosponsors <- list(
+    GonzalezS = calMembers$Y20192020$GonzalezS,
+    KamlagerA = calMembers$Y20192020$KamlagerA,
+    LowA = calMembers$Y20192020$LowA
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$ACR125$dateStart <- as.Date("2019-08-14")
+aiBillData$Y20192020$ACR125$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$ACR125$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$ACR125$version <- "Amended Assembly"
+aiBillData$Y20192020$ACR125$outcome <- "Failed"
+aiBillData$Y20192020$ACR125$chaptered <- FALSE
+aiBillData$Y20192020$ACR125$chapterNo <- NA
+aiBillData$Y20192020$ACR125$active <- FALSE
+aiBillData$Y20192020$ACR125$result <- "Died"
+aiBillData$Y20192020$ACR125$vote <- "No Vote"
+aiBillData$Y20192020$ACR125$appropriation <- FALSE
+aiBillData$Y20192020$ACR125$fiscal <- FALSE
+aiBillData$Y20192020$ACR125$local <- FALSE
+aiBillData$Y20192020$ACR125$urgency <- FALSE
+aiBillData$Y20192020$ACR125$tax <- FALSE
+aiBillData$Y20192020$ACR125$action <- "From Senate committee without further action"
+aiBillData$Y20192020$ACR125$pdf <- "20190ACR125_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$ACR125$text
+aiBillData$Y20192020$ACR125$aiDisposition <- "Supportive"
+aiBillData$Y20192020$ACR125$aiType <- "General"
+aiBillData$Y20192020$ACR125$aiSector <- "Employment"
+aiBillData$Y20192020$ACR125$aiSubSector <- "Hiring Practices"
+aiBillData$Y20192020$ACR125$aiDomain <- "Employment"
+aiBillData$Y20192020$ACR125$aiAccountability <- "Moderate"
+aiBillData$Y20192020$ACR125$aiImpact <- "Moderate"
+aiBillData$Y20192020$ACR125$aiEthics <- "Moderate"
+aiBillData$Y20192020$ACR125$aiInnovation <- "Low"
+aiBillData$Y20192020$ACR125$aiPrivacy <- "High"
+aiBillData$Y20192020$ACR125$aiTransparency <- "Moderate"
+
