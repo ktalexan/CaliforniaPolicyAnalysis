@@ -1656,3 +1656,60 @@ aiBillData$Y20192020$AB485$aiInnovation <- "Low"
 aiBillData$Y20192020$AB485$aiPrivacy <- "High"
 aiBillData$Y20192020$AB485$aiTransparency <- "High"
 
+### AB-3339 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$AB3339$text)
+
+# Topic from aiBillData$Y20192020$AB3339$status
+aiBillData$Y20192020$AB3339$topic <- "AB-3339 Kids Internet Design and Safety Act"
+
+# Title from aiBillData$Y20192020$AB3339$status
+aiBillData$Y20192020$AB3339$title <- paste0(aiBillData$Y20192020$AB3339$title, "An act to add Title 1.81.7 (commencing with Section 1798.300) to Part 4 of Division 3 of the Civil Code, relating to business")
+
+# tldr for aiBillData$Y20192020$AB3339$text
+aiBillData$Y20192020$AB3339$tldr <- "AB-3339 establishes the Kids Internet Design and Safety Act to protect children online. It aims to ensure that online platforms prioritize the safety and privacy of minors. The bill focuses on implementing design features that promote safe online experiences for children, including data protection and age-appropriate content."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB3339$tags <- c("artificial-intelligence", "kids-internet-design", "safety-act", "business", "online-safety", "privacy", "minors", "data-protection", "age-appropriate-content")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB3339$sponsors <- list(
+    WicksA = calMembers$Y20192020$WicksA
+)
+aiBillData$Y20192020$AB3339$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB3339$dateStart <- as.Date("2019-02-21")
+aiBillData$Y20192020$AB3339$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$AB3339$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB3339$version <- "Amended Assembly"
+aiBillData$Y20192020$AB3339$outcome <- "Failed"
+aiBillData$Y20192020$AB3339$chaptered <- FALSE
+aiBillData$Y20192020$AB3339$chapterNo <- NA
+aiBillData$Y20192020$AB3339$active <- FALSE
+aiBillData$Y20192020$AB3339$result <- "Died"
+aiBillData$Y20192020$AB3339$vote <- "Majority"
+aiBillData$Y20192020$AB3339$appropriation <- FALSE
+aiBillData$Y20192020$AB3339$fiscal <- TRUE
+aiBillData$Y20192020$AB3339$local <- FALSE
+aiBillData$Y20192020$AB3339$urgency <- FALSE
+aiBillData$Y20192020$AB3339$tax <- FALSE
+aiBillData$Y20192020$AB3339$action <- "From committee without further action"
+aiBillData$Y20192020$AB3339$pdf <- "20190AB3339_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB3339$text
+aiBillData$Y20192020$AB3339$aiDisposition <- "Restrictive"
+aiBillData$Y20192020$AB3339$aiType <- "Safety and Privacy"
+aiBillData$Y20192020$AB3339$aiSector <- "Children's Safety"
+aiBillData$Y20192020$AB3339$aiSubSector <- "Online Safety"
+aiBillData$Y20192020$AB3339$aiDomain <- "Safety and Privacy"
+aiBillData$Y20192020$AB3339$aiAccountability <- "High"
+aiBillData$Y20192020$AB3339$aiImpact <- "High"
+aiBillData$Y20192020$AB3339$aiEthics <- "High"
+aiBillData$Y20192020$AB3339$aiInnovation <- "Low"
+aiBillData$Y20192020$AB3339$aiPrivacy <- "High"
+aiBillData$Y20192020$AB3339$aiTransparency <- "High"
+
