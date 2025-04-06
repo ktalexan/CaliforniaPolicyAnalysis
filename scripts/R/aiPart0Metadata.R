@@ -1074,3 +1074,60 @@ aiBillData$Y20192020$AB976$aiInnovation <- "Low"
 aiBillData$Y20192020$AB976$aiPrivacy <- "Low"
 aiBillData$Y20192020$AB976$aiTransparency <- "Moderate"
 
+### AB-594 ####
+
+# open the url for the bill text in the default web browser
+browseURL(aiBillData$Y20192020$AB594$text)
+
+# Topic from aiBillData$Y20192020$AB594$status
+aiBillData$Y20192020$AB594$topic <- "AB-594 Artificial intelligence"
+
+# Title from aiBillData$Y20192020$AB594$status
+aiBillData$Y20192020$AB594$title <- paste0(aiBillData$Y20192020$AB594$title, "An act to add Section 11546.11 to the Government Code, relating to artificial intelligence")
+
+# tldr for aiBillData$Y20192020$AB594$text
+aiBillData$Y20192020$AB594$tldr <- "AB-594 establishes a framework for the responsible use of artificial intelligence in state government. The bill requires state agencies to develop guidelines for the ethical and transparent use of AI technologies. It emphasizes the importance of accountability, privacy, and public engagement in the deployment of AI systems in government operations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB594$tags <- c("artificial-intelligence", "state-government", "responsible-use", "framework", "ethical-use", "transparent-use", "accountability", "privacy", "public-engagement")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB594$sponsors <- list(
+    SalasA = calMembers$Y20192020$SalasA
+)
+aiBillData$Y20192020$AB594$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB594$dateStart <- as.Date("2019-02-14")
+aiBillData$Y20192020$AB594$dateEnd <- as.Date("2020-01-21")
+aiBillData$Y20192020$AB594$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB594$version <- "Enrolled"
+aiBillData$Y20192020$AB594$outcome <- "Failed"
+aiBillData$Y20192020$AB594$chaptered <- FALSE
+aiBillData$Y20192020$AB594$chapterNo <- NA
+aiBillData$Y20192020$AB594$active <- FALSE
+aiBillData$Y20192020$AB594$result <- "Vetoed"
+aiBillData$Y20192020$AB594$vote <- "Majority"
+aiBillData$Y20192020$AB594$appropriation <- FALSE
+aiBillData$Y20192020$AB594$fiscal <- TRUE
+aiBillData$Y20192020$AB594$local <- FALSE
+aiBillData$Y20192020$AB594$urgency <- FALSE
+aiBillData$Y20192020$AB594$tax <- FALSE
+aiBillData$Y20192020$AB594$action <- "Consideration of Governor's veto stricken from file"
+aiBillData$Y20192020$AB594$pdf <- "20190AB594_95.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB594$text
+aiBillData$Y20192020$AB594$aiDisposition <- "Supportive"
+aiBillData$Y20192020$AB594$aiType <- "General"
+aiBillData$Y20192020$AB594$aiSector <- "Governance"
+aiBillData$Y20192020$AB594$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$AB594$aiDomain <- "Ethics"
+aiBillData$Y20192020$AB594$aiAccountability <- "Moderate"
+aiBillData$Y20192020$AB594$aiImpact <- "Moderate"
+aiBillData$Y20192020$AB594$aiEthics <- "Moderate"
+aiBillData$Y20192020$AB594$aiInnovation <- "Low"
+aiBillData$Y20192020$AB594$aiPrivacy <- "Low"
+aiBillData$Y20192020$AB594$aiTransparency <- "Moderate"
+
