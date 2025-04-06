@@ -2162,3 +2162,79 @@ aiBillData$Y20212022$AB1400$aiInnovation <- "Low"
 aiBillData$Y20212022$AB1400$aiPrivacy <- "High"
 aiBillData$Y20212022$AB1400$aiTransparency <- "High"
 
+### SB-54 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$SB54$text)
+
+# Topic from aiBillData$Y20212022$SB54$status
+aiBillData$Y20212022$SB54$topic <- "SB-54 Solid waste: reporting, packaging, and plastic food service ware"
+
+# Title from aiBillData$Y20212022$SB54$status
+aiBillData$Y20212022$SB54$title <- paste0(aiBillData$Y20212022$SB54$title, "An act to amend Section 41821.5 of, to add Chapter 3 (commencing with Section 42040) to Part 3 of Division 30 of, and to repeal Section 42064 of, the Public Resources Code, relating to solid waste")
+
+# tldr for aiBillData$Y20212022$SB54$text
+aiBillData$Y20212022$SB54$tldr <- "SB-54 establishes regulations for solid waste management in California. It aims to improve reporting, packaging, and plastic food service ware practices. The bill focuses on reducing plastic waste and promoting sustainable materials in the food service industry."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$SB54$tags <- c("artificial-intelligence", "solid-waste", "reporting", "packaging", "plastic-food-service-ware", "public-resources-code", "sustainable-materials", "plastic-waste")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$SB54$sponsors <- list(
+    AllenS = calMembers$Y20212022$AllenS,
+    HertzbergS = calMembers$Y20212022$HertzbergS,
+    RivasLA = calMembers$Y20212022$RivasLA,
+    SkinnerS = calMembers$Y20212022$SkinnerS,
+    SternS = calMembers$Y20212022$SternS,
+    WienerS = calMembers$Y20212022$WienerS
+)
+# Friedman (A) , Gonzalez (S) , Grayson (A) , Muratsuchi (A) , Ting (A), Becker (S) , Boerner Horvath (A) , Carrillo (A) , Irwin (A) , Kamlager (S) , McCarty (A) , Wood (A)
+aiBillData$Y20212022$SB54$cosponsors <- list(
+    FriedmanA = calMembers$Y20212022$FriedmanA,
+    GonzalezS = calMembers$Y20212022$GonzalezS,
+    GraysonA = calMembers$Y20212022$GraysonA,
+    MuratsuchiA = calMembers$Y20212022$MuratsuchiA
+    TingA = calMembers$Y20212022$TingA,
+    BeckerS = calMembers$Y20212022$BeckerS,
+    HorvathA = calMembers$Y20212022$HorvathA,
+    CarrilloA = calMembers$Y20212022$CarrilloA,
+    IrwinA = calMembers$Y20212022$IrwinA,
+    KamlagerS = calMembers$Y20212022$KamlagerS,
+    McCartyA = calMembers$Y20212022$McCartyA,
+    WoodA = calMembers$Y20212022$WoodA
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$SB54$dateStart <- as.Date("2020-12-07")
+aiBillData$Y20212022$SB54$dateEnd <- as.Date("2022-06-30")
+aiBillData$Y20212022$SB54$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$SB54$version <- "Chaptered"
+aiBillData$Y20212022$SB54$outcome <- "Chaptered"
+aiBillData$Y20212022$SB54$chaptered <- TRUE
+aiBillData$Y20212022$SB54$chapterNo <- 75
+aiBillData$Y20212022$SB54$active <- FALSE
+aiBillData$Y20212022$SB54$result <- "Chaptered"
+aiBillData$Y20212022$SB54$vote <- "Two Thirds"
+aiBillData$Y20212022$SB54$appropriation <- FALSE
+aiBillData$Y20212022$SB54$fiscal <- TRUE
+aiBillData$Y20212022$SB54$local <- TRUE
+aiBillData$Y20212022$SB54$urgency <- FALSE
+aiBillData$Y20212022$SB54$tax <- FALSE
+aiBillData$Y20212022$SB54$action <- "Chaptered by Secretary of State - Chapter 75, Statutes of 2022"
+aiBillData$Y20212022$SB54$pdf <- "20210SB54_93.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$SB54$text
+aiBillData$Y20212022$SB54$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$SB54$aiType <- "General"
+aiBillData$Y20212022$SB54$aiSector <- "Solid Waste Management"
+aiBillData$Y20212022$SB54$aiSubSector <- "Plastic Waste Reduction"
+aiBillData$Y20212022$SB54$aiDomain <- "Waste Management"
+aiBillData$Y20212022$SB54$aiAccountability <- "High"
+aiBillData$Y20212022$SB54$aiImpact <- "High"
+aiBillData$Y20212022$SB54$aiEthics <- "High"
+aiBillData$Y20212022$SB54$aiInnovation <- "Low"
+aiBillData$Y20212022$SB54$aiPrivacy <- "High"
+aiBillData$Y20212022$SB54$aiTransparency <- "High"
+
