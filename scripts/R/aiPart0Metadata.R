@@ -2700,3 +2700,60 @@ aiBillData$Y20232024$AB2013$aiInnovation <- "Low"
 aiBillData$Y20232024$AB2013$aiPrivacy <- "High"
 aiBillData$Y20232024$AB2013$aiTransparency <- "High"
 
+### AB-2811 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20232024$AB2811$text)
+
+# Topic from aiBillData$Y20232024$AB2811$status
+aiBillData$Y20232024$AB2811$topic <- "AB-2811 Attorneys: court filings: artificial intelligence"
+
+# Title from aiBillData$Y20232024$AB2811$status
+aiBillData$Y20232024$AB2811$title <- paste0(aiBillData$Y20232024$AB2811$title, "An act to add Section 6068.1 to the Business and Professions Code, relating to artificial intelligence")
+
+# tldr for aiBillData$Y20232024$AB2811$text
+aiBillData$Y20232024$AB2811$tldr <- "AB-2811 requires attorneys to disclose the use of artificial intelligence in court filings. It mandates that lawyers inform the court and opposing parties if AI tools were utilized in drafting legal documents, ensuring transparency and accountability in legal proceedings."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20232024$AB2811$tags <- c("artificial-intelligence", "attorneys", "court-filings", "disclosure", "transparency", "accountability", "legal-proceedings")
+
+# sponsors and cosponsors
+aiBillData$Y20232024$AB2811$sponsors <- list(
+    LowenthalA = calMembers$Y20232024$LowenthalA
+)
+aiBillData$Y20232024$AB2811$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20232024$AB2811$dateStart <- as.Date("2024-02-15")
+aiBillData$Y20232024$AB2811$dateEnd <- as.Date("2024-11-30")
+aiBillData$Y20232024$AB2811$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20232024$AB2811$version <- "Amended Assembly"
+aiBillData$Y20232024$AB2811$outcome <- "Failed"
+aiBillData$Y20232024$AB2811$chaptered <- FALSE
+aiBillData$Y20232024$AB2811$chapterNo <- NA
+aiBillData$Y20232024$AB2811$active <- FALSE
+aiBillData$Y20232024$AB2811$result <- "Died"
+aiBillData$Y20232024$AB2811$vote <- "Majority"
+aiBillData$Y20232024$AB2811$appropriation <- FALSE
+aiBillData$Y20232024$AB2811$fiscal <- TRUE
+aiBillData$Y20232024$AB2811$local <- FALSE
+aiBillData$Y20232024$AB2811$urgency <- FALSE
+aiBillData$Y20232024$AB2811$tax <- FALSE
+aiBillData$Y20232024$AB2811$action <- "From committee without further action"
+aiBillData$Y20232024$AB2811$pdf <- "2023AB2811_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20232024$AB2811$text
+aiBillData$Y20232024$AB2811$aiDisposition <- "Restrictive"
+aiBillData$Y20232024$AB2811$aiType <- "Generative"
+aiBillData$Y20232024$AB2811$aiSector <- "Legal"
+aiBillData$Y20232024$AB2811$aiSubSector <- "Legal AI"
+aiBillData$Y20232024$AB2811$aiDomain <- "Legal AI Management"
+aiBillData$Y20232024$AB2811$aiAccountability <- "High"
+aiBillData$Y20232024$AB2811$aiImpact <- "High"
+aiBillData$Y20232024$AB2811$aiEthics <- "High"
+aiBillData$Y20232024$AB2811$aiInnovation <- "Low"
+aiBillData$Y20232024$AB2811$aiPrivacy <- "High"
+aiBillData$Y20232024$AB2811$aiTransparency <- "High"
+
