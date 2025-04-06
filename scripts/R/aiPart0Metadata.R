@@ -1192,3 +1192,63 @@ aiBillData$Y20192020$SB730$aiEthics <- "Moderate"
 aiBillData$Y20192020$SB730$aiInnovation <- "Low"
 aiBillData$Y20192020$SB730$aiPrivacy <- "Low"
 aiBillData$Y20192020$SB730$aiTransparency <- "Moderate"
+
+### SB-444 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$SB444$text)
+
+# Topic from aiBillData$Y20192020$SB444$status
+aiBillData$Y20192020$SB444$topic <- "SB-444 University of California: Berkeley and Irvine law schools: Pro Se Indigent Litigant Research Program"
+
+# Title from aiBillData$Y20192020$SB444$status
+aiBillData$Y20192020$SB444$title <- paste0(aiBillData$Y20192020$SB444$title, "An act to add Article 7.9 (commencing with Section 92685) to Chapter 6 of Part 57 of Division 9 of Title 3 of the Education Code, relating to the University of California")
+
+# tldr for aiBillData$Y20192020$SB444$text
+aiBillData$Y20192020$SB444$tldr <- "SB-444 establishes a Pro Se Indigent Litigant Research Program at the University of California, Berkeley and Irvine law schools. The program aims to provide legal assistance and resources to self-represented indigent litigants. It focuses on improving access to justice for low-income individuals and enhancing their understanding of the legal system."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$SB444$tags <- c("artificial-intelligence", "university-of-california", "berkeley", "irvine", "law-schools", "pro-se-indigent-litigant-research-program", "legal-assistance", "self-represented-litigants", "access-to-justice", "low-income-individuals")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$SB444$sponsors <- list(
+    UmbergS = calMembers$Y20192020$UmbergS
+)
+aiBillData$Y20192020$SB444$cosponsors <- list(
+    SternS = calMembers$Y20192020$SternS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$SB444$dateStart <- as.Date("2019-02-21")
+aiBillData$Y20192020$SB444$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$SB444$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$SB444$version <- "Amended Assembly"
+aiBillData$Y20192020$SB444$outcome <- "Failed"
+aiBillData$Y20192020$SB444$chaptered <- FALSE
+aiBillData$Y20192020$SB444$chapterNo <- NA
+aiBillData$Y20192020$SB444$active <- FALSE
+aiBillData$Y20192020$SB444$result <- "Died"
+aiBillData$Y20192020$SB444$vote <- "Majority"
+aiBillData$Y20192020$SB444$appropriation <- FALSE
+aiBillData$Y20192020$SB444$fiscal <- TRUE
+aiBillData$Y20192020$SB444$local <- FALSE
+aiBillData$Y20192020$SB444$urgency <- FALSE
+aiBillData$Y20192020$SB444$tax <- FALSE
+aiBillData$Y20192020$SB444$action <- "From Assembly without further action"
+aiBillData$Y20192020$SB444$pdf <- "20190SB444_94.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$SB444$text
+aiBillData$Y20192020$SB444$aiDisposition <- "Supportive"
+aiBillData$Y20192020$SB444$aiType <- "General"
+aiBillData$Y20192020$SB444$aiSector <- "Education"
+aiBillData$Y20192020$SB444$aiSubSector <- "Law and Policy"
+aiBillData$Y20192020$SB444$aiDomain <- "Legal"
+aiBillData$Y20192020$SB444$aiAccountability <- "Moderate"
+aiBillData$Y20192020$SB444$aiImpact <- "Moderate"
+aiBillData$Y20192020$SB444$aiEthics <- "Moderate"
+aiBillData$Y20192020$SB444$aiInnovation <- "Low"
+aiBillData$Y20192020$SB444$aiPrivacy <- "Low"
+aiBillData$Y20192020$SB444$aiTransparency <- "Moderate"
+
