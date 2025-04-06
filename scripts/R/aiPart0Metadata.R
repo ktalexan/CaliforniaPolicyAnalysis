@@ -2084,3 +2084,81 @@ aiBillData$Y20212022$AB1545$aiInnovation <- "Low"
 aiBillData$Y20212022$AB1545$aiPrivacy <- "High"
 aiBillData$Y20212022$AB1545$aiTransparency <- "High"
 
+### AB-1400 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB1400$text)
+
+# Topic from aiBillData$Y20212022$AB1400$status
+aiBillData$Y20212022$AB1400$topic <- "AB-1400 Guaranteed Health Care for All"
+
+# Title from aiBillData$Y20212022$AB1400$status
+aiBillData$Y20212022$AB1400$title <- paste0(aiBillData$Y20212022$AB1400$title, "An act to add Title 23 (commencing with Section 100600) to the Government Code, relating to health care coverage, and making an appropriation therefor")
+
+# tldr for aiBillData$Y20212022$AB1400$text
+aiBillData$Y20212022$AB1400$tldr <- "AB-1400 establishes the Guaranteed Health Care for All program in California. It aims to provide comprehensive health care coverage to all residents, ensuring access to necessary medical services without financial barriers. The bill focuses on creating a single-payer health care system that prioritizes equity and affordability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB1400$tags <- c("artificial-intelligence", "guaranteed-health-care", "health-care-coverage", "government-code", "single-payer-system", "equity", "affordability", "comprehensive-health-care")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB1400$sponsors <- list(
+    KalraA = calMembers$Y20212022$KalraA,
+    LeeA = calMembers$Y20212022$LeeA,
+    SantiagoA = calMembers$Y20212022$SantiagoA    
+)
+aiBillData$Y20212022$AB1400$cosponsors <- list(
+    BryanA = calMembers$Y20212022$BryanA,
+    CarrilloA = calMembers$Y20212022$CarrilloA,
+    ChiuA = calMembers$Y20212022$ChiuA,
+    GonzalezS = calMembers$Y20212022$GonzalezS,
+    McGuireS = calMembers$Y20212022$McGuireS,
+    TingA = calMembers$Y20212022$TingA,
+    WienerS = calMembers$Y20212022$WienerS,
+    BeckerS = calMembers$Y20212022$BeckerS,
+    BontaM = calMembers$Y20212022$BontaM,
+    CorteseS = calMembers$Y20212022$CorteseS,
+    FriedmanA = calMembers$Y20212022$FriedmanA,
+    KamlagerS = calMembers$Y20212022$KamlagerS,
+    LairdS = calMembers$Y20212022$LairdS,
+    McCartyA = calMembers$Y20212022$McCartyA,
+    NazarianA = calMembers$Y20212022$NazarianA,
+    RivasLA = calMembers$Y20212022$RivasLA,
+    WicksA = calMembers$Y20212022$WicksA,
+    WieckowskiS = calMembers$Y20212022$WieckowskiS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB1400$dateStart <- as.Date("2021-02-19")
+aiBillData$Y20212022$AB1400$dateEnd <- as.Date("2022-02-01")
+aiBillData$Y20212022$AB1400$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB1400$version <- "Amended Assembly"
+aiBillData$Y20212022$AB1400$outcome <- "Failed"
+aiBillData$Y20212022$AB1400$chaptered <- FALSE
+aiBillData$Y20212022$AB1400$chapterNo <- NA
+aiBillData$Y20212022$AB1400$active <- FALSE
+aiBillData$Y20212022$AB1400$result <- "Died"
+aiBillData$Y20212022$AB1400$vote <- "Majority"
+aiBillData$Y20212022$AB1400$appropriation <- TRUE
+aiBillData$Y20212022$AB1400$fiscal <- TRUE
+aiBillData$Y20212022$AB1400$local <- FALSE
+aiBillData$Y20212022$AB1400$urgency <- FALSE
+aiBillData$Y20212022$AB1400$tax <- FALSE
+aiBillData$Y20212022$AB1400$action <- "Died on third reading file"
+aiBillData$Y20212022$AB1400$pdf <- "20210AB1400_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB1400$text
+aiBillData$Y20212022$AB1400$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB1400$aiType <- "Medical"
+aiBillData$Y20212022$AB1400$aiSector <- "Health Care"
+aiBillData$Y20212022$AB1400$aiSubSector <- "Health Coverage"
+aiBillData$Y20212022$AB1400$aiDomain <- "Health Care"
+aiBillData$Y20212022$AB1400$aiAccountability <- "High"
+aiBillData$Y20212022$AB1400$aiImpact <- "High"
+aiBillData$Y20212022$AB1400$aiEthics <- "High"
+aiBillData$Y20212022$AB1400$aiInnovation <- "Low"
+aiBillData$Y20212022$AB1400$aiPrivacy <- "High"
+aiBillData$Y20212022$AB1400$aiTransparency <- "High"
+
