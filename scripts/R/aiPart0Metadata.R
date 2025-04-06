@@ -2757,3 +2757,64 @@ aiBillData$Y20232024$AB2811$aiInnovation <- "Low"
 aiBillData$Y20232024$AB2811$aiPrivacy <- "High"
 aiBillData$Y20232024$AB2811$aiTransparency <- "High"
 
+### SB-893 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20232024$SB893$text)
+
+# Topic from aiBillData$Y20232024$SB893$status
+aiBillData$Y20232024$SB893$topic <- "SB-893 California Artificial Intelligence Research Hub"
+
+# Title from aiBillData$Y20232024$SB893$status
+aiBillData$Y20232024$SB893$title <- paste0(aiBillData$Y20232024$SB893$title, "An act to add Chapter 5.1 (commencing with Section 11530) to Part 1 of Division 3 of Title 2 of the Government Code, relating to artificial intelligence")
+
+# tldr for aiBillData$Y20232024$SB893$text
+aiBillData$Y20232024$SB893$tldr <- "SB-893 establishes the California Artificial Intelligence Research Hub to promote AI research and development. The hub will facilitate collaboration among researchers, industry, and government agencies to advance AI technologies and ensure their responsible use in California."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20232024$SB893$tags <- c("artificial-intelligence", "research-hub", "collaboration", "responsible-use", "AI-technologies", "development", "government-agencies")
+
+# sponsors and cosponsors
+aiBillData$Y20232024$SB893$sponsors <- list(
+    PadillaS = calMembers$Y20232024$PadillaS
+)
+
+aiBillData$Y20232024$SB893$cosponsors <- list(
+    DoddS = calMembers$Y20232024$DoddS,
+    RubioS = calMembers$Y20232024$RubioS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20232024$SB893$dateStart <- as.Date("2024-01-03")
+aiBillData$Y20232024$SB893$dateEnd <- as.Date("2024-11-30")
+aiBillData$Y20232024$SB893$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20232024$SB893$version <- "Amended Assembly"
+aiBillData$Y20232024$SB893$outcome <- "Failed"
+aiBillData$Y20232024$SB893$chaptered <- FALSE
+aiBillData$Y20232024$SB893$chapterNo <- NA
+aiBillData$Y20232024$SB893$active <- FALSE
+aiBillData$Y20232024$SB893$result <- "Died"
+aiBillData$Y20232024$SB893$vote <- "Majority"
+aiBillData$Y20232024$SB893$appropriation <- FALSE
+aiBillData$Y20232024$SB893$fiscal <- TRUE
+aiBillData$Y20232024$SB893$local <- FALSE
+aiBillData$Y20232024$SB893$urgency <- FALSE
+aiBillData$Y20232024$SB893$tax <- FALSE
+aiBillData$Y20232024$SB893$action <- "From Assembly without further action"
+aiBillData$Y20232024$SB893$pdf <- "2023SB893_96.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20232024$SB893$text
+aiBillData$Y20232024$SB893$aiDisposition <- "Restrictive"
+aiBillData$Y20232024$SB893$aiType <- "General"
+aiBillData$Y20232024$SB893$aiSector <- "Research"
+aiBillData$Y20232024$SB893$aiSubSector <- "AI Research"
+aiBillData$Y20232024$SB893$aiDomain <- "AI Research Management"
+aiBillData$Y20232024$SB893$aiAccountability <- "High"
+aiBillData$Y20232024$SB893$aiImpact <- "High"
+aiBillData$Y20232024$SB893$aiEthics <- "High"
+aiBillData$Y20232024$SB893$aiInnovation <- "Low"
+aiBillData$Y20232024$SB893$aiPrivacy <- "High"
+aiBillData$Y20232024$SB893$aiTransparency <- "High"
+
