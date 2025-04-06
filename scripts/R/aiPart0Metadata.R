@@ -1830,3 +1830,71 @@ aiBillData$Y20212022$AB2224$aiInnovation <- "Low"
 aiBillData$Y20212022$AB2224$aiPrivacy <- "Moderate"
 aiBillData$Y20212022$AB2224$aiTransparency <- "Moderate"
 
+### AB-587 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB587$text)
+
+# Topic from aiBillData$Y20212022$AB587$status
+aiBillData$Y20212022$AB587$topic <- "AB-587 Social media companies: terms of service"
+
+# Title from aiBillData$Y20212022$AB587$status
+aiBillData$Y20212022$AB587$title <- paste0(aiBillData$Y20212022$AB587$title, "An act to add Chapter 22.8 (commencing with Section 22675) to Division 8 of the Business and Professions Code, relating to social media")
+
+# tldr for aiBillData$Y20212022$AB587$text
+aiBillData$Y20212022$AB587$tldr <- "AB-587 establishes regulations for social media companies regarding their terms of service. It aims to ensure transparency and fairness in the use of social media platforms. The bill focuses on protecting users' rights and promoting ethical practices in the social media industry."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB587$tags <- c("artificial-intelligence", "social-media", "terms-of-service", "business-and-professions-code", "transparency", "fairness", "users-rights", "ethical-practices")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB587$sponsors <- (
+    GabrielA = calMembers$Y20212022$GabrielA
+)
+aiBillData$Y20212022$AB587$cosponsors <- list(
+    CunninghamA = calMembers$Y20212022$CunninghamA,
+    BauerKahnA = calMembers$Y20212022$BauerKahnA,
+    LeeA = calMembers$Y20212022$LeeA,
+    McCartyA = calMembers$Y20212022$McCartyA,
+    PanS = calMembers$Y20212022$PanS,
+    RivasRA = calMembers$Y20212022$RivasRA,
+    SternS = calMembers$Y20212022$SternS,
+    WardA = calMembers$Y20212022$WardA,
+    WicksA = calMembers$Y20212022$WicksA,
+    WienerS = calMembers$Y20212022$WienerS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB587$dateStart <- as.Date("2021-02-11")
+aiBillData$Y20212022$AB587$dateEnd <- as.Date("2022-09-13")
+aiBillData$Y20212022$AB587$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB587$version <- "Chaptered"
+aiBillData$Y20212022$AB587$outcome <- "Chaptered"
+aiBillData$Y20212022$AB587$chaptered <- TRUE
+aiBillData$Y20212022$AB587$chapterNo <- 269
+aiBillData$Y20212022$AB587$active <- FALSE
+aiBillData$Y20212022$AB587$result <- "Chaptered"
+aiBillData$Y20212022$AB587$vote <- "Majority"
+aiBillData$Y20212022$AB587$appropriation <- FALSE
+aiBillData$Y20212022$AB587$fiscal <- TRUE
+aiBillData$Y20212022$AB587$local <- FALSE
+aiBillData$Y20212022$AB587$urgency <- FALSE
+aiBillData$Y20212022$AB587$tax <- FALSE
+aiBillData$Y20212022$AB587$action <- "Chaptered by Secretary of State - Chapter 269, Statutes of 2022"
+aiBillData$Y20212022$AB587$pdf <- "20210AB587_91.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB587$text
+aiBillData$Y20212022$AB587$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB587$aiType <- "General"
+aiBillData$Y20212022$AB587$aiSector <- "Social Media"
+aiBillData$Y20212022$AB587$aiSubSector <- "Terms of Service"
+aiBillData$Y20212022$AB587$aiDomain <- "Social Media"
+aiBillData$Y20212022$AB587$aiAccountability <- "High"
+aiBillData$Y20212022$AB587$aiImpact <- "High"
+aiBillData$Y20212022$AB587$aiEthics <- "High"
+aiBillData$Y20212022$AB587$aiInnovation <- "Low"
+aiBillData$Y20212022$AB587$aiPrivacy <- "High"
+aiBillData$Y20212022$AB587$aiTransparency <- "High"
+
