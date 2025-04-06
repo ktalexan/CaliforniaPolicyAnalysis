@@ -944,3 +944,59 @@ aiBillData$Y20192020$AB459$aiInnovation <- "Low"
 aiBillData$Y20192020$AB459$aiPrivacy <- "Low"
 aiBillData$Y20192020$AB459$aiTransparency <- "Moderate"
 
+### AB-1576 ####
+
+print(aiBillData$Y20192020$AB1576$text)
+
+# Topic from aiBillData$Y20192020$AB1576$status
+aiBillData$Y20192020$AB1576$topic <- "AB-1576 Secretary of Government Operations: working group: technology"
+
+# Title from aiBillData$Y20192020$AB1576$status
+aiBillData$Y20192020$AB1576$title <- paste0(aiBillData$Y20192020$AB1576$title, "An act to add and repeal Section 11547.5 of the Government Code, relating to technology")
+
+# tldr for aiBillData$Y20192020$AB1576$text
+aiBillData$Y20192020$AB1576$tldr <- "AB-1576 establishes a working group within the Office of the Secretary of Government Operations to assess and recommend best practices for the use of technology in state government. The working group will focus on improving efficiency, transparency, and accountability in government operations through the effective use of technology. The bill aims to enhance public services and ensure that technology is used responsibly and ethically."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB1576$tags <- c("artificial-intelligence", "state-government", "technology", "working-group", "efficiency", "transparency", "accountability", "public-services", "responsible-use", "ethical-use")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB1576$sponsors <- list(
+    CalderonA = calMembers$Y20192020$CalderonA
+)
+aiBillData$Y20192020$AB1576$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB1576$dateStart <- as.Date("2019-02-22")
+aiBillData$Y20192020$AB1576$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$AB1576$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB1576$version <- "Amended Senate"
+aiBillData$Y20192020$AB1576$outcome <- "Failed"
+aiBillData$Y20192020$AB1576$chaptered <- FALSE
+aiBillData$Y20192020$AB1576$chapterNo <- NA
+aiBillData$Y20192020$AB1576$active <- FALSE
+aiBillData$Y20192020$AB1576$result <- "Died"
+aiBillData$Y20192020$AB1576$vote <- "Majority"
+aiBillData$Y20192020$AB1576$appropriation <- FALSE
+aiBillData$Y20192020$AB1576$fiscal <- TRUE
+aiBillData$Y20192020$AB1576$local <- FALSE
+aiBillData$Y20192020$AB1576$urgency <- FALSE
+aiBillData$Y20192020$AB1576$tax <- FALSE
+aiBillData$Y20192020$AB1576$action <- "From Senate committee without further action"
+aiBillData$Y20192020$AB1576$pdf <- "20190AB1576_95.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB1576$text
+aiBillData$Y20192020$AB1576$aiDisposition <- "Supportive"
+aiBillData$Y20192020$AB1576$aiType <- "General"
+aiBillData$Y20192020$AB1576$aiSector <- "Governance"
+aiBillData$Y20192020$AB1576$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$AB1576$aiDomain <- "Ethics"
+aiBillData$Y20192020$AB1576$aiAccountability <- "Moderate"
+aiBillData$Y20192020$AB1576$aiImpact <- "Moderate"
+aiBillData$Y20192020$AB1576$aiEthics <- "Moderate"
+aiBillData$Y20192020$AB1576$aiInnovation <- "Low"
+aiBillData$Y20192020$AB1576$aiPrivacy <- "Low"
+aiBillData$Y20192020$AB1576$aiTransparency <- "Moderate"
+
