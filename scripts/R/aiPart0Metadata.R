@@ -1309,3 +1309,60 @@ aiBillData$Y20192020$AB156$aiInnovation <- "Low"
 aiBillData$Y20192020$AB156$aiPrivacy <- "Low"
 aiBillData$Y20192020$AB156$aiTransparency <- "Low"
 
+### AB-3317 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$AB3317$text)
+
+# Topic from aiBillData$Y20192020$AB3317$status
+aiBillData$Y20192020$AB3317$topic <- "AB-3317 Unfair and deceptive practices"
+
+# Title from aiBillData$Y20192020$AB3317$status
+aiBillData$Y20192020$AB3317$title <- paste0(aiBillData$Y20192020$AB3317$title, "An act to amend Section 1770 of the Civil Code, relating to unfair business practices")
+
+# tldr for aiBillData$Y20192020$AB3317$text
+aiBillData$Y20192020$AB3317$tldr <- "AB-3317 amends the Civil Code to address unfair and deceptive practices in business. The bill aims to protect consumers from misleading advertising and fraudulent practices. It focuses on enhancing consumer rights and ensuring fair business practices in California."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB3317$tags <- c("artificial-intelligence", "unfair-business-practices", "deceptive-practices", "civil-code", "consumer-protection", "misleading-advertising", "fraudulent-practices", "consumer-rights", "fair-business-practices")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB3317$sponsors <- list(
+    WicksA = calMembers$Y20192020$WicksA
+)
+aiBillData$Y20192020$AB3317$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB3317$dateStart <- as.Date("2019-02-21")
+aiBillData$Y20192020$AB3317$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$AB3317$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB3317$version <- "Amended Assembly"
+aiBillData$Y20192020$AB3317$outcome <- "Failed"
+aiBillData$Y20192020$AB3317$chaptered <- FALSE
+aiBillData$Y20192020$AB3317$chapterNo <- NA
+aiBillData$Y20192020$AB3317$active <- FALSE
+aiBillData$Y20192020$AB3317$result <- "Died"
+aiBillData$Y20192020$AB3317$vote <- "Majority"
+aiBillData$Y20192020$AB3317$appropriation <- FALSE
+aiBillData$Y20192020$AB3317$fiscal <- TRUE
+aiBillData$Y20192020$AB3317$local <- FALSE
+aiBillData$Y20192020$AB3317$urgency <- FALSE
+aiBillData$Y20192020$AB3317$tax <- FALSE
+aiBillData$Y20192020$AB3317$action <- "From committee without further action"
+aiBillData$Y20192020$AB3317$pdf <- "20190AB3317_98.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB3317$text
+aiBillData$Y20192020$AB3317$aiDisposition <- "Restrictive"
+aiBillData$Y20192020$AB3317$aiType <- "General"
+aiBillData$Y20192020$AB3317$aiSector <- "Business"
+aiBillData$Y20192020$AB3317$aiSubSector <- "Consumer Protection"
+aiBillData$Y20192020$AB3317$aiDomain <- "Commerce"
+aiBillData$Y20192020$AB3317$aiAccountability <- "Moderate"
+aiBillData$Y20192020$AB3317$aiImpact <- "Moderate"
+aiBillData$Y20192020$AB3317$aiEthics <- "Moderate"
+aiBillData$Y20192020$AB3317$aiInnovation <- "Low"
+aiBillData$Y20192020$AB3317$aiPrivacy <- "Moderate"
+aiBillData$Y20192020$AB3317$aiTransparency <- "Moderate"
+
