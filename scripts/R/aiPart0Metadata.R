@@ -2643,3 +2643,60 @@ aiBillData$Y20232024$SB1288$aiInnovation <- "Low"
 aiBillData$Y20232024$SB1288$aiPrivacy <- "High"
 aiBillData$Y20232024$SB1288$aiTransparency <- "High"
 
+### AB-2013 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20232024$AB2013$text)
+
+# Topic from aiBillData$Y20232024$AB2013$status
+aiBillData$Y20232024$AB2013$topic <- "AB-2013 Generative artificial intelligence: training data transparency"
+
+# Title from aiBillData$Y20232024$AB2013$status
+aiBillData$Y20232024$AB2013$title <- paste0(aiBillData$Y20232024$AB2013$title, "An act to add Title 15.2 (commencing with Section 3110) to Part 4 of Division 3 of the Civil Code, relating to artificial intelligence")
+
+# tldr for aiBillData$Y20232024$AB2013$text
+aiBillData$Y20232024$AB2013$tldr <- "AB-2013 mandates transparency in the training data used for generative artificial intelligence systems. It requires companies to disclose the sources and types of data utilized in training their AI models, ensuring accountability and ethical practices in AI development."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20232024$AB2013$tags <- c("artificial-intelligence", "generative-ai", "training-data", "transparency", "accountability", "ethical-practices", "data-sources")
+
+# sponsors and cosponsors
+aiBillData$Y20232024$AB2013$sponsors <- list(
+    IrwinA = calMembers$Y20232024$IrwinA
+)
+aiBillData$Y20232024$AB2013$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20232024$AB2013$dateStart <- as.Date("2024-01-31")
+aiBillData$Y20232024$AB2013$dateEnd <- as.Date("2024-09-28")
+aiBillData$Y20232024$AB2013$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20232024$AB2013$version <- "Chaptered"
+aiBillData$Y20232024$AB2013$outcome <- "Chaptered"
+aiBillData$Y20232024$AB2013$chaptered <- TRUE
+aiBillData$Y20232024$AB2013$chapterNo <- 817
+aiBillData$Y20232024$AB2013$active <- FALSE
+aiBillData$Y20232024$AB2013$result <- "Chaptered"
+aiBillData$Y20232024$AB2013$vote <- "Majority"
+aiBillData$Y20232024$AB2013$appropriation <- FALSE
+aiBillData$Y20232024$AB2013$fiscal <- FALSE
+aiBillData$Y20232024$AB2013$local <- FALSE
+aiBillData$Y20232024$AB2013$urgency <- FALSE
+aiBillData$Y20232024$AB2013$tax <- FALSE
+aiBillData$Y20232024$AB2013$action <- "Chaptered by Secretary of State - Chapter 817, Statutes of 2024"
+aiBillData$Y20232024$AB2013$pdf <- "20230AB2013_93.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20232024$AB2013$text
+aiBillData$Y20232024$AB2013$aiDisposition <- "Restrictive"
+aiBillData$Y20232024$AB2013$aiType <- "Generative"
+aiBillData$Y20232024$AB2013$aiSector <- "General"
+aiBillData$Y20232024$AB2013$aiSubSector <- "Generative AI"
+aiBillData$Y20232024$AB2013$aiDomain <- "Generative AI Management"
+aiBillData$Y20232024$AB2013$aiAccountability <- "High"
+aiBillData$Y20232024$AB2013$aiImpact <- "High"
+aiBillData$Y20232024$AB2013$aiEthics <- "High"
+aiBillData$Y20232024$AB2013$aiInnovation <- "Low"
+aiBillData$Y20232024$AB2013$aiPrivacy <- "High"
+aiBillData$Y20232024$AB2013$aiTransparency <- "High"
+
