@@ -1428,3 +1428,60 @@ aiBillData$Y20192020$ACR125$aiInnovation <- "Low"
 aiBillData$Y20192020$ACR125$aiPrivacy <- "High"
 aiBillData$Y20192020$ACR125$aiTransparency <- "Moderate"
 
+### SCR-13 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20192020$SCR13$text)
+
+# Topic from aiBillData$Y20192020$SCR13$status
+aiBillData$Y20192020$SCR13$topic <- "SCR-13 International Women’s Day"
+
+# Title from aiBillData$Y20192020$SCR13$status
+aiBillData$Y20192020$SCR13$title <- paste0(aiBillData$Y20192020$SCR13$title, "Relative to International Women’s Day")
+
+# tldr for aiBillData$Y20192020$SCR13$text
+aiBillData$Y20192020$SCR13$tldr <- "SCR-13 designates March 8, 2019, as International Women’s Day in California, recognizing its historical roots in labor movements and activism for women’s rights. It highlights progress in gender equality, ongoing challenges like the gender digital divide, and the importance of innovation and technology in empowering women. The resolution calls for reflection, celebration, and continued efforts toward achieving gender equality."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$SCR13$tags <- c("artificial-intelligence", "international-womens-day", "labor-movements", "activism", "gender-equality", "digital-divide", "innovation", "technology", "empowering-women", "reflection", "celebration", "continued-efforts")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$SCR13$sponsors <- list(
+    JacksonS = calMembers$Y20192020$JacksonS
+)
+aiBillData$Y20192020$SCR13$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$SCR13$dateStart <- as.Date("2019-02-14")
+aiBillData$Y20192020$SCR13$dateEnd <- as.Date("2020-03-27")
+aiBillData$Y20192020$SCR13$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$SCR13$version <- "Chaptered"
+aiBillData$Y20192020$SCR13$outcome <- "Chaptered"
+aiBillData$Y20192020$SCR13$chaptered <- TRUE
+aiBillData$Y20192020$SCR13$chapterNo <- 22
+aiBillData$Y20192020$SCR13$active <- FALSE
+aiBillData$Y20192020$SCR13$result <- "Chaptered"
+aiBillData$Y20192020$SCR13$vote <- "No Vote"
+aiBillData$Y20192020$SCR13$appropriation <- FALSE
+aiBillData$Y20192020$SCR13$fiscal <- FALSE
+aiBillData$Y20192020$SCR13$local <- FALSE
+aiBillData$Y20192020$SCR13$urgency <- FALSE
+aiBillData$Y20192020$SCR13$tax <- FALSE
+aiBillData$Y20192020$SCR13$action <- "Chaptered by Secretary of State - Res. Chapter 22, Statutes of 2019"
+aiBillData$Y20192020$SCR13$pdf <- "20190SCR13_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$SCR13$text
+aiBillData$Y20192020$SCR13$aiDisposition <- "Supportive"
+aiBillData$Y20192020$SCR13$aiType <- "General"
+aiBillData$Y20192020$SCR13$aiSector <- "Social Justice"
+aiBillData$Y20192020$SCR13$aiSubSector <- "Gender Equality"
+aiBillData$Y20192020$SCR13$aiDomain <- "Social Justice"
+aiBillData$Y20192020$SCR13$aiAccountability <- "Low"
+aiBillData$Y20192020$SCR13$aiImpact <- "Low"
+aiBillData$Y20192020$SCR13$aiEthics <- "Low"
+aiBillData$Y20192020$SCR13$aiInnovation <- "Low"
+aiBillData$Y20192020$SCR13$aiPrivacy <- "Low"
+aiBillData$Y20192020$SCR13$aiTransparency <- "Low"
+
