@@ -886,3 +886,61 @@ aiBillData$Y20192020$SJR6$aiInnovation <- "Low"
 aiBillData$Y20192020$SJR6$aiPrivacy <- "Low"
 aiBillData$Y20192020$SJR6$aiTransparency <- "Moderate"
 
+### AB-459 ####
+
+print(aiBillData$Y20192020$AB459$text)
+
+# Topic from aiBillData$Y20192020$AB459$status
+aiBillData$Y20192020$AB459$topic <- "AB-459 State government: Artificial Intelligence in State Government Services Commission: report"
+
+# Title from aiBillData$Y20192020$AB459$status
+aiBillData$Y20192020$AB459$title <- paste0(aiBillData$Y20192020$AB459$title, "State government: Artificial Intelligence in State Government Services Commission: report")
+
+# tldr for aiBillData$Y20192020$AB459$text
+aiBillData$Y20192020$AB459$tldr <- "AB-459 establishes the Artificial Intelligence in State Government Services Commission to study and report on the use of artificial intelligence in state government services. The commission will assess the impact of AI technologies on public services, including their benefits, risks, and ethical considerations. The bill aims to ensure that AI is used effectively and responsibly in state government operations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$AB459$tags <- c("artificial-intelligence", "state-government", "state-government-services", "commission", "report", "public-services", "impact-assessment", "benefits-and-risks", "ethical-considerations", "responsible-use")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$AB459$sponsors <- list(
+    KileyA = calMembers$Y20192020$KileyA
+)
+aiBillData$Y20192020$AB459$cosponsors <- list(
+    ChangS = calMembers$Y20192020$ChangS
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$AB459$dateStart <- as.Date("2019-02-11")
+aiBillData$Y20192020$AB459$dateEnd <- as.Date("2020-02-03")
+aiBillData$Y20192020$AB459$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$AB459$version <- "Amended Assembly"
+aiBillData$Y20192020$AB459$outcome <- "Failed"
+aiBillData$Y20192020$AB459$chaptered <- FALSE
+aiBillData$Y20192020$AB459$chapterNo <- NA
+aiBillData$Y20192020$AB459$active <- FALSE
+aiBillData$Y20192020$AB459$result <- "Died"
+aiBillData$Y20192020$AB459$vote <- "Majority"
+aiBillData$Y20192020$AB459$appropriation <- FALSE
+aiBillData$Y20192020$AB459$fiscal <- TRUE
+aiBillData$Y20192020$AB459$local <- FALSE
+aiBillData$Y20192020$AB459$urgency <- FALSE
+aiBillData$Y20192020$AB459$tax <- FALSE
+aiBillData$Y20192020$AB459$action <- "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56"
+aiBillData$Y20192020$AB459$pdf <- "20190AB459_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$AB459$text
+aiBillData$Y20192020$AB459$aiDisposition <- "Supportive"
+aiBillData$Y20192020$AB459$aiType <- "General"
+aiBillData$Y20192020$AB459$aiSector <- "Governance"
+aiBillData$Y20192020$AB459$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$AB459$aiDomain <- "Ethics"
+aiBillData$Y20192020$AB459$aiAccountability <- "Moderate"
+aiBillData$Y20192020$AB459$aiImpact <- "Moderate"
+aiBillData$Y20192020$AB459$aiEthics <- "Moderate"
+aiBillData$Y20192020$AB459$aiInnovation <- "Low"
+aiBillData$Y20192020$AB459$aiPrivacy <- "Low"
+aiBillData$Y20192020$AB459$aiTransparency <- "Moderate"
+
