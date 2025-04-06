@@ -271,7 +271,6 @@ aiBillData$Y20132014$SB836$aiInnovation <- "Low"
 aiBillData$Y20132014$SB836$aiPrivacy <- "Low"
 aiBillData$Y20132014$SB836$aiTransparency <- "Moderate"
 
-
 ### SB-860 ####
 
 # open the url for the bill text in the default web browser
@@ -1712,4 +1711,65 @@ aiBillData$Y20192020$AB3339$aiEthics <- "High"
 aiBillData$Y20192020$AB3339$aiInnovation <- "Low"
 aiBillData$Y20192020$AB3339$aiPrivacy <- "High"
 aiBillData$Y20192020$AB3339$aiTransparency <- "High"
+
+## 2021-2022 ####
+
+### SB-1216 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$SB1216$text)
+
+# Topic from aiBillData$Y20212022$SB1216$status
+aiBillData$Y20212022$SB1216$topic <- "SB-1216 Secretary of Government Operations: deepfakes"
+
+# Title from aiBillData$Y20212022$SB1216$status
+aiBillData$Y20212022$SB1216$title <- paste0(aiBillData$Y20212022$SB1216$title, "An act to add and repeal Section 11547.5 of the Government Code, relating to technology")
+
+# tldr for aiBillData$Y20212022$SB1216$text
+aiBillData$Y20212022$SB1216$tldr <- "SB-1216 establishes regulations for the use of deepfake technology in California. It aims to prevent the malicious use of deepfakes that could harm individuals or mislead the public. The bill focuses on ensuring transparency and accountability in the use of deepfake technology, particularly in political and commercial contexts."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$SB1216$tags <- c("artificial-intelligence", "deepfakes", "government-operations", "technology", "malicious-use", "transparency", "accountability", "political-context", "commercial-context")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$SB1216$sponsors <- list(
+    GonzalezS = calMembers$Y20212022$GonzalezS
+)
+aiBillData$Y20212022$SB1216$cosponsors <- list(
+    BermanA = calMembers$Y20212022$BermanA
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$SB1216$dateStart <- as.Date("2022-02-27")
+aiBillData$Y20212022$SB1216$dateEnd <- as.Date("2022-09-30")
+aiBillData$Y20212022$SB1216$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$SB1216$version <- "Chaptered"
+aiBillData$Y20212022$SB1216$outcome <- "Chaptered"
+aiBillData$Y20212022$SB1216$chaptered <- TRUE
+aiBillData$Y20212022$SB1216$chapterNo <- 885
+aiBillData$Y20212022$SB1216$active <- FALSE
+aiBillData$Y20212022$SB1216$result <- "Chaptered"
+aiBillData$Y20212022$SB1216$vote <- "Majority"
+aiBillData$Y20212022$SB1216$appropriation <- FALSE
+aiBillData$Y20212022$SB1216$fiscal <- TRUE
+aiBillData$Y20212022$SB1216$local <- FALSE
+aiBillData$Y20212022$SB1216$urgency <- FALSE
+aiBillData$Y20212022$SB1216$tax <- FALSE
+aiBillData$Y20212022$SB1216$action <- "Chaptered by Secretary of State - Chapter 885, Statutes of 2022"
+aiBillData$Y20212022$SB1216$pdf <- "20210SB1216_95.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$SB1216$text
+aiBillData$Y20212022$SB1216$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$SB1216$aiType <- "Cybersecurity"
+aiBillData$Y20212022$SB1216$aiSector <- "Governance"
+aiBillData$Y20212022$SB1216$aiSubSector <- "Operations"
+aiBillData$Y20212022$SB1216$aiDomain <- "Security"
+aiBillData$Y20212022$SB1216$aiAccountability <- "Moderate"
+aiBillData$Y20212022$SB1216$aiImpact <- "Moderate"
+aiBillData$Y20212022$SB1216$aiEthics <- "Moderate"
+aiBillData$Y20212022$SB1216$aiInnovation <- "Low"
+aiBillData$Y20212022$SB1216$aiPrivacy <- "Moderate"
+aiBillData$Y20212022$SB1216$aiTransparency <- "High"
 
