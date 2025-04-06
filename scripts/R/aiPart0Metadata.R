@@ -769,3 +769,64 @@ aiBillData$Y20172018$SB843$aiInnovation <- "Low"
 aiBillData$Y20172018$SB843$aiPrivacy <- "Low"
 aiBillData$Y20172018$SB843$aiTransparency <- "Moderate"
 
+## 2019-2020 ####
+#~~~~~~~~~~~~~~~~
+
+### SB-348 ####
+
+print(aiBillData$Y20192020$SB348$text)
+
+# Topic from aiBillData$Y20192020$SB348$status
+aiBillData$Y20192020$SB348$topic <- "SB-348 Department of Technology: artificial intelligence: strategic plans"
+
+# Title from aiBillData$Y20192020$SB348$status
+aiBillData$Y20192020$SB348$title <- paste0(aiBillData$Y20192020$SB348$title, "An act to add Chapter 6 (commencing with Section 12897) to Part 2.5 of Division 3 of Title 2 of the Government Code, relating to state government")
+
+# tldr for aiBillData$Y20192020$SB348$text
+aiBillData$Y20192020$SB348$tldr <- "SB-348 requires the Department of Technology to develop and implement a strategic plan for the use of artificial intelligence in state government. The bill aims to ensure that AI technologies are used effectively, ethically, and transparently in public services. It emphasizes the importance of collaboration, accountability, and public engagement in the development and deployment of AI systems."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20192020$SB348$tags <- c("artificial-intelligence", "department-of-technology", "strategic-plans", "state-government", "effective-use", "ethical-use", "transparent-use", "public-services", "collaboration", "accountability")
+
+# sponsors and cosponsors
+aiBillData$Y20192020$SB348$sponsors <- list(
+    ChangS = calMembers$Y20192020$ChangS
+)
+aiBillData$Y20192020$SB348$cosponsors <- list(
+    KileyA = calMembers$Y20192020$KileyA
+)
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20192020$SB348$dateStart <- as.Date("2019-02-19")
+aiBillData$Y20192020$SB348$dateEnd <- as.Date("2020-11-30")
+aiBillData$Y20192020$SB348$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20192020$SB348$version <- "Amended Assembly"
+aiBillData$Y20192020$SB348$outcome <- "Failed"
+aiBillData$Y20192020$SB348$chaptered <- FALSE
+aiBillData$Y20192020$SB348$chapterNo <- NA
+aiBillData$Y20192020$SB348$active <- FALSE
+aiBillData$Y20192020$SB348$result <- "Died"
+aiBillData$Y20192020$SB348$vote <- "Majority"
+aiBillData$Y20192020$SB348$appropriation <- FALSE
+aiBillData$Y20192020$SB348$fiscal <- TRUE
+aiBillData$Y20192020$SB348$local <- FALSE
+aiBillData$Y20192020$SB348$urgency <- FALSE
+aiBillData$Y20192020$SB348$tax <- FALSE
+aiBillData$Y20192020$SB348$action <- "From Assembly without further action"
+aiBillData$Y20192020$SB348$pdf <- "20190SB348_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20192020$SB348$text
+aiBillData$Y20192020$SB348$aiDisposition <- "Supportive"
+aiBillData$Y20192020$SB348$aiType <- "General"
+aiBillData$Y20192020$SB348$aiSector <- "Governance"
+aiBillData$Y20192020$SB348$aiSubSector <- "Policy and Regulation"
+aiBillData$Y20192020$SB348$aiDomain <- "Ethics"
+aiBillData$Y20192020$SB348$aiAccountability <- "Moderate"
+aiBillData$Y20192020$SB348$aiImpact <- "Moderate"
+aiBillData$Y20192020$SB348$aiEthics <- "Moderate"
+aiBillData$Y20192020$SB348$aiInnovation <- "Low"
+aiBillData$Y20192020$SB348$aiPrivacy <- "Low"
+aiBillData$Y20192020$SB348$aiTransparency <- "Moderate"
+
