@@ -2522,3 +2522,63 @@ aiBillData$Y20212022$SB178$aiEthics <- "High"
 aiBillData$Y20212022$SB178$aiInnovation <- "Low"
 aiBillData$Y20212022$SB178$aiPrivacy <- "High"
 aiBillData$Y20212022$SB178$aiTransparency <- "High"
+
+## 2023-2024 ####
+
+### AB-2652 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20232024$AB2652$text)
+
+# Topic from aiBillData$Y20232024$AB2652$status
+aiBillData$Y20232024$AB2652$topic <- "AB-2652 State Department of Education: artificial intelligence working group"
+
+# Title from aiBillData$Y20232024$AB2652$status
+aiBillData$Y20232024$AB2652$title <- paste0(aiBillData$Y20232024$AB2652$title, "An act to add Section 33328.5 to the Education Code, relating to the State Department of Education")
+
+# tldr for aiBillData$Y20232024$AB2652$text
+aiBillData$Y20232024$AB2652$tldr <- "AB-2652 establishes an artificial intelligence working group within the State Department of Education to evaluate the impact of AI on education. The group will assess AI's potential benefits and challenges, develop guidelines for its responsible use, and recommend policies to ensure equitable access to AI resources in schools."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20232024$AB2652$tags <- c("artificial-intelligence", "education", "working-group", "state-department", "guidelines", "equitable-access", "responsible-use")
+
+# sponsors and cosponsors
+aiBillData$Y20232024$AB2652$sponsors <- list(
+    MuratsuchiA = calMembers$Y20232024$MuratsuchiA
+)
+aiBillData$Y20232024$AB2652$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20232024$AB2652$dateStart <- as.Date("2024-02-14")
+aiBillData$Y20232024$AB2652$dateEnd <- as.Date("2024-11-30")
+aiBillData$Y20232024$AB2652$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20232024$AB2652$version <- "Amended Assembly"
+aiBillData$Y20232024$AB2652$outcome <- "Failed"
+aiBillData$Y20232024$AB2652$chaptered <- FALSE
+aiBillData$Y20232024$AB2652$chapterNo <- NA
+aiBillData$Y20232024$AB2652$active <- FALSE
+aiBillData$Y20232024$AB2652$result <- "Died"
+aiBillData$Y20232024$AB2652$vote <- "Majority"
+aiBillData$Y20232024$AB2652$appropriation <- FALSE
+aiBillData$Y20232024$AB2652$fiscal <- TRUE
+aiBillData$Y20232024$AB2652$local <- FALSE
+aiBillData$Y20232024$AB2652$urgency <- FALSE
+aiBillData$Y20232024$AB2652$tax <- FALSE
+aiBillData$Y20232024$AB2652$action <- "From committee without further action"
+aiBillData$Y20232024$AB2652$pdf <- "2023AB2652_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20232024$AB2652$text
+aiBillData$Y20232024$AB2652$aiDisposition <- "Restrictive"
+aiBillData$Y20232024$AB2652$aiType <- "General"
+aiBillData$Y20232024$AB2652$aiSector <- "Education"
+aiBillData$Y20232024$AB2652$aiSubSector <- "K-12 Education"
+aiBillData$Y20232024$AB2652$aiDomain <- "Education Management"
+aiBillData$Y20232024$AB2652$aiAccountability <- "High"
+aiBillData$Y20232024$AB2652$aiImpact <- "High"
+aiBillData$Y20232024$AB2652$aiEthics <- "High"
+aiBillData$Y20232024$AB2652$aiInnovation <- "Low"
+aiBillData$Y20232024$AB2652$aiPrivacy <- "High"
+aiBillData$Y20232024$AB2652$aiTransparency <- "High"
+
