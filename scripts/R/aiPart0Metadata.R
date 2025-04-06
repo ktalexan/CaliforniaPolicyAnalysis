@@ -2027,3 +2027,60 @@ aiBillData$Y20212022$AB2826$aiInnovation <- "Low"
 aiBillData$Y20212022$AB2826$aiPrivacy <- "High"
 aiBillData$Y20212022$AB2826$aiTransparency <- "High"
 
+### AB-1545 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20212022$AB1545$text)
+
+# Topic from aiBillData$Y20212022$AB1545$status
+aiBillData$Y20212022$AB1545$topic <- "AB-1545 Children: internet safety: platform operators"
+
+# Title from aiBillData$Y20212022$AB1545$status
+aiBillData$Y20212022$AB1545$title <- paste0(aiBillData$Y20212022$AB1545$title, "An act to add Title 1.81.7 (commencing with Section 1798.300) to Part 4 of Division 3 of the Civil Code, relating to business")
+
+# tldr for aiBillData$Y20212022$AB1545$text
+aiBillData$Y20212022$AB1545$tldr <- "AB-1545 establishes regulations for platform operators regarding children's internet safety. It aims to ensure that online platforms prioritize the safety and privacy of minors. The bill focuses on implementing design features that promote safe online experiences for children, including data protection and age-appropriate content."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20212022$AB1545$tags <- c("artificial-intelligence", "children-internet-safety", "platform-operators", "business", "online-safety", "privacy", "minors", "data-protection", "age-appropriate-content")
+
+# sponsors and cosponsors
+aiBillData$Y20212022$AB1545$sponsors <- list(
+    WicksA = calMembers$Y20212022$WicksA
+)
+aiBillData$Y20212022$AB1545$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20212022$AB1545$dateStart <- as.Date("2021-02-19")
+aiBillData$Y20212022$AB1545$dateEnd <- as.Date("2022-02-01")
+aiBillData$Y20212022$AB1545$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20212022$AB1545$version <- "Amended Assembly"
+aiBillData$Y20212022$AB1545$outcome <- "Failed"
+aiBillData$Y20212022$AB1545$chaptered <- FALSE
+aiBillData$Y20212022$AB1545$chapterNo <- NA
+aiBillData$Y20212022$AB1545$active <- FALSE
+aiBillData$Y20212022$AB1545$result <- "Died"
+aiBillData$Y20212022$AB1545$vote <- "Majority"
+aiBillData$Y20212022$AB1545$appropriation <- FALSE
+aiBillData$Y20212022$AB1545$fiscal <- TRUE
+aiBillData$Y20212022$AB1545$local <- FALSE
+aiBillData$Y20212022$AB1545$urgency <- FALSE
+aiBillData$Y20212022$AB1545$tax <- FALSE
+aiBillData$Y20212022$AB1545$action <- "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56"
+aiBillData$Y20212022$AB1545$pdf <- "20210AB1545_97.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20212022$AB1545$text
+aiBillData$Y20212022$AB1545$aiDisposition <- "Restrictive"
+aiBillData$Y20212022$AB1545$aiType <- "Safety and Privacy"
+aiBillData$Y20212022$AB1545$aiSector <- "Children's Safety"
+aiBillData$Y20212022$AB1545$aiSubSector <- "Online Safety"
+aiBillData$Y20212022$AB1545$aiDomain <- "Safety and Privacy"
+aiBillData$Y20212022$AB1545$aiAccountability <- "High"
+aiBillData$Y20212022$AB1545$aiImpact <- "High"
+aiBillData$Y20212022$AB1545$aiEthics <- "High"
+aiBillData$Y20212022$AB1545$aiInnovation <- "Low"
+aiBillData$Y20212022$AB1545$aiPrivacy <- "High"
+aiBillData$Y20212022$AB1545$aiTransparency <- "High"
+
