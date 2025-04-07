@@ -1880,9 +1880,62 @@ aiBills20232024$AB3211$aiInnovation <- "Low"
 aiBills20232024$AB3211$aiPrivacy <- "High"
 aiBills20232024$AB3211$aiTransparency <- "High"
 
+## AB-2877 ####
 
+aiBills20232024$AB2877 <- addBillStructure(2023, "AB-2877")
 
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2877$text)
 
+# Topic from aiBills20232024$AB2877$status
+aiBills20232024$AB2877$topic <- "AB-2877 California Consumer Privacy Act of 2018: artificial intelligence: training"
+
+# Title from aiBills20232024$AB2877$status
+aiBills20232024$AB2877$title <- paste0(aiBills20232024$AB2877$title, "An act to amend Sections 1798.99.90, 1798.121, 1798.130, 1798.140, 1798.145, 1798.185, and 1798.199.40 of, and to add Section 1798.199.41 to, the Civil Code, relating to privacy")
+
+# tldr for aiBills20232024$AB2877$text
+aiBills20232024$AB2877$tldr <- "AB-2877 amends the California Consumer Privacy Act of 2018 to address the implications of artificial intelligence on consumer privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2877$tags <- c("artificial-intelligence", "consumer-privacy", "privacy-act", "amendment")
+
+# sponsors and cosponsors
+aiBills20232024$AB2877$sponsors <- addSponsors("Y20232024", c("BauerKahanA"))
+aiBills20232024$AB2877$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2877$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2877$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB2877$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2877$version <- "Amended Senate"
+aiBills20232024$AB2877$outcome <- "Failed"
+aiBills20232024$AB2877$chaptered <- FALSE
+aiBills20232024$AB2877$chapterNo <- NA
+aiBills20232024$AB2877$active <- FALSE
+aiBills20232024$AB2877$result <- "Died"
+aiBills20232024$AB2877$vote <- "Majority"
+aiBills20232024$AB2877$appropriation <- FALSE
+aiBills20232024$AB2877$fiscal <- TRUE
+aiBills20232024$AB2877$local <- FALSE
+aiBills20232024$AB2877$urgency <- FALSE
+aiBills20232024$AB2877$tax <- FALSE
+aiBills20232024$AB2877$action <- "From Senate committee without further action"
+aiBills20232024$AB2877$pdf <- "20230AB2877_95.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2877$text
+aiBills20232024$AB2877$aiDisposition <- "Restrictive"
+aiBills20232024$AB2877$aiType <- "Generative"
+aiBills20232024$AB2877$aiSector <- "Generative AI"
+aiBills20232024$AB2877$aiSubSector <- "General"
+aiBills20232024$AB2877$aiDomain <- "Generative AI Management"
+aiBills20232024$AB2877$aiAccountability <- "High"
+aiBills20232024$AB2877$aiImpact <- "High"
+aiBills20232024$AB2877$aiEthics <- "High"
+aiBills20232024$AB2877$aiInnovation <- "Low"
+aiBills20232024$AB2877$aiPrivacy <- "High"
+aiBills20232024$AB2877$aiTransparency <- "High"
 
 
 
