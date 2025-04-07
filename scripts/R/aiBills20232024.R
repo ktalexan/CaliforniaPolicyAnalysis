@@ -1227,6 +1227,62 @@ aiBills20232024$SB942$aiInnovation <- "Low"
 aiBills20232024$SB942$aiPrivacy <- "High"
 aiBills20232024$SB942$aiTransparency <- "High"
 
+## ACR-96 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$ACR96$text)
+
+# Topic from aiBills20232024$ACR96$status
+aiBills20232024$ACR96$topic <- "ACR-96 23 Asilomar AI Principles"
+
+# Title from aiBills20232024$ACR96$status
+aiBills20232024$ACR96$title <- paste0(aiBills20232024$ACR96$title, "Relative to the 23 Asilomar AI Principles")
+
+# tldr for aiBills20232024$ACR96$text
+aiBills20232024$ACR96$tldr <- "ACR-96 establishes the principles for the ethical development and use of AI technologies, emphasizing safety, transparency, and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$ACR96$tags <- c("artificial-intelligence", "asilomar-ai-principles", "ethical-development", "safety", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$ACR96$sponsors <- addSponsors("Y20232024", c("HooverA"))
+aiBills20232024$ACR96$cosponsors <- addSponsors("Y20232024", c("AddisA", "AlanisA", "AlvarezA", "ArambulaA", "BainsA", "BauerKahanA", "BennettA", "BermanA", "BoernerA", "BryanA", "CalderonA", "CarrilloJA", "CarrilloWA", "CervantesA", "ChenA", "ConnollyA", "DahleA", "DaviesA", "DixonA", "EssayliA", "FloraA", "FongMA", "FongVA", "FriedmanA", "GabrielA", "GallagherA", "GipsonA", "GraysonA", "HaneyA", "HartA", "HoldenA", "IrwinA", "JacksonA", "JonesSawyerA", "LackeyA", "LowA", "LowenthalA", "MaienscheinA", "MathisA", "OrtegaA", "PachecoA", "PapanA", "PattersonJimA", "PattersonJoeA", "PellerinA", "PetrieNorrisA", "QuirkSilvaA", "RendonA", "ReyesA","RivasLA","RivasRA","RodriguezA","RubioA","SanchezA","SantiagoA","SchiavoA","SoriaA","TaA","TingA","ValenciaA","VillapuduaA","WaldronA","WallisA","WardA","WeberA","WicksA","WilsonA","WoodA","ZburA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$ACR96$dateStart <- as.Date("2023-06-12")
+aiBills20232024$ACR96$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$ACR96$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$ACR96$version <- "Introduced"
+aiBills20232024$ACR96$outcome <- "Failed"
+aiBills20232024$ACR96$chaptered <- FALSE
+aiBills20232024$ACR96$chapterNo <- NA
+aiBills20232024$ACR96$active <- FALSE
+aiBills20232024$ACR96$result <- "Died"
+aiBills20232024$ACR96$vote <- "No Vote"
+aiBills20232024$ACR96$appropriation <- FALSE
+aiBills20232024$ACR96$fiscal <- FALSE
+aiBills20232024$ACR96$local <- FALSE
+aiBills20232024$ACR96$urgency <- FALSE
+aiBills20232024$ACR96$tax <- FALSE
+aiBills20232024$ACR96$action <- "From Senate committee without further action"
+aiBills20232024$ACR96$pdf <- "20230ACR96_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$ACR96$text
+aiBills20232024$ACR96$aiDisposition <- "Neutral"
+aiBills20232024$ACR96$aiType <- "Generative"
+aiBills20232024$ACR96$aiSector <- "Generative AI"
+aiBills20232024$ACR96$aiSubSector <- "General"
+aiBills20232024$ACR96$aiDomain <- "Generative AI Management"
+aiBills20232024$ACR96$aiAccountability <- "Low"
+aiBills20232024$ACR96$aiImpact <- "Low"
+aiBills20232024$ACR96$aiEthics <- "Low"
+aiBills20232024$ACR96$aiInnovation <- "High"
+aiBills20232024$ACR96$aiPrivacy <- "Low"
+aiBills20232024$ACR96$aiTransparency <- "Low"
+
+
 
 
 
