@@ -1422,7 +1422,62 @@ aiBills20232024$SB892$aiInnovation <- "Low"
 aiBills20232024$SB892$aiPrivacy <- "High"
 aiBills20232024$SB892$aiTransparency <- "High"
 
+## AB-2355 ####
 
+aiBills20232024$AB2355 <- addBillStructure(2023, "AB-2355")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2355$text)
+
+# Topic from aiBills20232024$AB2355$status
+aiBills20232024$AB2355$topic <- "AB-2355 Political Reform Act of 1974: political advertisements: artificial intelligence"
+
+# Title from aiBills20232024$AB2355$status
+aiBills20232024$AB2355$title <- paste0(aiBills20232024$AB2355$title, "An act to amend Sections 84504, 84504.1, 84504.2, 84504.3, 84054.4, and 84504.5 of, and to add Section 84514 to, the Government Code, relating to the Political Reform Act of 1974")
+
+# tldr for aiBills20232024$AB2355$text
+aiBills20232024$AB2355$tldr <- "AB-2355 amends the Political Reform Act of 1974 to include regulations on political advertisements that utilize artificial intelligence, ensuring transparency and accountability in their use."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2355$tags <- c("artificial-intelligence", "political-reform-act", "political-advertisements", "regulations", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB2355$sponsors <- addSponsors("Y20232024", c("CarrilloWA", "CervantesA"))
+aiBills20232024$AB2355$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2355$dateStart <- as.Date("2024-02-12")
+aiBills20232024$AB2355$dateEnd <- as.Date("2024-09-17")
+aiBills20232024$AB2355$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2355$version <- "Chaptered"
+aiBills20232024$AB2355$outcome <- "Chaptered"
+aiBills20232024$AB2355$chaptered <- TRUE
+aiBills20232024$AB2355$chapterNo <- 260
+aiBills20232024$AB2355$active <- FALSE
+aiBills20232024$AB2355$result <- "Chaptered"
+aiBills20232024$AB2355$vote <- "Two Thirds"
+aiBills20232024$AB2355$appropriation <- FALSE
+aiBills20232024$AB2355$fiscal <- TRUE
+aiBills20232024$AB2355$local <- FALSE
+aiBills20232024$AB2355$urgency <- FALSE
+aiBills20232024$AB2355$tax <- FALSE
+aiBills20232024$AB2355$action <- "Chaptered by Secretary of State - Chapter 260, Statutes of 2024"
+aiBills20232024$AB2355$pdf <- "20230AB2355_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2355$text
+aiBills20232024$AB2355$aiDisposition <- "Restrictive"
+aiBills20232024$AB2355$aiType <- "Generative"
+aiBills20232024$AB2355$aiSector <- "Political Sector"
+aiBills20232024$AB2355$aiSubSector <- "General"
+aiBills20232024$AB2355$aiDomain <- "Political Sector Management"
+aiBills20232024$AB2355$aiAccountability <- "High"
+aiBills20232024$AB2355$aiImpact <- "High"
+aiBills20232024$AB2355$aiEthics <- "High"
+aiBills20232024$AB2355$aiInnovation <- "Low"
+aiBills20232024$AB2355$aiPrivacy <- "High"
+aiBills20232024$AB2355$aiTransparency <- "High"
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
