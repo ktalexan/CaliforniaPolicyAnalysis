@@ -952,6 +952,61 @@ aiBills20232024$AB3204$aiPrivacy <- "High"
 aiBills20232024$AB3204$aiTransparency <- "High"
 
 
+## AB-2876 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2876$text)
+
+# Topic from aiBills20232024$AB2876$status
+aiBills20232024$AB2876$topic <- "AB-2876 Pupil instruction: media literacy: artificial intelligence literacy: curriculum frameworks: instructional materials"
+
+# Title from aiBills20232024$AB2876$status
+aiBills20232024$AB2876$title <- paste0(aiBills20232024$AB2876$title, "An act to amend Section 33548 of the Education Code, relating to pupil instruction")
+
+# tldr for aiBills20232024$AB2876$text
+aiBills20232024$AB2876$tldr <- "AB-2876 establishes the requirement for media literacy and artificial intelligence literacy in pupil instruction. It mandates the development of curriculum frameworks and instructional materials to educate students about the responsible use of AI technologies."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2876$tags <- c("artificial-intelligence", "media-literacy", "curriculum-frameworks", "instructional-materials", "pupil-instruction", "education")
+
+# sponsors and cosponsors
+aiBills20232024$AB2876$sponsors <- addSponsors("Y20232024", c("BermanA"))
+aiBills20232024$AB2876$cosponsors <- addSponsors("Y20232024", c("AddisA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2876$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2876$dateEnd <- as.Date("2024-09-29")
+aiBills20232024$AB2876$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2876$version <- "Chaptered"
+aiBills20232024$AB2876$outcome <- "Chaptered"
+aiBills20232024$AB2876$chaptered <- TRUE
+aiBills20232024$AB2876$chapterNo <- 927
+aiBills20232024$AB2876$active <- FALSE
+aiBills20232024$AB2876$result <- "Chaptered"
+aiBills20232024$AB2876$vote <- "Majority"
+aiBills20232024$AB2876$appropriation <- FALSE
+aiBills20232024$AB2876$fiscal <- TRUE
+aiBills20232024$AB2876$local <- FALSE
+aiBills20232024$AB2876$urgency <- FALSE
+aiBills20232024$AB2876$tax <- FALSE
+aiBills20232024$AB2876$action <- "Chaptered by Secretary of State - Chapter 927, Statutes of 2024"
+aiBills20232024$AB2876$pdf <- "20230AB2876_95.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2876$text
+aiBills20232024$AB2876$aiDisposition <- "Restrictive"
+aiBills20232024$AB2876$aiType <- "Generative"
+aiBills20232024$AB2876$aiSector <- "Education"
+aiBills20232024$AB2876$aiSubSector <- "General"
+aiBills20232024$AB2876$aiDomain <- "Education Management"
+aiBills20232024$AB2876$aiAccountability <- "High"
+aiBills20232024$AB2876$aiImpact <- "High"
+aiBills20232024$AB2876$aiEthics <- "High"
+aiBills20232024$AB2876$aiInnovation <- "Low"
+aiBills20232024$AB2876$aiPrivacy <- "High"
+aiBills20232024$AB2876$aiTransparency <- "High"
+
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
