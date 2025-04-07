@@ -1823,6 +1823,68 @@ aiBills20232024$AB3050$aiInnovation <- "Low"
 aiBills20232024$AB3050$aiPrivacy <- "High"
 aiBills20232024$AB3050$aiTransparency <- "High"
 
+## AB-3211 ####
+
+aiBills20232024$AB3211 <- addBillStructure(2023, "AB-3211")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB3211$text)
+
+# Topic from aiBills20232024$AB3211$status
+aiBills20232024$AB3211$topic <- "AB-3211 California Digital Content Provenance Standards"
+
+# Title from aiBills20232024$AB3211$status
+aiBills20232024$AB3211$title <- paste0(aiBills20232024$AB3211$title, "An act to add Chapter 41 (commencing with Section 22949.90) to Division 8 of the Business and Professions Code, relating to artificial intelligence")
+
+# tldr for aiBills20232024$AB3211$text
+aiBills20232024$AB3211$tldr <- "AB-3211 establishes California Digital Content Provenance Standards to ensure the authenticity and integrity of digital content, particularly in the context of artificial intelligence."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB3211$tags <- c("artificial-intelligence", "digital-content", "provenance-standards", "authenticity", "integrity")
+
+# sponsors and cosponsors
+aiBills20232024$AB3211$sponsors <- addSponsors("Y20232024", c("WicksA"))
+aiBills20232024$AB3211$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB3211$dateStart <- as.Date("2024-02-16")
+aiBills20232024$AB3211$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB3211$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB3211$version <- "Amended Senate"
+aiBills20232024$AB3211$outcome <- "Failed"
+aiBills20232024$AB3211$chaptered <- FALSE
+aiBills20232024$AB3211$chapterNo <- NA
+aiBills20232024$AB3211$active <- FALSE
+aiBills20232024$AB3211$result <- "Died"
+aiBills20232024$AB3211$vote <- "Majority"
+aiBills20232024$AB3211$appropriation <- FALSE
+aiBills20232024$AB3211$fiscal <- TRUE
+aiBills20232024$AB3211$local <- FALSE
+aiBills20232024$AB3211$urgency <- FALSE
+aiBills20232024$AB3211$tax <- FALSE
+aiBills20232024$AB3211$action <- "Died on Senate inactive file"
+aiBills20232024$AB3211$pdf <- "20230AB3211_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB3211$text
+aiBills20232024$AB3211$aiDisposition <- "Restrictive"
+aiBills20232024$AB3211$aiType <- "Generative"
+aiBills20232024$AB3211$aiSector <- "Generative AI"
+aiBills20232024$AB3211$aiSubSector <- "General"
+aiBills20232024$AB3211$aiDomain <- "Generative AI Management"
+aiBills20232024$AB3211$aiAccountability <- "High"
+aiBills20232024$AB3211$aiImpact <- "High"
+aiBills20232024$AB3211$aiEthics <- "High"
+aiBills20232024$AB3211$aiInnovation <- "Low"
+aiBills20232024$AB3211$aiPrivacy <- "High"
+aiBills20232024$AB3211$aiTransparency <- "High"
+
+
+
+
+
+
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
