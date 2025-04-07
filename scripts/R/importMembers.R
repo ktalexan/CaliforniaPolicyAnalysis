@@ -64,8 +64,8 @@ calMembers <- list()
 for (period in unique(dfCalMembers$Period)) {
     subset <- dfCalMembers[dfCalMembers$Period == period, ]
     calMembers[[period]] <- list()
-    for (row in 1:nrow(subset)) {
-        name = subset[row, ]$Label
+    for (row in 1:nrow(subset)) { # nolint: seq_linter.
+        name <- subset[row, ]$Label
         calMembers[[period]][[name]] <- list(
             display = subset[row, ]$Display,
             lastName = subset[row, ]$LastName,
@@ -77,7 +77,7 @@ for (period in unique(dfCalMembers$Period)) {
             district = subset[row, ]$District,
             districtId = subset[row, ]$DistrictID,
             party = subset[row, ]$Party,
-            partyAbbrev = subset[row ,]$PartyAbbrev,
+            partyAbbrev = subset[row, ]$PartyAbbrev,
             tags = c(subset[row, ]$TagDistrict, subset[row, ]$TagParty, subset[row, ]$TagSession),
             residence = subset[row, ]$Residence,
             limits = subset[row, ]$TermLimited,
@@ -103,6 +103,3 @@ save(calMembers, file = file.path(prjDirs$pathData, "calMembers.RData"))
 #~~~~~~~~~~~~~~~~~~~
 # End of Script ####
 #~~~~~~~~~~~~~~~~~~~
-
-
-

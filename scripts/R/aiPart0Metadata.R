@@ -1,7 +1,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# AI POLICY ANALYSIS PROJECT 
+# AI POLICY ANALYSIS PROJECT
 # Part 0: Project Definitions
-# Version: 1.0, March 2025 
+# Version: 1.0, March 2025
 # Author: Dr. Kostas Alexandridis, GISP
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -91,9 +91,9 @@ aiBillData <- list()
 # Loop through each year in the AI Bill List and create a template for each bill
 for (year in names(aiBillList)) {
     aiBillData[[year]] <- list()
-    bblType = "BILL"
-    purpose = "AI"
-    section = switch(year,
+    bblType <- "BILL"
+    purpose <- "AI"
+    section <- switch(year,
         Y20132014 = "2013-2014",
         Y20172018 = "2017-2018",
         Y20192020 = "2019-2020",
@@ -102,8 +102,8 @@ for (year in names(aiBillList)) {
         Y20252026 = "2025-2026",
         NA
     )
-    body = "California Legislature"
-    session = switch(year,
+    body <- "California Legislature"
+    session <- switch(year,
         Y20132014 = "2013-2014 Regular Session",
         Y20172018 = "2017-2018 Regular Session",
         Y20192020 = "2019-2020 Regular Session",
@@ -113,8 +113,8 @@ for (year in names(aiBillList)) {
         NA
     )
     for (bill in aiBillList[[year]]) {
-        id = gsub("-", "", bill)
-        type = switch(strsplit(bill, "-")[[1]][1],
+        id <- gsub("-", "", bill)
+        type <- switch(strsplit(bill, "-")[[1]][1],
             "AB" = "Assembly Bill",
             "SB" = "Senate Bill",
             "AR" = "Assembly Resolution",
@@ -127,7 +127,7 @@ for (year in names(aiBillList)) {
             "SCA" = "Senate Constitutional Amendment",
             NA
         )
-        urlString = paste0(substr(year, 2, nchar(year)),"0",id)
+        urlString <- paste0(substr(year, 2, nchar(year)), "0", id)
         aiBillData[[year]][[id]] <- list(
             bblType = bblType,
             purpose = purpose,
@@ -137,7 +137,7 @@ for (year in names(aiBillList)) {
             section = section,
             body = body,
             session = session,
-            text = paste0("https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=", urlString,"&search_keywords=artificial+intelligence"),
+            text = paste0("https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=", urlString, "&search_keywords=artificial+intelligence"),
             history = paste0("https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=", urlString),
             status = paste0("https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=", urlString),
             votes = paste0("https://leginfo.legislature.ca.gov/faces/billVotesClient.xhtml?bill_id=", urlString),
@@ -183,7 +183,7 @@ for (year in names(aiBillList)) {
 }
 
 # Remove unnecessary variables from the environment
-rm(bill, bblType, purpose, section, body, session, id, type, urlString)
+rm(year, bill, bblType, purpose, section, body, session, id, type, urlString)
 
 # Save the AI Bill Data template as an RData file
 save(aiBillData, file = "aiBillData.RData")
@@ -290,7 +290,7 @@ aiBillData$Y20132014$SB860$tags <- c("artificial-intelligence", "education-finan
 
 # sponsors and cosponsors
 aiBillData$Y20132014$SB860$sponsors <- list(
-    CommitteeOnBudgetandFiscalReviewS = calMembers$Y20132014$CommitteeOnBudgetandFiscalReviewS
+    CommitteeOnBudgetAndFiscalReviewS = calMembers$Y20132014$CommitteeOnBudgetAndFiscalReviewS
 )
 aiBillData$Y20132014$SB860$cosponsors <- NA
 
@@ -491,7 +491,7 @@ aiBillData$Y20172018$ACR215$cosponsors <- list(
     SalasA = calMembers$Y20172018$SalasA,
     SantiagoA = calMembers$Y20172018$SantiagoA,
     SteinorthA = calMembers$Y20172018$SteinorthA,
-    StoneMA = calMembers$Y20172018$StoneMA,
+    StoneA = calMembers$Y20172018$StoneA,
     ThurmondA = calMembers$Y20172018$ThurmondA,
     TingA = calMembers$Y20172018$TingA,
     VoepelA = calMembers$Y20172018$VoepelA,
@@ -739,7 +739,7 @@ aiBillData$Y20172018$SB843$tags <- c("artificial-intelligence", "higher-educatio
 
 # sponsors and cosponsors
 aiBillData$Y20172018$SB843$sponsors <- list(
-    CommitteeOnBudgetandFiscalReviewS = calMembers$Y20172018$CommitteeOnBudgetandFiscalReviewS
+    CommitteeOnBudgetAndFiscalReviewS = calMembers$Y20172018$CommitteeOnBudgetAndFiscalReviewS
 )
 aiBillData$Y20172018$SB843$cosponsors <- NA
 
@@ -1505,7 +1505,7 @@ aiBillData$Y20192020$SB752$tags <- c("artificial-intelligence", "california-mast
 aiBillData$Y20192020$SB752$sponsors <- list(
     SternS = calMembers$Y20192020$SternS
 )
-aiBillData$Y20192020$SB752$cosponsors <-NA
+aiBillData$Y20192020$SB752$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$SB752$dateStart <- as.Date("2019-02-22")
@@ -2193,7 +2193,7 @@ aiBillData$Y20212022$SB54$cosponsors <- list(
     FriedmanA = calMembers$Y20212022$FriedmanA,
     GonzalezS = calMembers$Y20212022$GonzalezS,
     GraysonA = calMembers$Y20212022$GraysonA,
-    MuratsuchiA = calMembers$Y20212022$MuratsuchiA
+    MuratsuchiA = calMembers$Y20212022$MuratsuchiA,
     TingA = calMembers$Y20212022$TingA,
     BeckerS = calMembers$Y20212022$BeckerS,
     HorvathA = calMembers$Y20212022$HorvathA,
