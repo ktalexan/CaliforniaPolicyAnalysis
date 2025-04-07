@@ -1708,6 +1708,120 @@ aiBills20232024$SCR17$aiPrivacy <- "Low"
 aiBills20232024$SCR17$aiTransparency <- "Low"
 
 
+## AB-2905 ####
+
+aiBills20232024$AB2905 <- addBillStructure(2023, "AB-2905")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2905$text)
+
+# Topic from aiBills20232024$AB2905$status
+aiBills20232024$AB2905$topic <- "AB-2905 Telecommunications: automatic dialing-announcing devices: artificial voices"
+
+# Title from aiBills20232024$AB2905$status
+aiBills20232024$AB2905$title <- paste0(aiBills20232024$AB2905$title, "An act to amend Section 2874 of the Public Utilities Code, relating to telecommunications")
+
+# tldr for aiBills20232024$AB2905$text
+aiBills20232024$AB2905$tldr <- "AB-2905 regulates the use of automatic dialing-announcing devices that utilize artificial voices in telecommunications, ensuring consumer protection and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2905$tags <- c("artificial-intelligence", "telecommunications", "automatic-dialing-announcing-devices", "consumer-protection", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$AB2905$sponsors <- addSponsors("Y20232024", c("LowA", "PattersonJimA"))
+aiBills20232024$AB2905$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2905$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2905$dateEnd <- as.Date("2024-09-20")
+aiBills20232024$AB2905$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2905$version <- "Chaptered"
+aiBills20232024$AB2905$outcome <- "Chaptered"
+aiBills20232024$AB2905$chaptered <- TRUE
+aiBills20232024$AB2905$chapterNo <- 316
+aiBills20232024$AB2905$active <- FALSE
+aiBills20232024$AB2905$result <- "Chaptered"
+aiBills20232024$AB2905$vote <- "Majority"
+aiBills20232024$AB2905$appropriation <- FALSE
+aiBills20232024$AB2905$fiscal <- TRUE
+aiBills20232024$AB2905$local <- TRUE
+aiBills20232024$AB2905$urgency <- FALSE
+aiBills20232024$AB2905$tax <- FALSE
+aiBills20232024$AB2905$action <- "Chaptered by Secretary of State - Chapter 316, Statutes of 2024"
+aiBills20232024$AB2905$pdf <- "20230AB2905_94.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2905$text
+aiBills20232024$AB2905$aiDisposition <- "Restrictive"
+aiBills20232024$AB2905$aiType <- "Generative"
+aiBills20232024$AB2905$aiSector <- "Telecommunications"
+aiBills20232024$AB2905$aiSubSector <- "General"
+aiBills20232024$AB2905$aiDomain <- "Telecommunications Management"
+aiBills20232024$AB2905$aiAccountability <- "High"
+aiBills20232024$AB2905$aiImpact <- "High"
+aiBills20232024$AB2905$aiEthics <- "High"
+aiBills20232024$AB2905$aiInnovation <- "Low"
+aiBills20232024$AB2905$aiPrivacy <- "High"
+aiBills20232024$AB2905$aiTransparency <- "High"
+
+
+## AB-3050 ####
+
+aiBills20232024$AB3050 <- addBillStructure(2023, "AB-3050")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB3050$text)
+
+# Topic from aiBills20232024$AB3050$status
+aiBills20232024$AB3050$topic <- "AB-3050 Artificial intelligence"
+
+# Title from aiBills20232024$AB3050$status
+aiBills20232024$AB3050$title <- paste0(aiBills20232024$AB3050$title, "An act to add Section 11547.6 to the Government Code, relating to state government")
+
+# tldr for aiBills20232024$AB3050$text
+aiBills20232024$AB3050$tldr <- "AB-3050 establishes guidelines for the ethical use of artificial intelligence in state government, ensuring transparency and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB3050$tags <- c("artificial-intelligence", "state-government", "ethical-use", "guidelines", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB3050$sponsors <- addSponsors("Y20232024", c("LowA"))
+aiBills20232024$AB3050$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB3050$dateStart <- as.Date("2024-02-16")
+aiBills20232024$AB3050$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB3050$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB3050$version <- "Introduced"
+aiBills20232024$AB3050$outcome <- "Failed"
+aiBills20232024$AB3050$chaptered <- FALSE
+aiBills20232024$AB3050$chapterNo <- NA
+aiBills20232024$AB3050$active <- FALSE
+aiBills20232024$AB3050$result <- "Died"
+aiBills20232024$AB3050$vote <- "Majority"
+aiBills20232024$AB3050$appropriation <- FALSE
+aiBills20232024$AB3050$fiscal <- TRUE
+aiBills20232024$AB3050$local <- FALSE
+aiBills20232024$AB3050$urgency <- FALSE
+aiBills20232024$AB3050$tax <- FALSE
+aiBills20232024$AB3050$action <- "From committee without further action"
+aiBills20232024$AB3050$pdf <- "20230AB3050_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB3050$text
+aiBills20232024$AB3050$aiDisposition <- "Restrictive"
+aiBills20232024$AB3050$aiType <- "Generative"
+aiBills20232024$AB3050$aiSector <- "Generative AI"
+aiBills20232024$AB3050$aiSubSector <- "General"
+aiBills20232024$AB3050$aiDomain <- "Generative AI Management"
+aiBills20232024$AB3050$aiAccountability <- "High"
+aiBills20232024$AB3050$aiImpact <- "High"
+aiBills20232024$AB3050$aiEthics <- "High"
+aiBills20232024$AB3050$aiInnovation <- "Low"
+aiBills20232024$AB3050$aiPrivacy <- "High"
+aiBills20232024$AB3050$aiTransparency <- "High"
 
 
 
