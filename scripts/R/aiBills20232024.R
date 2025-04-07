@@ -1172,6 +1172,60 @@ aiBills20232024$AB1831$aiInnovation <- "Low"
 aiBills20232024$AB1831$aiPrivacy <- "High"
 aiBills20232024$AB1831$aiTransparency <- "High"
 
+## SB-942 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB942$text)
+
+# Topic from aiBills20232024$SB942$status
+aiBills20232024$SB942$topic <- "SB-942 California AI Transparency Act"
+
+# Title from aiBills20232024$SB942$status
+aiBills20232024$SB942$title <- paste0(aiBills20232024$SB942$title, "An act to add Chapter 25 (commencing with Section 22757) to Division 8 of the Business and Professions Code, relating to consumer protection")
+
+# tldr for aiBills20232024$SB942$text
+aiBills20232024$SB942$tldr <- "SB-942 aims to enhance consumer protection through transparency in AI systems, ensuring accountability and ethical use of artificial intelligence."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB942$tags <- c("artificial-intelligence", "transparency", "consumer-protection", "accountability", "ethical-use")
+
+# sponsors and cosponsors
+aiBills20232024$SB942$sponsors <- addSponsors("Y20232024", c("BeckerS"))
+aiBills20232024$SB942$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB942$dateStart <- as.Date("2024-01-17")
+aiBills20232024$SB942$dateEnd <- as.Date("2024-09-19")
+aiBills20232024$SB942$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB942$version <- "Chaptered"
+aiBills20232024$SB942$outcome <- "Chaptered"
+aiBills20232024$SB942$chaptered <- TRUE
+aiBills20232024$SB942$chapterNo <- 291
+aiBills20232024$SB942$active <- FALSE
+aiBills20232024$SB942$result <- "Chaptered"
+aiBills20232024$SB942$vote <- "Majority"
+aiBills20232024$SB942$appropriation <- FALSE
+aiBills20232024$SB942$fiscal <- TRUE
+aiBills20232024$SB942$local <- FALSE
+aiBills20232024$SB942$urgency <- FALSE
+aiBills20232024$SB942$tax <- FALSE
+aiBills20232024$SB942$action <- "Chaptered by Secretary of State - Chapter 291, Statutes of 2024"
+aiBills20232024$SB942$pdf <- "20230SB942_91.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB942$text
+aiBills20232024$SB942$aiDisposition <- "Restrictive"
+aiBills20232024$SB942$aiType <- "Generative"
+aiBills20232024$SB942$aiSector <- "Consumer Protection"
+aiBills20232024$SB942$aiSubSector <- "General"
+aiBills20232024$SB942$aiDomain <- "Consumer Protection Management"
+aiBills20232024$SB942$aiAccountability <- "High"
+aiBills20232024$SB942$aiImpact <- "High"
+aiBills20232024$SB942$aiEthics <- "High"
+aiBills20232024$SB942$aiInnovation <- "Low"
+aiBills20232024$SB942$aiPrivacy <- "High"
+aiBills20232024$SB942$aiTransparency <- "High"
 
 
 
