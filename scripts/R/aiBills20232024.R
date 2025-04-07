@@ -1536,6 +1536,64 @@ aiBills20232024$SB1381$aiInnovation <- "Low"
 aiBills20232024$SB1381$aiPrivacy <- "High"
 aiBills20232024$SB1381$aiTransparency <- "High"
 
+## AJR-6 ####
+
+aiBills20232024$AJR6 <- addBillStructure(2023, "AJR-6")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AJR6$text)
+
+# Topic from aiBills20232024$AJR6$status
+aiBills20232024$AJR6$topic <- "AJR-6 Artificial intelligence"
+
+# Title from aiBills20232024$AJR6$status
+aiBills20232024$AJR6$title <- paste0(aiBills20232024$AJR6$title, "Relative to artificial intelligence")
+
+# tldr for aiBills20232024$AJR6$text
+aiBills20232024$AJR6$tldr <- "AJR-6 expresses the need for a comprehensive framework to govern the development and use of artificial intelligence, ensuring ethical standards and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AJR6$tags <- c("artificial-intelligence", "comprehensive-framework", "governance", "ethical-standards", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AJR6$sponsors <- addSponsors("Y20232024", c("EssayliA"))
+aiBills20232024$AJR6$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AJR6$dateStart <- as.Date("2023-05-04")
+aiBills20232024$AJR6$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AJR6$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AJR6$version <- "Introduced"
+aiBills20232024$AJR6$outcome <- "Failed"
+aiBills20232024$AJR6$chaptered <- FALSE
+aiBills20232024$AJR6$chapterNo <- NA
+aiBills20232024$AJR6$active <- FALSE
+aiBills20232024$AJR6$result <- "Died"
+aiBills20232024$AJR6$vote <- "No Vote"
+aiBills20232024$AJR6$appropriation <- FALSE
+aiBills20232024$AJR6$fiscal <- FALSE
+aiBills20232024$AJR6$local <- FALSE
+aiBills20232024$AJR6$urgency <- FALSE
+aiBills20232024$AJR6$tax <- FALSE
+aiBills20232024$AJR6$action <- "From committee without further action"
+aiBills20232024$AJR6$pdf <- "20230AJR6_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AJR6$text
+aiBills20232024$AJR6$aiDisposition <- "Neutral"
+aiBills20232024$AJR6$aiType <- "Generative"
+aiBills20232024$AJR6$aiSector <- "Generative AI"
+aiBills20232024$AJR6$aiSubSector <- "General"
+aiBills20232024$AJR6$aiDomain <- "Generative AI Management"
+aiBills20232024$AJR6$aiAccountability <- "Low"
+aiBills20232024$AJR6$aiImpact <- "Low"
+aiBills20232024$AJR6$aiEthics <- "Low"
+aiBills20232024$AJR6$aiInnovation <- "High"
+aiBills20232024$AJR6$aiPrivacy <- "Low"
+aiBills20232024$AJR6$aiTransparency <- "Low"
+
+
 
 
 
