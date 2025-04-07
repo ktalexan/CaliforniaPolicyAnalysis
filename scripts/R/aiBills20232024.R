@@ -1650,6 +1650,64 @@ aiBills20232024$AB1873$aiInnovation <- "Low"
 aiBills20232024$AB1873$aiPrivacy <- "High"
 aiBills20232024$AB1873$aiTransparency <- "High"
 
+## SCR-17 ####
+
+aiBills20232024$SCR17 <- addBillStructure(2023, "SCR-17")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SCR17$text)
+
+# Topic from aiBills20232024$SCR17$status
+aiBills20232024$SCR17$topic <- "SCR-17 Artificial intelligence"
+
+# Title from aiBills20232024$SCR17$status
+aiBills20232024$SCR17$title <- paste0(aiBills20232024$SCR17$title, "Relative to artificial intelligence")
+
+# tldr for aiBills20232024$SCR17$text
+aiBills20232024$SCR17$tldr <- "SCR-17 expresses the need for a comprehensive framework to govern the development and use of artificial intelligence, ensuring ethical standards and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SCR17$tags <- c("artificial-intelligence", "comprehensive-framework", "governance", "ethical-standards", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$SCR17$sponsors <- addSponsors("Y20232024", c("DoddS"))
+aiBills20232024$SCR17$cosponsors <- addSponsors("Y20232024", c("AddisA", "AguiarCurryA", "AlanisA", "AlvarezA", "ArambulaA", "BainsA", "BauerKahanA", "BennettA", "BermanA", "BoernerA", "BontaA", "BryanA", "CalderonA", "CarrilloJA", "CarrilloWA", "CervantesA", "ConnollyA", "DixonA", "FongMA" , "FriedmanA", "GabrielA", "GipsonA", "GraysonA", "HaneyA", "HartA", "HoldenA", "IrwinA", "JacksonA", "JonesSawyerA", "KalraA", "LeeA", "LowA", "LowenthalA", "MaienscheinA", "McCartyA", "McKinnorA", "MuratsuchiA", "OrtegaA", "PachecoA", "PapanA", "PellerinA", "PetrieNorrisA", "QuirkSilvaA", "RamosA", "RendonA", "ReyesA", "RivasLA", "RivasRA", "RodriguezA", "RubioA", "SantiagoA", "SchiavoA", "SoriaA", "TingA", "ValenciaA", "VillapuduaA", "WaldronA", "WallisA", "WardA", "WeberA", "WicksA", "WilsonA", "WoodA", "ZburA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SCR17$dateStart <- as.Date("2023-01-30")
+aiBills20232024$SCR17$dateEnd <- as.Date("2023-08-23")
+aiBills20232024$SCR17$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SCR17$version <- "Chaptered"
+aiBills20232024$SCR17$outcome <- "Chaptered"
+aiBills20232024$SCR17$chaptered <- TRUE
+aiBills20232024$SCR17$chapterNo <- 135
+aiBills20232024$SCR17$active <- FALSE
+aiBills20232024$SCR17$result <- "Chaptered"
+aiBills20232024$SCR17$vote <- "No Vote"
+aiBills20232024$SCR17$appropriation <- FALSE
+aiBills20232024$SCR17$fiscal <- FALSE
+aiBills20232024$SCR17$local <- FALSE
+aiBills20232024$SCR17$urgency <- FALSE
+aiBills20232024$SCR17$tax <- FALSE
+aiBills20232024$SCR17$action <- "Chaptered by Secretary of State - Chapter 135, Statutes of 2023"
+aiBills20232024$SCR17$pdf <- "20230SCR17_97.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SCR17$text
+aiBills20232024$SCR17$aiDisposition <- "Neutral"
+aiBills20232024$SCR17$aiType <- "Generative"
+aiBills20232024$SCR17$aiSector <- "Generative AI"
+aiBills20232024$SCR17$aiSubSector <- "General"
+aiBills20232024$SCR17$aiDomain <- "Generative AI Management"
+aiBills20232024$SCR17$aiAccountability <- "Low"
+aiBills20232024$SCR17$aiImpact <- "Low"
+aiBills20232024$SCR17$aiEthics <- "Low"
+aiBills20232024$SCR17$aiInnovation <- "High"
+aiBills20232024$SCR17$aiPrivacy <- "Low"
+aiBills20232024$SCR17$aiTransparency <- "Low"
+
+
 
 
 
