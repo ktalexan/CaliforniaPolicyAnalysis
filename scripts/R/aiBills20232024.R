@@ -47,31 +47,16 @@ load(file = "calMembers.RData")
 load(file = "addBillStructure.RData")
 load(file = "addSponsors.RData")
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Compile Preliminary AI Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Define the list of bills to be added
-billList <- c("AB-2652", "SB-1288", "AB-2013", "AB-2811", "SB-893", "SB-1235", "SB-896", "SB-313", "SB-970", "AB-3030", "SB-1229", "SB-1120", "SB-398", "AB-3058", "SB-1047", "AB-3204", "AB-2876", "AB-2885", "AB-3095", "AB-1831", "SB-942", "ACR-96", "SB-933", "SB-892", "AB-2355", "SB-1381", "AJR-6", "AB-1873", "SCR-17", "AB-2905", "AB-3050", "AB-3211", "AB-2877", "AB-331", "SB-1220", "AB-2512", "ACR-227", "AB-2930", "AB-1027", "AB-302", "SCR-121", "AB-2412", "AB-2839", "ACR-219", "SB-1446", "SCR-162", "SB-1154", "AB-2655", "AB-1008", "AB-1526", "AB-2200", "SB-1223", "AB-108", "AB-103", "AB-2928", "AB-100", "SB-100", "SB-103", "AB-106", "SB-158", "SB-106", "AB-158", "AB-104", "SB-104", "SB-107", "AB-107", "AB-1754")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3. Populate AI Bill Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the list to store the AI bills data for 2023-2024
 aiBills20232024 <- list()
 
-# Loop through each year in the AI Bill List and create a template for each bill
-for (bill in billList) {
-    id <- gsub("-", "", bill)
-    # Call the function to add the bill structure
-    aiBills20232024[[id]] <- addBillStructure(2023, bill)
-}
-
-# Remove unnecessary variables
-rm(bill, id)
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 4. Populate AI Bill Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ## AB-2652 ####
+
+aiBills20232024$AB2652 <- addBillStructure(2023, "AB-2652")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2652$text)
@@ -128,6 +113,8 @@ aiBills20232024$AB2652$aiTransparency <- "High"
 
 ## SB-1288 ####
 
+aiBills20232024$SB1288 <- addBillStructure(2023, "SB-1288")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1288$text)
 
@@ -182,6 +169,8 @@ aiBills20232024$SB1288$aiPrivacy <- "High"
 aiBills20232024$SB1288$aiTransparency <- "High"
 
 ## AB-2013 ####
+
+aiBills20232024$AB2013 <- addBillStructure(2023, "AB-2013")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2013$text)
@@ -238,6 +227,8 @@ aiBills20232024$AB2013$aiTransparency <- "High"
 
 ## AB-2811 ####
 
+aiBills20232024$AB2811 <- addBillStructure(2023, "AB-2811")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2811$text)
 
@@ -292,6 +283,8 @@ aiBills20232024$AB2811$aiPrivacy <- "High"
 aiBills20232024$AB2811$aiTransparency <- "High"
 
 ## SB-893 ####
+
+aiBills20232024$SB893 <- addBillStructure(2023, "SB-893")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB893$text)
@@ -348,6 +341,8 @@ aiBills20232024$SB893$aiTransparency <- "High"
 
 ## SB-1235 ####
 
+aiBills20232024$SB1235 <- addBillStructure(2023, "SB-1235")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1235$text)
 
@@ -402,6 +397,8 @@ aiBills20232024$SB1235$aiPrivacy <- "High"
 aiBills20232024$SB1235$aiTransparency <- "High"
 
 ## SB-896 ####
+
+aiBills20232024$SB896 <- addBillStructure(2023, "SB-896")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB896$text)
@@ -458,6 +455,8 @@ aiBills20232024$SB896$aiTransparency <- "High"
 
 ## SB-313 ####
 
+aiBills20232024$SB313 <- addBillStructure(2023, "SB-313")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB313$text)
 
@@ -512,6 +511,8 @@ aiBills20232024$SB313$aiPrivacy <- "High"
 aiBills20232024$SB313$aiTransparency <- "High"
 
 ## SB-970 ####
+
+aiBills20232024$SB970 <- addBillStructure(2023, "SB-970")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB970$text)
@@ -568,6 +569,8 @@ aiBills20232024$SB970$aiTransparency <- "High"
 
 ## AB-3030 ####
 
+aiBills20232024$AB3030 <- addBillStructure(2023, "AB-3030")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB3030$text)
 
@@ -622,6 +625,8 @@ aiBills20232024$AB3030$aiPrivacy <- "High"
 aiBills20232024$AB3030$aiTransparency <- "High"
 
 ## SB-1229 ####
+
+aiBills20232024$SB1229 <- addBillStructure(2023, "SB-1229")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1229$text)
@@ -678,6 +683,8 @@ aiBills20232024$SB1229$aiTransparency <- "High"
 
 ## SB-1120 ####
 
+aiBills20232024$SB1120 <- addBillStructure(2023, "SB-1120")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1120$text)
 
@@ -732,6 +739,8 @@ aiBills20232024$SB1120$aiPrivacy <- "High"
 aiBills20232024$SB1120$aiTransparency <- "High"
 
 ## SB-398 ####
+
+aiBills20232024$SB398 <- addBillStructure(2023, "SB-398")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB398$text)
@@ -788,6 +797,8 @@ aiBills20232024$SB398$aiTransparency <- "High"
 
 ## AB-3058 ####
 
+aiBills20232024$AB3058 <- addBillStructure(2023, "AB-3058")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB3058$text)
 
@@ -842,6 +853,8 @@ aiBills20232024$AB3058$aiPrivacy <- "Low"
 aiBills20232024$AB3058$aiTransparency <- "Low"
 
 ## SB-1047 ####
+
+aiBills20232024$SB1047 <- addBillStructure(2023, "SB-1047")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1047$text)
@@ -898,6 +911,8 @@ aiBills20232024$SB1047$aiTransparency <- "High"
 
 ## AB-3204 ####
 
+aiBills20232024$AB3204 <- addBillStructure(2023, "AB-3204")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB3204$text)
 
@@ -952,6 +967,8 @@ aiBills20232024$AB3204$aiPrivacy <- "High"
 aiBills20232024$AB3204$aiTransparency <- "High"
 
 ## AB-2876 ####
+
+aiBills20232024$AB2876 <- addBillStructure(2023, "AB-2876")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2876$text)
@@ -1008,6 +1025,8 @@ aiBills20232024$AB2876$aiTransparency <- "High"
 
 ## AB-2885 ####
 
+aiBills20232024$AB2885 <- addBillStructure(2023, "AB-2885")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2885$text)
 
@@ -1062,6 +1081,8 @@ aiBills20232024$AB2885$aiPrivacy <- "High"
 aiBills20232024$AB2885$aiTransparency <- "High"
 
 ## AB-3095 ####
+
+aiBills20232024$AB3095 <- addBillStructure(2023, "AB-3095")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB3095$text)
@@ -1118,6 +1139,8 @@ aiBills20232024$AB3095$aiTransparency <- "Low"
 
 ## AB-1831 ####
 
+aiBills20232024$AB1831 <- addBillStructure(2023, "AB-1831")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB1831$text)
 
@@ -1126,7 +1149,6 @@ aiBills20232024$AB1831$topic <- "AB-1831 Crimes: child pornography"
 
 # Title from aiBills20232024$AB1831$status
 aiBills20232024$AB1831$title <- paste0(aiBills20232024$AB1831$title, "An act to amend Sections 311, 311.2, 311.11, and 311.12 of the Penal Code, relating to crimes")
-
 
 # tldr for aiBills20232024$AB1831$text
 aiBills20232024$AB1831$tldr <- "AB-1831 aims to strengthen laws against child pornography, enhancing penalties and enforcement measures to protect children."
@@ -1173,6 +1195,8 @@ aiBills20232024$AB1831$aiPrivacy <- "High"
 aiBills20232024$AB1831$aiTransparency <- "High"
 
 ## SB-942 ####
+
+aiBills20232024$SB942 <- addBillStructure(2023, "SB-942")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB942$text)
@@ -1229,6 +1253,8 @@ aiBills20232024$SB942$aiTransparency <- "High"
 
 ## ACR-96 ####
 
+aiBills20232024$ACR96 <- addBillStructure(2023, "ACR-96")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$ACR96$text)
 
@@ -1283,6 +1309,8 @@ aiBills20232024$ACR96$aiPrivacy <- "Low"
 aiBills20232024$ACR96$aiTransparency <- "Low"
 
 ## SB-933 ####
+
+aiBills20232024$SB933 <- addBillStructure(2023, "SB-933")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB933$text)

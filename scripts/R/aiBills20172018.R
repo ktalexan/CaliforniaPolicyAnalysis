@@ -47,31 +47,16 @@ load(file = "calMembers.RData")
 load(file = "addBillStructure.RData")
 load(file = "addSponsors.RData")
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Compile Preliminary AI Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Define the list of bills to be added
-billList <- c("ACR-215", "SB-1470", "AB-2662", "AB-1809", "SB-843")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3. Populate AI Bill Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the list to store the AI bills data for 2017-2018
 aiBills20172018 <- list()
 
-# Loop through each year in the AI Bill List and create a template for each bill
-for (bill in billList) {
-    id <- gsub("-", "", bill)
-    # Call the function to add the bill structure
-    aiBills20172018[[id]] <- addBillStructure(2017, bill)
-}
-
-# Remove unnecessary variables
-rm(bill, id)
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 4. Populate AI Bill Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ## ACR-215 ####
+
+aiBills20172018$ACR215 <- addBillStructure(2017, "ACR-215")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$ACR215$text)
@@ -125,6 +110,8 @@ aiBills20172018$ACR215$aiPrivacy <- "Low"
 aiBills20172018$ACR215$aiTransparency <- "Moderate"
 
 ## SB-1470 ####
+
+aiBills20172018$SB1470 <- addBillStructure(2017, "SB-1470")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$SB1470$text)
@@ -181,6 +168,8 @@ aiBills20172018$SB1470$aiTransparency <- "Moderate"
 
 ## AB-2662 ####
 
+aiBills20172018$AB2662 <- addBillStructure(2017, "AB-2662")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$AB2662$text)
 
@@ -235,6 +224,8 @@ aiBills20172018$AB2662$aiPrivacy <- "Low"
 aiBills20172018$AB2662$aiTransparency <- "Moderate"
 
 ## AB-1809 ####
+
+aiBills20172018$AB1809 <- addBillStructure(2017, "AB-1809")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$AB1809$text)
@@ -291,6 +282,8 @@ aiBills20172018$AB1809$aiTransparency <- "Low"
 
 ## SB-843 ####
 
+aiBills20172018$SB843 <- addBillStructure(2017, "SB-843")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$SB843$text)
 
@@ -345,7 +338,7 @@ aiBills20172018$SB843$aiPrivacy <- "Low"
 aiBills20172018$SB843$aiTransparency <- "Moderate"
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. Export and Save Data ####
+# 4. Export and Save Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Remove unnecessary variables

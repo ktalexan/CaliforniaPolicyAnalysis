@@ -47,31 +47,16 @@ load(file = "calMembers.RData")
 load(file = "addBillStructure.RData")
 load(file = "addSponsors.RData")
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Compile Preliminary AI Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Define the list of bills to be added
-billList <- c("SB-348", "SJR-6", "AB-459", "AB-1576", "AB-976", "AB-594", "SB-444", "SB-730", "AB-156", "AB-3317", "SCR-13", "ACR-125", "SB-752", "AB-2269", "AB-3339", "AB-485")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3. Populate AI Bill Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the list to store the AI bills data for 2019-2020
 aiBills20192020 <- list()
 
-# Loop through each year in the AI Bill List and create a template for each bill
-for (bill in billList) {
-    id <- gsub("-", "", bill)
-    # Call the function to add the bill structure
-    aiBills20192020[[id]] <- addBillStructure(2019, bill)
-}
-
-# Remove unnecessary variables
-rm(bill, id)
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 4. Populate AI Bill Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ## SB-348 ####
+
+aiBills20192020$SB348 <- addBillStructure(2019, "SB-348")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$SB348$text)
@@ -128,6 +113,8 @@ aiBills20192020$SB348$aiTransparency <- "Moderate"
 
 ## SJR-6 ####
 
+aiBills20192020$SJR6 <- addBillStructure(2019, "SJR-6")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$SJR6$text)
 
@@ -182,6 +169,8 @@ aiBills20192020$SJR6$aiPrivacy <- "Low"
 aiBills20192020$SJR6$aiTransparency <- "Moderate"
 
 ## AB-459 ####
+
+aiBills20192020$AB459 <- addBillStructure(2019, "AB-459")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB459$text)
@@ -238,6 +227,8 @@ aiBills20192020$AB459$aiTransparency <- "Moderate"
 
 ## AB-1576 ####
 
+aiBills20192020$AB1576 <- addBillStructure(2019, "AB-1576")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB1576$text)
 
@@ -292,6 +283,8 @@ aiBills20192020$AB1576$aiPrivacy <- "Low"
 aiBills20192020$AB1576$aiTransparency <- "Moderate"
 
 ## AB-976 ####
+
+aiBills20192020$AB976 <- addBillStructure(2019, "AB-976")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB976$text)
@@ -348,6 +341,8 @@ aiBills20192020$AB976$aiTransparency <- "Moderate"
 
 ## AB-594 ####
 
+aiBills20192020$AB594 <- addBillStructure(2019, "AB-594")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB594$text)
 
@@ -402,6 +397,8 @@ aiBills20192020$AB594$aiPrivacy <- "Low"
 aiBills20192020$AB594$aiTransparency <- "Moderate"
 
 ## SB-730 ####
+
+aiBills20192020$SB730 <- addBillStructure(2019, "SB-730")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$SB730$text)
@@ -458,6 +455,8 @@ aiBills20192020$SB730$aiTransparency <- "Moderate"
 
 ## SB-444 ####
 
+aiBills20192020$SB444 <- addBillStructure(2019, "SB-444")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$SB444$text)
 
@@ -512,6 +511,8 @@ aiBills20192020$SB444$aiPrivacy <- "Low"
 aiBills20192020$SB444$aiTransparency <- "Moderate"
 
 ## AB-156 ####
+
+aiBills20192020$AB156 <- addBillStructure(2019, "AB-156")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB156$text)
@@ -568,6 +569,8 @@ aiBills20192020$AB156$aiTransparency <- "Low"
 
 ## AB-3317 ####
 
+aiBills20192020$AB3317 <- addBillStructure(2019, "AB-3317")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB3317$text)
 
@@ -622,6 +625,8 @@ aiBills20192020$AB3317$aiPrivacy <- "Moderate"
 aiBills20192020$AB3317$aiTransparency <- "Moderate"
 
 ## ACR-125 ####
+
+aiBills20192020$ACR125 <- addBillStructure(2019, "ACR-125")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$ACR125$text)
@@ -678,6 +683,8 @@ aiBills20192020$ACR125$aiTransparency <- "Moderate"
 
 ## SCR-13 ####
 
+aiBills20192020$SCR13 <- addBillStructure(2019, "SCR-13")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$SCR13$text)
 
@@ -732,6 +739,8 @@ aiBills20192020$SCR13$aiPrivacy <- "Low"
 aiBills20192020$SCR13$aiTransparency <- "Low"
 
 ## SB-752 ####
+
+aiBills20192020$SB752 <- addBillStructure(2019, "SB-752")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$SB752$text)
@@ -788,6 +797,8 @@ aiBills20192020$SB752$aiTransparency <- "Moderate"
 
 ## AB-2269 ####
 
+aiBills20192020$AB2269 <- addBillStructure(2019, "AB-2269")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB2269$text)
 
@@ -842,6 +853,8 @@ aiBills20192020$AB2269$aiPrivacy <- "High"
 aiBills20192020$AB2269$aiTransparency <- "High"
 
 ## AB-485 ####
+
+aiBills20192020$AB485 <- addBillStructure(2019, "AB-485")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB485$text)
@@ -898,6 +911,8 @@ aiBills20192020$AB485$aiTransparency <- "High"
 
 ## AB-3339 ####
 
+aiBills20192020$AB3339 <- addBillStructure(2019, "AB-3339")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20192020$AB3339$text)
 
@@ -952,7 +967,7 @@ aiBills20192020$AB3339$aiPrivacy <- "High"
 aiBills20192020$AB3339$aiTransparency <- "High"
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. Export and Save Data ####
+# 4. Export and Save Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Remove unnecessary variables

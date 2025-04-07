@@ -47,31 +47,16 @@ load(file = "calMembers.RData")
 load(file = "addBillStructure.RData")
 load(file = "addSponsors.RData")
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Compile Preliminary AI Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Define the list of bills to be added
-billList <- c("SB-836", "SB-860", "AB-1465")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3. Populate AI Bill Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the list to store the AI bills data for 2013-2014
 aiBills20132014 <- list()
 
-# Loop through each year in the AI Bill List and create a template for each bill
-for (bill in billList) {
-    id <- gsub("-", "", bill)
-    # Call the function to add the bill structure
-    aiBills20132014[[id]] <- addBillStructure(2013, bill)
-}
-
-# Remove unnecessary variables
-rm(bill, id)
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 4. Populate AI Bill Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ## SB-836 ####
+
+aiBills20132014$SB836 <- addBillStructure(2013, "SB-836")
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20132014$SB836$text)
@@ -128,6 +113,8 @@ aiBills20132014$SB836$aiTransparency <- "Moderate"
 
 ## SB-860 ####
 
+aiBills20132014$SB860 <- addBillStructure(2013, "SB-860")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20132014$SB860$text)
 
@@ -183,6 +170,8 @@ aiBills20132014$SB860$aiTransparency <- "Moderate"
 
 ## AB-1465 ####
 
+aiBills20132014$AB1465 <- addBillStructure(2013, "AB-1465")
+
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20132014$AB1465$text)
 
@@ -237,7 +226,7 @@ aiBills20132014$AB1465$aiPrivacy <- "Moderate"
 aiBills20132014$AB1465$aiTransparency <- "Moderate"
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. Export and Save Data ####
+# 4. Export and Save Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Remove unnecessary variables
