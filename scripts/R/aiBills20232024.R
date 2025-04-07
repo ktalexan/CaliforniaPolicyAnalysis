@@ -1282,6 +1282,61 @@ aiBills20232024$ACR96$aiInnovation <- "High"
 aiBills20232024$ACR96$aiPrivacy <- "Low"
 aiBills20232024$ACR96$aiTransparency <- "Low"
 
+## SB-933 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB933$text)
+
+# Topic from aiBills20232024$SB933$status
+aiBills20232024$SB933$topic <- "SB-933 Crimes: child pornography"
+
+# Title from aiBills20232024$SB933$status
+aiBills20232024$SB933$title <- paste0(aiBills20232024$SB933$title, "An act to amend Sections 311, 311.1, 311.2, 311.3, 311.4, 311.11, and 312.3 of, and to add Section 13012.9 to, the Penal Code, relating to crimes")
+
+# tldr for aiBills20232024$SB933$text
+aiBills20232024$SB933$tldr <- "SB-933 aims to amend various sections of the Penal Code to enhance the legal framework surrounding crimes related to child pornography."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB933$tags <- c("artificial-intelligence", "crimes", "child-pornography", "penal-code", "legal-framework", "enhancement")
+
+# sponsors and cosponsors
+aiBills20232024$SB933$sponsors <- addSponsors("Y20232024", c("WahabS", "BoghS"))
+aiBills20232024$SB933$cosponsors <- addSponsors("Y20232024", c("BermanA", "BradfordS", "CorteseS", "DixonA", "GroveS", "JonesS", "NguyenA", "RubioS", "SchiavoA", "SeyartoS", "SkinnerS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB933$dateStart <- as.Date("2024-01-16")
+aiBills20232024$SB933$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB933$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB933$version <- "Amended Assembly"
+aiBills20232024$SB933$outcome <- "Failed"
+aiBills20232024$SB933$chaptered <- FALSE
+aiBills20232024$SB933$chapterNo <- NA
+aiBills20232024$SB933$active <- FALSE
+aiBills20232024$SB933$result <- "Died"
+aiBills20232024$SB933$vote <- "Majority"
+aiBills20232024$SB933$appropriation <- FALSE
+aiBills20232024$SB933$fiscal <- TRUE
+aiBills20232024$SB933$local <- TRUE
+aiBills20232024$SB933$urgency <- FALSE
+aiBills20232024$SB933$tax <- FALSE
+aiBills20232024$SB933$action <- "From Assembly without further action"
+aiBills20232024$SB933$pdf <- "20230SB933_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB933$text
+aiBills20232024$SB933$aiDisposition <- "Restrictive"
+aiBills20232024$SB933$aiType <- "Pornography"
+aiBills20232024$SB933$aiSector <- "Child Protection"
+aiBills20232024$SB933$aiSubSector <- "General"
+aiBills20232024$SB933$aiDomain <- "Child Protection Management"
+aiBills20232024$SB933$aiAccountability <- "High"
+aiBills20232024$SB933$aiImpact <- "High"
+aiBills20232024$SB933$aiEthics <- "High"
+aiBills20232024$SB933$aiInnovation <- "Low"
+aiBills20232024$SB933$aiPrivacy <- "High"
+aiBills20232024$SB933$aiTransparency <- "High"
+
 
 
 
