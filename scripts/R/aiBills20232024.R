@@ -951,7 +951,6 @@ aiBills20232024$AB3204$aiInnovation <- "Low"
 aiBills20232024$AB3204$aiPrivacy <- "High"
 aiBills20232024$AB3204$aiTransparency <- "High"
 
-
 ## AB-2876 ####
 
 # open the url for the bill text in the default web browser
@@ -1006,6 +1005,120 @@ aiBills20232024$AB2876$aiEthics <- "High"
 aiBills20232024$AB2876$aiInnovation <- "Low"
 aiBills20232024$AB2876$aiPrivacy <- "High"
 aiBills20232024$AB2876$aiTransparency <- "High"
+
+## AB-2885 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2885$text)
+
+# Topic from aiBills20232024$AB2885$status
+aiBills20232024$AB2885$topic <- "AB-2885 Artificial intelligence"
+
+# Title from aiBills20232024$AB2885$status
+aiBills20232024$AB2885$title <- paste0(aiBills20232024$AB2885$title, "An act to amend Section 22675 of the Business and Professions Code, to amend Section 75002 of the Education Code, and to amend Sections 11546.45.5, 11547.5, and 53083.1 of the Government Code, relating to artificial intelligence")
+
+# tldr for aiBills20232024$AB2885$text
+aiBills20232024$AB2885$tldr <- "AB-2885 establishes regulations for the use of artificial intelligence in various sectors, including education and government. It mandates transparency in AI algorithms, ensures accountability for AI-generated decisions, and sets guidelines for ethical AI practices to protect consumer rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2885$tags <- c("artificial-intelligence", "ai-education", "regulations", "transparency", "accountability", "ethical-practices", "consumer-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$AB2885$sponsors <- addSponsors("Y20232024", c("BauerKahanA"))
+aiBills20232024$AB2885$cosponsors <- addSponsors("Y20232024", c("UmbergA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2885$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2885$dateEnd <- as.Date("2024-09-28")
+aiBills20232024$AB2885$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2885$version <- "Chaptered"
+aiBills20232024$AB2885$outcome <- "Chaptered"
+aiBills20232024$AB2885$chaptered <- TRUE
+aiBills20232024$AB2885$chapterNo <- 843
+aiBills20232024$AB2885$active <- FALSE
+aiBills20232024$AB2885$result <- "Chaptered"
+aiBills20232024$AB2885$vote <- "Majority"
+aiBills20232024$AB2885$appropriation <- FALSE
+aiBills20232024$AB2885$fiscal <- TRUE
+aiBills20232024$AB2885$local <- FALSE
+aiBills20232024$AB2885$urgency <- FALSE
+aiBills20232024$AB2885$tax <- FALSE
+aiBills20232024$AB2885$action <- "Chaptered by Secretary of State - Chapter 843, Statutes of 2024"
+aiBills20232024$AB2885$pdf <- "20230AB2885_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2885$text
+aiBills20232024$AB2885$aiDisposition <- "Restrictive"
+aiBills20232024$AB2885$aiType <- "Generative"
+aiBills20232024$AB2885$aiSector <- "Decision Making"
+aiBills20232024$AB2885$aiSubSector <- "General"
+aiBills20232024$AB2885$aiDomain <- "Decision Making Management"
+aiBills20232024$AB2885$aiAccountability <- "High"
+aiBills20232024$AB2885$aiImpact <- "High"
+aiBills20232024$AB2885$aiEthics <- "High"
+aiBills20232024$AB2885$aiInnovation <- "Low"
+aiBills20232024$AB2885$aiPrivacy <- "High"
+aiBills20232024$AB2885$aiTransparency <- "High"
+
+## AB-3095 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB3095$text)
+
+# Topic from aiBills20232024$AB3095$status
+aiBills20232024$AB3095$topic <- "AB-3095 Artificial intelligence"
+
+# Title from aiBills20232024$AB3095$status
+aiBills20232024$AB3095$title <- paste0(aiBills20232024$AB3095$title, "An act relating to technology")
+
+# tldr for aiBills20232024$AB3095$text
+aiBills20232024$AB3095$tldr <- "AB-3095 establishes regulations for the use of artificial intelligence in various sectors. It mandates transparency in AI algorithms, ensures accountability for AI-generated decisions, and sets guidelines for ethical AI practices to protect consumer rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB3095$tags <- c("artificial-intelligence", "technology", "regulations", "transparency", "accountability", "ethical-practices", "consumer-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$AB3095$sponsors <- addSponsors("Y20232024", c("WaldronA"))
+aiBills20232024$AB3095$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB3095$dateStart <- as.Date("2024-02-16")
+aiBills20232024$AB3095$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB3095$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB3095$version <- "Introduced"
+aiBills20232024$AB3095$outcome <- "Failed"
+aiBills20232024$AB3095$chaptered <- FALSE
+aiBills20232024$AB3095$chapterNo <- NA
+aiBills20232024$AB3095$active <- FALSE
+aiBills20232024$AB3095$result <- "Died"
+aiBills20232024$AB3095$vote <- "Majority"
+aiBills20232024$AB3095$appropriation <- FALSE
+aiBills20232024$AB3095$fiscal <- FALSE
+aiBills20232024$AB3095$local <- FALSE
+aiBills20232024$AB3095$urgency <- FALSE
+aiBills20232024$AB3095$tax <- FALSE
+aiBills20232024$AB3095$action <- "Died at Desk"
+aiBills20232024$AB3095$pdf <- "20230AB3095_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB3095$text
+aiBills20232024$AB3095$aiDisposition <- "Neutral"
+aiBills20232024$AB3095$aiType <- "Generative"
+aiBills20232024$AB3095$aiSector <- "Generative AI"
+aiBills20232024$AB3095$aiSubSector <- "General"
+aiBills20232024$AB3095$aiDomain <- "Generative AI Management"
+aiBills20232024$AB3095$aiAccountability <- "Low"
+aiBills20232024$AB3095$aiImpact <- "Low"
+aiBills20232024$AB3095$aiEthics <- "Low"
+aiBills20232024$AB3095$aiInnovation <- "High"
+aiBills20232024$AB3095$aiPrivacy <- "Low"
+aiBills20232024$AB3095$aiTransparency <- "Low"
+
+
+
+
 
 
 
