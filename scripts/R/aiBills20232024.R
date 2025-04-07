@@ -1593,6 +1593,62 @@ aiBills20232024$AJR6$aiInnovation <- "High"
 aiBills20232024$AJR6$aiPrivacy <- "Low"
 aiBills20232024$AJR6$aiTransparency <- "Low"
 
+## AB-1873 ####
+
+aiBills20232024$AB1873 <- addBillStructure(2023, "AB-1873")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB1873$text)
+
+# Topic from aiBills20232024$AB1873$status
+aiBills20232024$AB1873$topic <- "AB-1873 Crimes: sexual exploitation of a child"
+
+# Title from aiBills20232024$AB1873$status
+aiBills20232024$AB1873$title <- paste0(aiBills20232024$AB1873$title, "An act to amend Section 311.3 of the Penal Code, relating to crimes")
+
+# tldr for aiBills20232024$AB1873$text
+aiBills20232024$AB1873$tldr <- "AB-1873 addresses sexual exploitation of a child, enhancing penalties and enforcement measures."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB1873$tags <- c("artificial-intelligence", "sexual-exploitation", "child-protection")
+
+# sponsors and cosponsors
+aiBills20232024$AB1873$sponsors <- addSponsors("Y20232024", c("SanchezA"))
+aiBills20232024$AB1873$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB1873$dateStart <- as.Date("2024-01-22")
+aiBills20232024$AB1873$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB1873$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB1873$version <- "Introduced"
+aiBills20232024$AB1873$outcome <- "Failed"
+aiBills20232024$AB1873$chaptered <- FALSE
+aiBills20232024$AB1873$chapterNo <- NA
+aiBills20232024$AB1873$active <- FALSE
+aiBills20232024$AB1873$result <- "Died"
+aiBills20232024$AB1873$vote <- "Majority"
+aiBills20232024$AB1873$appropriation <- FALSE
+aiBills20232024$AB1873$fiscal <- TRUE
+aiBills20232024$AB1873$local <- TRUE
+aiBills20232024$AB1873$urgency <- FALSE
+aiBills20232024$AB1873$tax <- FALSE
+aiBills20232024$AB1873$action <- "From committee without further action"
+aiBills20232024$AB1873$pdf <- "20230AB1873_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB1873$text
+aiBills20232024$AB1873$aiDisposition <- "Restrictive"
+aiBills20232024$AB1873$aiType <- "Preventive"
+aiBills20232024$AB1873$aiSector <- "Child Protection"
+aiBills20232024$AB1873$aiSubSector <- "General"
+aiBills20232024$AB1873$aiDomain <- "Child Protection Management"
+aiBills20232024$AB1873$aiAccountability <- "High"
+aiBills20232024$AB1873$aiImpact <- "High"
+aiBills20232024$AB1873$aiEthics <- "High"
+aiBills20232024$AB1873$aiInnovation <- "Low"
+aiBills20232024$AB1873$aiPrivacy <- "High"
+aiBills20232024$AB1873$aiTransparency <- "High"
 
 
 
