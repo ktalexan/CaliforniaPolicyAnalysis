@@ -1116,7 +1116,61 @@ aiBills20232024$AB3095$aiInnovation <- "High"
 aiBills20232024$AB3095$aiPrivacy <- "Low"
 aiBills20232024$AB3095$aiTransparency <- "Low"
 
+## AB-1831 ####
 
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB1831$text)
+
+# Topic from aiBills20232024$AB1831$status
+aiBills20232024$AB1831$topic <- "AB-1831 Crimes: child pornography"
+
+# Title from aiBills20232024$AB1831$status
+aiBills20232024$AB1831$title <- paste0(aiBills20232024$AB1831$title, "An act to amend Sections 311, 311.2, 311.11, and 311.12 of the Penal Code, relating to crimes")
+
+
+# tldr for aiBills20232024$AB1831$text
+aiBills20232024$AB1831$tldr <- "AB-1831 aims to strengthen laws against child pornography, enhancing penalties and enforcement measures to protect children."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB1831$tags <- c("artificial-intelligence", "crimes", "child-pornography", "laws", "penalties", "enforcement", "protection")
+
+# sponsors and cosponsors
+aiBills20232024$AB1831$sponsors <- addSponsors("Y20232024", c("BermanA", "SanchezA"))
+aiBills20232024$AB1831$cosponsors <- addSponsors("Y20232024", c("WahabS", "AlanisA", "AllenS", "ArchuletaS", "BeckerS", "BennettA", "CalderonA", "ChenA", "DixonA", "FloraA", "GraysonA", "IrwinA", "LackeyA", "LimonS", "LowA", "NguyenS", "BoghS", "PattersonJimA", "PellerinA", "PetrieNorrisA", "PortantinoS", "RubioS", "SchiavoA", "SternS", "TaA", "WeberA", "WilsonA", "WoodA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB1831$dateStart <- as.Date("2024-01-12")
+aiBills20232024$AB1831$dateEnd <- as.Date("2024-09-29")
+aiBills20232024$AB1831$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB1831$version <- "Chaptered"
+aiBills20232024$AB1831$outcome <- "Chaptered"
+aiBills20232024$AB1831$chaptered <- TRUE
+aiBills20232024$AB1831$chapterNo <- 926
+aiBills20232024$AB1831$active <- FALSE
+aiBills20232024$AB1831$result <- "Chaptered"
+aiBills20232024$AB1831$vote <- "Majority"
+aiBills20232024$AB1831$appropriation <- FALSE
+aiBills20232024$AB1831$fiscal <- TRUE
+aiBills20232024$AB1831$local <- TRUE
+aiBills20232024$AB1831$urgency <- FALSE
+aiBills20232024$AB1831$tax <- FALSE
+aiBills20232024$AB1831$action <- "Chaptered by Secretary of State - Chapter 926, Statutes of 2024"
+aiBills20232024$AB1831$pdf <- "20230AB1831_91.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB1831$text
+aiBills20232024$AB1831$aiDisposition <- "Restrictive"
+aiBills20232024$AB1831$aiType <- "Pornography"
+aiBills20232024$AB1831$aiSector <- "Child Protection"
+aiBills20232024$AB1831$aiSubSector <- "General"
+aiBills20232024$AB1831$aiDomain <- "Child Protection Management"
+aiBills20232024$AB1831$aiAccountability <- "High"
+aiBills20232024$AB1831$aiImpact <- "High"
+aiBills20232024$AB1831$aiEthics <- "High"
+aiBills20232024$AB1831$aiInnovation <- "Low"
+aiBills20232024$AB1831$aiPrivacy <- "High"
+aiBills20232024$AB1831$aiTransparency <- "High"
 
 
 
