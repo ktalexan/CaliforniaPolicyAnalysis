@@ -46,6 +46,19 @@ setwd(prjDirs$pathData)
 load(file = "dfCalMembers.RData")
 load(file = "calMembers.RData")
 
+# Create a new function named `sponsors` that generates a list of sponsors
+addSponsors <- function(year, names) {
+    sponsors_list <- list()
+    for (name in names) {
+        if (name %in% names(calMembers[[year]])) {
+            sponsors_list[[name]] = calMembers[[year]][[name]]
+        } else {
+            stop(paste("Sponsor", name, "not found in year", year, "Possible alternatives:", grep(substr(name, 1, nchar(name) - 2), names(calMembers[[year]]), value = TRUE)))
+        }
+    }
+    return(sponsors_list)
+}
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3. Compile Preliminary AI Data ####
@@ -214,28 +227,8 @@ aiBillData$Y20132014$SB836$tldr <- "SB-836 establishes the California Brain Rese
 aiBillData$Y20132014$SB836$tags <- c("artificial-intelligence", "brain-research", "cal-brain-program", "neurotechnologies", "brain-disorders", "research-and-development", "collaboration", "state-agencies", "research-institutions", "private-organizations")
 
 # sponsors and cosponsors
-aiBillData$Y20132014$SB836$sponsors <- list(
-    CorbettS = calMembers$Y20132014$CorbettS
-)
-aiBillData$Y20132014$SB836$cosponsors <- list(
-    AndersonS = calMembers$Y20132014$AndersonS,
-    BeallS = calMembers$Y20132014$BeallS,
-    BlockS = calMembers$Y20132014$BlockS,
-    CannellaS = calMembers$Y20132014$CannellaS,
-    CorreaS = calMembers$Y20132014$CorreaS,
-    EvansS = calMembers$Y20132014$EvansS,
-    GalgianiS = calMembers$Y20132014$GalgianiS,
-    HancockS = calMembers$Y20132014$HancockS,
-    HillS = calMembers$Y20132014$HillS,
-    LaraS = calMembers$Y20132014$LaraS,
-    LieuS = calMembers$Y20132014$LieuS,
-    LiuS = calMembers$Y20132014$LiuS,
-    NielsenS = calMembers$Y20132014$NielsenS,
-    RothS = calMembers$Y20132014$RothS,
-    WolkS = calMembers$Y20132014$WolkS,
-    SkinnerA = calMembers$Y20132014$SkinnerA,
-    WaldronA = calMembers$Y20132014$WaldronA
-)
+aiBillData$Y20132014$SB836$sponsors <- addSponsors("Y20132014", c("CorbettS"))
+aiBillData$Y20132014$SB836$cosponsors <- addSponsors("Y20132014", c("AndersonS", "BeallS", "BlockS", "CannellaS", "CorreaS", "EvansS", "GalgianiS", "HancockS", "HillS", "LaraS", "LieuS", "LiuS", "NielsenS", "RothS", "WolkS", "SkinnerA", "WaldronA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20132014$SB836$dateStart <- as.Date("2014-01-06")
@@ -289,9 +282,7 @@ aiBillData$Y20132014$SB860$tldr <- "SB-860 is an education omnibus trailer bill 
 aiBillData$Y20132014$SB860$tags <- c("artificial-intelligence", "education-finance", "education-omnibus-trailer-bill", "postsecondary-education", "funding", "program-implementation", "streamlining-processes", "educational-opportunities", "state-regulations", "budget-related-matters")
 
 # sponsors and cosponsors
-aiBillData$Y20132014$SB860$sponsors <- list(
-    CommitteeOnBudgetAndFiscalReviewS = calMembers$Y20132014$CommitteeOnBudgetAndFiscalReviewS
-)
+aiBillData$Y20132014$SB860$sponsors <- addSponsors("Y20132014", c("CommitteeOnBudgetAndFiscalReviewS"))
 aiBillData$Y20132014$SB860$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -346,25 +337,7 @@ aiBillData$Y20132014$AB1465$tldr <- "AB-1465 is an education omnibus trailer bil
 aiBillData$Y20132014$AB1465$tags <- c("artificial-intelligence", "education-finance", "education-omnibus-trailer-bill", "postsecondary-education", "funding", "program-implementation", "streamlining-processes", "educational-opportunities", "state-regulations", "budget-related-matters")
 
 # sponsors and cosponsors
-aiBillData$Y20132014$AB1465$sponsors <- list(
-    CommitteeOnBudgetA = calMembers$Y20132014$CommitteeOnBudgetA,
-    SkinnerA = calMembers$Y20132014$SkinnerA,
-    BloomA = calMembers$Y20132014$BloomA,
-    CamposA = calMembers$Y20132014$CamposA,
-    ChesbroA = calMembers$Y20132014$ChesbroA,
-    DababnehA = calMembers$Y20132014$DababnehA,
-    DalyA = calMembers$Y20132014$DalyA,
-    DickinsonA = calMembers$Y20132014$DickinsonA,
-    GordonA = calMembers$Y20132014$GordonA,
-    JonesSawyerA = calMembers$Y20132014$JonesSawyerA,
-    MullinA = calMembers$Y20132014$MullinA,
-    MuratsuchiA = calMembers$Y20132014$MuratsuchiA,
-    NazarianA = calMembers$Y20132014$NazarianA,
-    RodriguezA = calMembers$Y20132014$RodriguezA,
-    StoneA = calMembers$Y20132014$StoneA,
-    TingA = calMembers$Y20132014$TingA,
-    WeberA = calMembers$Y20132014$WeberA
-)
+aiBillData$Y20132014$AB1465$sponsors <- addSponsors("Y20132014", c("CommitteeOnBudgetA", "SkinnerA", "BloomA", "CamposA", "ChesbroA", "DababnehA", "DalyA", "DickinsonA", "GordonA", "JonesSawyerA", "MullinA", "MuratsuchiA", "NazarianA", "RodriguezA", "StoneA", "TingA", "WeberA"))
 aiBillData$Y20132014$AB1465$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -422,83 +395,8 @@ aiBillData$Y20172018$ACR215$tldr <- "ACR-215 recognizes the 23 Asilomar AI Princ
 aiBillData$Y20172018$ACR215$tags <- c("artificial-intelligence", "asilomar-ai-principles", "ethical-development", "guidelines", "safety", "transparency", "accountability", "collaboration", "responsible-ai-practices", "benefit-humanity")
 
 # sponsors and cosponsors
-aiBillData$Y20172018$ACR215$sponsors <- list(
-    KileyA = calMembers$Y20172018$Kiley
-)
-aiBillData$Y20172018$ACR215$cosponsors <- list(
-    AcostaA = calMembers$Y20172018$AcostaA,
-    AguiarCurryA = calMembers$Y20172018$AguiarCurryA,
-    ArambulaA = calMembers$Y20172018$ArambulaA,
-    BakerA = calMembers$Y20172018$BakerA,
-    BermanA = calMembers$Y20172018$BermanA,
-    BigelowA = calMembers$Y20172018$BigelowA,
-    BloomA = calMembers$Y20172018$BloomA,
-    BontaA = calMembers$Y20172018$BontaA,
-    BurkeA = calMembers$Y20172018$BurkeA,
-    CaballeroA = calMembers$Y20172018$CaballeroA,
-    CalderonA = calMembers$Y20172018$CalderonA,
-    CarrilloA = calMembers$Y20172018$CarrilloA,
-    ChauA = calMembers$Y20172018$ChauA,
-    ChavezA = calMembers$Y20172018$ChavezA,
-    ChenA = calMembers$Y20172018$ChenA,
-    ChiuA = calMembers$Y20172018$ChiuA,
-    ChuA = calMembers$Y20172018$ChuA,
-    CooleyA = calMembers$Y20172018$CooleyA,
-    CooperA = calMembers$Y20172018$CooperA,
-    CunninghamA = calMembers$Y20172018$CunninghamA,
-    DahleA = calMembers$Y20172018$DahleA,
-    DalyA = calMembers$Y20172018$DalyA,
-    EggmanA = calMembers$Y20172018$EggmanA,
-    FloraA = calMembers$Y20172018$FloraA,
-    FongA = calMembers$Y20172018$FongA,
-    FrazierA = calMembers$Y20172018$FrazierA,
-    FriedmanA = calMembers$Y20172018$FriedmanA,
-    GabrielA = calMembers$Y20172018$GabrielA,
-    GallagherA = calMembers$Y20172018$GallagherA,
-    GarciaEA = calMembers$Y20172018$GarciaEA,
-    GarciaCA = calMembers$Y20172018$GarciaCA,
-    GipsonA = calMembers$Y20172018$GipsonA,
-    GloriaA = calMembers$Y20172018$GloriaA,
-    GrayA = calMembers$Y20172018$GrayA,
-    GraysonA = calMembers$Y20172018$GraysonA,
-    HarperA = calMembers$Y20172018$HarperA,
-    HoldenA = calMembers$Y20172018$HoldenA,
-    IrwinA = calMembers$Y20172018$IrwinA,
-    JonesSawyerA = calMembers$Y20172018$JonesSawyerA,
-    KalraA = calMembers$Y20172018$KalraA,
-    LackeyA = calMembers$Y20172018$LackeyA,
-    LevineA = calMembers$Y20172018$LevineA,
-    LimonA = calMembers$Y20172018$LimonA,
-    LowA = calMembers$Y20172018$LowA,
-    MaienscheinA = calMembers$Y20172018$MaienscheinA,
-    MathisA = calMembers$Y20172018$MathisA,
-    MayesA = calMembers$Y20172018$MayesA,
-    McCartyA = calMembers$Y20172018$McCartyA,
-    MelendezA = calMembers$Y20172018$MelendezA,
-    MullinA = calMembers$Y20172018$MullinA,
-    MuratsuchiA = calMembers$Y20172018$MuratsuchiA,
-    NazarianA = calMembers$Y20172018$NazarianA,
-    ODonnellA = calMembers$Y20172018$ODonnellA,
-    ObernolteA = calMembers$Y20172018$ObernolteA,
-    PattersonA = calMembers$Y20172018$PattersonA,
-    QuirkA = calMembers$Y20172018$QuirkA,
-    QuirkSilvaA = calMembers$Y20172018$QuirkSilvaA,
-    RendonA = calMembers$Y20172018$RendonA,
-    ReyesA = calMembers$Y20172018$ReyesA,
-    RivasA = calMembers$Y20172018$RivasA,
-    RodriguezA = calMembers$Y20172018$RodriguezA,
-    RubioA = calMembers$Y20172018$RubioA,
-    SalasA = calMembers$Y20172018$SalasA,
-    SantiagoA = calMembers$Y20172018$SantiagoA,
-    SteinorthA = calMembers$Y20172018$SteinorthA,
-    StoneA = calMembers$Y20172018$StoneA,
-    ThurmondA = calMembers$Y20172018$ThurmondA,
-    TingA = calMembers$Y20172018$TingA,
-    VoepelA = calMembers$Y20172018$VoepelA,
-    WaldronA = calMembers$Y20172018$WaldronA,
-    WeberA = calMembers$Y20172018$WeberA,
-    WoodA = calMembers$Y20172018$WoodA
-)
+aiBillData$Y20172018$ACR215$sponsors <- addSponsors("Y20172018", c("KileyA"))
+aiBillData$Y20172018$ACR215$cosponsors <- addSponsors("Y20172018", c("AcostaA", "AguiarCurryA", "ArambulaA", "BakerA", "BermanA", "BigelowA", "BloomA", "BontaA", "BurkeA", "CaballeroA", "CalderonA", "CarrilloA", "ChauA", "ChavezA", "ChenA", "ChiuA", "ChuA", "CooleyA", "CooperA", "CunninghamA", "DahleA", "DalyA", "EggmanA", "FloraA", "FongA", "FrazierA", "FriedmanA", "GabrielA", "GallagherA", "GarciaEA", "GarciaCA", "GipsonA", "GloriaA", "GrayA", "GraysonA", "HarperA", "HoldenA", "IrwinA", "JonesSawyerA", "KalraA", "LackeyA", "LevineA", "LimonA", "LowA", "MaienscheinA", "MathisA", "MayesA", "McCartyA", "MelendezA", "MullinA", "MuratsuchiA", "NazarianA", "ODonnellA", "ObernolteA", "PattersonA", "QuirkA", "QuirkSilvaA", "RendonA", "ReyesA", "RivasA", "RodriguezA", "RubioA", "SalasA", "SantiagoA", "SteinorthA", "StoneA", "TingA", "VoepelA", "WaldronA", "WeberA", "WoodA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20172018$ACR215$dateStart <- as.Date("2018-04-05")
@@ -550,9 +448,7 @@ aiBillData$Y20172018$SB1470$tldr <- "SB-1470 establishes the Commission on the F
 aiBillData$Y20172018$SB1470$tags <- c("artificial-intelligence", "commission-on-the-future-of-work", "employment-development", "technology-impact", "workforce-preparation", "policy-recommendations", "equitable-benefits", "fair-and-inclusive-future")
 
 # sponsors and cosponsors
-aiBillData$Y20172018$SB1470$sponsors <- list(
-    SternS = calMembers$Y20172018$SternS
-)
+aiBillData$Y20132014$SB1470$sponsors <- addSponsors("Y20172018", c("SternS"))
 aiBillData$Y20172018$SB1470$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -607,9 +503,7 @@ aiBillData$Y20172018$AB2662$tldr <- "AB-2662 establishes the Office of Planning 
 aiBillData$Y20172018$AB2662$tags <- c("artificial-intelligence", "state-government", "office-of-planning-and-research", "electronic-media", "child-development", "comprehensive-strategy", "technology-integration", "digital-resources", "research-and-collaboration", "innovation")
 
 # sponsors and cosponsors
-aiBillData$Y20172018$AB2662$sponsors <- list(
-    ChauA = calMembers$Y20172018$ChauA
-)
+aiBillData$Y20172018$AB2662$sponsors <- addSponsors("Y20172018", c("ChauA"))
 aiBillData$Y20172018$AB2662$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -664,26 +558,7 @@ aiBillData$Y20172018$AB1809$tldr <- "AB-1809 is a higher education trailer bill 
 aiBillData$Y20172018$AB1809$tags <- c("artificial-intelligence", "higher-education-trailer-bill", "education-finance", "funding", "program-implementation", "administrative-processes", "streamlining-operations", "educational-opportunities", "state-regulations", "budget-related-matters")
 
 # sponsors and cosponsors
-aiBillData$Y20172018$AB1809$sponsors <- list(
-    CommitteeOnBudgetA = calMembers$Y20172018$CommitteeOnBudgetA,
-    TingA = calMembers$Y20172018$TingA,
-    ArambulaA = calMembers$Y20172018$ArambulaA,
-    BloomA = calMembers$Y20172018$BloomA,
-    CaballeroA = calMembers$Y20172018$CaballeroA,
-    ChiuA = calMembers$Y20172018$ChiuA,
-    CooperA = calMembers$Y20172018$CooperA,
-    JonesSawyerA = calMembers$Y20172018$JonesSawyerA,
-    LimonA = calMembers$Y20172018$LimonA,
-    McCartyA = calMembers$Y20172018$McCartyA,
-    MedinaA = calMembers$Y20172018$MedinaA,
-    MullinA = calMembers$Y20172018$MullinA,
-    MuratsuchiA = calMembers$Y20172018$MuratsuchiA,
-    ODonnellA = calMembers$Y20172018$ODonnellA,
-    RubioA = calMembers$Y20172018$RubioA,
-    StoneA = calMembers$Y20172018$StoneA,
-    WeberA = calMembers$Y20172018$WeberA,
-    WoodA = calMembers$Y20172018$WoodA
-)
+aiBillData$Y20172018$AB1809$sponsors <- addSponsors("Y20172018", c("CommitteeOnBudgetA", "TingA", "ArambulaA", "BloomA", "CaballeroA", "ChiuA", "CooperA", "JonesSawyerA", "LimonA", "McCartyA", "MedinaA", "MullinA", "MuratsuchiA", "ODonnellA", "RubioA", "StoneA", "WeberA", "WoodA"))
 aiBillData$Y20172018$AB1809$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -738,9 +613,7 @@ aiBillData$Y20172018$SB843$tldr <- "SB-843 is a higher education trailer bill th
 aiBillData$Y20172018$SB843$tags <- c("artificial-intelligence", "higher-education-trailer-bill", "education-finance", "funding", "program-implementation", "administrative-processes", "streamlining-operations", "educational-opportunities", "state-regulations", "budget-related-matters")
 
 # sponsors and cosponsors
-aiBillData$Y20172018$SB843$sponsors <- list(
-    CommitteeOnBudgetAndFiscalReviewS = calMembers$Y20172018$CommitteeOnBudgetAndFiscalReviewS
-)
+aiBillData$Y20172018$SB843$sponsors <- addSponsors("Y20172018", c("CommitteeOnBudgetAndFiscalReviewS"))
 aiBillData$Y20172018$SB843$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -798,12 +671,8 @@ aiBillData$Y20192020$SB348$tldr <- "SB-348 requires the Department of Technology
 aiBillData$Y20192020$SB348$tags <- c("artificial-intelligence", "department-of-technology", "strategic-plans", "state-government", "effective-use", "ethical-use", "transparent-use", "public-services", "collaboration", "accountability")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$SB348$sponsors <- list(
-    ChangS = calMembers$Y20192020$ChangS
-)
-aiBillData$Y20192020$SB348$cosponsors <- list(
-    KileyA = calMembers$Y20192020$KileyA
-)
+aiBillData$Y20192020$SB348$sponsors <- addSponsors("Y20192020", c("ChangS"))
+aiBillData$Y20192020$SB348$cosponsors <- addSponsors("Y20192020", c("KileyA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$SB348$dateStart <- as.Date("2019-02-19")
@@ -857,9 +726,7 @@ aiBillData$Y20192020$SJR6$tldr <- "SJR-6 is a resolution that urges the federal 
 aiBillData$Y20192020$SJR6$tags <- c("artificial-intelligence", "federal-government", "national-strategy", "development", "regulation", "ethical-considerations", "transparency", "accountability", "collaboration", "benefits-to-society")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$SJR6$sponsors <- list(
-    ChangS = calMembers$Y20192020$ChangS
-)
+aiBillData$Y20192020$SJR6$sponsors <- addSponsors("Y20192020", c("ChangS"))
 aiBillData$Y20192020$SJR6$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -914,12 +781,8 @@ aiBillData$Y20192020$AB459$tldr <- "AB-459 establishes the Artificial Intelligen
 aiBillData$Y20192020$AB459$tags <- c("artificial-intelligence", "state-government", "state-government-services", "commission", "report", "public-services", "impact-assessment", "benefits-and-risks", "ethical-considerations", "responsible-use")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB459$sponsors <- list(
-    KileyA = calMembers$Y20192020$KileyA
-)
-aiBillData$Y20192020$AB459$cosponsors <- list(
-    ChangS = calMembers$Y20192020$ChangS
-)
+aiBillData$Y20192020$AB459$sponsors <- addSponsors("Y20192020", c("KileyA"))
+aiBillData$Y20192020$AB459$cosponsors <- addSponsors("Y20192020", c("ChangS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$AB459$dateStart <- as.Date("2019-02-11")
@@ -973,9 +836,7 @@ aiBillData$Y20192020$AB1576$tldr <- "AB-1576 establishes a working group within 
 aiBillData$Y20192020$AB1576$tags <- c("artificial-intelligence", "state-government", "technology", "working-group", "efficiency", "transparency", "accountability", "public-services", "responsible-use", "ethical-use")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB1576$sponsors <- list(
-    CalderonA = calMembers$Y20192020$CalderonA
-)
+aiBillData$Y20192020$AB1576$sponsors <- addSponsors("Y20192020", c("CalderonA"))
 aiBillData$Y20192020$AB1576$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1030,15 +891,8 @@ aiBillData$Y20192020$AB976$tldr <- "AB-976 establishes the Artificial Intelligen
 aiBillData$Y20192020$AB976$tags <- c("artificial-intelligence", "state-government", "state-government-services", "commission", "report", "public-services", "impact-assessment", "benefits-and-risks", "ethical-considerations", "responsible-use")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB976$sponsors <- list(
-    ChauA = calMembers$Y20192020$ChauA,
-    KileyA = calMembers$Y20192020$KileyA,
-    ObernolteA = calMembers$Y20192020$ObernolteA,
-    SalasA = calMembers$Y20192020$SalasA
-)
-aiBillData$Y20192020$AB976$cosponsors <- list(
-    CalderonA = calMembers$Y20192020$CalderonA
-)
+aiBillData$Y20192020$AB976$sponsors <- addSponsors("Y20192020", c("ChauA", "KileyA", "ObernolteA", "SalasA"))
+aiBillData$Y20192020$AB976$cosponsors <- addSponsors("Y20192020", c("CalderonA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$AB976$dateStart <- as.Date("2019-02-21")
@@ -1092,9 +946,7 @@ aiBillData$Y20192020$AB594$tldr <- "AB-594 establishes a framework for the respo
 aiBillData$Y20192020$AB594$tags <- c("artificial-intelligence", "state-government", "responsible-use", "framework", "ethical-use", "transparent-use", "accountability", "privacy", "public-engagement")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB594$sponsors <- list(
-    SalasA = calMembers$Y20192020$SalasA
-)
+aiBillData$Y20192020$AB594$sponsors <- addSponsors("Y20192020", c("SalasA"))
 aiBillData$Y20192020$AB594$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1149,14 +1001,8 @@ aiBillData$Y20192020$SB730$tldr <- "SB-730 establishes the Commission on Tech Eq
 aiBillData$Y20192020$SB730$tags <- c("artificial-intelligence", "commission-on-tech-equity", "equity", "inclusion", "technology-sector", "diversity", "access", "technology-related-fields", "technology-economy")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$SB730$sponsors <- list(
-    SternS = calMembers$Y20192020$SternS
-)
-aiBillData$Y20192020$SB730$cosponsors <- list(
-    PetrieNorrisA = calMembers$Y20192020$PetrieNorrisA,
-    SkinnerS = calMembers$Y20192020$SkinnerS,
-    WicksA = calMembers$Y20192020$WicksA
-)
+aiBillData$Y20192020$SB73$sponsors <- addSponsors("Y20192020", c("SternS"))
+aiBillData$Y20192020$SB730$cosponsors <- addSponsors("Y20192020", c("PetrieNorrisA", "SkinnerS", "WicksA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$SB730$dateStart <- as.Date("2019-02-22")
@@ -1210,12 +1056,8 @@ aiBillData$Y20192020$SB444$tldr <- "SB-444 establishes a Pro Se Indigent Litigan
 aiBillData$Y20192020$SB444$tags <- c("artificial-intelligence", "university-of-california", "berkeley", "irvine", "law-schools", "pro-se-indigent-litigant-research-program", "legal-assistance", "self-represented-litigants", "access-to-justice", "low-income-individuals")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$SB444$sponsors <- list(
-    UmbergS = calMembers$Y20192020$UmbergS
-)
-aiBillData$Y20192020$SB444$cosponsors <- list(
-    SternS = calMembers$Y20192020$SternS
-)
+aiBillData$Y20192020$SB444$sponsors <- addSponsors("Y20192020", c("UmbergS"))
+aiBillData$Y20192020$SB444$cosponsors <- addSponsors("Y20192020", c("SternS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$SB444$dateStart <- as.Date("2019-02-21")
@@ -1269,9 +1111,7 @@ aiBillData$Y20192020$AB156$tldr <- "AB-156 amends the Business and Professions C
 aiBillData$Y20192020$AB156$tags <- c("artificial-intelligence", "optometrists", "endorsement-fee", "business-and-professions-code", "healing-arts", "access-to-eye-care", "quality-care")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB156$sponsors <- list(
-    VoepelA = calMembers$Y20192020$VoepelA
-)
+aiBillData$Y20192020$AB156$sponsors <- addSponsors("Y20192020", c("VoepelA"))
 aiBillData$Y20192020$AB156$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1326,9 +1166,7 @@ aiBillData$Y20192020$AB3317$tldr <- "AB-3317 amends the Civil Code to address un
 aiBillData$Y20192020$AB3317$tags <- c("artificial-intelligence", "unfair-business-practices", "deceptive-practices", "civil-code", "consumer-protection", "misleading-advertising", "fraudulent-practices", "consumer-rights", "fair-business-practices")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB3317$sponsors <- list(
-    WicksA = calMembers$Y20192020$WicksA
-)
+aiBillData$Y20192020$AB3317$sponsors <- addSponsors("Y20192020", c("WicksA"))
 aiBillData$Y20192020$AB3317$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1383,15 +1221,8 @@ aiBillData$Y20192020$ACR125$tldr <- "ACR-125 is a resolution that addresses bias
 aiBillData$Y20192020$ACR125$tags <- c("artificial-intelligence", "bias", "discrimination", "hiring-reduction", "new-technology", "employment", "guidelines", "best-practices", "equitable-employment-opportunities")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$ACR125$sponsors <- list(
-    JonesSawyerA = calMembers$Y20192020$JonesSawyerA,
-    HoldenA = calMembers$Y20192020$HoldenA
-)
-aiBillData$Y20192020$ACR125$cosponsors <- list(
-    GonzalezS = calMembers$Y20192020$GonzalezS,
-    KamlagerA = calMembers$Y20192020$KamlagerA,
-    LowA = calMembers$Y20192020$LowA
-)
+aiBillData$Y20192020$ACR125$sponsors <- addSponsors("Y20192020", c("JonesSawyerA", "HoldenA"))
+aiBillData$Y20192020$ACR125$cosponsors <- addSponsors("Y20192020", c("GonzalezS", "KamlagerA", "LowA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20192020$ACR125$dateStart <- as.Date("2019-08-14")
@@ -1445,9 +1276,7 @@ aiBillData$Y20192020$SCR13$tldr <- "SCR-13 designates March 8, 2019, as Internat
 aiBillData$Y20192020$SCR13$tags <- c("artificial-intelligence", "international-womens-day", "labor-movements", "activism", "gender-equality", "digital-divide", "innovation", "technology", "empowering-women", "reflection", "celebration", "continued-efforts")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$SCR13$sponsors <- list(
-    JacksonS = calMembers$Y20192020$JacksonS
-)
+aiBillData$Y20192020$SCR13$sponsors <- addSponsors("Y20192020", c("JacksonS"))
 aiBillData$Y20192020$SCR13$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1502,9 +1331,7 @@ aiBillData$Y20192020$SB752$tldr <- "SB-752 establishes the California Master Pla
 aiBillData$Y20192020$SB752$tags <- c("artificial-intelligence", "california-master-plan", "tech-equity", "equity", "inclusion", "technology-sector", "diversity", "access", "technology-related-fields", "technology-economy")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$SB752$sponsors <- list(
-    SternS = calMembers$Y20192020$SternS
-)
+aiBillData$Y20192020$SB752$sponsors <- addSponsors("Y20192020", c("SternS"))
 aiBillData$Y20192020$SB752$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1541,7 +1368,7 @@ aiBillData$Y20192020$SB752$aiInnovation <- "Low"
 aiBillData$Y20192020$SB752$aiPrivacy <- "Low"
 aiBillData$Y20192020$SB752$aiTransparency <- "Moderate"
 
-### AB=2269 ####
+### AB-2269 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBillData$Y20192020$AB2269$text)
@@ -1559,9 +1386,7 @@ aiBillData$Y20192020$AB2269$tldr <- "AB-2269 establishes regulations for automat
 aiBillData$Y20192020$AB2269$tags <- c("artificial-intelligence", "personal-rights", "automated-decision-systems", "civil-code", "transparency", "accountability", "fairness", "discrimination", "bias", "ethical-practices")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB2269$sponsors <- list(
-    ChauA = calMembers$Y20192020$ChauA
-)
+aiBillData$Y20192020$AB2269$sponsors <- addSponsors("Y20192020", c("ChauA"))
 aiBillData$Y20192020$AB2269$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1616,9 +1441,7 @@ aiBillData$Y20192020$AB485$tldr <- "AB-485 establishes regulations for local gov
 aiBillData$Y20192020$AB485$tags <- c("artificial-intelligence", "local-government", "economic-development-subsidies", "government-code", "transparency", "accountability", "public-funds", "fair-competition")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB485$sponsors <- list(
-    MedinaA = calMembers$Y20192020$MedinaA
-)
+aiBillData$Y20192020$AB485$sponsors <- addSponsors("Y20192020", c("MedinaA"))
 aiBillData$Y20192020$AB485$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1673,9 +1496,7 @@ aiBillData$Y20192020$AB3339$tldr <- "AB-3339 establishes the Kids Internet Desig
 aiBillData$Y20192020$AB3339$tags <- c("artificial-intelligence", "kids-internet-design", "safety-act", "business", "online-safety", "privacy", "minors", "data-protection", "age-appropriate-content")
 
 # sponsors and cosponsors
-aiBillData$Y20192020$AB3339$sponsors <- list(
-    WicksA = calMembers$Y20192020$WicksA
-)
+aiBillData$Y20192020$AB3339$sponsors <- addSponsors("Y20192020", c("WicksA"))
 aiBillData$Y20192020$AB3339$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1732,12 +1553,8 @@ aiBillData$Y20212022$SB1216$tldr <- "SB-1216 establishes regulations for the use
 aiBillData$Y20212022$SB1216$tags <- c("artificial-intelligence", "deepfakes", "government-operations", "technology", "malicious-use", "transparency", "accountability", "political-context", "commercial-context")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$SB1216$sponsors <- list(
-    GonzalezS = calMembers$Y20212022$GonzalezS
-)
-aiBillData$Y20212022$SB1216$cosponsors <- list(
-    BermanA = calMembers$Y20212022$BermanA
-)
+aiBillData$Y20212022$SB1216$sponsors <- addSponsors("Y20212022", c("GonzalezS"))
+aiBillData$Y20212022$SB1216$cosponsors <- addSponsors("Y20212022", c("BermanA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20212022$SB1216$dateStart <- as.Date("2022-02-27")
@@ -1791,9 +1608,7 @@ aiBillData$Y20212022$AB2224$tldr <- "AB-2224 establishes regulations for iBuyer 
 aiBillData$Y20212022$AB2224$tags <- c("artificial-intelligence", "real-estate", "transactions", "ibuyers", "business-and-professions-code", "transparency", "fairness", "technology", "consumer-protection", "ethical-practices")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB2224$sponsors <- list(
-    McCartyA = calMembers$Y20212022$McCartyA
-)
+aiBillData$Y20212022$AB2224$sponsors <- addSponsors("Y20212022", c("McCartyA"))
 aiBillData$Y20212022$AB2224$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -1848,21 +1663,8 @@ aiBillData$Y20212022$AB587$tldr <- "AB-587 establishes regulations for social me
 aiBillData$Y20212022$AB587$tags <- c("artificial-intelligence", "social-media", "terms-of-service", "business-and-professions-code", "transparency", "fairness", "users-rights", "ethical-practices")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB587$sponsors <- (
-    GabrielA = calMembers$Y20212022$GabrielA
-)
-aiBillData$Y20212022$AB587$cosponsors <- list(
-    CunninghamA = calMembers$Y20212022$CunninghamA,
-    BauerKahnA = calMembers$Y20212022$BauerKahnA,
-    LeeA = calMembers$Y20212022$LeeA,
-    McCartyA = calMembers$Y20212022$McCartyA,
-    PanS = calMembers$Y20212022$PanS,
-    RivasRA = calMembers$Y20212022$RivasRA,
-    SternS = calMembers$Y20212022$SternS,
-    WardA = calMembers$Y20212022$WardA,
-    WicksA = calMembers$Y20212022$WicksA,
-    WienerS = calMembers$Y20212022$WienerS
-)
+aiBillData$Y20212022$AB587$sponsors <- addSponsors("Y20212022", c("GabrielA"))
+aiBillData$Y20212022$AB587$cosponsors <- addSponsors("Y20212022", c("CunninghamA", "BauerKahanA", "LeeA", "McCartyA", "PanS", "RivasRA", "SternS", "WardA", "WicksA", "WienerS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20212022$AB587$dateStart <- as.Date("2021-02-11")
@@ -1916,25 +1718,8 @@ aiBillData$Y20212022$SR11$tldr <- "designates March 8, 2021, as International Wo
 aiBillData$Y20212022$SR11$tags <- c("artificial-intelligence", "international-womens-day", "labor-movements", "activism", "gender-equality", "gender-digital-divide", "covid-19", "women’s-rights", "leadership", "innovation", "inclusion", "equitable-future")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$SR11$sponsors <- list(
-    LeyvaS = calMembers$Y20212022$LeyvaS
-)
-
-aiBillData$Y20212022$SR11$cosponsors <- list(
-    AtkinsS = calMembers$Y20212022$AtkinsS,
-    BatesS = calMembers$Y20212022$BatesS,
-    CaballeroS = calMembers$Y20212022$CaballeroS,
-    DurazoS = calMembers$Y20212022$DurazoS,
-    EggmanS = calMembers$Y20212022$EggmanS,
-    GonzalezS = calMembers$Y20212022$GonzalezS,
-    GroveS = calMembers$Y20212022$GroveS,
-    HurtadoS = calMembers$Y20212022$HurtadoS,
-    LimonS = calMembers$Y20212022$LimonS,
-    MelendezS = calMembers$Y20212022$MelendezS,
-    BoghS = calMembers$Y20212022$BoghS,
-    RubioS = calMembers$Y20212022$RubioS,
-    SkinnerS = calMembers$Y20212022$SkinnerS
-)
+aiBillData$Y20212022$SR11$sponsors <- addSponsors("Y20212022", c("LeyvaS"))
+aiBillData$Y20212022$SR11$cosponsors <- addSponsors("Y20212022", c("AtkinsS", "BatesS", "CaballeroS", "DurazoS", "EggmanS", "GonzalezS", "GroveS", "HurtadoS", "LimonS", "MelendezS", "BoghS", "RubioS", "SkinnerS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20212022$SR11$dateStart <- as.Date("2021-02-16")
@@ -1988,9 +1773,7 @@ aiBillData$Y20212022$AB2826$tldr <- "AB-2826 establishes the California Platform
 aiBillData$Y20212022$AB2826$tags <- c("artificial-intelligence", "platform-accountability", "transparency-act", "technology", "online-platforms", "data-practices", "users-rights", "ethical-practices")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB2826$sponsors <- list(
-    MuratsuchiA = calMembers$Y20212022$MuratsuchiA
-)
+aiBillData$Y20212022$AB2826$sponsors <- addSponsors("Y20212022", c("MuratsuchiA"))
 aiBillData$Y20212022$AB2826$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2045,9 +1828,7 @@ aiBillData$Y20212022$AB1545$tldr <- "AB-1545 establishes regulations for platfor
 aiBillData$Y20212022$AB1545$tags <- c("artificial-intelligence", "children-internet-safety", "platform-operators", "business", "online-safety", "privacy", "minors", "data-protection", "age-appropriate-content")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB1545$sponsors <- list(
-    WicksA = calMembers$Y20212022$WicksA
-)
+aiBillData$Y20212022$AB1545$sponsors <- addSponsors("Y20212022", c("WicksA"))
 aiBillData$Y20212022$AB1545$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2102,31 +1883,8 @@ aiBillData$Y20212022$AB1400$tldr <- "AB-1400 establishes the Guaranteed Health C
 aiBillData$Y20212022$AB1400$tags <- c("artificial-intelligence", "guaranteed-health-care", "health-care-coverage", "government-code", "single-payer-system", "equity", "affordability", "comprehensive-health-care")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB1400$sponsors <- list(
-    KalraA = calMembers$Y20212022$KalraA,
-    LeeA = calMembers$Y20212022$LeeA,
-    SantiagoA = calMembers$Y20212022$SantiagoA    
-)
-aiBillData$Y20212022$AB1400$cosponsors <- list(
-    BryanA = calMembers$Y20212022$BryanA,
-    CarrilloA = calMembers$Y20212022$CarrilloA,
-    ChiuA = calMembers$Y20212022$ChiuA,
-    GonzalezS = calMembers$Y20212022$GonzalezS,
-    McGuireS = calMembers$Y20212022$McGuireS,
-    TingA = calMembers$Y20212022$TingA,
-    WienerS = calMembers$Y20212022$WienerS,
-    BeckerS = calMembers$Y20212022$BeckerS,
-    BontaM = calMembers$Y20212022$BontaM,
-    CorteseS = calMembers$Y20212022$CorteseS,
-    FriedmanA = calMembers$Y20212022$FriedmanA,
-    KamlagerS = calMembers$Y20212022$KamlagerS,
-    LairdS = calMembers$Y20212022$LairdS,
-    McCartyA = calMembers$Y20212022$McCartyA,
-    NazarianA = calMembers$Y20212022$NazarianA,
-    RivasLA = calMembers$Y20212022$RivasLA,
-    WicksA = calMembers$Y20212022$WicksA,
-    WieckowskiS = calMembers$Y20212022$WieckowskiS
-)
+aiBillData$Y20212022$AB1400$sponsors <- addSponsors("Y20212022", c("KalraA", "LeeA", "SantiagoA"))
+aiBillData$Y20212022$AB1400$cosponsors <- addSponsors("Y20212022", c("BryanA", "CarrilloA", "ChiuA", "GonzalezS", "McGuireS", "TingA", "WienerS", "BeckerS", "BontaMA", "CorteseS", "FriedmanA", "KamlagerS", "LairdS", "McCartyA", "NazarianA", "RivasLA", "WicksA", "WieckowskiS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20212022$AB1400$dateStart <- as.Date("2021-02-19")
@@ -2180,29 +1938,8 @@ aiBillData$Y20212022$SB54$tldr <- "SB-54 establishes regulations for solid waste
 aiBillData$Y20212022$SB54$tags <- c("artificial-intelligence", "solid-waste", "reporting", "packaging", "plastic-food-service-ware", "public-resources-code", "sustainable-materials", "plastic-waste")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$SB54$sponsors <- list(
-    AllenS = calMembers$Y20212022$AllenS,
-    HertzbergS = calMembers$Y20212022$HertzbergS,
-    RivasLA = calMembers$Y20212022$RivasLA,
-    SkinnerS = calMembers$Y20212022$SkinnerS,
-    SternS = calMembers$Y20212022$SternS,
-    WienerS = calMembers$Y20212022$WienerS
-)
-# Friedman (A) , Gonzalez (S) , Grayson (A) , Muratsuchi (A) , Ting (A), Becker (S) , Boerner Horvath (A) , Carrillo (A) , Irwin (A) , Kamlager (S) , McCarty (A) , Wood (A)
-aiBillData$Y20212022$SB54$cosponsors <- list(
-    FriedmanA = calMembers$Y20212022$FriedmanA,
-    GonzalezS = calMembers$Y20212022$GonzalezS,
-    GraysonA = calMembers$Y20212022$GraysonA,
-    MuratsuchiA = calMembers$Y20212022$MuratsuchiA,
-    TingA = calMembers$Y20212022$TingA,
-    BeckerS = calMembers$Y20212022$BeckerS,
-    HorvathA = calMembers$Y20212022$HorvathA,
-    CarrilloA = calMembers$Y20212022$CarrilloA,
-    IrwinA = calMembers$Y20212022$IrwinA,
-    KamlagerS = calMembers$Y20212022$KamlagerS,
-    McCartyA = calMembers$Y20212022$McCartyA,
-    WoodA = calMembers$Y20212022$WoodA
-)
+aiBillData$Y20212022$SB54$sponsors <- addSponsors("Y20212022", c("AllenS", "HertzbergS", "RivasLA", "SkinnerS", "SternS", "WienerS"))
+aiBillData$Y20212022$SB54$cosponsors <- addSponsors("Y20212022", c("FriedmanA", "GonzalezS", "GraysonA", "MuratsuchiA", "TingA", "BeckerS", "BoernerHorvathA", "CarrilloA", "IrwinA", "KamlagerS", "McCartyA", "WoodA"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20212022$SB54$dateStart <- as.Date("2020-12-07")
@@ -2256,9 +1993,7 @@ aiBillData$Y20212022$AB1651$tldr <- "AB-1651 establishes the Workplace Technolog
 aiBillData$Y20212022$AB1651$tags <- c("artificial-intelligence", "worker-rights", "workplace-technology", "accountability-act", "employment", "surveillance", "data-collection", "transparency", "fairness")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB1651$sponsors <- list(
-    KalraA = calMembers$Y20212022$KalraA
-)
+aiBillData$Y20212022$AB1651$sponsors <- addSponsors("Y20212022", c("KalraA"))
 aiBillData$Y20212022$AB1651$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2313,9 +2048,7 @@ aiBillData$Y20212022$AB178$tldr <- "AB-178 is the Budget Act of 2022, which outl
 aiBillData$Y20212022$AB178$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "fiscal-responsibility", "resource-management", "essential-services")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB178$sponsors <- list(
-    TingA = calMembers$Y20212022$TingA,
-)
+aiBillData$Y20212022$AB178$sponsors <- addSponsors("Y20212022", c("TingA"))
 aiBillData$Y20212022$AB178$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2370,9 +2103,7 @@ aiBillData$Y20212022$AB179$tldr <- "AB-179 is the Budget Act of 2022, which outl
 aiBillData$Y20212022$AB179$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "fiscal-responsibility", "resource-management", "essential-services")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$AB179$sponsors <- list(
-    TingA = calMembers$Y20212022$TingA
-)
+aiBillData$Y20212022$AB179$sponsors <- addSponsors("Y20212022", c("TingA"))
 aiBillData$Y20212022$AB179$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2427,9 +2158,7 @@ aiBillData$Y20212022$SB179$tldr <- "SB-179 is the Budget Act of 2022, which outl
 aiBillData$Y20212022$SB179$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "fiscal-responsibility", "resource-management", "essential-services")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$SB179$sponsors <- list(
-    SkinnerS = calMembers$Y20212022$SkinnerS,
-)
+aiBillData$Y20212022$SB179$sponsors <- addSponsors("Y20212022", c("SkinnerS"))
 aiBillData$Y20212022$SB179$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2484,9 +2213,7 @@ aiBillData$Y20212022$SB178$tldr <- "SB-178 is the Budget Act of 2022, which outl
 aiBillData$Y20212022$SB178$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "fiscal-responsibility", "resource-management", "essential-services")
 
 # sponsors and cosponsors
-aiBillData$Y20212022$SB178$sponsors <- list(
-    SkinnerS = calMembers$Y20212022$SkinnerS
-)
+aiBillData$Y20212022$SB178$sponsors <- addSponsors("Y20212022", c("SkinnerS"))
 aiBillData$Y20212022$SB178$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2543,9 +2270,7 @@ aiBillData$Y20232024$AB2652$tldr <- "AB-2652 establishes an artificial intellige
 aiBillData$Y20232024$AB2652$tags <- c("artificial-intelligence", "education", "working-group", "state-department", "guidelines", "equitable-access", "responsible-use")
 
 # sponsors and cosponsors
-aiBillData$Y20232024$AB2652$sponsors <- list(
-    MuratsuchiA = calMembers$Y20232024$MuratsuchiA
-)
+aiBillData$Y20232024$AB2652$sponsors <- addSponsors("Y20232024", c("MuratsuchiA"))
 aiBillData$Y20232024$AB2652$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2600,14 +2325,8 @@ aiBillData$Y20232024$SB1288$tldr <- "SB-1288 establishes an artificial intellige
 aiBillData$Y20232024$SB1288$tags <- c("artificial-intelligence", "education", "working-group", "state-department", "guidelines", "equitable-access", "responsible-use")
 
 # sponsors and cosponsors
-aiBillData$Y20232024$SB1288$sponsors <- list(
-    BeckerS = calMembers$Y20232024$BeckerS
-)
-aiBillData$Y20232024$SB1288$cosponsors <- list(
-    MuratsuchiA = calMembers$Y20232024$MuratsuchiA,
-    BermanA = calMembers$Y20232024$BermanA,
-    DoddS = calMembers$Y20232024$DoddS
-)
+aiBillData$Y20232024$SB1288$sponsors <- addSponsors("Y20232024", c("BeckerS"))
+aiBillData$Y20232024$SB1288$cosponsors <- addSponsors("Y20232024", c("MuratsuchiA", "BermanA", "DoddS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20232024$SB1288$dateStart <- as.Date("2024-02-15")
@@ -2661,9 +2380,7 @@ aiBillData$Y20232024$AB2013$tldr <- "AB-2013 mandates transparency in the traini
 aiBillData$Y20232024$AB2013$tags <- c("artificial-intelligence", "generative-ai", "training-data", "transparency", "accountability", "ethical-practices", "data-sources")
 
 # sponsors and cosponsors
-aiBillData$Y20232024$AB2013$sponsors <- list(
-    IrwinA = calMembers$Y20232024$IrwinA
-)
+aiBillData$Y20232024$AB2013$sponsors <- addSponsors("Y20232024", c("IrwinA"))
 aiBillData$Y20232024$AB2013$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2718,9 +2435,7 @@ aiBillData$Y20232024$AB2811$tldr <- "AB-2811 requires attorneys to disclose the 
 aiBillData$Y20232024$AB2811$tags <- c("artificial-intelligence", "attorneys", "court-filings", "disclosure", "transparency", "accountability", "legal-proceedings")
 
 # sponsors and cosponsors
-aiBillData$Y20232024$AB2811$sponsors <- list(
-    LowenthalA = calMembers$Y20232024$LowenthalA
-)
+aiBillData$Y20232024$AB2811$sponsors <- addSponsors("Y20232024", c("LowenthalA"))
 aiBillData$Y20232024$AB2811$cosponsors <- NA
 
 # dateStart, dateEnd, and dateUpdated
@@ -2775,14 +2490,8 @@ aiBillData$Y20232024$SB893$tldr <- "SB-893 establishes the California Artificial
 aiBillData$Y20232024$SB893$tags <- c("artificial-intelligence", "research-hub", "collaboration", "responsible-use", "AI-technologies", "development", "government-agencies")
 
 # sponsors and cosponsors
-aiBillData$Y20232024$SB893$sponsors <- list(
-    PadillaS = calMembers$Y20232024$PadillaS
-)
-
-aiBillData$Y20232024$SB893$cosponsors <- list(
-    DoddS = calMembers$Y20232024$DoddS,
-    RubioS = calMembers$Y20232024$RubioS
-)
+aiBillData$Y20232024$SB893$sponsors <- addSponsors("Y20232024", c("PadillaS"))
+aiBillData$Y20232024$SB893$cosponsors <- addSponsors("Y20232024", c("DoddS", "RubioS"))
 
 # dateStart, dateEnd, and dateUpdated
 aiBillData$Y20232024$SB893$dateStart <- as.Date("2024-01-03")
