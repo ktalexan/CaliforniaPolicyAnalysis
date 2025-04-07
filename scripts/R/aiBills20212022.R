@@ -71,7 +71,7 @@ rm(bill, id)
 # 4. Populate AI Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### SB-1216 ####
+## SB-1216 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$SB1216$text)
@@ -126,7 +126,7 @@ aiBills20212022$SB1216$aiInnovation <- "Low"
 aiBills20212022$SB1216$aiPrivacy <- "Moderate"
 aiBills20212022$SB1216$aiTransparency <- "High"
 
-### AB-2224 ####
+## AB-2224 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB2224$text)
@@ -181,7 +181,7 @@ aiBills20212022$AB2224$aiInnovation <- "Low"
 aiBills20212022$AB2224$aiPrivacy <- "Moderate"
 aiBills20212022$AB2224$aiTransparency <- "Moderate"
 
-### AB-587 ####
+## AB-587 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB587$text)
@@ -236,7 +236,7 @@ aiBills20212022$AB587$aiInnovation <- "Low"
 aiBills20212022$AB587$aiPrivacy <- "High"
 aiBills20212022$AB587$aiTransparency <- "High"
 
-### SR-11 ####
+## SR-11 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$SR11$text)
@@ -291,7 +291,7 @@ aiBills20212022$SR11$aiInnovation <- "Low"
 aiBills20212022$SR11$aiPrivacy <- "Low"
 aiBills20212022$SR11$aiTransparency <- "Low"
 
-### AB-2826 ####
+## AB-2826 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB2826$text)
@@ -346,7 +346,7 @@ aiBills20212022$AB2826$aiInnovation <- "Low"
 aiBills20212022$AB2826$aiPrivacy <- "High"
 aiBills20212022$AB2826$aiTransparency <- "High"
 
-### AB-1545 ####
+## AB-1545 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB1545$text)
@@ -401,7 +401,7 @@ aiBills20212022$AB1545$aiInnovation <- "Low"
 aiBills20212022$AB1545$aiPrivacy <- "High"
 aiBills20212022$AB1545$aiTransparency <- "High"
 
-### AB-1400 ####
+## AB-1400 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB1400$text)
@@ -456,7 +456,7 @@ aiBills20212022$AB1400$aiInnovation <- "Low"
 aiBills20212022$AB1400$aiPrivacy <- "High"
 aiBills20212022$AB1400$aiTransparency <- "High"
 
-### SB-54 ####
+## SB-54 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$SB54$text)
@@ -511,7 +511,7 @@ aiBills20212022$SB54$aiInnovation <- "Low"
 aiBills20212022$SB54$aiPrivacy <- "High"
 aiBills20212022$SB54$aiTransparency <- "High"
 
-### AB-1651 ####
+## AB-1651 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB1651$text)
@@ -566,7 +566,7 @@ aiBills20212022$AB1651$aiInnovation <- "Low"
 aiBills20212022$AB1651$aiPrivacy <- "High"
 aiBills20212022$AB1651$aiTransparency <- "High"
 
-### AB-178 ####
+## AB-178 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB178$text)
@@ -621,7 +621,7 @@ aiBills20212022$AB178$aiInnovation <- "Low"
 aiBills20212022$AB178$aiPrivacy <- "High"
 aiBills20212022$AB178$aiTransparency <- "High"
 
-### AB-179 ####
+## AB-179 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$AB179$text)
@@ -676,7 +676,7 @@ aiBills20212022$AB179$aiInnovation <- "Low"
 aiBills20212022$AB179$aiPrivacy <- "High"
 aiBills20212022$AB179$aiTransparency <- "High"
 
-### SB-179 ####
+## SB-179 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$SB179$text)
@@ -731,7 +731,7 @@ aiBills20212022$SB179$aiInnovation <- "Low"
 aiBills20212022$SB179$aiPrivacy <- "High"
 aiBills20212022$SB179$aiTransparency <- "High"
 
-### SB-178 ####
+## SB-178 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20212022$SB178$text)

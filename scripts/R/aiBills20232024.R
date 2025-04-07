@@ -71,7 +71,7 @@ rm(bill, id)
 # 4. Populate AI Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### AB-2652 ####
+## AB-2652 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2652$text)
@@ -126,7 +126,7 @@ aiBills20232024$AB2652$aiInnovation <- "Low"
 aiBills20232024$AB2652$aiPrivacy <- "High"
 aiBills20232024$AB2652$aiTransparency <- "High"
 
-### SB-1288 ####
+## SB-1288 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1288$text)
@@ -181,7 +181,7 @@ aiBills20232024$SB1288$aiInnovation <- "Low"
 aiBills20232024$SB1288$aiPrivacy <- "High"
 aiBills20232024$SB1288$aiTransparency <- "High"
 
-### AB-2013 ####
+## AB-2013 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2013$text)
@@ -236,7 +236,7 @@ aiBills20232024$AB2013$aiInnovation <- "Low"
 aiBills20232024$AB2013$aiPrivacy <- "High"
 aiBills20232024$AB2013$aiTransparency <- "High"
 
-### AB-2811 ####
+## AB-2811 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$AB2811$text)
@@ -291,7 +291,7 @@ aiBills20232024$AB2811$aiInnovation <- "Low"
 aiBills20232024$AB2811$aiPrivacy <- "High"
 aiBills20232024$AB2811$aiTransparency <- "High"
 
-### SB-893 ####
+## SB-893 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB893$text)
@@ -346,7 +346,7 @@ aiBills20232024$SB893$aiInnovation <- "Low"
 aiBills20232024$SB893$aiPrivacy <- "High"
 aiBills20232024$SB893$aiTransparency <- "High"
 
-### SB-1235 ####
+## SB-1235 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB1235$text)
@@ -401,7 +401,7 @@ aiBills20232024$SB1235$aiInnovation <- "Low"
 aiBills20232024$SB1235$aiPrivacy <- "High"
 aiBills20232024$SB1235$aiTransparency <- "High"
 
-### SB-896 ####
+## SB-896 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20232024$SB896$text)
@@ -455,6 +455,504 @@ aiBills20232024$SB896$aiEthics <- "High"
 aiBills20232024$SB896$aiInnovation <- "Low"
 aiBills20232024$SB896$aiPrivacy <- "High"
 aiBills20232024$SB896$aiTransparency <- "High"
+
+## SB-313 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB313$text)
+
+# Topic from aiBills20232024$SB313$status
+aiBills20232024$SB313$topic <- "SB-313 Department of Technology: Office of Artificial Intelligence: state agency public interface: use of AI"
+
+# Title from aiBills20232024$SB313$status
+aiBills20232024$SB313$title <- paste0(aiBills20232024$SB313$title, "An act to add Chapter 5.9 (commencing with Section 11549.80) to Part 1 of Division 3 of Title 2 of, the Government Code, relating to state government")
+
+# tldr for aiBills20232024$SB313$text
+aiBills20232024$SB313$tldr <- "SB-313 establishes the Office of Artificial Intelligence within the Department of Technology to oversee the use of AI in state agencies. It mandates guidelines for the responsible use of AI technologies in public interfaces, ensuring transparency and accountability in government operations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB313$tags <- c("artificial-intelligence", "state-agency", "public-interface", "responsible-use", "guidelines", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$SB313$sponsors <- addSponsors("Y20232024", c("DoddS"))
+aiBills20232024$SB313$cosponsors <- addSponsors("Y20232024", c("HurtadoS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB313$dateStart <- as.Date("2023-02-06")
+aiBills20232024$SB313$dateEnd <- as.Date("2024-02-01")
+aiBills20232024$SB313$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB313$version <- "Amended Senate"
+aiBills20232024$SB313$outcome <- "Failed"
+aiBills20232024$SB313$chaptered <- FALSE
+aiBills20232024$SB313$chapterNo <- NA
+aiBills20232024$SB313$active <- FALSE
+aiBills20232024$SB313$result <- "Died"
+aiBills20232024$SB313$vote <- "Majority"
+aiBills20232024$SB313$appropriation <- FALSE
+aiBills20232024$SB313$fiscal <- TRUE
+aiBills20232024$SB313$local <- FALSE
+aiBills20232024$SB313$urgency <- FALSE
+aiBills20232024$SB313$tax <- FALSE
+aiBills20232024$SB313$action <- "Returned to Secretary of Senate pursuant to Joint Rule 56"
+aiBills20232024$SB313$pdf <- "2023SB313_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB313$text
+aiBills20232024$SB313$aiDisposition <- "Restrictive"
+aiBills20232024$SB313$aiType <- "Generative"
+aiBills20232024$SB313$aiSector <- "Generative AI"
+aiBills20232024$SB313$aiSubSector <- "General"
+aiBills20232024$SB313$aiDomain <- "Generative AI Management"
+aiBills20232024$SB313$aiAccountability <- "High"
+aiBills20232024$SB313$aiImpact <- "High"
+aiBills20232024$SB313$aiEthics <- "High"
+aiBills20232024$SB313$aiInnovation <- "Low"
+aiBills20232024$SB313$aiPrivacy <- "High"
+aiBills20232024$SB313$aiTransparency <- "High"
+
+## SB-970 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB970$text)
+
+# Topic from aiBills20232024$SB970$status
+aiBills20232024$SB970$topic <- "SB-970 Artificial intelligence technology"
+
+# Title from aiBills20232024$SB970$status
+aiBills20232024$SB970$title <- paste0(aiBills20232024$SB970$title, "An act to add Chapter 22.7 (commencing with Section 22650) to Division 8 of the Business and Professions Code, to amend Section 3344 of the Civil Code, to add Article 2.5 (commencing with Section 1425) to Chapter 1 of Division 11 of the Evidence Code, and to add Chapter 9 (commencing with Section 540) to Title 13 of Part 1 of the Penal Code, relating to artificial intelligence technology")
+
+# tldr for aiBills20232024$SB970$text
+aiBills20232024$SB970$tldr <- "SB-970 establishes regulations for the use of artificial intelligence technology in various sectors. It mandates transparency in AI algorithms, ensures accountability for AI-generated content, and sets guidelines for ethical AI practices to protect consumer rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB970$tags <- c("artificial-intelligence", "technology", "regulations", "transparency", "accountability", "ethical-practices", "consumer-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$SB970$sponsors <- addSponsors("Y20232024", c("AshbyS"))
+aiBills20232024$SB970$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB970$dateStart <- as.Date("2024-01-25")
+aiBills20232024$SB970$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB970$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB970$version <- "Amended Senate"
+aiBills20232024$SB970$outcome <- "Failed"
+aiBills20232024$SB970$chaptered <- FALSE
+aiBills20232024$SB970$chapterNo <- NA
+aiBills20232024$SB970$active <- FALSE
+aiBills20232024$SB970$result <- "Died"
+aiBills20232024$SB970$vote <- "Majority"
+aiBills20232024$SB970$appropriation <- FALSE
+aiBills20232024$SB970$fiscal <- TRUE
+aiBills20232024$SB970$local <- FALSE
+aiBills20232024$SB970$urgency <- FALSE
+aiBills20232024$SB970$tax <- FALSE
+aiBills20232024$SB970$action <- "From committee without further action"
+aiBills20232024$SB970$pdf <- "2023SB970_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB970$text
+aiBills20232024$SB970$aiDisposition <- "Restrictive"
+aiBills20232024$SB970$aiType <- "Generative"
+aiBills20232024$SB970$aiSector <- "Generative AI"
+aiBills20232024$SB970$aiSubSector <- "General"
+aiBills20232024$SB970$aiDomain <- "Generative AI Management"
+aiBills20232024$SB970$aiAccountability <- "High"
+aiBills20232024$SB970$aiImpact <- "High"
+aiBills20232024$SB970$aiEthics <- "High"
+aiBills20232024$SB970$aiInnovation <- "Low"
+aiBills20232024$SB970$aiPrivacy <- "High"
+aiBills20232024$SB970$aiTransparency <- "High"
+
+## AB-3030 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB3030$text)
+
+# Topic from aiBills20232024$AB3030$status
+aiBills20232024$AB3030$topic <- "AB-3030 Health care services: artificial intelligence"
+
+# Title from aiBills20232024$AB3030$status
+aiBills20232024$AB3030$title <- paste0(aiBills20232024$AB3030$title, "An act to add Chapter 2.13 (commencing with Section 1339.75) to Division 2 of the Health and Safety Code, relating to health care services")
+
+# tldr for aiBills20232024$AB3030$text
+aiBills20232024$AB3030$tldr <- "AB-3030 establishes regulations for the use of artificial intelligence in health care services. It mandates transparency in AI algorithms, ensures accountability for AI-generated medical decisions, and sets guidelines for ethical AI practices to protect patient rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB3030$tags <- c("artificial-intelligence", "health-care", "regulations", "transparency", "accountability", "ethical-practices", "patient-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$AB3030$sponsors <- addSponsors("Y20232024", c("CalderonA"))
+aiBills20232024$AB3030$cosponsors <- addSponsors("Y20232024", c("RubioS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB3030$dateStart <- as.Date("2024-02-16")
+aiBills20232024$AB3030$dateEnd <- as.Date("2024-09-28")
+aiBills20232024$AB3030$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB3030$version <- "Chaptered"
+aiBills20232024$AB3030$outcome <- "Chaptered"
+aiBills20232024$AB3030$chaptered <- TRUE
+aiBills20232024$AB3030$chapterNo <- 848
+aiBills20232024$AB3030$active <- FALSE
+aiBills20232024$AB3030$result <- "Chaptered"
+aiBills20232024$AB3030$vote <- "Majority"
+aiBills20232024$AB3030$appropriation <- FALSE
+aiBills20232024$AB3030$fiscal <- TRUE
+aiBills20232024$AB3030$local <- FALSE
+aiBills20232024$AB3030$urgency <- FALSE
+aiBills20232024$AB3030$tax <- FALSE
+aiBills20232024$AB3030$action <- "Chaptered by Secretary of State - Chapter 848, Statutes of 2024"
+aiBills20232024$AB3030$pdf <- "20230AB3030_91.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB3030$text
+aiBills20232024$AB3030$aiDisposition <- "Restrictive"
+aiBills20232024$AB3030$aiType <- "Generative"
+aiBills20232024$AB3030$aiSector <- "Health Care"
+aiBills20232024$AB3030$aiSubSector <- "General"
+aiBills20232024$AB3030$aiDomain <- "Health Care Management"
+aiBills20232024$AB3030$aiAccountability <- "High"
+aiBills20232024$AB3030$aiImpact <- "High"
+aiBills20232024$AB3030$aiEthics <- "High"
+aiBills20232024$AB3030$aiInnovation <- "Low"
+aiBills20232024$AB3030$aiPrivacy <- "High"
+aiBills20232024$AB3030$aiTransparency <- "High"
+
+## SB-1229 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1229$text)
+
+# Topic from aiBills20232024$SB1229$status
+aiBills20232024$SB1229$topic <- "SB-1229 Insurance disclosures"
+
+# Title from aiBills20232024$SB1229$status
+aiBills20232024$SB1229$title <- paste0(aiBills20232024$SB1229$title, "An act to add and repeal Chapter 4 (commencing with Section 12130) to of Part 4 of Division 2 of the Insurance Code, relating to insurance, and declaring the urgency thereof, to take effect immediately")
+
+# tldr for aiBills20232024$SB1229$text
+aiBills20232024$SB1229$tldr <- "SB-1229 establishes the requirement for insurance companies to disclose the use of artificial intelligence in their underwriting and claims processes. It mandates transparency in AI algorithms and ensures accountability for AI-generated decisions, protecting consumer rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1229$tags <- c("artificial-intelligence", "insurance", "disclosures", "transparency", "accountability", "consumer-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$SB1229$sponsors <- addSponsors("Y20232024", c("NguyenS"))
+aiBills20232024$SB1229$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1229$dateStart <- as.Date("2024-02-15")
+aiBills20232024$SB1229$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB1229$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1229$version <- "Amended Senate"
+aiBills20232024$SB1229$outcome <- "Failed"
+aiBills20232024$SB1229$chaptered <- FALSE
+aiBills20232024$SB1229$chapterNo <- NA
+aiBills20232024$SB1229$active <- FALSE
+aiBills20232024$SB1229$result <- "Died"
+aiBills20232024$SB1229$vote <- "Two Thirds"
+aiBills20232024$SB1229$appropriation <- FALSE
+aiBills20232024$SB1229$fiscal <- TRUE
+aiBills20232024$SB1229$local <- FALSE
+aiBills20232024$SB1229$urgency <- TRUE
+aiBills20232024$SB1229$tax <- FALSE
+aiBills20232024$SB1229$action <- "Returned to Secretary of Senate pursuant to Joint Rule 62(a)"
+aiBills20232024$SB1229$pdf <- "2023SB1229_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB1229$text
+aiBills20232024$SB1229$aiDisposition <- "Restrictive"
+aiBills20232024$SB1229$aiType <- "Generative"
+aiBills20232024$SB1229$aiSector <- "Insurance"
+aiBills20232024$SB1229$aiSubSector <- "General"
+aiBills20232024$SB1229$aiDomain <- "Insurance Management"
+aiBills20232024$SB1229$aiAccountability <- "High"
+aiBills20232024$SB1229$aiImpact <- "High"
+aiBills20232024$SB1229$aiEthics <- "High"
+aiBills20232024$SB1229$aiInnovation <- "Low"
+aiBills20232024$SB1229$aiPrivacy <- "High"
+aiBills20232024$SB1229$aiTransparency <- "High"
+
+## SB-1120 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1120$text)
+
+# Topic from aiBills20232024$SB1120$status
+aiBills20232024$SB1120$topic <- "SB-1120 Health care coverage: utilization review"
+
+# Title from aiBills20232024$SB1120$status
+aiBills20232024$SB1120$title <- paste0(aiBills20232024$SB1120$title, "An act to amend Section 1367.01 of the Health and Safety Code, and to amend Section 10123.135 of the Insurance Code, relating to health care coverage")
+
+# tldr for aiBills20232024$SB1120$text
+aiBills20232024$SB1120$tldr <- "SB-1120 establishes the Health Care Coverage Utilization Review Act, regulating the use of artificial intelligence in health care coverage decisions. It mandates transparency in AI algorithms, ensures accountability for AI-generated medical decisions, and sets guidelines for ethical AI practices to protect patient rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1120$tags <- c("artificial-intelligence", "health-care", "coverage", "regulations", "transparency", "accountability", "ethical-practices", "patient-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$SB1120$sponsors <- addSponsors("Y20232024", c("BeckerS"))
+aiBills20232024$SB1120$cosponsors <- addSponsors("Y20232024", c("RubioS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1120$dateStart <- as.Date("2024-02-13")
+aiBills20232024$SB1120$dateEnd <- as.Date("2024-09-28")
+aiBills20232024$SB1120$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1120$version <- "Chaptered"
+aiBills20232024$SB1120$outcome <- "Chaptered"
+aiBills20232024$SB1120$chaptered <- TRUE
+aiBills20232024$SB1120$chapterNo <- 879
+aiBills20232024$SB1120$active <- FALSE
+aiBills20232024$SB1120$result <- "Chaptered"
+aiBills20232024$SB1120$vote <- "Majority"
+aiBills20232024$SB1120$appropriation <- FALSE
+aiBills20232024$SB1120$fiscal <- TRUE
+aiBills20232024$SB1120$local <- TRUE
+aiBills20232024$SB1120$urgency <- FALSE
+aiBills20232024$SB1120$tax <- FALSE
+aiBills20232024$SB1120$action <- "Chaptered by Secretary of State - Chapter 879, Statutes of 2024"
+aiBills20232024$SB1120$pdf <- "20230SB1120_90.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB1120$text
+aiBills20232024$SB1120$aiDisposition <- "Restrictive"
+aiBills20232024$SB1120$aiType <- "Generative"
+aiBills20232024$SB1120$aiSector <- "Health Care"
+aiBills20232024$SB1120$aiSubSector <- "General"
+aiBills20232024$SB1120$aiDomain <- "Health Care Management"
+aiBills20232024$SB1120$aiAccountability <- "High"
+aiBills20232024$SB1120$aiImpact <- "High"
+aiBills20232024$SB1120$aiEthics <- "High"
+aiBills20232024$SB1120$aiInnovation <- "Low"
+aiBills20232024$SB1120$aiPrivacy <- "High"
+aiBills20232024$SB1120$aiTransparency <- "High"
+
+## SB-398 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB398$text)
+
+# Topic from aiBills20232024$SB398$status
+aiBills20232024$SB398$topic <- "SB-398 Department of Technology: advanced technology: research"
+
+# Title from aiBills20232024$SB398$status
+aiBills20232024$SB398$title <- paste0(aiBills20232024$SB398$title, "An act to add and repeal Section 11549.7 of the Government Code, relating to advanced technology")
+
+# tldr for aiBills20232024$SB398$text
+aiBills20232024$SB398$tldr <- "SB-398 establishes the Department of Technology's Advanced Technology Research Program to promote research and development in advanced technologies, including artificial intelligence. It aims to enhance California's technological capabilities and ensure responsible use of AI in government operations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB398$tags <- c("artificial-intelligence", "advanced-technology", "research", "development", "responsible-use", "government-operations")
+
+# sponsors and cosponsors
+aiBills20232024$SB398$sponsors <- addSponsors("Y20232024", c("WahabS"))
+aiBills20232024$SB398$cosponsors <- addSponsors("Y20232024", c("LimonS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB398$dateStart <- as.Date("2023-02-09")
+aiBills20232024$SB398$dateEnd <- as.Date("2024-02-01")
+aiBills20232024$SB398$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB398$version <- "Amended Senate"
+aiBills20232024$SB398$outcome <- "Failed"
+aiBills20232024$SB398$chaptered <- FALSE
+aiBills20232024$SB398$chapterNo <- NA
+aiBills20232024$SB398$active <- FALSE
+aiBills20232024$SB398$result <- "Died"
+aiBills20232024$SB398$vote <- "Majority"
+aiBills20232024$SB398$appropriation <- FALSE
+aiBills20232024$SB398$fiscal <- TRUE
+aiBills20232024$SB398$local <- FALSE
+aiBills20232024$SB398$urgency <- FALSE
+aiBills20232024$SB398$tax <- FALSE
+aiBills20232024$SB398$action <- "Returned to Secretary of Senate pursuant to Joint Rule 56"
+aiBills20232024$SB398$pdf <- "2023SB398_97.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB398$text
+aiBills20232024$SB398$aiDisposition <- "Restrictive"
+aiBills20232024$SB398$aiType <- "Generative"
+aiBills20232024$SB398$aiSector <- "Generative AI"
+aiBills20232024$SB398$aiSubSector <- "General"
+aiBills20232024$SB398$aiDomain <- "Generative AI Management"
+aiBills20232024$SB398$aiAccountability <- "High"
+aiBills20232024$SB398$aiImpact <- "High"
+aiBills20232024$SB398$aiEthics <- "High"
+aiBills20232024$SB398$aiInnovation <- "Low"
+aiBills20232024$SB398$aiPrivacy <- "High"
+aiBills20232024$SB398$aiTransparency <- "High"
+
+## AB-3058 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB3058$text)
+
+# Topic from aiBills20232024$AB3058$status
+aiBills20232024$AB3058$topic <- "AB-3058 California Unconditional Benefit Program: employment replaced by automation or artificial intelligence: pilot program"
+
+# Title from aiBills20232024$AB3058$status
+aiBills20232024$AB3058$title <- paste0(aiBills20232024$AB3058$title, "An act to add and repeal Part 5 (commencing with Section 4800) of Division 1 of the Unemployment Insurance Code, relating to benefits")
+
+# tldr for aiBills20232024$AB3058$text
+aiBills20232024$AB3058$tldr <- "AB-3058 establishes the California Unconditional Benefit Program to provide support for individuals whose employment is replaced by automation or artificial intelligence. It aims to address the economic impact of AI on the workforce and ensure a safety net for affected workers."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB3058$tags <- c("artificial-intelligence", "unconditional-benefit", "employment", "automation", "pilot-program", "workforce-support", "economic-impact")
+
+# sponsors and cosponsors
+aiBills20232024$AB3058$sponsors <- addSponsors("Y20232024", c("LowA"))
+aiBills20232024$AB3058$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB3058$dateStart <- as.Date("2024-02-16")
+aiBills20232024$AB3058$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB3058$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB3058$version <- "Amended Assembly"
+aiBills20232024$AB3058$outcome <- "Failed"
+aiBills20232024$AB3058$chaptered <- FALSE
+aiBills20232024$AB3058$chapterNo <- NA
+aiBills20232024$AB3058$active <- FALSE
+aiBills20232024$AB3058$result <- "Died"
+aiBills20232024$AB3058$vote <- "Majority"
+aiBills20232024$AB3058$appropriation <- FALSE
+aiBills20232024$AB3058$fiscal <- TRUE
+aiBills20232024$AB3058$local <- FALSE
+aiBills20232024$AB3058$urgency <- FALSE
+aiBills20232024$AB3058$tax <- FALSE
+aiBills20232024$AB3058$action <- "From committee without further action"
+aiBills20232024$AB3058$pdf <- "20230AB3058_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB3058$text
+aiBills20232024$AB3058$aiDisposition <- "Neutral"
+aiBills20232024$AB3058$aiType <- "Generative"
+aiBills20232024$AB3058$aiSector <- "Automation"
+aiBills20232024$AB3058$aiSubSector <- "General"
+aiBills20232024$AB3058$aiDomain <- "Automation Management"
+aiBills20232024$AB3058$aiAccountability <- "Low"
+aiBills20232024$AB3058$aiImpact <- "Low"
+aiBills20232024$AB3058$aiEthics <- "Low"
+aiBills20232024$AB3058$aiInnovation <- "High"
+aiBills20232024$AB3058$aiPrivacy <- "Low"
+aiBills20232024$AB3058$aiTransparency <- "Low"
+
+## SB-1047 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1047$text)
+
+# Topic from aiBills20232024$SB1047$status
+aiBills20232024$SB1047$topic <- "SB-1047 Safe and Secure Innovation for Frontier Artificial Intelligence Models Act"
+
+# Title from aiBills20232024$SB1047$status
+aiBills20232024$SB1047$title <- paste0(aiBills20232024$SB1047$title, "An act to add Chapter 22.6 (commencing with Section 22602) to Division 8 of the Business and Professions Code, and to add Sections 11547.6 and 11547.6.1 to the Government Code, relating to artificial intelligence")
+
+# tldr for aiBills20232024$SB1047$text
+aiBills20232024$SB1047$tldr <- "SB-1047 establishes the Safe and Secure Innovation for Frontier Artificial Intelligence Models Act, regulating the development and deployment of frontier AI models. It mandates safety assessments, transparency in AI algorithms, and accountability for AI-generated content to ensure responsible use of advanced AI technologies."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1047$tags <- c("artificial-intelligence", "frontier-ai", "regulations", "safety-assessments", "transparency", "accountability", "advanced-ai", "responsible-use")
+
+# sponsors and cosponsors
+aiBills20232024$SB1047$sponsors <- addSponsors("Y20232024", c("WienerS"))
+aiBills20232024$SB1047$cosponsors <- addSponsors("Y20232024", c("RothS", "RubioS", "SternS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1047$dateStart <- as.Date("2024-02-07")
+aiBills20232024$SB1047$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB1047$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1047$version <- "Enrolled"
+aiBills20232024$SB1047$outcome <- "Failed"
+aiBills20232024$SB1047$chaptered <- FALSE
+aiBills20232024$SB1047$chapterNo <- NA
+aiBills20232024$SB1047$active <- TRUE
+aiBills20232024$SB1047$result <- "In Floor Process"
+aiBills20232024$SB1047$vote <- "Majority"
+aiBills20232024$SB1047$appropriation <- FALSE
+aiBills20232024$SB1047$fiscal <- TRUE
+aiBills20232024$SB1047$local <- FALSE
+aiBills20232024$SB1047$urgency <- FALSE
+aiBills20232024$SB1047$tax <- FALSE
+aiBills20232024$SB1047$action <- "Last day to consider Governor's veto pursuant to Joint Rule 58.5"
+aiBills20232024$SB1047$pdf <- "20230SB1047_88.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB1047$text
+aiBills20232024$SB1047$aiDisposition <- "Restrictive"
+aiBills20232024$SB1047$aiType <- "Generative"
+aiBills20232024$SB1047$aiSector <- "Safety and Security"
+aiBills20232024$SB1047$aiSubSector <- "Algorithm Safety"
+aiBills20232024$SB1047$aiDomain <- "Safety and Security Management"
+aiBills20232024$SB1047$aiAccountability <- "High"
+aiBills20232024$SB1047$aiImpact <- "High"
+aiBills20232024$SB1047$aiEthics <- "High"
+aiBills20232024$SB1047$aiInnovation <- "Low"
+aiBills20232024$SB1047$aiPrivacy <- "High"
+aiBills20232024$SB1047$aiTransparency <- "High"
+
+## AB-3204 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB3204$text)
+
+# Topic from aiBills20232024$AB3204$status
+aiBills20232024$AB3204$topic <- "AB-3204 Data Digesters Registration Act"
+
+# Title from aiBills20232024$AB3204$status
+aiBills20232024$AB3204$title <- paste0(aiBills20232024$AB3204$title, "An act to add Title 1.81.8 (commencing with Section 1798.321) to Part 4 of Division 3 of the Civil Code, relating to data digesters")
+
+# tldr for aiBills20232024$AB3204$text
+aiBills20232024$AB3204$tldr <- "AB-3204 establishes the Data Digesters Registration Act, requiring companies that use data digesters to register with the state. It mandates transparency in data collection practices, ensures accountability for data usage, and sets guidelines for ethical data management to protect consumer rights and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB3204$tags <- c("data-digester", "registration", "data-collection", "transparency", "accountability", "ethical-data-management", "consumer-rights", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$AB3204$sponsors <- addSponsors("Y20232024", c("BauerKahanA"))
+aiBills20232024$AB3204$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB3204$dateStart <- as.Date("2024-02-16")
+aiBills20232024$AB3204$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB3204$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB3204$version <- "Amended Assembly"
+aiBills20232024$AB3204$outcome <- "Failed"
+aiBills20232024$AB3204$chaptered <- FALSE
+aiBills20232024$AB3204$chapterNo <- NA
+aiBills20232024$AB3204$active <- FALSE
+aiBills20232024$AB3204$result <- "Died"
+aiBills20232024$AB3204$vote <- "Majority"
+aiBills20232024$AB3204$appropriation <- FALSE
+aiBills20232024$AB3204$fiscal <- TRUE
+aiBills20232024$AB3204$local <- FALSE
+aiBills20232024$AB3204$urgency <- FALSE
+aiBills20232024$AB3204$tax <- FALSE
+aiBills20232024$AB3204$action <- "From committee without further action"
+aiBills20232024$AB3204$pdf <- "20230AB3204_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB3204$text
+aiBills20232024$AB3204$aiDisposition <- "Restrictive"
+aiBills20232024$AB3204$aiType <- "Generative"
+aiBills20232024$AB3204$aiSector <- "Data Management"
+aiBills20232024$AB3204$aiSubSector <- "General"
+aiBills20232024$AB3204$aiDomain <- "Data Management"
+aiBills20232024$AB3204$aiAccountability <- "High"
+aiBills20232024$AB3204$aiImpact <- "High"
+aiBills20232024$AB3204$aiEthics <- "High"
+aiBills20232024$AB3204$aiInnovation <- "Low"
+aiBills20232024$AB3204$aiPrivacy <- "High"
+aiBills20232024$AB3204$aiTransparency <- "High"
+
+
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 5. Export and Save Data ####

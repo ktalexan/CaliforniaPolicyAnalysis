@@ -71,7 +71,7 @@ rm(bill, id)
 # 4. Populate AI Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### ACR-215 ####
+## ACR-215 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$ACR215$text)
@@ -124,7 +124,7 @@ aiBills20172018$ACR215$aiInnovation <- "Low"
 aiBills20172018$ACR215$aiPrivacy <- "Low"
 aiBills20172018$ACR215$aiTransparency <- "Moderate"
 
-### SB-1470 ####
+## SB-1470 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$SB1470$text)
@@ -179,7 +179,7 @@ aiBills20172018$SB1470$aiInnovation <- "Low"
 aiBills20172018$SB1470$aiPrivacy <- "Low"
 aiBills20172018$SB1470$aiTransparency <- "Moderate"
 
-### AB-2662 ####
+## AB-2662 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$AB2662$text)
@@ -234,7 +234,7 @@ aiBills20172018$AB2662$aiInnovation <- "Low"
 aiBills20172018$AB2662$aiPrivacy <- "Low"
 aiBills20172018$AB2662$aiTransparency <- "Moderate"
 
-### AB-1809 ####
+## AB-1809 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$AB1809$text)
@@ -289,7 +289,7 @@ aiBills20172018$AB1809$aiInnovation <- "Low"
 aiBills20172018$AB1809$aiPrivacy <- "Low"
 aiBills20172018$AB1809$aiTransparency <- "Low"
 
-### SB-843 ####
+## SB-843 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20172018$SB843$text)

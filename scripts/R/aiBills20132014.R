@@ -71,7 +71,7 @@ rm(bill, id)
 # 4. Populate AI Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### SB-836 ####
+## SB-836 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20132014$SB836$text)
@@ -126,7 +126,7 @@ aiBills20132014$SB836$aiInnovation <- "Low"
 aiBills20132014$SB836$aiPrivacy <- "Low"
 aiBills20132014$SB836$aiTransparency <- "Moderate"
 
-### SB-860 ####
+## SB-860 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20132014$SB860$text)
@@ -181,7 +181,7 @@ aiBills20132014$SB860$aiInnovation <- "Moderate"
 aiBills20132014$SB860$aiPrivacy <- "Moderate"
 aiBills20132014$SB860$aiTransparency <- "Moderate"
 
-### AB-1465 ####
+## AB-1465 ####
 
 # open the url for the bill text in the default web browser
 #browseURL(aiBills20132014$AB1465$text)
