@@ -2582,3 +2582,58 @@ aiBillData$Y20232024$SB1235$aiInnovation <- "Low"
 aiBillData$Y20232024$SB1235$aiPrivacy <- "High"
 aiBillData$Y20232024$SB1235$aiTransparency <- "High"
 
+### SB-896 ####
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBillData$Y20232024$SB896$text)
+
+# Topic from aiBillData$Y20232024$SB896$status
+aiBillData$Y20232024$SB896$topic <- "SB-896 Generative Artificial Intelligence Accountability Act"
+
+# Title from aiBillData$Y20232024$SB896$status
+aiBillData$Y20232024$SB896$title <- paste0(aiBillData$Y20232024$SB896$title, "An act to add Chapter 5.9 (commencing with Section 11549.63) to Part 1 of Division 3 of Title 2 of the Government Code, relating to artificial intelligence")
+
+# tldr for aiBillData$Y20232024$SB896$text
+aiBillData$Y20232024$SB896$tldr <- "SB-896 establishes the Generative Artificial Intelligence Accountability Act, requiring companies to disclose the use of generative AI in their products. It mandates transparency in AI-generated content and ensures accountability for the ethical use of AI technologies."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBillData$Y20232024$SB896$tags <- c("artificial-intelligence", "generative-ai", "accountability", "transparency", "ethical-use", "AI-generated-content", "disclosure", "responsible-use")
+
+# sponsors and cosponsors
+aiBillData$Y20232024$SB896$sponsors <- addSponsors("Y20232024", c("DoddS"))
+aiBillData$Y20232024$SB896$cosponsors <- addSponsors("Y20232024", c("LowA", "MathisA", "RubioS", "WeberA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBillData$Y20232024$SB896$dateStart <- as.Date("2024-01-03")
+aiBillData$Y20232024$SB896$dateEnd <- as.Date("2024-09-29")
+aiBillData$Y20232024$SB896$dateUpdated <- Sys.Date()
+
+# measures
+aiBillData$Y20232024$SB896$version <- "Chaptered"
+aiBillData$Y20232024$SB896$outcome <- "Chaptered"
+aiBillData$Y20232024$SB896$chaptered <- TRUE
+aiBillData$Y20232024$SB896$chapterNo <- 928
+aiBillData$Y20232024$SB896$active <- FALSE
+aiBillData$Y20232024$SB896$result <- "Chaptered"
+aiBillData$Y20232024$SB896$vote <- "Majority"
+aiBillData$Y20232024$SB896$appropriation <- FALSE
+aiBillData$Y20232024$SB896$fiscal <- TRUE
+aiBillData$Y20232024$SB896$local <- FALSE
+aiBillData$Y20232024$SB896$urgency <- FALSE
+aiBillData$Y20232024$SB896$tax <- FALSE
+aiBillData$Y20232024$SB896$action <- "Chaptered by Secretary of State - Chapter 928, Statutes of 2024"
+aiBillData$Y20232024$SB896$pdf <- "20230SB896_92.pdf"
+
+# AI properties assessed from the text in aiBillData$Y20232024$SB896$text
+aiBillData$Y20232024$SB896$aiDisposition <- "Restrictive"
+aiBillData$Y20232024$SB896$aiType <- "Generative"
+aiBillData$Y20232024$SB896$aiSector <- "General"
+aiBillData$Y20232024$SB896$aiSubSector <- "Generative AI"
+aiBillData$Y20232024$SB896$aiDomain <- "Generative AI Management"
+aiBillData$Y20232024$SB896$aiAccountability <- "High"
+aiBillData$Y20232024$SB896$aiImpact <- "High"
+aiBillData$Y20232024$SB896$aiEthics <- "High"
+aiBillData$Y20232024$SB896$aiInnovation <- "Low"
+aiBillData$Y20232024$SB896$aiPrivacy <- "High"
+aiBillData$Y20232024$SB896$aiTransparency <- "High"
+
