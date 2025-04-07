@@ -1365,6 +1365,62 @@ aiBills20232024$SB933$aiInnovation <- "Low"
 aiBills20232024$SB933$aiPrivacy <- "High"
 aiBills20232024$SB933$aiTransparency <- "High"
 
+## SB-892 ####
+
+aiBills20232024$SB892 <- addBillStructure(2023, "SB-892")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB892$text)
+
+# Topic from aiBills20232024$SB892$status
+aiBills20232024$SB892$topic <- "SB-892 Public contracts: automated decision systems: procurement standards"
+
+# Title from aiBills20232024$SB892$status
+aiBills20232024$SB892$title <- paste0(aiBills20232024$SB892$title, "An act to add Section 12100.1 to the Public Contract Code, relating to public contracts")
+
+# tldr for aiBills20232024$SB892$text
+aiBills20232024$SB892$tldr <- "SB-892 establishes procurement standards for public contracts involving automated decision systems, ensuring transparency and accountability in their use."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB892$tags <- c("artificial-intelligence", "public-contracts", "automated-decision-systems", "procurement-standards", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$SB892$sponsors <- addSponsors("Y20232024", c("PadillaS"))
+aiBills20232024$SB892$cosponsors <- addSponsors("Y20232024", c("RubioS", "SmallwoodCuevasS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB892$dateStart <- as.Date("2024-01-03")
+aiBills20232024$SB892$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB892$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB892$version <- "Enrolled"
+aiBills20232024$SB892$outcome <- "Failed"
+aiBills20232024$SB892$chaptered <- FALSE
+aiBills20232024$SB892$chapterNo <- NA
+aiBills20232024$SB892$active <- TRUE
+aiBills20232024$SB892$result <- "In Floor Process"
+aiBills20232024$SB892$vote <- "Majority"
+aiBills20232024$SB892$appropriation <- FALSE
+aiBills20232024$SB892$fiscal <- TRUE
+aiBills20232024$SB892$local <- FALSE
+aiBills20232024$SB892$urgency <- FALSE
+aiBills20232024$SB892$tax <- FALSE
+aiBills20232024$SB892$action <- "Last day to consider Governor's veto pursuant to Joint Rule 58.5"
+aiBills20232024$SB892$pdf <- "20230SB892_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB892$text
+aiBills20232024$SB892$aiDisposition <- "Restrictive"
+aiBills20232024$SB892$aiType <- "Generative"
+aiBills20232024$SB892$aiSector <- "Public Sector"
+aiBills20232024$SB892$aiSubSector <- "General"
+aiBills20232024$SB892$aiDomain <- "Public Sector Management"
+aiBills20232024$SB892$aiAccountability <- "High"
+aiBills20232024$SB892$aiImpact <- "High"
+aiBills20232024$SB892$aiEthics <- "High"
+aiBills20232024$SB892$aiInnovation <- "Low"
+aiBills20232024$SB892$aiPrivacy <- "High"
+aiBills20232024$SB892$aiTransparency <- "High"
 
 
 
