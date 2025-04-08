@@ -98,7 +98,6 @@ save(dfCalMembers, file = file.path(prjDirs$pathData, "dfCalMembers.RData"))
 
 # Export the calMembers list to the data directory as an RData file
 save(calMembers, file = file.path(prjDirs$pathData, "calMembers.RData"))
-d
 
 #~~~~~~~~~~~~~~~~~~~
 # End of Script ####
