@@ -2963,6 +2963,48 @@ aiBills20232024$AB2200$aiTransparency <- "High"
 
 ## SB-1223 ####
 
+aiBills20232024$SB1223 <- addBillStructure(2023, "SB-1223")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1223$text)
+
+# Topic from aiBills20232024$SB1223$status
+aiBills20232024$SB1223$topic <- "SB-1223 Consumer privacy: sensitive personal information: neural data"
+
+# Title from aiBills20232024$SB1223$status
+aiBills20232024$SB1223$title <- paste0(aiBills20232024$SB1223$title, "An act to amend Section 1798.140 of the Civil Code, relating to privacy")
+
+# tldr for aiBills20232024$SB1223$text
+aiBills20232024$SB1223$tldr <- "This act amends the California Consumer Privacy Act to include neural data as sensitive personal information."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1223$tags <- c("artificial-intelligence", "consumer-privacy", "sensitive-personal-information", "neural-data", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$SB1223$sponsors <- addSponsors("Y20232024", c("BeckerS"))
+aiBills20232024$SB1223$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1223$dateStart <- as.Date("2024-02-15")
+aiBills20232024$SB1223$dateEnd <- as.Date("2024-09-28")
+aiBills20232024$SB1223$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1223$version <- "Chaptered"
+aiBills20232024$SB1223$outcome <- "Chaptered"
+aiBills20232024$SB1223$chaptered <- TRUE
+aiBills20232024$SB1223$chapterNo <- 887
+aiBills20232024$SB1223$active <- FALSE
+aiBills20232024$SB1223$result <- "Chaptered"
+aiBills20232024$SB1223$vote <- "Majority"
+aiBills20232024$SB1223$appropriation <- FALSE
+aiBills20232024$SB1223$fiscal <- TRUE
+aiBills20232024$SB1223$local <- FALSE
+aiBills20232024$SB1223$urgency <- FALSE
+aiBills20232024$SB1223$tax <- FALSE
+aiBills20232024$SB1223$action <- "Chaptered by Secretary of State - Chapter 887, Statutes of 2024"
+aiBills20232024$SB1223$pdf <- "20230SB1223_93.pdf"
+
 ## AB-108 ####
 
 ## AB-103 ####
