@@ -2108,6 +2108,61 @@ aiBills20232024$AB2512$aiTransparency <- "High"
 
 ## ACR-227 ####
 
+aiBills20232024$ACR227 <- addBillStructure(2023, "ACR-227")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$ACR227$text)
+
+# Topic from aiBills20232024$ACR227$status
+aiBills20232024$ACR227$topic <- "ACR-227 Women in Animation"
+
+# Title from aiBills20232024$ACR227$status
+aiBills20232024$ACR227$title <- paste0(aiBills20232024$ACR227$title, "Relative to Women in Animation")
+
+# tldr for aiBills20232024$ACR227$text
+aiBills20232024$ACR227$tldr <- "This resolution recognizes the contributions of women in animation and advocates for increased representation and opportunities in the industry."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$ACR227$tags <- c("women-in-animation", "animation-industry", "representation", "opportunities", "artificial-intelligence")
+
+# sponsors and cosponsors
+aiBills20232024$ACR227$sponsors <- addSponsors("Y20232024", c("WallisA"))
+aiBills20232024$ACR227$cosponsors <- addSponsors("Y20232024", c("PachecoA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$ACR227$dateStart <- as.Date("2024-08-05")
+aiBills20232024$ACR227$dateEnd <- as.Date("2024-08-23")
+aiBills20232024$ACR227$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$ACR227$version <- "Chaptered"
+aiBills20232024$ACR227$outcome <- "Chaptered"
+aiBills20232024$ACR227$chaptered <- TRUE
+aiBills20232024$ACR227$chapterNo <- 177
+aiBills20232024$ACR227$active <- FALSE
+aiBills20232024$ACR227$result <- "Chaptered"
+aiBills20232024$ACR227$vote <- "No Vote"
+aiBills20232024$ACR227$appropriation <- FALSE
+aiBills20232024$ACR227$fiscal <- FALSE
+aiBills20232024$ACR227$local <- FALSE
+aiBills20232024$ACR227$urgency <- FALSE
+aiBills20232024$ACR227$tax <- FALSE
+aiBills20232024$ACR227$action <- "Chaptered by Secretary of State - Chapter 177, Statutes of 2024"
+aiBills20232024$ACR227$pdf <- "20230ACR227_97.pdf"
+
+# AI properties assessed from the text in aiBills20232024$ACR227$text
+aiBills20232024$ACR227$aiDisposition <- "Neutral"
+aiBills20232024$ACR227$aiType <- "Generative"
+aiBills20232024$ACR227$aiSector <- "Generative AI"
+aiBills20232024$ACR227$aiSubSector <- "Women in Animation"
+aiBills20232024$ACR227$aiDomain <- "Generative AI Management"
+aiBills20232024$ACR227$aiAccountability <- "Low"
+aiBills20232024$ACR227$aiImpact <- "Low"
+aiBills20232024$ACR227$aiEthics <- "Low"
+aiBills20232024$ACR227$aiInnovation <- "Low"
+aiBills20232024$ACR227$aiPrivacy <- "Low"
+aiBills20232024$ACR227$aiTransparency <- "Low"
+
 ## AB-2930 ####
 
 ## AB-1027 ####
