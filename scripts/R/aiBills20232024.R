@@ -2393,6 +2393,61 @@ aiBills20232024$SCR121$aiTransparency <- "Low"
 
 ## AB-2412 ####
 
+aiBills20232024$AB2412 <- addBillStructure(2023, "AB-2412")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2412$text)
+
+# Topic from aiBills20232024$AB2412$status
+aiBills20232024$AB2412$topic <- "AB-2412 Healing arts: California Body Contouring Council: practitioners"
+
+# Title from aiBills20232024$AB2412$status
+aiBills20232024$AB2412$title <- paste0(aiBills20232024$AB2412$title, "An act to add Chapter 10.8 (commencing with Section 4660) to Division 2 of the Business and Professions Code, relating to body contouring")
+
+# tldr for aiBills20232024$AB2412$text
+aiBills20232024$AB2412$tldr <- "This act establishes the California Body Contouring Council to regulate body contouring practitioners."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2412$tags <- c("body-contouring", "practitioners", "regulation", "artificial-intelligence")
+
+# sponsors and cosponsors
+aiBills20232024$AB2412$sponsors <- addSponsors("Y20232024", c("ReyesA"))
+aiBills20232024$AB2412$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2412$dateStart <- as.Date("2024-02-12")
+aiBills20232024$AB2412$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB2412$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2412$version <- "Amended Assembly"
+aiBills20232024$AB2412$outcome <- "Failed"
+aiBills20232024$AB2412$chaptered <- FALSE
+aiBills20232024$AB2412$chapterNo <- NA
+aiBills20232024$AB2412$active <- FALSE
+aiBills20232024$AB2412$result <- "Died"
+aiBills20232024$AB2412$vote <- "Majority"
+aiBills20232024$AB2412$appropriation <- FALSE
+aiBills20232024$AB2412$fiscal <- TRUE
+aiBills20232024$AB2412$local <- FALSE
+aiBills20232024$AB2412$urgency <- FALSE
+aiBills20232024$AB2412$tax <- FALSE
+aiBills20232024$AB2412$action <- "From committee without further action"
+aiBills20232024$AB2412$pdf <- "20230AB2412_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2412$text
+aiBills20232024$AB2412$aiDisposition <- "Restrictive"
+aiBills20232024$AB2412$aiType <- "Generative"
+aiBills20232024$AB2412$aiSector <- "Health Care"
+aiBills20232024$AB2412$aiSubSector <- "Body Contouring"
+aiBills20232024$AB2412$aiDomain <- "Health Care Management"
+aiBills20232024$AB2412$aiAccountability <- "High"
+aiBills20232024$AB2412$aiImpact <- "High"
+aiBills20232024$AB2412$aiEthics <- "High"
+aiBills20232024$AB2412$aiInnovation <- "Low"
+aiBills20232024$AB2412$aiPrivacy <- "High"
+aiBills20232024$AB2412$aiTransparency <- "High"
+
 ## AB-2839 ####
 
 ## SB-1446 ####
