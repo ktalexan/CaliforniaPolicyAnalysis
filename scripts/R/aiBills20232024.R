@@ -2735,6 +2735,61 @@ aiBills20232024$SB1154$aiTransparency <- "High"
 
 ## AB-2655 ####
 
+aiBills20232024$AB2655 <- addBillStructure(2023, "AB-2655")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2655$text)
+
+# Topic from aiBills20232024$AB2655$status
+aiBills20232024$AB2655$topic <- "AB-2655 Defending Democracy from Deepfake Deception Act of 2024"
+
+# Title from aiBills20232024$AB2655$status
+aiBills20232024$AB2655$title <- paste0(aiBills20232024$AB2655$title, "An act to amend Section 35 of the Code of Civil Procedure, and to add Chapter 7 (commencing with Section 20510) to Division 20 of the Elections Code, relating to elections")
+
+# tldr for aiBills20232024$AB2655$text
+aiBills20232024$AB2655$tldr <- "This act establishes the California Defending Democracy from Deepfake Deception Act of 2024 to combat the use of deepfakes in elections."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2655$tags <- c("artificial-intelligence", "deepfake-deception", "elections", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB2655$sponsors <- addSponsors("Y20232024", c("BermanA", "PellerinA"))
+aiBills20232024$AB2655$cosponsors <- addSponsors("Y20232024", c("CervantesA", "BennettA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2655$dateStart <- as.Date("2024-02-14")
+aiBills20232024$AB2655$dateEnd <- as.Date("2024-09-17")
+aiBills20232024$AB2655$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2655$version <- "Chaptered"
+aiBills20232024$AB2655$outcome <- "Chaptered"
+aiBills20232024$AB2655$chaptered <- TRUE
+aiBills20232024$AB2655$chapterNo <- 261
+aiBills20232024$AB2655$active <- FALSE
+aiBills20232024$AB2655$result <- "Chaptered"
+aiBills20232024$AB2655$vote <- "Majority"
+aiBills20232024$AB2655$appropriation <- FALSE
+aiBills20232024$AB2655$fiscal <- TRUE
+aiBills20232024$AB2655$local <- FALSE
+aiBills20232024$AB2655$urgency <- FALSE
+aiBills20232024$AB2655$tax <- FALSE
+aiBills20232024$AB2655$action <- "Chaptered by Secretary of State - Chapter 261, Statutes of 2024"
+aiBills20232024$AB2655$pdf <- "20230AB2655_89.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2655$text
+aiBills20232024$AB2655$aiDisposition <- "Restrictive"
+aiBills20232024$AB2655$aiType <- "Generative"
+aiBills20232024$AB2655$aiSector <- "Elections"
+aiBills20232024$AB2655$aiSubSector <- "Deepfake Deception"
+aiBills20232024$AB2655$aiDomain <- "Elections Management"
+aiBills20232024$AB2655$aiAccountability <- "High"
+aiBills20232024$AB2655$aiImpact <- "High"
+aiBills20232024$AB2655$aiEthics <- "High"
+aiBills20232024$AB2655$aiInnovation <- "Low"
+aiBills20232024$AB2655$aiPrivacy <- "High"
+aiBills20232024$AB2655$aiTransparency <- "High"
+
 ## AB-1008 ####
 
 ## AB-1526 ####
