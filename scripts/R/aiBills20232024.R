@@ -2408,7 +2408,7 @@ aiBills20232024$AB2412$title <- paste0(aiBills20232024$AB2412$title, "An act to 
 aiBills20232024$AB2412$tldr <- "This act establishes the California Body Contouring Council to regulate body contouring practitioners."
 
 # tags (lowercase, words separated by dash, include "artificial-intelligence")
-aiBills20232024$AB2412$tags <- c("body-contouring", "practitioners", "regulation", "artificial-intelligence")
+aiBills20232024$AB2412$tags <- c("artificial-intelligence", "body-contouring", "practitioners", "regulation", "artificial-intelligence")
 
 # sponsors and cosponsors
 aiBills20232024$AB2412$sponsors <- addSponsors("Y20232024", c("ReyesA"))
@@ -2465,7 +2465,7 @@ aiBills20232024$AB2839$title <- paste0(aiBills20232024$AB2839$title, "An act to 
 aiBills20232024$AB2839$tldr <- "This act establishes regulations for the use of deceptive media in election advertisements, ensuring transparency and accountability."
 
 # tags (lowercase, words separated by dash, include "artificial-intelligence")
-aiBills20232024$AB2839$tags <- c("elections", "deceptive-media", "advertisements", "transparency", "accountability")
+aiBills20232024$AB2839$tags <- c("artificial-intelligence", "elections", "deceptive-media", "advertisements", "transparency", "accountability")
 
 # sponsors and cosponsors
 aiBills20232024$AB2839$sponsors <- addSponsors("Y20232024", c("PellerinA", "BermanA"))
@@ -2506,6 +2506,61 @@ aiBills20232024$AB2839$aiPrivacy <- "High"
 aiBills20232024$AB2839$aiTransparency <- "High"
 
 ## SB-1446 ####
+
+aiBills20232024$SB1446 <- addBillStructure(2023, "SB-1446")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1446$text)
+
+# Topic from aiBills20232024$SB1446$status
+aiBills20232024$SB1446$topic <- "SB-1446 Grocery retail store and retail drug establishment employees: self-service checkout and consequential workplace technology"
+
+# Title from aiBills20232024$SB1446$status
+aiBills20232024$SB1446$title <- paste0(aiBills20232024$SB1446$title, "An act to add Part 9.6 (commencing with Section 2530) to Division 2 of the Labor Code, relating to private employment")
+
+# tldr for aiBills20232024$SB1446$text
+aiBills20232024$SB1446$tldr <- "This act regulates the use of self-service checkout systems and other workplace technologies in grocery retail stores and retail drug establishments, ensuring employee rights and protections."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1446$tags <- c("artificial-intelligence", "grocery-retail", "self-service-checkout", "workplace-technology", "employee-rights", "protections")
+
+# sponsors and cosponsors
+aiBills20232024$SB1446$sponsors <- addSponsors("Y20232024", c("SmallwoodCuevasS"))
+aiBills20232024$SB1446$cosponsors <- addSponsors("Y20232024", c("GipsonA", "LowenthalA", "McKinnorA", "OrtegaA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1446$dateStart <- as.Date("2024-02-16")
+aiBills20232024$SB1446$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB1446$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1446$version <- "Amended Assembly"
+aiBills20232024$SB1446$outcome <- "Failed"
+aiBills20232024$SB1446$chaptered <- FALSE
+aiBills20232024$SB1446$chapterNo <- NA
+aiBills20232024$SB1446$active <- FALSE
+aiBills20232024$SB1446$result <- "Died"
+aiBills20232024$SB1446$vote <- "Majority"
+aiBills20232024$SB1446$appropriation <- FALSE
+aiBills20232024$SB1446$fiscal <- TRUE
+aiBills20232024$SB1446$local <- FALSE
+aiBills20232024$SB1446$urgency <- FALSE
+aiBills20232024$SB1446$tax <- FALSE
+aiBills20232024$SB1446$action <- "From Assembly without further action"
+aiBills20232024$SB1446$pdf <- "20230SB1446_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB1446$text
+aiBills20232024$SB1446$aiDisposition <- "Restrictive"
+aiBills20232024$SB1446$aiType <- "Generative"
+aiBills20232024$SB1446$aiSector <- "Retail"
+aiBills20232024$SB1446$aiSubSector <- "Self-Service Checkout"
+aiBills20232024$SB1446$aiDomain <- "Retail Management"
+aiBills20232024$SB1446$aiAccountability <- "High"
+aiBills20232024$SB1446$aiImpact <- "High"
+aiBills20232024$SB1446$aiEthics <- "High"
+aiBills20232024$SB1446$aiInnovation <- "Low"
+aiBills20232024$SB1446$aiPrivacy <- "High"
+aiBills20232024$SB1446$aiTransparency <- "High"
 
 ## ACR-219 ####
 
