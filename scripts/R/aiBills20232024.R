@@ -3077,6 +3077,61 @@ aiBills20232024$AB108$aiTransparency <- "High"
 
 ## AB-103 ####
 
+aiBills20232024$AB103 <- addBillStructure(2023, "AB-103")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB103$text)
+
+# Topic from aiBills20232024$AB103$status
+aiBills20232024$AB103$topic <- "AB-103 Budget Acts of 2021 and 2022"
+
+# Title from aiBills20232024$AB103$status
+aiBills20232024$AB103$title <- paste0(aiBills20232024$AB103$title, "An act to amend the Budget Act of 2021 (Chapters 21, 69, and 240 of the Statutes of 2021) by amending Items 6100-001-0890, 6610-001-0001, and 7760-101-0001 of Section 2.00 of, and amending Section 39.10 of, that act, and to amend the Budget Act of 2022 (Chapters 43, 45, and 249 of the Statutes of 2022) by amending Items 0250-001-0001, 3360-001-3228, 3360-101-3228, 5225-019-0001, 5225-022-0001, 6100-001-0001, 6100-001-0178, 6100-001-0890, 6100-004-0001, 6100-125-0890, 6100-172-0001, 6100-194-0001, 6100-196-0001, 6100-488, 6440-001-0001, 6610-001-0001, of Section 2.00 of, and amending Sections 19.56, 19.58, 39.00, and 39.10 of, that act, relating to the state budget, and making an appropriation therefor, to take effect immediately, budget bill")
+
+# tldr for aiBills20232024$AB103$text
+aiBills20232024$AB103$tldr <- "This act amends the Budget Acts of 2021 and 2022 to make various changes to state budget allocations and appropriations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB103$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$AB103$sponsors <- addSponsors("Y20232024", c("TingA"))
+aiBills20232024$AB103$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB103$dateStart <- as.Date("2023-01-09")
+aiBills20232024$AB103$dateEnd <- as.Date("2024-06-30")
+aiBills20232024$AB103$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB103$version <- "Chaptered"
+aiBills20232024$AB103$outcome <- "Chaptered"
+aiBills20232024$AB103$chaptered <- TRUE
+aiBills20232024$AB103$chapterNo <- 33
+aiBills20232024$AB103$active <- FALSE
+aiBills20232024$AB103$result <- "Chaptered"
+aiBills20232024$AB103$vote <- "Majority"
+aiBills20232024$AB103$appropriation <- TRUE
+aiBills20232024$AB103$fiscal <- TRUE
+aiBills20232024$AB103$local <- FALSE
+aiBills20232024$AB103$urgency <- TRUE
+aiBills20232024$AB103$tax <- FALSE
+aiBills20232024$AB103$action <- "Chaptered by Secretary of State - Chapter 33, Statutes of 2023"
+aiBills20232024$AB103$pdf <- "20230AB103_96.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB103$text
+aiBills20232024$AB103$aiDisposition <- "Neutral"
+aiBills20232024$AB103$aiType <- "Generative"
+aiBills20232024$AB103$aiSector <- "Budget Act"
+aiBills20232024$AB103$aiSubSector <- "State Budget"
+aiBills20232024$AB103$aiDomain <- "Budget Management"
+aiBills20232024$AB103$aiAccountability <- "High"
+aiBills20232024$AB103$aiImpact <- "High"
+aiBills20232024$AB103$aiEthics <- "High"
+aiBills20232024$AB103$aiInnovation <- "Low"
+aiBills20232024$AB103$aiPrivacy <- "High"
+aiBills20232024$AB103$aiTransparency <- "High"
+
 ## AB-2928 ####
 
 ## AB-100 ####
