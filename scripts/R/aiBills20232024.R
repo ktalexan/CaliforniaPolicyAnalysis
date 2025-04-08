@@ -2621,6 +2621,61 @@ aiBills20232024$ACR219$aiTransparency <- "High"
 
 ## SCR-162 ####
 
+aiBills20232024$SCR162 <- addBillStructure(2023, "SCR-162")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SCR162$text)
+
+# Topic from aiBills20232024$SCR162$status
+aiBills20232024$SCR162$topic <- "SCR-162 Alzheimer’s and Brain Awareness Month and The Longest Day"
+
+# Title from aiBills20232024$SCR162$status
+aiBills20232024$SCR162$title <- paste0(aiBills20232024$SCR162$title, "Relative to Alzheimer’s and Brain Awareness Month and The Longest Day")
+
+# tldr for aiBills20232024$SCR162$text
+aiBills20232024$SCR162$tldr <- "This resolution recognizes June as Alzheimer’s and Brain Awareness Month and promotes awareness of Alzheimer's disease."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SCR162$tags <- c("artificial-intelligence", "alzheimers-awareness", "brain-health", "awareness", "resolution")
+
+# sponsors and cosponsors
+aiBills20232024$SCR162$sponsors <- addSponsors("Y20232024", c("AllenS"))
+aiBills20232024$SCR162$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SCR162$dateStart <- as.Date("2024-06-12")
+aiBills20232024$SCR162$dateEnd <- as.Date("2024-08-13")
+aiBills20232024$SCR162$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SCR162$version <- "Chaptered"
+aiBills20232024$SCR162$outcome <- "Chaptered"
+aiBills20232024$SCR162$chaptered <- TRUE
+aiBills20232024$SCR162$chapterNo <- 165
+aiBills20232024$SCR162$active <- FALSE
+aiBills20232024$SCR162$result <- "Chaptered"
+aiBills20232024$SCR162$vote <- "No Vote"
+aiBills20232024$SCR162$appropriation <- FALSE
+aiBills20232024$SCR162$fiscal <- FALSE
+aiBills20232024$SCR162$local <- FALSE
+aiBills20232024$SCR162$urgency <- FALSE
+aiBills20232024$SCR162$tax <- FALSE
+aiBills20232024$SCR162$action <- "Chaptered by Secretary of State - Chapter 165, Statutes of 2024"
+aiBills20232024$SCR162$pdf <- "20230SCR162_97.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SCR162$text
+aiBills20232024$SCR162$aiDisposition <- "Neutral"
+aiBills20232024$SCR162$aiType <- "Generative"
+aiBills20232024$SCR162$aiSector <- "Generative AI"
+aiBills20232024$SCR162$aiSubSector <- "Health Care"
+aiBills20232024$SCR162$aiDomain <- "Generative AI Management"
+aiBills20232024$SCR162$aiAccountability <- "Low"
+aiBills20232024$SCR162$aiImpact <- "Low"
+aiBills20232024$SCR162$aiEthics <- "Low"
+aiBills20232024$SCR162$aiInnovation <- "Low"
+aiBills20232024$SCR162$aiPrivacy <- "Low"
+aiBills20232024$SCR162$aiTransparency <- "Low"
+
 ## SB-1154 ####
 
 ## AB-2655 ####
