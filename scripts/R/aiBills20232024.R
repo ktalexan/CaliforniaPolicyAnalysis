@@ -2678,6 +2678,61 @@ aiBills20232024$SCR162$aiTransparency <- "Low"
 
 ## SB-1154 ####
 
+aiBills20232024$SB1154 <- addBillStructure(2023, "SB-1154")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1154$text)
+
+# Topic from aiBills20232024$SB1154$status
+aiBills20232024$SB1154$topic <- "SB-1154 California Preventing Algorithmic Collusion Act of 2024"
+
+# Title from aiBills20232024$SB1154$status
+aiBills20232024$SB1154$title <- paste0(aiBills20232024$SB1154$title, "An act to add  Chapter 8 (commencing with Section 17370) to Part 2 of Division 7 of the Business and Professions Code, relating to business regulations")
+
+# tldr for aiBills20232024$SB1154$text
+aiBills20232024$SB1154$tldr <- "This act establishes the California Preventing Algorithmic Collusion Act of 2024 to prevent collusion among businesses using algorithms."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1154$tags <- c("artificial-intelligence", "algorithmic-collusion", "business-regulations", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$SB1154$sponsors <- addSponsors("Y20232024", c("HurtadoS"))
+aiBills20232024$SB1154$cosponsors <- addSponsors("Y20232024", c("ArchuletaS", "CorteseS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1154$dateStart <- as.Date("2024-02-14")
+aiBills20232024$SB1154$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB1154$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1154$version <- "Amended Senate"
+aiBills20232024$SB1154$outcome <- "Failed"
+aiBills20232024$SB1154$chaptered <- FALSE
+aiBills20232024$SB1154$chapterNo <- NA
+aiBills20232024$SB1154$active <- FALSE
+aiBills20232024$SB1154$result <- "Died"
+aiBills20232024$SB1154$vote <- "Majority"
+aiBills20232024$SB1154$appropriation <- FALSE
+aiBills20232024$SB1154$fiscal <- TRUE
+aiBills20232024$SB1154$local <- FALSE
+aiBills20232024$SB1154$urgency <- FALSE
+aiBills20232024$SB1154$tax <- FALSE
+aiBills20232024$SB1154$action <- "From committee without further action"
+aiBills20232024$SB1154$pdf <- "20230SB1154_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB1154$text
+aiBills20232024$SB1154$aiDisposition <- "Restrictive"
+aiBills20232024$SB1154$aiType <- "Generative"
+aiBills20232024$SB1154$aiSector <- "Business"
+aiBills20232024$SB1154$aiSubSector <- "Algorithmic Collusion"
+aiBills20232024$SB1154$aiDomain <- "Business Management"
+aiBills20232024$SB1154$aiAccountability <- "High"
+aiBills20232024$SB1154$aiImpact <- "High"
+aiBills20232024$SB1154$aiEthics <- "High"
+aiBills20232024$SB1154$aiInnovation <- "Low"
+aiBills20232024$SB1154$aiPrivacy <- "High"
+aiBills20232024$SB1154$aiTransparency <- "High"
+
 ## AB-2655 ####
 
 ## AB-1008 ####
