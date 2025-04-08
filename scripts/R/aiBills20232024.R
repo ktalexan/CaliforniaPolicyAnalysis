@@ -2849,6 +2849,61 @@ aiBills20232024$AB1008$aiTransparency <- "High"
 
 ## AB-1526 ####
 
+aiBills20232024$AB1526 <- addBillStructure(2023, "AB-1526")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB1526$text)
+
+# Topic from aiBills20232024$AB1526$status
+aiBills20232024$AB1526$topic <- "AB-1526 Public resources"
+
+# Title from aiBills20232024$AB1526$status
+aiBills20232024$AB1526$title <- paste0(aiBills20232024$AB1526$title, "An act to amend Sections 3114, 3206.2, 4584, 42040, 42041, 42051.1, 42053, 42061, 42064, 42064.01, 42067, 42081, 42464.3, 48701, 48703, and 48705 of, and to add Section 48707 to, the Public Resources Code, relating to public resources")
+
+# tldr for aiBills20232024$AB1526$text
+aiBills20232024$AB1526$tldr <- "This act establishes the Public Resources Act of 2024 to enhance the management and protection of public resources."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB1526$tags <- c("artificial-intelligence", "public-resources", "management", "protection", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$AB1526$sponsors <- addSponsors("Y20232024", c("CommitteeOnNaturalResourcesA", "RivasLA", "AddisA", "FriedmanA", "MathisA", "MuratsuchiA", "PellerinA", "WardA", "WoodA", "ZburA"))
+aiBills20232024$AB1526$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB1526$dateStart <- as.Date("2023-02-17")
+aiBills20232024$AB1526$dateEnd <- as.Date("2023-10-13")
+aiBills20232024$AB1526$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB1526$version <- "Chaptered"
+aiBills20232024$AB1526$outcome <- "Chaptered"
+aiBills20232024$AB1526$chaptered <- TRUE
+aiBills20232024$AB1526$chapterNo <- 848
+aiBills20232024$AB1526$active <- FALSE
+aiBills20232024$AB1526$result <- "Chaptered"
+aiBills20232024$AB1526$vote <- "Majority"
+aiBills20232024$AB1526$appropriation <- FALSE
+aiBills20232024$AB1526$fiscal <- TRUE
+aiBills20232024$AB1526$local <- TRUE
+aiBills20232024$AB1526$urgency <- FALSE
+aiBills20232024$AB1526$tax <- FALSE
+aiBills20232024$AB1526$action <- "Chaptered by Secretary of State - Chapter 848, Statutes of 2023"
+aiBills20232024$AB1526$pdf <- "20230AB1526_91.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB1526$text
+aiBills20232024$AB1526$aiDisposition <- "Restrictive"
+aiBills20232024$AB1526$aiType <- "Generative"
+aiBills20232024$AB1526$aiSector <- "Public Resources"
+aiBills20232024$AB1526$aiSubSector <- "Public Resources"
+aiBills20232024$AB1526$aiDomain <- "Public Resources Management"
+aiBills20232024$AB1526$aiAccountability <- "High"
+aiBills20232024$AB1526$aiImpact <- "High"
+aiBills20232024$AB1526$aiEthics <- "High"
+aiBills20232024$AB1526$aiInnovation <- "Low"
+aiBills20232024$AB1526$aiPrivacy <- "High"
+aiBills20232024$AB1526$aiTransparency <- "High"
+
 ## AB-2200 ####
 
 ## SB-1223 ####
