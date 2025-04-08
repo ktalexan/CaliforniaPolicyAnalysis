@@ -2051,6 +2051,61 @@ aiBills20232024$SB1220$aiTransparency <- "High"
 
 ## AB-2512 ####
 
+aiBills20232024$AB2512 <- addBillStructure(2023, "AB-2512")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2512$text)
+
+# Topic from aiBills20232024$AB2512$status
+aiBills20232024$AB2512$topic <- "AB-2512 Telecommunications: automatic dialing-announcing devices: artificial voices"
+
+# Title from aiBills20232024$AB2512$status
+aiBills20232024$AB2512$title <- paste0(aiBills20232024$AB2512$title, "An act to amend Section 2871 of the Public Utilities Code, relating to telecommunications")
+
+# tldr for aiBills20232024$AB2512$text
+aiBills20232024$AB2512$tldr <- "AB-2512 regulates the use of automatic dialing-announcing devices that utilize artificial voices in telecommunications, ensuring consumer protection and privacy."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2512$tags <- c("artificial-intelligence", "telecommunications", "automatic-dialing-announcing-devices", "consumer-protection", "privacy")
+
+# sponsors and cosponsors
+aiBills20232024$AB2512$sponsors <- addSponsors("Y20232024", c("LowA", "PattersonJimA"))
+aiBills20232024$AB2512$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2512$dateStart <- as.Date("2024-02-13")
+aiBills20232024$AB2512$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB2512$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2512$version <- "Amended Assembly"
+aiBills20232024$AB2512$outcome <- "Failed"
+aiBills20232024$AB2512$chaptered <- FALSE
+aiBills20232024$AB2512$chapterNo <- NA
+aiBills20232024$AB2512$active <- FALSE
+aiBills20232024$AB2512$result <- "Died"
+aiBills20232024$AB2512$vote <- "Majority"
+aiBills20232024$AB2512$appropriation <- FALSE
+aiBills20232024$AB2512$fiscal <- TRUE
+aiBills20232024$AB2512$local <- TRUE
+aiBills20232024$AB2512$urgency <- FALSE
+aiBills20232024$AB2512$tax <- FALSE
+aiBills20232024$AB2512$action <- "From committee without further action"
+aiBills20232024$AB2512$pdf <- "20230AB2512_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2512$text
+aiBills20232024$AB2512$aiDisposition <- "Restrictive"
+aiBills20232024$AB2512$aiType <- "Generative"
+aiBills20232024$AB2512$aiSector <- "Telecommunications"
+aiBills20232024$AB2512$aiSubSector <- "General"
+aiBills20232024$AB2512$aiDomain <- "Telecommunications Management"
+aiBills20232024$AB2512$aiAccountability <- "High"
+aiBills20232024$AB2512$aiImpact <- "High"
+aiBills20232024$AB2512$aiEthics <- "High"
+aiBills20232024$AB2512$aiInnovation <- "Low"
+aiBills20232024$AB2512$aiPrivacy <- "High"
+aiBills20232024$AB2512$aiTransparency <- "High"
+
 ## ACR-227 ####
 
 ## AB-2930 ####
