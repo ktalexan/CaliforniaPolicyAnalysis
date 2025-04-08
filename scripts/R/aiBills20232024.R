@@ -2564,6 +2564,61 @@ aiBills20232024$SB1446$aiTransparency <- "High"
 
 ## ACR-219 ####
 
+aiBills20232024$ACR219 <- addBillStructure(2023, "ACR-219")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$ACR219$text)
+
+# Topic from aiBills20232024$ACR219$status
+aiBills20232024$ACR219$topic <- "ACR-219 California Social Media Users’ Bill of Rights"
+
+# Title from aiBills20232024$ACR219$status
+aiBills20232024$ACR219$title <- paste0(aiBills20232024$ACR219$title, "Relative to social media platforms")
+
+# tldr for aiBills20232024$ACR219$text
+aiBills20232024$ACR219$tldr <- "This resolution recognizes the need for a California Social Media Users’ Bill of Rights to protect users' rights and privacy on social media platforms."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$ACR219$tags <- c("artificial-intelligence", "social-media", "users-bill-of-rights", "privacy", "protection")
+
+# sponsors and cosponsors
+aiBills20232024$ACR219$sponsors <- addSponsors("Y20232024", c("LowenthalA"))
+aiBills20232024$ACR219$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$ACR219$dateStart <- as.Date("2024-06-20")
+aiBills20232024$ACR219$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$ACR219$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$ACR219$version <- "Introduced"
+aiBills20232024$ACR219$outcome <- "Failed"
+aiBills20232024$ACR219$chaptered <- FALSE
+aiBills20232024$ACR219$chapterNo <- NA
+aiBills20232024$ACR219$active <- FALSE
+aiBills20232024$ACR219$result <- "Died"
+aiBills20232024$ACR219$vote <- "No Vote"
+aiBills20232024$ACR219$appropriation <- FALSE
+aiBills20232024$ACR219$fiscal <- FALSE
+aiBills20232024$ACR219$local <- FALSE
+aiBills20232024$ACR219$urgency <- FALSE
+aiBills20232024$ACR219$tax <- FALSE
+aiBills20232024$ACR219$action <- "From committee without further action"
+aiBills20232024$ACR219$pdf <- "20230ACR219_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$ACR219$text
+aiBills20232024$ACR219$aiDisposition <- "Restrictive"
+aiBills20232024$ACR219$aiType <- "Generative"
+aiBills20232024$ACR219$aiSector <- "Social Media"
+aiBills20232024$ACR219$aiSubSector <- "Users' Rights"
+aiBills20232024$ACR219$aiDomain <- "Social Media Management"
+aiBills20232024$ACR219$aiAccountability <- "High"
+aiBills20232024$ACR219$aiImpact <- "High"
+aiBills20232024$ACR219$aiEthics <- "High"
+aiBills20232024$ACR219$aiInnovation <- "Low"
+aiBills20232024$ACR219$aiPrivacy <- "High"
+aiBills20232024$ACR219$aiTransparency <- "High"
+
 ## SCR-162 ####
 
 ## SB-1154 ####
