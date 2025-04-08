@@ -2336,6 +2336,61 @@ aiBills20232024$AB302$aiTransparency <- "High"
 
 ## SCR-121 ####
 
+aiBills20232024$SCR121 <- addBillStructure(2023, "SCR-121")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SCR121$text)
+
+# Topic from aiBills20232024$SCR121$status
+aiBills20232024$SCR121$topic <- "SCR-121 International Women’s Day"
+
+# Title from aiBills20232024$SCR121$status
+aiBills20232024$SCR121$title <- paste0(aiBills20232024$SCR121$title, "Relative to International Women’s Day")
+
+# tldr for aiBills20232024$SCR121$text
+aiBills20232024$SCR121$tldr <- "This resolution recognizes the contributions of women in various fields and promotes gender equality."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SCR121$tags <- c("women-in-animation", "animation-industry", "representation", "opportunities", "artificial-intelligence")
+
+# sponsors and cosponsors
+aiBills20232024$SCR121$sponsors <- addSponsors("Y20232024", c("WahabS"))
+aiBills20232024$SCR121$cosponsors <- addSponsors("Y20232024", c("AtkinsS", "BlakespearS", "CaballeroS", "HurtadoS", "LimonS", "MenjivarS", "BoghS", "RubioS", "SkinnerS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SCR121$dateStart <- as.Date("2024-03-05")
+aiBills20232024$SCR121$dateEnd <- as.Date("2024-05-31")
+aiBills20232024$SCR121$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SCR121$version <- "Chaptered"
+aiBills20232024$SCR121$outcome <- "Chaptered"
+aiBills20232024$SCR121$chaptered <- TRUE
+aiBills20232024$SCR121$chapterNo <- 76
+aiBills20232024$SCR121$active <- FALSE
+aiBills20232024$SCR121$result <- "Chaptered"
+aiBills20232024$SCR121$vote <- "No Vote"
+aiBills20232024$SCR121$appropriation <- FALSE
+aiBills20232024$SCR121$fiscal <- FALSE
+aiBills20232024$SCR121$local <- FALSE
+aiBills20232024$SCR121$urgency <- FALSE
+aiBills20232024$SCR121$tax <- FALSE
+aiBills20232024$SCR121$action <- "Chaptered by Secretary of State - Chapter 76, Statutes of 2024"
+aiBills20232024$SCR121$pdf <- "20230SCR121_96.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SCR121$text
+aiBills20232024$SCR121$aiDisposition <- "Neutral"
+aiBills20232024$SCR121$aiType <- "Generative"
+aiBills20232024$SCR121$aiSector <- "Generative AI"
+aiBills20232024$SCR121$aiSubSector <- "Professional Development"
+aiBills20232024$SCR121$aiDomain <- "Generative AI Management"
+aiBills20232024$SCR121$aiAccountability <- "Low"
+aiBills20232024$SCR121$aiImpact <- "Low"
+aiBills20232024$SCR121$aiEthics <- "Low"
+aiBills20232024$SCR121$aiInnovation <- "Low"
+aiBills20232024$SCR121$aiPrivacy <- "Low"
+aiBills20232024$SCR121$aiTransparency <- "Low"
+
 ## AB-2412 ####
 
 ## AB-2839 ####
