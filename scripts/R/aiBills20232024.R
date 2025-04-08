@@ -3134,6 +3134,61 @@ aiBills20232024$AB103$aiTransparency <- "High"
 
 ## AB-2928 ####
 
+aiBills20232024$AB2928 <- addBillStructure(2023, "AB-2928")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2928$text)
+
+# Topic from aiBills20232024$AB2928$status
+aiBills20232024$AB2928$topic <- "AB-2928 Budget Act of 2022"
+
+# Title from aiBills20232024$AB2928$status
+aiBills20232024$AB2928$title <- paste0(aiBills20232024$AB2928$title, "An act to amend the Budget Act of 2022 (Chapters 43, 45, and 249 of the Statutes of 2022) by amending Section 19.56 of that act, relating to the state budget, and making an appropriation therefor, to take effect immediately, budget bill")
+
+# tldr for aiBills20232024$AB2928$text
+aiBills20232024$AB2928$tldr <- "This act amends the Budget Act of 2022 to make various changes to state budget allocations and appropriations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2928$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$AB2928$sponsors <- addSponsors("Y20232024", c("FloraA"))
+aiBills20232024$AB2928$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2928$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2928$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB2928$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2928$version <- "Introduced"
+aiBills20232024$AB2928$outcome <- "Failed"
+aiBills20232024$AB2928$chaptered <- FALSE
+aiBills20232024$AB2928$chapterNo <- NA
+aiBills20232024$AB2928$active <- FALSE
+aiBills20232024$AB2928$result <- "Died"
+aiBills20232024$AB2928$vote <- "Majority"
+aiBills20232024$AB2928$appropriation <- TRUE
+aiBills20232024$AB2928$fiscal <- TRUE
+aiBills20232024$AB2928$local <- FALSE
+aiBills20232024$AB2928$urgency <- TRUE
+aiBills20232024$AB2928$tax <- FALSE
+aiBills20232024$AB2928$action <- "Died at Desk"
+aiBills20232024$AB2928$pdf <- "20230AB2928_99.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2928$text
+aiBills20232024$AB2928$aiDisposition <- "Neutral"
+aiBills20232024$AB2928$aiType <- "Generative"
+aiBills20232024$AB2928$aiSector <- "Budget Act"
+aiBills20232024$AB2928$aiSubSector <- "State Budget"
+aiBills20232024$AB2928$aiDomain <- "Budget Management"
+aiBills20232024$AB2928$aiAccountability <- "High"
+aiBills20232024$AB2928$aiImpact <- "High"
+aiBills20232024$AB2928$aiEthics <- "High"
+aiBills20232024$AB2928$aiInnovation <- "Low"
+aiBills20232024$AB2928$aiPrivacy <- "High"
+aiBills20232024$AB2928$aiTransparency <- "High"
+
 ## AB-100 ####
 
 ## AB-106 ####
