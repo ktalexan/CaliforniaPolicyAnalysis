@@ -2222,6 +2222,61 @@ aiBills20232024$AB2930$aiTransparency <- "High"
 
 ## AB-1027 ####
 
+aiBills20232024$AB1027 <- addBillStructure(2023, "AB-1027")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB1027$text)
+
+# Topic from aiBills20232024$AB1027$status
+aiBills20232024$AB1027$topic <- "AB-1027 Social media platforms: drug safety policies"
+
+# Title from aiBills20232024$AB1027$status
+aiBills20232024$AB1027$title <- paste0(aiBills20232024$AB1027$title, "An act to amend Sections 22677 and 22945 of, and to add and repeal Sections 22945.7 and 22945.9 of, the Business and Professions Code, relating to social media platforms")
+
+# tldr for aiBills20232024$AB1027$text
+aiBills20232024$AB1027$tldr <- "AB-1027 requires social media platforms to implement drug safety policies and report adverse events related to drug use, ensuring consumer protection and safety."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB1027$tags <- c("artificial-intelligence", "social-media-platforms", "drug-safety-policies", "consumer-protection", "safety")
+
+# sponsors and cosponsors
+aiBills20232024$AB1027$sponsors <- addSponsors("Y20232024", c("PetrieNorrisA"))
+aiBills20232024$AB1027$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB1027$dateStart <- as.Date("2023-02-15")
+aiBills20232024$AB1027$dateEnd <- as.Date("2023-10-13")
+aiBills20232024$AB1027$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB1027$version <- "Chaptered"
+aiBills20232024$AB1027$outcome <- "Chaptered"
+aiBills20232024$AB1027$chaptered <- TRUE
+aiBills20232024$AB1027$chapterNo <- 824
+aiBills20232024$AB1027$active <- FALSE
+aiBills20232024$AB1027$result <- "Chaptered"
+aiBills20232024$AB1027$vote <- "Majority"
+aiBills20232024$AB1027$appropriation <- FALSE
+aiBills20232024$AB1027$fiscal <- FALSE
+aiBills20232024$AB1027$local <- FALSE
+aiBills20232024$AB1027$urgency <- FALSE
+aiBills20232024$AB1027$tax <- FALSE
+aiBills20232024$AB1027$action <- "Chaptered by Secretary of State - Chapter 824, Statutes of 2023"
+aiBills20232024$AB1027$pdf <- "20230AB1027_90.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB1027$text
+aiBills20232024$AB1027$aiDisposition <- "Restrictive"
+aiBills20232024$AB1027$aiType <- "Generative"
+aiBills20232024$AB1027$aiSector <- "Social Media"
+aiBills20232024$AB1027$aiSubSector <- "Drug Safety"
+aiBills20232024$AB1027$aiDomain <- "Social Media Management"
+aiBills20232024$AB1027$aiAccountability <- "High"
+aiBills20232024$AB1027$aiImpact <- "High"
+aiBills20232024$AB1027$aiEthics <- "High"
+aiBills20232024$AB1027$aiInnovation <- "Low"
+aiBills20232024$AB1027$aiPrivacy <- "High"
+aiBills20232024$AB1027$aiTransparency <- "High"
+
 ## AB-302 ####
 
 ## SCR-121 ####

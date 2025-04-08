@@ -24,6 +24,5 @@ browseURL("https://leginfo.legislature.ca.gov/faces/billSearchAdvClient.xhtml?an
 
 save(aiBills20232024, file = file.path(prjDirs$pathData, "aiBills20232024.RData"))
 save(calMembers, file = file.path(prjDirs$pathData, "calMembers.RData"))
-
 names(aiBills20232024)
 length(aiBills20232024)
