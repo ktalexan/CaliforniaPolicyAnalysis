@@ -1707,7 +1707,6 @@ aiBills20232024$SCR17$aiInnovation <- "High"
 aiBills20232024$SCR17$aiPrivacy <- "Low"
 aiBills20232024$SCR17$aiTransparency <- "Low"
 
-
 ## AB-2905 ####
 
 aiBills20232024$AB2905 <- addBillStructure(2023, "AB-2905")
@@ -1764,7 +1763,6 @@ aiBills20232024$AB2905$aiEthics <- "High"
 aiBills20232024$AB2905$aiInnovation <- "Low"
 aiBills20232024$AB2905$aiPrivacy <- "High"
 aiBills20232024$AB2905$aiTransparency <- "High"
-
 
 ## AB-3050 ####
 
@@ -1937,11 +1935,187 @@ aiBills20232024$AB2877$aiInnovation <- "Low"
 aiBills20232024$AB2877$aiPrivacy <- "High"
 aiBills20232024$AB2877$aiTransparency <- "High"
 
+## AB-331 ####
 
+aiBills20232024$AB331 <- addBillStructure(2023, "AB-331")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB331$text)
+
+# Topic from aiBills20232024$AB331$status
+aiBills20232024$AB331$topic <- "AB-331 Automated decision tools"
+
+# Title from aiBills20232024$AB331$status
+aiBills20232024$AB331$title <- paste0(aiBills20232024$AB331$title, "An act to add Chapter 25 (commencing with Section 22756) to Division 8 of the Business and Professions Code, relating to artificial intelligence")
+
+# tldr for aiBills20232024$AB331$text
+aiBills20232024$AB331$tldr <- "AB-331 establishes regulations for the use of automated decision tools in various sectors, ensuring transparency and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB331$tags <- c("artificial-intelligence", "automated-decision-tools", "regulations", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB331$sponsors <- addSponsors("Y20232024", c("BaurerKahanA"))
+aiBills20232024$AB331$cosponsors <- addSponsors("Y20232024", c("BoernerA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB331$dateStart <- as.Date("2023-01-30")
+aiBills20232024$AB331$dateEnd <- as.Date("2024-02-01")
+aiBills20232024$AB331$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB331$version <- "Amended Assemby"
+aiBills20232024$AB331$outcome <- "Failed"
+aiBills20232024$AB331$chaptered <- FALSE
+aiBills20232024$AB331$chapterNo <- NA
+aiBills20232024$AB331$active <- FALSE
+aiBills20232024$AB331$result <- "Died"
+aiBills20232024$AB331$vote <- "Majority"
+aiBills20232024$AB331$appropriation <- FALSE
+aiBills20232024$AB331$fiscal <- TRUE
+aiBills20232024$AB331$local <- TRUE
+aiBills20232024$AB331$urgency <- FALSE
+aiBills20232024$AB331$tax <- FALSE
+aiBills20232024$AB331$action <- "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56"
+aiBills20232024$AB331$pdf <- "20230AB331_95.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB331$text
+aiBills20232024$AB331$aiDisposition <- "Restrictive"
+aiBills20232024$AB331$aiType <- "Generative"
+aiBills20232024$AB331$aiSector <- "Generative AI"
+aiBills20232024$AB331$aiSubSector <- "General"
+aiBills20232024$AB331$aiDomain <- "Generative AI Management"
+aiBills20232024$AB331$aiAccountability <- "High"
+aiBills20232024$AB331$aiImpact <- "High"
+aiBills20232024$AB331$aiEthics <- "High"
+aiBills20232024$AB331$aiInnovation <- "Low"
+aiBills20232024$AB331$aiPrivacy <- "High"
+aiBills20232024$AB331$aiTransparency <- "High"
+
+## SB-1220 ####
+
+aiBills20232024$SB1220 <- addBillStructure(2023, "SB-1220")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB1220$text)
+
+# Topic from aiBills20232024$SB1220$status
+aiBills20232024$SB1220$topic <- "SB-1220 Public benefits contracts: phone operator jobs"
+
+# Title from aiBills20232024$SB1220$status
+aiBills20232024$SB1220$title <- paste0(aiBills20232024$SB1220$title, "An act to amend, repeal, and add Section 12140 of, and to amend the heading of Chapter 3.7 (commencing with Section 12140) of Part 2 of Division 2 of, the Public Contract Code, relating to public contracts")
+
+# tldr for aiBills20232024$SB1220$text
+aiBills20232024$SB1220$tldr <- "SB-1220 addresses public benefits contracts and the impact of artificial intelligence on phone operator jobs, ensuring job security and fair labor practices."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB1220$tags <- c("artificial-intelligence", "public-benefits-contracts", "phone-operator-jobs", "labor-practices")
+
+# sponsors and cosponsors
+aiBills20232024$SB1220$sponsors <- addSponsors("Y20232024", c("LimonS"))
+aiBills20232024$SB1220$cosponsors <- addSponsors("Y20232024", c("RubioS"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB1220$dateStart <- as.Date("2024-02-15")
+aiBills20232024$SB1220$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB1220$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB1220$version <- "Enrolled"
+aiBills20232024$SB1220$outcome <- "Vetoed"
+aiBills20232024$SB1220$chaptered <- FALSE
+aiBills20232024$SB1220$chapterNo <- NA
+aiBills20232024$SB1220$active <- FALSE
+aiBills20232024$SB1220$result <- "In Floor Process"
+aiBills20232024$SB1220$vote <- "Majority"
+aiBills20232024$SB1220$appropriation <- FALSE
+aiBills20232024$SB1220$fiscal <- TRUE
+aiBills20232024$SB1220$local <- TRUE
+aiBills20232024$SB1220$urgency <- FALSE
+aiBills20232024$SB1220$tax <- FALSE
+aiBills20232024$SB1220$action <- "Last day to consider Governor's veto pursuant to Joint Rule 58.5"
+aiBills20232024$SB1220$pdf <- "20230SB1220_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB1220$text
+aiBills20232024$SB1220$aiDisposition <- "Restrictive"
+aiBills20232024$SB1220$aiType <- "Generative"
+aiBills20232024$SB1220$aiSector <- "Employment"
+aiBills20232024$SB1220$aiSubSector <- "Telecommunications"
+aiBills20232024$SB1220$aiDomain <- "Telecommunications Management"
+aiBills20232024$SB1220$aiAccountability <- "High"
+aiBills20232024$SB1220$aiImpact <- "High"
+aiBills20232024$SB1220$aiEthics <- "High"
+aiBills20232024$SB1220$aiInnovation <- "Low"
+aiBills20232024$SB1220$aiPrivacy <- "High"
+aiBills20232024$SB1220$aiTransparency <- "High"
+
+## AB-2512 ####
+
+## ACR-227 ####
+
+## AB-2930 ####
+
+## AB-1027 ####
+
+## AB-302 ####
+
+## SCR-121 ####
+
+## AB-2412 ####
+
+## AB-2839 ####
+
+## SB-1446 ####
+
+## ACR-219 ####
+
+## SCR-162 ####
+
+## SB-1154 ####
+
+## AB-2655 ####
+
+## AB-1008 ####
+
+## AB-1526 ####
+
+## AB-2200 ####
+
+## SB-1223 ####
+
+## AB-108 ####
+
+## AB-103 ####
+
+## AB-2928 ####
+
+## AB-100 ####
+
+## AB-106 ####
+
+## SB-106 ####
+
+## SB-100 ####
+
+## SB-103 ####
+
+## AB-158 ####
+
+## SB-158 ####
+
+## AB-104 ####
+
+## SB-104 ####
+
+## SB-107 ####
+
+## AB-107 ####
+
+## AB-1754 ####
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. Export and Save Data ####
+# 4. Export and Save Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Remove unnecessary variables
