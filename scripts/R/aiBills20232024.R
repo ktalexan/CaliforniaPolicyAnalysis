@@ -3305,6 +3305,61 @@ aiBills20232024$AB106$aiTransparency <- "High"
 
 ## SB-106 ####
 
+aiBills20232024$SB106 <- addBillStructure(2023, "SB-106")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB106$text)
+
+# Topic from aiBills20232024$SB106$status
+aiBills20232024$SB106$topic <- "SB-106 Budget Acts of 2022 and 2023"
+
+# Title from aiBills20232024$SB106$status
+aiBills20232024$SB106$title <- paste0(aiBills20232024$SB106$title, "An act to amend the Budget Act of 2022 (Chapters, 43, 45, and 249 of the Statutes of 2022) by amending Sections 19.56 and 39.10 of that act, and to amend the Budget Act of 2023 (Chapters 12, 38, and 189 of the Statutes of 2023) by amending Items 0530-001-0001, 0650-001-0001, 0650-101-0001, 0690-101-0001, 0820-014-0001, 0840-001-3268, 2720-301-0001, 2740-496, 3360-495, 3480-495, 3540-001-0001, 3600-001-0001, 3640-103-0001, 3860-001-0001, 3860-101-0001, 3900-490, 3900-492, 3900-495, 3960-002-0001, 3970-001-0001, 3970-495, 4260-101-3428, 4260-101-3431, 4260-111-3428, 4265-001-0001, 4265-495, 5180-494, 5180-495, 5225-001-0001, 5225-003-0001, 5225-005-0001, 5225-021-0001, 7100-001-0001, 7100-001-0588, 7350-001-0001, 7350-001-3078, 7350-001-3152, 7760-001-0001, 8120-002-0001, 8120-102-0001, 8570-001-0001, 8570-495, and 8660-495 of Section 2.00 of, adding Items 0511-495, 0521-497, 0650-496, 0690-497, 3540-497, 3640-496, 3790-498, 3825-490, 3900-496, 3930-496, 3960-012-0557, 3970-001-0890, 3970-496, 4170-496, 5180-496, 5225-011-3259, 6120-495, 7100-495, 7350-495, 7502-495, and 8570-496 to Section 2.00 of, repealing Items 2740-301-0001, 7350-002-0001, and 8880-490 of Section 2.00 of, amending Sections 19.56, 19.564, 19.565, 21.00, 39.10, and 99.50 of, and adding Section 4.06 to, that act, relating to the state budget, and making an appropriation therefor, to take effect immediately, budget bill")
+
+# tldr for aiBills20232024$SB106$text
+aiBills20232024$SB106$tldr <- "This act amends the Budget Acts of 2022 and 2023 to make various changes to state budget allocations and appropriations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB106$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$SB106$sponsors <- addSponsors("Y20232024", c("WienerS"))
+aiBills20232024$SB106$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB106$dateStart <- as.Date("2023-01-18")
+aiBills20232024$SB106$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB106$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB106$version <- "Amended Assembly"
+aiBills20232024$SB106$outcome <- "Failed"
+aiBills20232024$SB106$chaptered <- FALSE
+aiBills20232024$SB106$chapterNo <- NA
+aiBills20232024$SB106$active <- FALSE
+aiBills20232024$SB106$result <- "Died"
+aiBills20232024$SB106$vote <- "Majority"
+aiBills20232024$SB106$appropriation <- TRUE
+aiBills20232024$SB106$fiscal <- TRUE
+aiBills20232024$SB106$local <- FALSE
+aiBills20232024$SB106$urgency <- TRUE
+aiBills20232024$SB106$tax <- FALSE
+aiBills20232024$SB106$action <- "From Assembly without further action"
+aiBills20232024$SB106$pdf <- "20230SB106_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB106$text
+aiBills20232024$SB106$aiDisposition <- "Neutral"
+aiBills20232024$SB106$aiType <- "Generative"
+aiBills20232024$SB106$aiSector <- "Budget Act"
+aiBills20232024$SB106$aiSubSector <- "State Budget"
+aiBills20232024$SB106$aiDomain <- "Budget Management"
+aiBills20232024$SB106$aiAccountability <- "High"
+aiBills20232024$SB106$aiImpact <- "High"
+aiBills20232024$SB106$aiEthics <- "High"
+aiBills20232024$SB106$aiInnovation <- "Low"
+aiBills20232024$SB106$aiPrivacy <- "High"
+aiBills20232024$SB106$aiTransparency <- "High"
+
 ## SB-100 ####
 
 ## SB-103 ####
