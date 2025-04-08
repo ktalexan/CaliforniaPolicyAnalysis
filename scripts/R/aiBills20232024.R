@@ -2792,6 +2792,61 @@ aiBills20232024$AB2655$aiTransparency <- "High"
 
 ## AB-1008 ####
 
+aiBills20232024$AB1008 <- addBillStructure(2023, "AB-1008")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB1008$text)
+
+# Topic from aiBills20232024$AB1008$status
+aiBills20232024$AB1008$topic <- "AB-1008 California Consumer Privacy Act of 2018: personal information"
+
+# Title from aiBills20232024$AB1008$status
+aiBills20232024$AB1008$title <- paste0(aiBills20232024$AB1008$title, "An act to amend Section 1798.140 of the Civil Code, relating to privacy")
+
+# tldr for aiBills20232024$AB1008$text
+aiBills20232024$AB1008$tldr <- "This act amends the California Consumer Privacy Act of 2018 to enhance consumer privacy protections."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB1008$tags <- c("artificial-intelligence", "consumer-privacy", "privacy-act", "protections", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$AB1008$sponsors <- addSponsors("Y20232024", c("BauerKahanA"))
+aiBills20232024$AB1008$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB1008$dateStart <- as.Date("2023-02-15")
+aiBills20232024$AB1008$dateEnd <- as.Date("2024-09-28")
+aiBills20232024$AB1008$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB1008$version <- "Chaptered"
+aiBills20232024$AB1008$outcome <- "Chaptered"
+aiBills20232024$AB1008$chaptered <- TRUE
+aiBills20232024$AB1008$chapterNo <- 802
+aiBills20232024$AB1008$active <- FALSE
+aiBills20232024$AB1008$result <- "Chaptered"
+aiBills20232024$AB1008$vote <- "Majority"
+aiBills20232024$AB1008$appropriation <- FALSE
+aiBills20232024$AB1008$fiscal <- TRUE
+aiBills20232024$AB1008$local <- FALSE
+aiBills20232024$AB1008$urgency <- FALSE
+aiBills20232024$AB1008$tax <- FALSE
+aiBills20232024$AB1008$action <- "Chaptered by Secretary of State - Chapter 802, Statutes of 2024"
+aiBills20232024$AB1008$pdf <- "20230AB1008_93.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB1008$text
+aiBills20232024$AB1008$aiDisposition <- "Restrictive"
+aiBills20232024$AB1008$aiType <- "Generative"
+aiBills20232024$AB1008$aiSector <- "Consumer Privacy"
+aiBills20232024$AB1008$aiSubSector <- "Privacy Act"
+aiBills20232024$AB1008$aiDomain <- "Consumer Privacy Management"
+aiBills20232024$AB1008$aiAccountability <- "High"
+aiBills20232024$AB1008$aiImpact <- "High"
+aiBills20232024$AB1008$aiEthics <- "High"
+aiBills20232024$AB1008$aiInnovation <- "Low"
+aiBills20232024$AB1008$aiPrivacy <- "High"
+aiBills20232024$AB1008$aiTransparency <- "High"
+
 ## AB-1526 ####
 
 ## AB-2200 ####
