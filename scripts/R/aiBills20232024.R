@@ -2450,6 +2450,61 @@ aiBills20232024$AB2412$aiTransparency <- "High"
 
 ## AB-2839 ####
 
+aiBills20232024$AB2839 <- addBillStructure(2023, "AB-2839")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2839$text)
+
+# Topic from aiBills20232024$AB2839$status
+aiBills20232024$AB2839$topic <- "AB-2839 Elections: deceptive media in advertisements"
+
+# Title from aiBills20232024$AB2839$status
+aiBills20232024$AB2839$title <- paste0(aiBills20232024$AB2839$title, "An act to amend Section 35 of the Code of Civil Procedure, and to add Section 20012 to the Elections Code, relating to elections, and declaring the urgency thereof, to take effect immediately")
+
+# tldr for aiBills20232024$AB2839$text
+aiBills20232024$AB2839$tldr <- "This act establishes regulations for the use of deceptive media in election advertisements, ensuring transparency and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2839$tags <- c("elections", "deceptive-media", "advertisements", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB2839$sponsors <- addSponsors("Y20232024", c("PellerinA", "BermanA"))
+aiBills20232024$AB2839$cosponsors <- addSponsors("Y20232024", c("CervantesA", "BeckerS", "BennettA", "DoddS", "JacksonA", "QuirkSilvaA", "TingA", "ValenciaA", "WeberA", "WoodA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2839$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2839$dateEnd <- as.Date("2024-09-17")
+aiBills20232024$AB2839$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2839$version <- "Chaptered"
+aiBills20232024$AB2839$outcome <- "Chaptered"
+aiBills20232024$AB2839$chaptered <- TRUE
+aiBills20232024$AB2839$chapterNo <- 262
+aiBills20232024$AB2839$active <- FALSE
+aiBills20232024$AB2839$result <- "Chaptered"
+aiBills20232024$AB2839$vote <- "Two Thirds"
+aiBills20232024$AB2839$appropriation <- FALSE
+aiBills20232024$AB2839$fiscal <- FALSE
+aiBills20232024$AB2839$local <- FALSE
+aiBills20232024$AB2839$urgency <- TRUE
+aiBills20232024$AB2839$tax <- FALSE
+aiBills20232024$AB2839$action <- "Chaptered by Secretary of State - Chapter 262, Statutes of 2024"
+aiBills20232024$AB2839$pdf <- "20230AB2839_91.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2839$text
+aiBills20232024$AB2839$aiDisposition <- "Restrictive"
+aiBills20232024$AB2839$aiType <- "Generative"
+aiBills20232024$AB2839$aiSector <- "Elections"
+aiBills20232024$AB2839$aiSubSector <- "Deceptive Media"
+aiBills20232024$AB2839$aiDomain <- "Elections Management"
+aiBills20232024$AB2839$aiAccountability <- "High"
+aiBills20232024$AB2839$aiImpact <- "High"
+aiBills20232024$AB2839$aiEthics <- "High"
+aiBills20232024$AB2839$aiInnovation <- "Low"
+aiBills20232024$AB2839$aiPrivacy <- "High"
+aiBills20232024$AB2839$aiTransparency <- "High"
+
 ## SB-1446 ####
 
 ## ACR-219 ####
