@@ -2906,6 +2906,61 @@ aiBills20232024$AB1526$aiTransparency <- "High"
 
 ## AB-2200 ####
 
+aiBills20232024$AB2200 <- addBillStructure(2023, "AB-2200")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2200$text)
+
+# Topic from aiBills20232024$AB2200$status
+aiBills20232024$AB2200$topic <- "AB-2200 Guaranteed Health Care for All"
+
+# Title from aiBills20232024$AB2200$status
+aiBills20232024$AB2200$title <- paste0(aiBills20232024$AB2200$title, "An act to add Title 23 (commencing with Section 100600) to the Government Code, relating to health care coverage, and making an appropriation therefor")
+
+# tldr for aiBills20232024$AB2200$text
+aiBills20232024$AB2200$tldr <- "This act establishes the Guaranteed Health Care for All program to provide comprehensive health care coverage to all Californians."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2200$tags <- c("artificial-intelligence", "health-care", "guaranteed-coverage", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB2200$sponsors <- addSponsors("Y20232024", c("KalraA"))
+aiBills20232024$AB2200$cosponsors <- addSponsors("Y20232024", c("BryanA", "CarrilloWA", "ConnollyA", "CorteseS", "GonzalezS", "LeeA", "AddisA", "BeckerS", "BontaA", "FriedmanA", "HaneyA", "HoldenA", "JacksonA", "LairdS", "McCartyA", "McKinnorA", "OrtegaA", "ReyesA", "RivasLA", "SantiagoA", "TingA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2200$dateStart <- as.Date("2024-02-07")
+aiBills20232024$AB2200$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB2200$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2200$version <- "Amended Assembly"
+aiBills20232024$AB2200$outcome <- "Failed"
+aiBills20232024$AB2200$chaptered <- FALSE
+aiBills20232024$AB2200$chapterNo <- NA
+aiBills20232024$AB2200$active <- FALSE
+aiBills20232024$AB2200$result <- "Died"
+aiBills20232024$AB2200$vote <- "Majority"
+aiBills20232024$AB2200$appropriation <- TRUE
+aiBills20232024$AB2200$fiscal <- TRUE
+aiBills20232024$AB2200$local <- FALSE
+aiBills20232024$AB2200$urgency <- FALSE
+aiBills20232024$AB2200$tax <- FALSE
+aiBills20232024$AB2200$action <- "From committee without further action"
+aiBills20232024$AB2200$pdf <- "20230AB2200_97.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2200$text
+aiBills20232024$AB2200$aiDisposition <- "Restrictive"
+aiBills20232024$AB2200$aiType <- "Generative"
+aiBills20232024$AB2200$aiSector <- "Health Care"
+aiBills20232024$AB2200$aiSubSector <- "Guaranteed Coverage"
+aiBills20232024$AB2200$aiDomain <- "Health Care Management"
+aiBills20232024$AB2200$aiAccountability <- "High"
+aiBills20232024$AB2200$aiImpact <- "High"
+aiBills20232024$AB2200$aiEthics <- "High"
+aiBills20232024$AB2200$aiInnovation <- "Low"
+aiBills20232024$AB2200$aiPrivacy <- "High"
+aiBills20232024$AB2200$aiTransparency <- "High"
+
 ## SB-1223 ####
 
 ## AB-108 ####
