@@ -3419,6 +3419,61 @@ aiBills20232024$SB100$aiTransparency <- "High"
 
 ## SB-103 ####
 
+aiBills20232024$SB103 <- addBillStructure(2023, "SB-103")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$SB103$text)
+
+# Topic from aiBills20232024$SB103$status
+aiBills20232024$SB103$topic <- "SB-103 Budget Acts of 2021 and 2022"
+
+# Title from aiBills20232024$SB103$status
+aiBills20232024$SB103$title <- paste0(aiBills20232024$SB103$title, "An act to amend the Budget Act of 2021 (Chapters 21, 69, and 240 of the Statutes of 2021) by amending Items 6100-001-0890, 6610-001-0001, and 7760-101-0001 of Section 2.00 of, and amending Section 39.10 of, that act, and to amend the Budget Act of 2022 (Chapters 43, 45, and 249 of the Statutes of 2022) by amending Items 0250-001-0001, 3360-001-3228, 3360-101-3228, 5225-019-0001, 5225-022-0001, 6100-001-0001, 6100-001-0178, 6100-001-0890, 6100-004-0001, 6100-125-0890, 6100-172-0001, 6100-194-0001, 6100-196-0001, 6100-488, 6440-001-0001, 6610-001-0001, of Section 2.00 of, and amending Sections 19.56, 19.58, 39.00, and 39.10 of, that act, relating to the state budget, and making an appropriation therefor, to take effect immediately, budget bill")
+
+# tldr for aiBills20232024$SB103$text
+aiBills20232024$SB103$tldr <- "This act amends the Budget Acts of 2021 and 2022 to make various changes to state budget allocations and appropriations."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$SB103$tags <- c("artificial-intelligence", "budget-act", "state-budget", "appropriations", "transparency")
+
+# sponsors and cosponsors
+aiBills20232024$SB103$sponsors <- addSponsors("Y20232024", c("SkinnerS"))
+aiBills20232024$SB103$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$SB103$dateStart <- as.Date("2023-01-18")
+aiBills20232024$SB103$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$SB103$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$SB103$version <- "Amended Assembly"
+aiBills20232024$SB103$outcome <- "Failed"
+aiBills20232024$SB103$chaptered <- FALSE
+aiBills20232024$SB103$chapterNo <- NA
+aiBills20232024$SB103$active <- FALSE
+aiBills20232024$SB103$result <- "Died"
+aiBills20232024$SB103$vote <- "Majority"
+aiBills20232024$SB103$appropriation <- TRUE
+aiBills20232024$SB103$fiscal <- TRUE
+aiBills20232024$SB103$local <- FALSE
+aiBills20232024$SB103$urgency <- TRUE
+aiBills20232024$SB103$tax <- FALSE
+aiBills20232024$SB103$action <- "From Assembly without further action"
+aiBills20232024$SB103$pdf <- "20230SB103_98.pdf"
+
+# AI properties assessed from the text in aiBills20232024$SB103$text
+aiBills20232024$SB103$aiDisposition <- "Neutral"
+aiBills20232024$SB103$aiType <- "Generative"
+aiBills20232024$SB103$aiSector <- "Budget Act"
+aiBills20232024$SB103$aiSubSector <- "State Budget"
+aiBills20232024$SB103$aiDomain <- "Budget Management"
+aiBills20232024$SB103$aiAccountability <- "High"
+aiBills20232024$SB103$aiImpact <- "High"
+aiBills20232024$SB103$aiEthics <- "High"
+aiBills20232024$SB103$aiInnovation <- "Low"
+aiBills20232024$SB103$aiPrivacy <- "High"
+aiBills20232024$SB103$aiTransparency <- "High"
+
 ## AB-158 ####
 
 ## SB-158 ####
