@@ -2279,6 +2279,61 @@ aiBills20232024$AB1027$aiTransparency <- "High"
 
 ## AB-302 ####
 
+aiBills20232024$AB302 <- addBillStructure(2023, "AB-302")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB302$text)
+
+# Topic from aiBills20232024$AB302$status
+aiBills20232024$AB302$topic <- "AB-302 Department of Technology: high-risk automated decision systems: inventory"
+
+# Title from aiBills20232024$AB302$status
+aiBills20232024$AB302$title <- paste0(aiBills20232024$AB302$title, "An act to add Section 11546.45.5 to the Government Code, relating to automated decision systems")
+
+# tldr for aiBills20232024$AB302$text
+aiBills20232024$AB302$tldr <- "AB-302 requires the Department of Technology to maintain an inventory of high-risk automated decision systems used by state agencies, ensuring transparency and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB302$tags <- c("artificial-intelligence", "automated-decision-systems", "inventory", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB302$sponsors <- addSponsors("Y20232024", c("WardA"))
+aiBills20232024$AB302$cosponsors <- addSponsors("Y20232024", c("AllenS", "WeberA"))
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB302$dateStart <- as.Date("2023-01-26")
+aiBills20232024$AB302$dateEnd <- as.Date("2023-10-13")
+aiBills20232024$AB302$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB302$version <- "Chaptered"
+aiBills20232024$AB302$outcome <- "Chaptered"
+aiBills20232024$AB302$chaptered <- TRUE
+aiBills20232024$AB302$chapterNo <- 800
+aiBills20232024$AB302$active <- FALSE
+aiBills20232024$AB302$result <- "Chaptered"
+aiBills20232024$AB302$vote <- "Majority"
+aiBills20232024$AB302$appropriation <- FALSE
+aiBills20232024$AB302$fiscal <- TRUE
+aiBills20232024$AB302$local <- FALSE
+aiBills20232024$AB302$urgency <- FALSE
+aiBills20232024$AB302$tax <- FALSE
+aiBills20232024$AB302$action <- "Chaptered by Secretary of State - Chapter 800, Statutes of 2023"
+aiBills20232024$AB302$pdf <- "20230AB302_94.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB302$text
+aiBills20232024$AB302$aiDisposition <- "Restrictive"
+aiBills20232024$AB302$aiType <- "Generative"
+aiBills20232024$AB302$aiSector <- "Decision Making"
+aiBills20232024$AB302$aiSubSector <- "Automated Decision Systems"
+aiBills20232024$AB302$aiDomain <- "Automated Decision Systems Management"
+aiBills20232024$AB302$aiAccountability <- "High"
+aiBills20232024$AB302$aiImpact <- "High"
+aiBills20232024$AB302$aiEthics <- "High"
+aiBills20232024$AB302$aiInnovation <- "Low"
+aiBills20232024$AB302$aiPrivacy <- "High"
+aiBills20232024$AB302$aiTransparency <- "High"
+
 ## SCR-121 ####
 
 ## AB-2412 ####
