@@ -2165,6 +2165,61 @@ aiBills20232024$ACR227$aiTransparency <- "Low"
 
 ## AB-2930 ####
 
+aiBills20232024$AB2930 <- addBillStructure(2023, "AB-2930")
+
+# open the url for the bill text in the default web browser
+#browseURL(aiBills20232024$AB2930$text)
+
+# Topic from aiBills20232024$AB2930$status
+aiBills20232024$AB2930$topic <- "AB-2930 Automated decision systems"
+
+# Title from aiBills20232024$AB2930$status
+aiBills20232024$AB2930$title <- paste0(aiBills20232024$AB2930$title, "An act to add Chapter 25 (commencing with Section 22756) to Division 8 of the Business and Professions Code, relating to artificial intelligence")
+
+# tldr for aiBills20232024$AB2930$text
+aiBills20232024$AB2930$tldr <- "AB-2930 establishes regulations for the use of automated decision systems in various sectors, ensuring transparency and accountability."
+
+# tags (lowercase, words separated by dash, include "artificial-intelligence")
+aiBills20232024$AB2930$tags <- c("artificial-intelligence", "automated-decision-systems", "regulations", "transparency", "accountability")
+
+# sponsors and cosponsors
+aiBills20232024$AB2930$sponsors <- addSponsors("Y20232024", c("BaurerKahanA"))
+aiBills20232024$AB2930$cosponsors <- NA
+
+# dateStart, dateEnd, and dateUpdated
+aiBills20232024$AB2930$dateStart <- as.Date("2024-02-15")
+aiBills20232024$AB2930$dateEnd <- as.Date("2024-11-30")
+aiBills20232024$AB2930$dateUpdated <- Sys.Date()
+
+# measures
+aiBills20232024$AB2930$version <- "Amended Senate"
+aiBills20232024$AB2930$outcome <- "Failed"
+aiBills20232024$AB2930$chaptered <- FALSE
+aiBills20232024$AB2930$chapterNo <- NA
+aiBills20232024$AB2930$active <- FALSE
+aiBills20232024$AB2930$result <- "Died"
+aiBills20232024$AB2930$vote <- "Majority"
+aiBills20232024$AB2930$appropriation <- FALSE
+aiBills20232024$AB2930$fiscal <- TRUE
+aiBills20232024$AB2930$local <- TRUE
+aiBills20232024$AB2930$urgency <- FALSE
+aiBills20232024$AB2930$tax <- FALSE
+aiBills20232024$AB2930$action <- "Died on Senate inactive file"
+aiBills20232024$AB2930$pdf <- "20230AB2930_91.pdf"
+
+# AI properties assessed from the text in aiBills20232024$AB2930$text
+aiBills20232024$AB2930$aiDisposition <- "Restrictive"
+aiBills20232024$AB2930$aiType <- "Generative"
+aiBills20232024$AB2930$aiSector <- "Decision Making"
+aiBills20232024$AB2930$aiSubSector <- "Automated Decision Systems"
+aiBills20232024$AB2930$aiDomain <- "Automated Decision Systems Management"
+aiBills20232024$AB2930$aiAccountability <- "High"
+aiBills20232024$AB2930$aiImpact <- "High"
+aiBills20232024$AB2930$aiEthics <- "High"
+aiBills20232024$AB2930$aiInnovation <- "Low"
+aiBills20232024$AB2930$aiPrivacy <- "High"
+aiBills20232024$AB2930$aiTransparency <- "High"
+
 ## AB-1027 ####
 
 ## AB-302 ####
