@@ -40,14 +40,19 @@ This project provides a comprehensive analysis of legislative bills in the Calif
 ## Getting Started
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/your-username/PolicyAnalysis.git
     ```
+
 2. Install dependencies:
+
     ```bash
     pip install -r requirements.txt
     ```
+
 3. Run the scripts as needed:
+
     ```bash
     python script_name.py
     ```
