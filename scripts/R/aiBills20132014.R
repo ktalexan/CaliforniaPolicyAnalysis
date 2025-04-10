@@ -15,18 +15,8 @@ rm(list = ls())
 # Version of the code
 ver <- 1.0
 
-# Define the list of libraries to be loaded
-liblist <- c("lubridate", "jsonlite", "dplyr", "magrittr", "R6", "haven", "labelr", "plyr", "stringr", "purrr", "glue", "Hmisc", "psych", "tibble", "here", "tidyr", "knitr", "labelled", "collapse", "formattable")
-
-# Load the libraries
-sapply(liblist, require, character.only = TRUE)
-
-#~~~~~~~~~~~~~~~~~~~~
-# 2. Definitions ####
-#~~~~~~~~~~~~~~~~~~~~
-
 # Set the initial working directory to the data directory
-setwd(file.path(Sys.getenv("OneDriveConsumer"), "Documents", "Projects", "PolicyAnalysis", "data"))
+setwd(file.path(Sys.getenv("OneDriveConsumer"), "Documents", "GitHub", "CaliforniaPolicyAnalysis", "data"))
 
 # Load the projectMetadata and projectDirectories functions from the RData files
 load(file = "projectMetadata.RData")
@@ -41,6 +31,15 @@ prjDirs <- projectDirectories()
 # Set the initial working directory to the R data directory
 setwd(prjDirs$pathData)
 
+# Require the jsonlite library for reading JSON files
+require(jsonlite)
+
+# create a library list from the libraries.json file in the metadata directory
+libraryList <- fromJSON(file.path(prjDirs$pathMetadata, "libraries.json"))
+
+# Load the libraries
+sapply(libraryList, require, character.only = TRUE)
+
 # Load the list of California legislature members (dataframe and list)
 load(file = "dfCalMembers.RData")
 load(file = "calMembers.RData")
@@ -48,7 +47,7 @@ load(file = "addBillStructure.RData")
 load(file = "addSponsors.RData")
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Populate AI Bill Data ####
+# 2. Populate AI Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the list to store the AI bills data for 2013-2014

@@ -1,0 +1,22 @@
+[
+  "lubridate",
+  "jsonlite",
+  "dplyr",
+  "magrittr",
+  "R6",
+  "haven",
+  "labelr",
+  "plyr",
+  "stringr",
+  "purrr",
+  "glue",
+  "Hmisc",
+  "psych",
+  "tibble",
+  "here",
+  "tidyr",
+  "knitr",
+  "labelled",
+  "collapse",
+  "formattable"
+]
