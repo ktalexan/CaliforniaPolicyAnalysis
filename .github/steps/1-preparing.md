@@ -8,9 +8,7 @@ In this step we will create a list of project libraries for R
 
 ```prompt
 We will create a list of R libraries required by the project. The required libraries are:
-
 "lubridate", "jsonlite", "dplyr", "magrittr", "R6", "haven", "labelr", "plyr", "stringr", "purrr", "glue", "Hmisc", "psych", "tibble", "here", "tidyr", "knitr", "labelled", "collapse", "formattable"
-
 We want to create a json file containing these libraries for the project, and store the list on the 'metadata' directory of the project. The JSON file should be named 'libraries.json'. The library list should be put into the root of the JSON file (no parent).
 ```
 
@@ -20,7 +18,6 @@ Here, we will create a set of lists for AI bills in the California Legislature.
 
 ```prompt
 Using the list of bills by legislative session below, we need to create a JSON file containing the legislative session, and each of the bills below. The JSON file should be stored in the 'metadata' directory of the project, and named 'aiBillList.json'
-
 - Y20132014: "SB-836", "SB-860", "AB-1465"
 - Y20172018: "ACR-215", "SB-1470", "AB-2662", "AB-1809", "SB-843"
 - Y20192020: "SB-348", "SJR-6", "AB-459", "AB-1576", "AB-976", "AB-594", "SB-444", "SB-730", "AB-156", "AB-3317", "SCR-13", "ACR-125", "SB-752", "AB-2269", "AB-3339", "AB-485"
