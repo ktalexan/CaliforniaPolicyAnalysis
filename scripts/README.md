@@ -10,3 +10,6 @@ directory, and they represent the main analysis and visualization tasks of the p
 - **[RIS Scripts](./ris/)**: These scripts are used for bibliography management and citation generation. They are typically located in the `ris` directory. These scripts are used to generate bibliographic references in the RIS format, which can be imported into reference management software (Zotero).
 
 Each of the folders in the directory, `markdown`, `python`, `R`, and `ris`, contains a README file that provides more information about the specific scripts and their functionality. The README files also include instructions on how to use the scripts and any dependencies that may be required.
+
+
+[>> Return to Main Directory](../README.md)
