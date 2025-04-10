@@ -12,4 +12,4 @@ directory, and they represent the main analysis and visualization tasks of the p
 Each of the folders in the directory, `markdown`, `python`, `R`, and `ris`, contains a README file that provides more information about the specific scripts and their functionality. The README files also include instructions on how to use the scripts and any dependencies that may be required.
 
 
-[>> Return to Main Directory](../README.md)
+[>> Return to Main Directory](../)

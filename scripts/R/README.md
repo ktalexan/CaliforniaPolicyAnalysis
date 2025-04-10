@@ -8,4 +8,4 @@ In general:
 - Scripts that begin with `lc` are related to legislative labor analysis.
 - Oher scripts are related to other analyses or tasks.
 
-[>> Return to Main Directory](../../README.md)
+[>> Return to Main Directory](../../)
