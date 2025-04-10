@@ -70,3 +70,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 For questions or feedback, please contact [Dr. Kostas Alexandridis](mailto:ktalexan@outlook.com).
 
+
+## Next Level Navigation
+
+- :card_index_dividers:[Admin](./admin/)
+- :card_index_dividers:[Analysis](./analysis/)
+- :card_index_dividers:[Data](./data/)
+- :card_index_dividers:[Graphics](./graphics/)
+- :card_index_dividers:[Metadata](./metadata/)
+- :card_index_dividers:[Scripts](./dcripts/)
