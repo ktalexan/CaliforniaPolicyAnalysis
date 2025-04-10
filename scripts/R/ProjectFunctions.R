@@ -8,11 +8,9 @@
 # Empty the R environment before running the code
 rm(list = ls())
 
-# Define the libraries to use in the script
-liblist <- c("glue", "lubridate")
-
-# Load the libraries
-sapply(liblist, require, character.only = TRUE)
+# Load the required libraries from libraries.json and apply them
+library(jsonlite)
+sapply(fromJSON(file.path(getwd(), "metadata", "libraries.json")), require, character.only = TRUE)
 
 # Set version
 ver = 1.0
@@ -245,7 +243,7 @@ save(addBillStructure, file = file.path(prjDirs$pathData, "addBillStructure.RDat
 save(addSponsors, file = file.path(prjDirs$pathData, "addSponsors.RData"))
 
 # Clear the workspace
-rm(list = ls())
+#rm(list = ls())
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # End of Script ####

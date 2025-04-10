@@ -16,7 +16,5 @@
   "here",
   "tidyr",
   "knitr",
-  "labelled",
-  "collapse",
-  "formattable"
+  "labelled"
 ]

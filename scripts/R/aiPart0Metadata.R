@@ -10,30 +10,21 @@
 # 1. Preliminaries ####
 #~~~~~~~~~~~~~~~~~~~~~~
 
-# Empty the R environment before running the code
-rm(list = ls())
+# Run the projectFunctions script to update the latest version of the project functions
+source(file.path(getwd(), "scripts", "R", "projectFunctions.R"))
 
-# Version of the code
-ver <- 1.0
-
-# Define the list of libraries to be loaded
-liblist <- c("lubridate", "jsonlite", "dplyr", "magrittr", "R6", "haven", "labelr", "plyr", "stringr", "purrr", "glue", "Hmisc", "psych", "tibble", "here", "tidyr", "knitr", "labelled", "collapse", "formattable")
-
-# Load the libraries
-sapply(liblist, require, character.only = TRUE)
 
 #~~~~~~~~~~~~~~~~~~~~
 # 2. Definitions ####
 #~~~~~~~~~~~~~~~~~~~~
 
-# Set the initial working directory to the data directory
-setwd(file.path(Sys.getenv("OneDriveConsumer"), "Documents", "Projects", "PolicyAnalysis", "data"))
+# Set the initial working directory to the R data directory
+setwd(prjDirs$pathData)
 
-# Load the projectMetadata and projectDirectories functions from the RData files
-load(file = "projectMetadata.RData")
-load(file = "projectDirectories.RData")
+# Load the project metadata, directories, and California legislature members (dataframe and list) from the RData files
+sapply(c("projectMetadata.Rdata", "projectDirectories.Rdata", "dfCalMembers.Rdata", "calMembers.Rdata", "addBillStructure.Rdata", "addSponsors.Rdata"), load, .GlobalEnv)
 
-# Get the metadata
+# Define the metadata for this project component
 metadata <- projectMetadata(prjComponent = "AI", prjPart = 0)
 
 # Get the project directories
@@ -42,12 +33,6 @@ prjDirs <- projectDirectories()
 # Set the initial working directory to the R data directory
 setwd(prjDirs$pathData)
 
-# Load the list of California legislature members (dataframe and list)
-load(file = "dfCalMembers.RData")
-load(file = "calMembers.RData")
-load(file = "addBillStructure.RData")
-load(file = "addSponsors.RData")
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3. Compile Preliminary AI Data ####
@@ -55,6 +40,8 @@ load(file = "addSponsors.RData")
 
 ## 3.1. AI Bill List ####
 #~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 # The AI Bill List is a list of bills related to artificial intelligence in California legislature
 # The list is organized by year and contains the bill numbers for each year
