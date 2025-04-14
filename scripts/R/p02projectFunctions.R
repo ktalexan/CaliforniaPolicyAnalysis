@@ -430,38 +430,46 @@ checkHash <- function(dataset) {
 # 7. Create Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Define a function to create bill data for a legislative session
 
-#' @title Create Bill Data
-#' @description Generates a list of bill data for a specified year and period.
-#' @param year A string representing the years of the legislative session.
-#' @details The year should be in the format "YYYY-YYYY" (e.g., "2025-2026").
-#' The function requires (a) the 'jsonlite' package to read JSON files and (b) the 'prjDirs' object to specify the path to the metadata and data directories.
-#' @return A list containing bill data for the specified year and period.
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3. Preliminary AI Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## 3.1. Get AI Bills Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Function to get AI Bills Data
+# This function takes a list of bills and a year as input and returns the data for each bill in the list
+
+#' @title Get AI Bills Data
+#' @description This function takes a list of bills and a year as input and returns the data for each bill in the list.
+#' @param list A list of bills to be processed.
+#' @param years A string representing the year of the bills to be processed.
+#' @return A list of data for each bill in the input list.
 #' @examples
-#' createBillData("2025-2026")
-#' @export createBillData
-createBillData <- function(year) {
-    # construct the lookup period string
-    period <- paste0("Y", gsub("-", "", year))
-    periodMd <- fromJSON(file.path(prjDirs$pathMetadata, "legiscanMetadata.json"))[[period]]
-    # convert to date the periodMd$modified and periodMd$exported
-    modified <- as.Date(periodMd$modified, format = "%m-%d-%Y")
-    exported <- as.Date(periodMd$exported, format = "%m-%d-%Y")
-
-    # Create a new list to store the bill data
-    aiBills <- list()
+#' getAiBillsData(list = aiBillsList$Y20132014, years = "2013-2014")
+#' @export getAiBillsData
+getAiBillsData <- function(list, years) {
+    # Begin the process
+    cat("Processing AI Bills for", years, "Legislative Session")
+    # Get the year list label
+    yearsLabel <- paste0("Y", gsub("-", "", years))
+    # Create an internal list to store the data
+    data <- list()
+    # Loop through the list of bills and read the JSON files from disk
+    for (bill in names(list)) {
+        billData <- read_json(file.path(prjDirs$pathData, "legiscan", "datasets", years, "bill", paste0(bill, ".json")), simplifyVector = TRUE)$bill
         
-    # Loop through each bill in the specified year
-    for (b in names(fromJSON(file.path(prjDirs$pathMetadata, "listBillsAI.json"))[[period]])) {
-        # Read the JSON file for the bill
-        aiBills[[b]] <- fromJSON(file.path(prjDirs$pathData, "legiscan", "json", year, "bill", paste0(b, ".json")))$bill
+        # Add each bill to the data list
+        data[[bill]] <- billData
     }
-
-    cat(year, "Bill Data:\n", "- Number of Bills:", length(names(aiBills)), "\n", "- List of Bills: ", paste(names(aiBills), collapse = ", "), "\n", "- Modified: ", format(modified, "%m/%d/%Y"), "\n", "- Exported: ", format(exported, "%m/%d/%Y"), "\n")
-
-    # Return the list of bills
-    aiBills
+    # Return the data list
+    cat("\n- Total bills:", length(names(data)), "\n")
+    # list the names of the bills separated by commas
+    cat("- Bill names:", paste(names(data), collapse = ", "), "\n")
+    data
 }
 
 
@@ -495,6 +503,9 @@ save(storeDatasetData, file = file.path(prjDirs$pathData, "storeDatasetData.RDat
 
 # Save the create bill data function to disk
 save(createBillData, file = file.path(prjDirs$pathData, "createBillData.RData"))
+
+# Save the get AI bills data function to disk
+save(getAiBillsData, file = file.path(prjDirs$pathData, "getAiBillsData.RData"))
 
 # Clear the workspace
 #rm(list = ls())

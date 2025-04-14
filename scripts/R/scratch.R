@@ -12,6 +12,19 @@ metadata <- projectMetadata(prjComponent = "AI", prjPart = 0)
 # Get the project directories
 prjDirs <- projectDirectories()
 
+
+
+
+aiBillsList <- read_json(file.path(prjDirs$pathMetadata, "listBillsAI.json"), simplifyVector = TRUE)
+
+
+
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 aiBillData20132014 <- createBillData("2013-2014")
 aiBillData20172018 <- createBillData("2017-2018")
 aiBillData20192020 <- createBillData("2019-2020")
@@ -25,6 +38,7 @@ file.path(prjDirs$pathData, "LegiScan", "datasets", "2025-2026", "hash.md5")
 
 # read the file contents of the hash.md5 file
 readLines(file.path(prjDirs$pathData, "LegiScan", "datasets", "2025-2026", "hash.md5"), warn = FALSE)
+
 
 
 checkHash(datasetList$Y20132014)
@@ -50,4 +64,35 @@ sessionDatasetUrls <- lapply(sessionList, function(x) {
     paste0(baseUrl, apiKey, opUrlDataset, sessionId)
 })
 
+
+load(file.path(prjDirs$pathPrj, "aiBillData.RData"))
+
+
+
+names(aiBillsData$Y20132014)
+
+test <- aiBillsData$Y20132014$SB860
+
+test$status_date
+
+# Open the test$url in the browser
+browseURL(test$url)
+browseURL(test$state_link)
+
+# get the first object of test$progress
+test$progress[["date"]][1]
+# get the last object of test$progress
+test$progress[["date"]][length(test$progress[["date"]])]
+
+
+test$history[["date"]][1]
+test$history[["date"]][length(test$history[["date"]])]
+
+browseURL(test$texts[["url"]][length(test$texts[["url"]])])
+
+browseURL(test$texts[["state_link"]][length(test$texts[["state_link"]])])
+
+browseURL(test$state_link)
+
+"https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=201320140SB860&version=20130SB86096CHP"
 

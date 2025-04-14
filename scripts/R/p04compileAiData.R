@@ -96,11 +96,28 @@ for (period in c("Y20132014", "Y20172018", "Y20192020", "Y20212022", "Y20232024"
     checkHash(datasetList[[period]])
 }
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3. Get AI Bills Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Preliminary AI Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Compile the preliminary AI data
+# load the listBillsAI.json file from the metadata directory
+aiBillsList <- read_json(file.path(prjDirs$pathMetadata, "listBillsAI.json"), simplifyVector = TRUE)
+
+# Create an empty list to store the AI bills data
+aiBillsData <- list()
+
+# Loop through each year in the AI Bills List and add the bills data to the master list
+for (period in c("Y20132014", "Y20172018", "Y20192020", "Y20212022", "Y20232024", "Y20252026")) {
+    years <- paste0(str_sub(gsub("Y", "", period), 1, 4), "-", str_sub(gsub("Y", "", period), -4, -1))
+    aiBillsData[[period]] <- getAiBillsData(aiBillsList[[period]], years)
+    cat("\n")
+}
+
+# Save the AI Bills Data as an RData file
+save(aiBillsData, file = file.path(prjDirs$pathData, "aiBillsData.RData"))
+
+
+
 
 ## 3.1. Monitor Bills ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~
