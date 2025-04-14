@@ -5,9 +5,9 @@
 # Author: Dr. Kostas Alexandridis, GISP
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 1. Definitions ####
-#~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Run the projectFunctions script to update the latest version of the project functions
 source(file.path(getwd(), "scripts", "R", "p01projectSetup.R"))
@@ -23,17 +23,14 @@ metadata <- projectMetadata(prjComponent = "AI", prjPart = 0)
 # Get the project directories
 prjDirs <- projectDirectories()
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 2. Lookup Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Obtain and Construct Lookup Data
 
-# Define the API key and base URL for LegiScan API
-apiKey <- Sys.getenv("LEGISCAN_API_KEY")
-baseUrl <- "https://api.legiscan.com/?key="
-
+#~~~~~~~~~~~~~~~~~~~~~~~~
 ## 2.1. Session List ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Fetch the session list from the LegiScan API
 sessionList <- lookupSession()
@@ -44,8 +41,9 @@ write_json(sessionList, file.path(prjDirs$pathMetadata, "sessionList.json"), pre
 # Save the session list as an RData file
 save(sessionList, file = file.path(prjDirs$pathData, "sessionList.RData"))
 
+#~~~~~~~~~~~~~~~~~~~~~~~
 ## 2.2. People List ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~
 # Get the people list from LegiScan API
 
 # Construct the URL for the LegiScan API session people
@@ -73,6 +71,33 @@ write_json(sessionPeople, file.path(prjDirs$pathMetadata, "sessionPeople.json"),
 
 # Save the session people as an RData file
 save(sessionPeople, file = file.path(prjDirs$pathData, "sessionPeople.RData"))
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## 2.3. Lookup Datasets ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Get the lookup datasets from LegiScan API
+datasetList <- lookupDatasets()
+
+# Export the lookup datasets to a JSON file
+write_json(datasetList, file.path(prjDirs$pathMetadata, "datasetList.json"), pretty = TRUE, auto_unbox = TRUE)
+
+# Save the lookup datasets as an RData file
+save(datasetList, file = file.path(prjDirs$pathData, "datasetList.RData"))
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## 2.4. Store Dataset Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Store the dataset data for each session in the dataset list
+storeDatasetData(datasetList$Y20132014)
+storeDatasetData(datasetList$Y20172018)
+storeDatasetData(datasetList$Y20192020)
+storeDatasetData(datasetList$Y20212022)
+storeDatasetData(datasetList$Y20232024)
+storeDatasetData(datasetList$Y20252026)
+
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3. Preliminary AI Data ####

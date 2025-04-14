@@ -297,9 +297,9 @@ lookupSession <- function() {
     sessionList
 }
 
-#~~~~~~~~~~~~~~~~~~~~~~~~
-# 6.2. Lookup People ####
-#~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+## 6.2. Lookup People ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define a function to look up people from the LegiScan API
 
@@ -316,9 +316,9 @@ lookupPeople <- function() {
     
 }
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 6.3. Lookup Datasets ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## 6.3. Lookup Datasets ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define a function to look up datasets from the LegiScan API
 
@@ -346,12 +346,61 @@ lookupDatasets <- function() {
     datasetList
 }
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 6.4. Store Dataset Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## 6.4. Store Dataset Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+# Define a function to store dataset data from the LegiScan API
 
+#' @title Store Dataset Data
+#' @description Downloads and extracts dataset data from the LegiScan API for a specified dataset.
+#' @param dataset A list containing dataset information, including session ID and access key.
+#' @return None. The function downloads and extracts the dataset data to the specified directory.
+#' @examples
+#' storeDatasetData(datasetList$Y20252026)
+#' @export storeDatasetData
+storeDatasetData <- function(dataset) {
+    # Get the years string
+    years <- paste0(dataset$year_start, "-", dataset$year_end)
+    # Construct the URL for the LegiScan API dataset list
+    datasetUrl <- paste0(baseUrl, apiKey,"&op=getDataset&access_key=", dataset$access_key, "&id=", dataset$session_id)
+    
+    # get the response
+    resp <- GET(datasetUrl)
+    # check the response status
+    if (http_error(resp)) {
+        stop("Failed to retrieve dataset for session ID: ", dataset$session_id)
+    }
+    # parse the content
+    content <- content(resp)
+    dataDecode <- base64_dec(content[["dataset"]][["zip"]])
+    temp <- file.path(prjDirs$pathData, "temp.zip")
+    writeBin(dataDecode, temp)
 
+    # Using the unzip function extract only the contents of a subdirectory in the zipped file, to a new directory
+    unzip(temp, exdir = file.path(prjDirs$pathData, "temp"))
+
+    # Read the folders in the temp directory
+    tempFolder <- list.files(file.path(prjDirs$pathData, "temp", "CA"))
+
+    # Read the files in the temp folder
+    tempFiles <- list.files(file.path(prjDirs$pathData, "temp", "CA", tempFolder))
+
+    # Check if the destination directory exists, if not create it
+    if (!dir.exists(file.path(prjDirs$pathData, "legiscan", "datasets", years))) {
+        dir.create(file.path(prjDirs$pathData, "legiscan", "datasets", years), recursive = TRUE)
+    }
+
+    # copy the files in the tempFolder to a new directory
+    file.copy(file.path(prjDirs$pathData, "temp", "CA", tempFolder, tempFiles), file.path(prjDirs$pathData, "legiscan", "datasets", years), overwrite=TRUE, recursive = TRUE)
+
+    # Delete the temp folder and zip file from the data directory
+    unlink(file.path(prjDirs$pathData, "temp"), recursive = TRUE)
+    unlink(file.path(prjDirs$pathData, "temp.zip"))
+
+    cat("Dataset for session ID: ", dataset$session_id, " downloaded and extracted successfully.\n")
+    cat("Files saved to: ", file.path(prjDirs$pathData, "legiscan", "datasets", years), "\n")
+}
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 7. Create Bill Data ####
@@ -407,6 +456,18 @@ save(addBillStructure, file = file.path(prjDirs$pathData, "addBillStructure.RDat
 
 # Save the sponsors function to disk
 save(addSponsors, file = file.path(prjDirs$pathData, "addSponsors.RData"))
+
+# Save the session lookup function to disk
+save(lookupSession, file = file.path(prjDirs$pathData, "lookupSession.RData"))
+
+# Save the people lookup function to disk
+save(lookupPeople, file = file.path(prjDirs$pathData, "lookupPeople.RData"))
+
+# Save the lookup datasets function to disk
+save(lookupDatasets, file = file.path(prjDirs$pathData, "lookupDatasets.RData"))
+
+# Save the store dataset data function to disk
+save(storeDatasetData, file = file.path(prjDirs$pathData, "storeDatasetData.RData"))
 
 # Save the create bill data function to disk
 save(createBillData, file = file.path(prjDirs$pathData, "createBillData.RData"))
