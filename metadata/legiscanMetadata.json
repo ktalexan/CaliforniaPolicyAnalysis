@@ -3,72 +3,54 @@
         "year": "2009-2010",
         "session": "Regular Session",
         "modified": "11-30-2010",
-        "exported": "12-31-2021",
-        "apiJson": "https://legiscan.com/gaits/datasets/30/json/CA_2009-2010_Regular_Session_JSON_20101130_d05bde5b1870d32a476e041cfba69b11.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/30/csv/CA_2009-2010_Regular_Session_CSV_20101130_d05bde5b1870d32a476e041cfba69b11.zip"
+        "exported": "12-31-2021"
     },
     "Y20112012": {
         "year": "2011-2012",
         "session": "Regular Session",
         "modified": "09-30-2012",
-        "exported": "12-31-2021",
-        "apiJson": "https://legiscan.com/gaits/datasets/82/json/CA_2011-2012_Regular_Session_JSON_20120930_5bacff6896092044f6a90a76e6a60520.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/82/csv/CA_2011-2012_Regular_Session_CSV_20120930_5bacff6896092044f6a90a76e6a60520.zip"
+        "exported": "12-31-2021"
     },
     "Y20132014": {
         "year": "2013-2014",
         "session": "Regular Session",
         "modified": "09-30-2014",
-        "exported": "12-31-2021",
-        "apiJson": "https://legiscan.com/gaits/datasets/993/json/CA_2013-2014_Regular_Session_JSON_20140930_40e8bf4bc80dff530607313abdcbe545.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/993/csv/CA_2013-2014_Regular_Session_CSV_20140930_40e8bf4bc80dff530607313abdcbe545.zip"
+        "exported": "12-31-2021"
     },
     "Y20152016": {
         "year": "2015-2016",
         "session": "Regular Session",
         "modified": "11-30-2016",
-        "exported": "12-31-2021",
-        "apiJson": "https://legiscan.com/gaits/datasets/1120/json/CA_2015-2016_Regular_Session_JSON_20161130_4baea2bdb2cfc3dfd98aa6e40cf90a11.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/1120/csv/CA_2015-2016_Regular_Session_CSV_20161130_4baea2bdb2cfc3dfd98aa6e40cf90a11.zip"
+        "exported": "12-31-2021"
     },
     "Y20172018": {
         "year": "2017-2018",
         "session": "Regular Session",
         "modified": "09-30-2018",
-        "exported": "12-31-2021",
-        "apiJson": "https://legiscan.com/gaits/datasets/1400/json/CA_2017-2018_Regular_Session_JSON_20180930_8001c96d73676e7a1e23027ab9ba5372.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/1400/csv/CA_2017-2018_Regular_Session_CSV_20180930_8001c96d73676e7a1e23027ab9ba5372.zip"
+        "exported": "12-31-2021"
     },
     "Y20192020": {
         "year": "2019-2020",
         "session": "Regular Session",
         "modified": "09-30-2020",
-        "exported": "12-31-2021",
-        "apiJson": "https://legiscan.com/gaits/datasets/1624/json/CA_2019-2020_Regular_Session_JSON_20200930_b42df4087677a62e0fbe86f4e0b11b47.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/1624/csv/CA_2019-2020_Regular_Session_CSV_20200930_b42df4087677a62e0fbe86f4e0b11b47.zip"
+        "exported": "12-31-2021"
     },
     "Y20212022": {
         "year": "2021-2022",
         "session": "Regular Session",
         "modified": "10-24-2022",
-        "exported": "12-11-2022",
-        "apiJson": "https://legiscan.com/gaits/datasets/1791/json/CA_2021-2022_Regular_Session_JSON_20221024_48ae3222e08e6cd730ef7c818d467561.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/1791/csv/CA_2021-2022_Regular_Session_CSV_20221024_48ae3222e08e6cd730ef7c818d467561.zip"
+        "exported": "12-11-2022"
     },
     "Y20232024": {
         "year": "2023-2024",
         "session": "Regular Session",
         "modified": "11-30-2024",
-        "exported": "12-08-2024",
-        "apiJson": "https://legiscan.com/gaits/datasets/2016/json/CA_2023-2024_Regular_Session_JSON_20241130_94f3be96ad8811bd7fe60c3eb2e25e38.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/2016/csv/CA_2023-2024_Regular_Session_CSV_20241130_94f3be96ad8811bd7fe60c3eb2e25e38.zip"
-    }
+        "exported": "12-08-2024"
+    },
     "Y20252026": {
         "year": "2025-2026",
         "session": "Regular Session",
         "modified": "04-11-2025",
-        "exported": "04-13-2025",
-        "apiJson": "https://legiscan.com/gaits/datasets/2172/json/CA_2025-2026_Regular_Session_JSON_20250411_d1e2ade3d1ff577cbc970b5fddd1346e.zip",
-        "apiCsv": "https://legiscan.com/gaits/datasets/2172/csv/CA_2025-2026_Regular_Session_CSV_20250411_d1e2ade3d1ff577cbc970b5fddd1346e.zip"
+        "exported": "04-13-2025"
     }
 }

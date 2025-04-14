@@ -12,36 +12,11 @@ metadata <- projectMetadata(prjComponent = "AI", prjPart = 0)
 # Get the project directories
 prjDirs <- projectDirectories()
 
-
-test <- content(GET("https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2023"), as = "parsed", type = "application/json")$monitorlist
-
-
-
-# Fetch the monitor bills from the LegiScan API
-if () {
-    monitorBills <- content(GET(monitorBillsUrl), as = "parsed", type = "application/json")$monitorlist
-    # Create a new list with the bill number as the name for each object
-    namedMonitorBills <- lapply(monitorBills, function(x) {
-        x$bill_number <- x$bill_number  # Ensure bill_number is included
-        x
-    })
-    names(namedMonitorBills) <- sapply(monitorBills, function(x) x$number)
-} else {
-    stop("Failed to fetch data from LegiScan API.")
-}
-
-monitorBills <- content(GET(monitorBillsUrl), as = "parsed", type = "application/json")$monitorlist
-
-names(monitorBills) <- sapply(monitorBills, function(x) x$bill_id)
+aiBillData20132014 <- createBillData("2013-2014")
+aiBillData20172018 <- createBillData("2017-2018")
+aiBillData20192020 <- createBillData("2019-2020")
+aiBillData20212022 <- createBillData("2021-2022")
+aiBillData20232024 <- createBillData("2023-2024")
+aiBillData20252026 <- createBillData("2025-2026")
 
 
-# import the listBillsLC.json file from the metadata directory
-listBillsLC <- fromJSON(file.path(prjDirs$pathMetadata, "listBillsLC.json"))
-
-
-"https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2014"
-"https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2018"
-"https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2020"
-"https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2022"
-"https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2024"
-"https://api.legiscan.com/?key=3b3da9d10022157f9deb36b0748bf608&op=getMonitorListRaw&record=2026"

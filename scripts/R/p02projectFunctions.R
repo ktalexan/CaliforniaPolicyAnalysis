@@ -68,7 +68,7 @@ projectMetadata <- function(prjComponent, prjPart) { # nolint: object_name_linte
     
     print(glue("\r\tStart Date: \t{data$startDate}\n\r\tEnd Date: \t{data$endDate}\n\r\tPeriods: \t{paste(data$projectYears, collapse = ', ')}"))
     # Return the data list
-    return(data)
+    data
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -130,7 +130,7 @@ projectDirectories <- function() {
         "\n\tNotebooks: \t{data$pathNotebooks}",
     ))
     # Return the data list
-    return(data)
+    data
 }
 
 # check if a file in the global environment
@@ -226,12 +226,14 @@ addBillStructure <- function(year, bill) {
     # Remove unnecessary variables
     #rm(id, period, type, urlString)
     # Return the data
-    return(data)
+    data
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 4. Add Sponsors ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Define a function to add sponsors to the bill data
 
 #' @title Add Sponsors
 #' @description Generates a list of sponsors for a given year and set of names.
@@ -250,7 +252,46 @@ addSponsors <- function(year, names) {
             stop(paste("Sponsor", name, "not found in year", year, "Possible alternatives:", grep(substr(name, 1, nchar(name) - 2), names(calMembers[[year]]), value = TRUE)))
         }
     }
-    return(sponsors_list)
+    # Return the sponsors list
+    sponsors_list
+}
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+# 5. Create Bill Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Define a function to create bill data for a legislative session
+
+#' @title Create Bill Data
+#' @description Generates a list of bill data for a specified year and period.
+#' @param year A string representing the years of the legislative session.
+#' @details The year should be in the format "YYYY-YYYY" (e.g., "2025-2026").
+#' The function requires (a) the 'jsonlite' package to read JSON files and (b) the 'prjDirs' object to specify the path to the metadata and data directories.
+#' @return A list containing bill data for the specified year and period.
+#' @examples
+#' createBillData("2025-2026")
+#' @export createBillData
+createBillData <- function(year) {
+    # construct the lookup period string
+    period <- paste0("Y", gsub("-", "", year))
+    periodMd <- fromJSON(file.path(prjDirs$pathMetadata, "legiscanMetadata.json"))[[period]]
+    # convert to date the periodMd$modified and periodMd$exported
+    modified <- as.Date(periodMd$modified, format = "%m-%d-%Y")
+    exported <- as.Date(periodMd$exported, format = "%m-%d-%Y")
+
+    # Create a new list to store the bill data
+    aiBills <- list()
+        
+    # Loop through each bill in the specified year
+    for (b in names(fromJSON(file.path(prjDirs$pathMetadata, "listBillsAI.json"))[[period]])) {
+        # Read the JSON file for the bill
+        aiBills[[b]] <- fromJSON(file.path(prjDirs$pathData, "legiscan", "json", year, "bill", paste0(b, ".json")))$bill
+    }
+
+    cat(year, "Bill Data:\n", "- Number of Bills:", length(names(aiBills)), "\n", "- List of Bills: ", paste(names(aiBills), collapse = ", "), "\n", "- Modified: ", format(modified, "%m/%d/%Y"), "\n", "- Exported: ", format(exported, "%m/%d/%Y"), "\n")
+
+    # Return the list of bills
+    aiBills
 }
 
 
@@ -269,6 +310,9 @@ save(addBillStructure, file = file.path(prjDirs$pathData, "addBillStructure.RDat
 
 # Save the sponsors function to disk
 save(addSponsors, file = file.path(prjDirs$pathData, "addSponsors.RData"))
+
+# Save the create bill data function to disk
+save(createBillData, file = file.path(prjDirs$pathData, "createBillData.RData"))
 
 # Clear the workspace
 #rm(list = ls())
