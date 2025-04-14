@@ -402,6 +402,30 @@ storeDatasetData <- function(dataset) {
     cat("Files saved to: ", file.path(prjDirs$pathData, "legiscan", "datasets", years), "\n")
 }
 
+# Define a function to check the hash of the dataset and store it if necessary
+# It is good to run this function before running the storeDatasetData function
+
+#' @title Check Hash
+#' @description Checks the hash of the dataset and stores it if necessary.
+#' @param dataset A list containing dataset information, including session ID and access key.
+#' @return None. The function checks the hash and stores the dataset data if needed.
+#' @examples
+#' checkHash(datasetList$Y20252026)
+#' @export checkHash
+checkHash <- function(dataset) {
+    hashDataset <- dataset$dataset_hash
+    filePath <- file.path(prjDirs$pathData, "legiscan", "datasets", paste0(dataset$year_start, "-", dataset$year_end), "hash.md5")
+    hashFile <- readLines(filePath, warn = FALSE)
+    # if the hashDataset and hashFile are the same, do nothing, else run the storeDatasetData function
+    if (hashDataset == hashFile) {
+        message("The dataset hash is the same as the file hash. No need to update the dataset.")
+    } else {
+        message("The dataset hash is different from the file hash. Updating the dataset.")
+        storeDatasetData(dataset)
+    }
+}
+
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 7. Create Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

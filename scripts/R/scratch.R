@@ -24,7 +24,15 @@ datasetList$Y20252026$dataset_hash
 file.path(prjDirs$pathData, "LegiScan", "datasets", "2025-2026", "hash.md5")
 
 # read the file contents of the hash.md5 file
-hashStored <- file.path(prjDirs$pathData, "LegiScan", "datasets", "2025-2026", "hash.md5")
+readLines(file.path(prjDirs$pathData, "LegiScan", "datasets", "2025-2026", "hash.md5"), warn = FALSE)
+
+
+checkHash(datasetList$Y20132014)
+checkHash(datasetList$Y20172018)
+checkHash(datasetList$Y20192020)
+checkHash(datasetList$Y20212022)
+checkHash(datasetList$Y20232024)
+checkHash(datasetList$Y20252026)
 
 storeDatasetData(datasetList$Y20132014)
 storeDatasetData(datasetList$Y20172018)
