@@ -8,9 +8,16 @@
 # If standalone, run the project setup script to load the required libraries and set up the environment
 #source(file.path(getwd(), "scripts", "R", "p01projectSetup.R"))
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 1. Preliminaries ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Define the API key and base URL for LegiScan API
+apiKey <- Sys.getenv("LEGISCAN_API_KEY")
+baseUrl <- "https://api.legiscan.com/?key="
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 1. Metadata ####
+# 2. Metadata ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the global project settings by creating a function that returns a list of the project's metadata
@@ -72,7 +79,7 @@ projectMetadata <- function(prjComponent, prjPart) { # nolint: object_name_linte
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 2. Directories ####
+# 3. Directories ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define the global directory settings using the following function that returns a list of the project's directories
@@ -140,7 +147,7 @@ if (!exists("prjDirs")) {
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3. Bill Structure ####
+# 4. Bill Structure ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define a function to add the bill structure
@@ -230,7 +237,7 @@ addBillStructure <- function(year, bill) {
 }
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 4. Add Sponsors ####
+# 5. Add Sponsors ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define a function to add sponsors to the bill data
@@ -256,9 +263,99 @@ addSponsors <- function(year, names) {
     sponsors_list
 }
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. Create Bill Data ####
-#~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 6. Look Up Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~
+## 6.1. Session Lookup ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Define a function to look up the session list from the LegiScan API
+
+#' @title Lookup Session
+#' @description Retrieves the session list from the LegiScan API for a specified year.
+#' @param none No parameters required for this function.
+#' @return A list containing session information for the specified year.
+#' @examples
+#' lookupSession()
+#' @export lookupSession
+lookupSession <- function() {
+    # Construct the URL for the LegiScan API session list
+    opUrlSession <- "&op=getSessionList&state=CA"
+    sessionListUrl <- paste0(baseUrl, apiKey, opUrlSession)
+
+    # Fetch the session list from the LegiScan API
+    if (status_code(GET(sessionListUrl)) == 200) {
+        print("LegiScan API Session List retrieved successfully")
+        sessionList <- content(GET(sessionListUrl), as = "parsed", type = "application/json")$sessions
+        names(sessionList) <- sapply(sessionList, function(x) glue("Y{x$year_start}{x$year_end}"))
+    } else {
+        stop("Failed to fetch data from LegiScan API.")
+    }
+    # Return the session list
+    sessionList
+}
+
+#~~~~~~~~~~~~~~~~~~~~~~~~
+# 6.2. Lookup People ####
+#~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Define a function to look up people from the LegiScan API
+
+#' @title Lookup People
+#' @description Retrieves the people list from the LegiScan API for a specified year.
+#' @param year An integer representing the year for which to retrieve the people list.
+#' @return A list containing people information for the specified year.
+#' @examples
+#' lookupPeople(2025)
+#' @export lookupPeople
+lookupPeople <- function() {
+    # Construct the URL for the LegiScan API people list
+    opUrlPeople <- "&op=getSessionPeople&id="
+    
+}
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 6.3. Lookup Datasets ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Define a function to look up datasets from the LegiScan API
+
+#' @title Lookup Datasets
+#' @description Retrieves the dataset list from the LegiScan API for a specified year.
+#' @param none No parameters required for this function.
+#' @return A list containing dataset information for the specified year.
+#' @examples
+#' lookupDatasets(2025)
+#' @export lookupDatasets
+lookupDatasets <- function() {
+    # Construct the URL for the LegiScan API dataset list
+    opUrlDataset <- "&op=getDatasetList&state=CA"
+    datasetListUrl <- paste0(baseUrl, apiKey, opUrlDataset)
+
+    # Fetch the dataset list from the LegiScan API
+    if (status_code(GET(datasetListUrl)) == 200) {
+        print("LegiScan API Dataset List retrieved successfully")
+        datasetList <- content(GET(datasetListUrl), as = "parsed", type = "application/json")$datasetlist
+        names(datasetList) <- sapply(datasetList, function(x) glue("Y{x$year_start}{x$year_end}"))
+    } else {
+        stop("Failed to fetch data from LegiScan API.")
+    }
+    # Return the dataset list
+    datasetList
+}
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 6.4. Store Dataset Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 7. Create Bill Data ####
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Define a function to create bill data for a legislative session
 
@@ -296,7 +393,7 @@ createBillData <- function(year) {
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 5. Save Functions ####
+# 8. Save Functions ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Save the metadata function to disk

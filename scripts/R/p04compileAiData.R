@@ -34,19 +34,9 @@ baseUrl <- "https://api.legiscan.com/?key="
 
 ## 2.1. Session List ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Get the session list from LegiScan API
-
-# Construct the URL for the LegiScan API session list
-opUrlSession <- "&op=getSessionList&state=CA"
-sessionListUrl <- paste0(baseUrl, apiKey, opUrlSession)
 
 # Fetch the session list from the LegiScan API
-if (status_code(GET(sessionListUrl)) == 200) {
-    sessionList <- content(GET(sessionListUrl), as = "parsed", type = "application/json")$sessions
-    names(sessionList) <- sapply(sessionList, function(x) glue("Y{x$year_start}{x$year_end}"))
-} else {
-    stop("Failed to fetch data from LegiScan API.")
-}
+sessionList <- lookupSession()
 
 # Export the session list to a JSON file
 write_json(sessionList, file.path(prjDirs$pathMetadata, "sessionList.json"), pretty = TRUE, auto_unbox = TRUE)
