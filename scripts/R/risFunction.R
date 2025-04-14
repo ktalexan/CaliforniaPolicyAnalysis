@@ -1,4 +1,13 @@
 # Create RIS Function ####
+
+#' @title Create RIS File
+#' @description Generates an RIS file for a given bill and its metadata.
+#' @param name A string representing the name of the RIS file.
+#' @param billData A list containing metadata about the bill, such as title, sponsors, and session details.
+#' @return None. The function creates an RIS file in the specified directory.
+#' @examples
+#' createRis("AB-123", billData)
+#' @export createRis
 createRis <- function(name, billData) {
 
     # create a new folder for the RIS files

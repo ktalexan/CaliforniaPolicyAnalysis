@@ -1,0 +1,1583 @@
+bill_id,roll_call_id,date,chamber,description,yea,nay,nv,absent,total
+1893344,1535026,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",17,0,0,0,17
+1893348,1528312,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",18,0,0,0,18
+1893349,1526958,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources] with recommendation: To Consent Calendar",13,0,0,0,13
+1893349,1538900,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",14,0,0,0,14
+1893350,1505308,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1893351,1542868,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1893352,1528316,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1893352,1542731,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1893355,1535143,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",9,0,0,6,15
+1893355,1540876,2025-04-08,Assembly,"Do pass",9,0,0,3,12
+1893361,1542906,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",2,5,0,0,7
+1893361,1542907,2025-04-09,Assembly,Reconsideration,2,5,0,0,7
+1893365,1533476,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1893367,1525455,2025-03-24,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,0,0,2,14
+1893368,1505298,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1893369,1505311,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Transportation] with recommendation: To Consent Calendar",9,0,0,0,9
+1893369,1525418,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1893373,1542683,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Local Government] with recommendation: To Consent Calendar",12,0,0,0,12
+1893376,1542830,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Utilities and Energy]",10,0,0,0,10
+1893377,1533584,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,2,0,2,15
+1893378,1526967,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,3,15
+1893378,1542691,2025-04-09,Assembly,"Do pass",10,3,0,2,15
+1893380,1526962,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1893381,1525415,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,3,14
+1893387,1544955,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",7,2,0,0,9
+1893388,1542735,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1893389,1533523,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Health]",17,0,0,1,18
+1893393,1540847,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",12,0,0,3,15
+1893394,1540944,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1893396,1528248,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",8,0,0,3,11
+1893398,1528314,2025-03-26,Assembly,"Do pass as amended",8,0,0,2,10
+1893398,1533521,2025-04-01,Assembly,"AB 59 Aguiar-Curry Assembly Third Reading",77,0,0,3,80
+1893400,1528321,2025-03-25,Assembly,"Do pass",5,1,0,1,7
+1893401,1528242,2025-03-26,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",18,0,0,0,18
+1893410,1511429,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1893415,1470866,2024-12-03,Assembly,"HR 1 PACHECO Assembly Third Reading",58,19,0,2,79
+1893416,1470867,2024-12-03,Assembly,"HR 2 RIVAS Assembly Third Reading By AGUIAR-CURRY",78,0,0,1,79
+1893417,1470868,2024-12-03,Assembly,"HR 3 RIVAS Assembly Third Reading By AGUIAR-CURRY",77,0,0,2,79
+1893418,1470869,2024-12-03,Assembly,"HR 4 ESSAYLI Assembly Third Reading Motion to Lay on the Table By AGUIAR-CURRY",58,19,0,2,79
+1893420,1474061,2025-01-23,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1893420,1477873,2025-01-30,Assembly,"HR 6 Connolly Consent Calendar Second Day Regular Session",69,0,0,10,79
+1893421,1516577,2025-03-12,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs]",5,0,0,0,5
+1893422,1526886,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,3,0,1,15
+1893423,1535095,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",12,0,0,1,13
+1893424,1515256,2025-03-11,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",11,1,0,3,15
+1893425,1521950,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Energy, Utilities and Communications] with the recommendation: To Consent Calendar",8,0,0,0,8
+1893425,1538973,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",16,0,0,1,17
+1893427,1526945,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Rules]",4,1,0,1,6
+1893427,1538950,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1893431,1526968,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1893431,1538923,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1893432,1522002,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",3,2,0,3,8
+1893432,1522003,2025-03-19,Senate,"[First] hearing set for [03-19-2025]: Failed passage in Committee. Reconsideration granted",8,0,0,0,8
+1893433,1528273,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Health]",5,0,0,0,5
+1893435,1542756,2025-04-08,Senate,"Do pass as amended",11,2,0,0,13
+1893436,1516569,2025-03-12,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs]",5,0,0,0,5
+1893438,1542879,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",12,0,0,1,13
+1893439,1487029,2025-02-11,Senate,"Do pass, but first be re-referred to the Committee on [Business, Professions and Economic Development]",10,1,0,2,13
+1893439,1503908,2025-03-03,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",8,0,0,3,11
+1893439,1517828,2025-03-13,Senate,"Senate 3rd Reading SB26 Umberg et al. Urgency Clause",35,0,0,5,40
+1893439,1528286,2025-03-26,Assembly,"Do pass",9,0,0,3,12
+1893439,1533497,2025-04-01,Senate,"Unfinished Business SB26 Umberg et al. Urgency Clause Concurrence",38,1,0,1,40
+1893439,1533498,2025-04-01,Assembly,"SB 26 Umberg Third Reading Urgency By Kalra",77,0,0,3,80
+1893440,1542742,2025-04-08,Senate,"Do pass",12,0,0,1,13
+1893441,1526889,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1893441,1538866,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1893442,1535054,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",9,2,0,2,13
+1893444,1542877,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Environmental Quality]",11,3,0,1,15
+1893445,1526905,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Environmental Quality]",7,0,0,0,7
+1893447,1521980,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Human Services]",6,1,0,0,7
+1893449,1526955,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",6,0,0,0,6
+1893449,1538909,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1893451,1526911,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1893451,1538940,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1893452,1542930,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",4,1,0,0,5
+1893453,1528292,2025-03-26,Senate,"Do pass as amended",5,0,0,0,5
+1893455,1469564,2024-12-02,Senate,"W/O REF. TO FILE SCR1 McGuire",29,9,0,1,39
+1893455,1536784,2025-04-03,Assembly,"SCR 1 McGuire Senate Third Reading By Pacheco",56,19,0,4,79
+1893456,1469565,2024-12-02,Senate,"W/O REF. TO FILE SCR2 Umberg",37,1,0,1,39
+1893456,1470870,2024-12-03,Assembly,"SCR 2 Umberg Senate Third Reading By AGUIAR-CURRY",78,0,0,1,79
+1893457,1483663,2025-02-06,Senate,"Senate 3rd Reading SCR3 Laird",33,0,0,6,39
+1893462,1469566,2024-12-02,Senate,"W/O REF. TO FILE SR4 Gonzalez",29,9,0,1,39
+1893465,1477878,2025-01-30,Senate,"Senate 3rd Reading SR7 Ochoa Bogh et al",36,0,0,3,39
+1894276,1473353,2025-01-22,Senate,"Do pass",8,2,0,0,10
+1894276,1474135,2025-01-23,Senate,"Senate 3rd Reading SB1 Wiener et al",27,9,0,3,39
+1894276,1479278,2025-02-03,Assembly,"SB 1 Wiener Senate Third Reading By GABRIEL Amend By DEMAIO Set #1 Motion to Lay on the Table By AGUIAR-CURRY First Extraordinary Session",56,17,0,6,79
+1894276,1479279,2025-02-03,Assembly,"SB 1 Wiener Senate Third Reading By GABRIEL Motion First Extraordinary Session",59,3,0,17,79
+1894276,1479280,2025-02-03,Assembly,"SB 1 Wiener Senate Third Reading By GABRIEL First Extraordinary Session",58,17,0,4,79
+1894442,1526932,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1894443,1516570,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Higher Education]",8,0,0,1,9
+1894444,1525416,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,4,14
+1894446,1542913,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",10,0,0,3,13
+1894448,1540941,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,0,6
+1894449,1521988,2025-03-19,Senate,"Do pass and be ordered to the Consent Calendar",8,0,0,0,8
+1894449,1530385,2025-03-28,Senate,"Consent Calendar 2nd SB39 Weber Pierson Urgency Clause",34,0,0,6,40
+1894450,1535046,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",11,0,0,0,11
+1894656,1540905,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",9,3,0,0,12
+1894817,1533573,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",4,1,0,0,5
+1894820,1472238,2025-01-17,Senate,"Senate 3rd Reading SCR5 Ochoa Bogh",32,0,0,7,39
+1894820,1485621,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1895841,1534990,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,0,17
+1896226,1525474,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,1,14
+1896227,1505321,2025-03-04,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1896625,1526906,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1896626,1530375,2025-03-28,Assembly,"Be adopted. To third reading",7,0,0,4,11
+1896627,1483686,2025-02-06,Senate,"Special Consent ACR7 Bryan et al",37,0,0,2,39
+1896628,1521970,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,2,0,1,8
+1896628,1538944,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1896850,1477881,2025-01-30,Senate,"Special Consent ACR8 Wallis et al",36,0,0,3,39
+1897055,1535008,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",15,0,0,2,17
+1897056,1542900,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Housing and Community Development]",8,1,0,1,10
+1897057,1483666,2025-02-06,Senate,"Special Consent ACR9 Pellerin et al",37,0,0,2,39
+1897058,1534991,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",6,1,0,0,7
+1897059,1519121,2025-03-17,Senate,"Senate 3rd Reading SB49 Grove et al. Urgency Clause",37,0,0,3,40
+1897060,1535070,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1897061,1535032,2025-04-01,Senate,"Be adopted. Ordered to third reading",12,0,0,1,13
+1897215,1521999,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",19,0,0,3,22
+1897216,1471321,2025-01-13,Senate,"Senate 3rd Reading SCR6 Choi",32,0,0,7,39
+1897216,1479231,2025-02-03,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+1897216,1483668,2025-02-06,Assembly,"SCR 6 Choi Consent Calendar Second Day Regular Session",72,0,0,7,79
+1897437,1505310,2025-03-04,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1897437,1511453,2025-03-10,Assembly,"AB 78 Chen Consent Calendar Second Day",72,0,0,8,80
+1897438,1515291,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Higher Education] with recommendation: To Consent Calendar",6,0,0,1,7
+1897440,1503924,2025-03-03,Senate,"Senate 3rd Reading SCR7 Niello",24,6,0,9,39
+1897818,1538951,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,3,14
+1897819,1545043,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,1,8
+1897820,1472237,2025-01-17,Senate,"Senate 3rd Reading SCR8 Weber Pierson et al",32,0,0,7,39
+1897820,1485616,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1898372,1477876,2025-01-30,Senate,"Special Consent ACR10 Mark González et al",36,0,0,3,39
+1903331,1516568,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1903333,1521944,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,1,10
+1903334,1533525,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Education]",2,7,0,0,9
+1903334,1533526,2025-04-01,Assembly,Reconsideration,2,6,0,1,9
+1903335,1522012,2025-03-18,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",6,2,0,2,10
+1903336,1540858,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1903338,1485612,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1903338,1492773,2025-02-18,Assembly,"HR 7 Ta Consent Calendar Second Day",70,0,0,9,79
+1903339,1475144,2025-01-27,Senate,"Senate 3rd Reading SCR9 Weber Pierson",36,0,0,3,39
+1903339,1485614,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1904793,1540939,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Local Government]",10,1,0,2,13
+1904794,1528278,2025-03-26,Assembly,"Do pass. To Consent Calendar",7,0,0,0,7
+1904794,1533556,2025-04-01,Assembly,"AB 94 Bennett Consent Calendar Second Day Regular Session",76,0,0,4,80
+1904799,1474058,2025-01-23,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1904799,1490594,2025-02-14,Senate,"Special Consent ACR11 Ahrens et al",34,0,0,5,39
+1904800,1526976,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",13,0,0,2,15
+1904800,1542818,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1904801,1542886,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs] with the recommendation: To Consent Calendar",13,0,0,0,13
+1904802,1526939,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Military and Veterans Affairs] with the recommendation: To Consent Calendar",7,0,0,0,7
+1904803,1516571,2025-03-12,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs] with the recommendation: To Consent Calendar",5,0,0,0,5
+1904804,1477866,2025-01-30,Senate,"Senate 3rd Reading SR9 Gonzalez",36,0,0,3,39
+1908085,1523499,2025-03-20,Assembly,"AB 100 Gabriel Assembly Third Reading",53,17,0,10,80
+1908085,1542899,2025-04-09,Senate,"Do pass",14,4,0,0,18
+1908085,1544985,2025-04-10,Senate,"Assembly 3rd Reading AB100 Gabriel By Wiener",29,7,0,4,40
+1908085,1544986,2025-04-10,Assembly,"AB 100 GABRIEL Concurrence in Senate Amendments Appeal the Decision of the Speaker By DEMAIO",18,53,0,8,79
+1908085,1544987,2025-04-10,Assembly,"AB 100 GABRIEL Concurrence in Senate Amendments",56,7,0,16,79
+1908086,1523669,2025-03-20,Assembly,"AB 101 Gabriel Assembly Third Reading",53,17,0,10,80
+1908087,1523502,2025-03-20,Assembly,"AB 102 Gabriel Assembly Third Reading",53,17,0,10,80
+1908088,1523587,2025-03-20,Assembly,"AB 103 Gabriel Assembly Third Reading",53,17,0,10,80
+1908089,1523503,2025-03-20,Assembly,"AB 104 Gabriel Assembly Third Reading",53,17,0,10,80
+1908090,1523658,2025-03-20,Assembly,"AB 105 Gabriel Assembly Third Reading",53,17,0,10,80
+1908091,1523618,2025-03-20,Assembly,"AB 106 Gabriel Assembly Third Reading",53,17,0,10,80
+1908092,1523528,2025-03-20,Assembly,"AB 107 Gabriel Assembly Third Reading",53,17,0,10,80
+1908093,1523579,2025-03-20,Assembly,"AB 108 Gabriel Assembly Third Reading",53,17,0,10,80
+1908094,1523672,2025-03-20,Assembly,"AB 109 Gabriel Assembly Third Reading",53,17,0,10,80
+1908095,1523612,2025-03-20,Assembly,"AB 110 Gabriel Assembly Third Reading",53,17,0,10,80
+1908096,1523601,2025-03-20,Assembly,"AB 111 Gabriel Assembly Third Reading",53,17,0,10,80
+1908097,1523577,2025-03-20,Assembly,"AB 112 Gabriel Assembly Third Reading",53,17,0,10,80
+1908098,1523536,2025-03-20,Assembly,"AB 113 Gabriel Assembly Third Reading",53,17,0,10,80
+1908099,1523498,2025-03-20,Assembly,"AB 114 Gabriel Assembly Third Reading",53,17,0,10,80
+1908100,1523717,2025-03-20,Assembly,"AB 115 Gabriel Assembly Third Reading",53,17,0,10,80
+1908101,1523469,2025-03-20,Assembly,"AB 116 Gabriel Assembly Third Reading",53,17,0,10,80
+1908102,1523644,2025-03-20,Assembly,"AB 117 Gabriel Assembly Third Reading",53,17,0,10,80
+1908103,1523600,2025-03-20,Assembly,"AB 118 Gabriel Assembly Third Reading",53,17,0,10,80
+1908104,1523646,2025-03-20,Assembly,"AB 119 Gabriel Assembly Third Reading",53,17,0,10,80
+1908105,1523467,2025-03-20,Assembly,"AB 120 Gabriel Assembly Third Reading",53,17,0,10,80
+1908106,1523624,2025-03-20,Assembly,"AB 121 Gabriel Assembly Third Reading",53,17,0,10,80
+1908107,1523656,2025-03-20,Assembly,"AB 122 Gabriel Assembly Third Reading",53,17,0,10,80
+1908108,1523698,2025-03-20,Assembly,"AB 123 Gabriel Assembly Third Reading",53,17,0,10,80
+1908109,1523671,2025-03-20,Assembly,"AB 124 Gabriel Assembly Third Reading",53,17,0,10,80
+1908110,1523650,2025-03-20,Assembly,"AB 125 Gabriel Assembly Third Reading",53,17,0,10,80
+1908111,1523485,2025-03-20,Assembly,"AB 126 Gabriel Assembly Third Reading",53,17,0,10,80
+1908112,1523512,2025-03-20,Assembly,"AB 127 Gabriel Assembly Third Reading",53,17,0,10,80
+1908113,1523592,2025-03-20,Assembly,"AB 128 Gabriel Assembly Third Reading",53,17,0,10,80
+1908114,1523522,2025-03-20,Assembly,"AB 129 Gabriel Assembly Third Reading",53,17,0,10,80
+1908115,1523663,2025-03-20,Assembly,"AB 130 Gabriel Assembly Third Reading",53,17,0,10,80
+1908116,1523674,2025-03-20,Assembly,"AB 131 Gabriel Assembly Third Reading",53,17,0,10,80
+1908117,1523697,2025-03-20,Assembly,"AB 132 Gabriel Assembly Third Reading",53,17,0,10,80
+1908118,1523682,2025-03-20,Assembly,"AB 133 Gabriel Assembly Third Reading",53,17,0,10,80
+1908119,1523688,2025-03-20,Assembly,"AB 134 Gabriel Assembly Third Reading",53,17,0,10,80
+1908120,1523478,2025-03-20,Assembly,"AB 135 Gabriel Assembly Third Reading",53,17,0,10,80
+1908121,1523709,2025-03-20,Assembly,"AB 136 Gabriel Assembly Third Reading",53,17,0,10,80
+1908122,1523719,2025-03-20,Assembly,"AB 137 Gabriel Assembly Third Reading",53,17,0,10,80
+1908123,1523483,2025-03-20,Assembly,"AB 138 Gabriel Assembly Third Reading",53,17,0,10,80
+1908124,1523497,2025-03-20,Assembly,"AB 139 Gabriel Assembly Third Reading",53,17,0,10,80
+1908125,1523445,2025-03-20,Assembly,"AB 140 Gabriel Assembly Third Reading",53,17,0,10,80
+1908126,1523465,2025-03-20,Assembly,"AB 141 Gabriel Assembly Third Reading",53,17,0,10,80
+1908127,1523565,2025-03-20,Assembly,"AB 142 Gabriel Assembly Third Reading",53,17,0,10,80
+1908128,1523508,2025-03-20,Assembly,"AB 143 Gabriel Assembly Third Reading",53,17,0,10,80
+1908129,1523628,2025-03-20,Assembly,"AB 144 Gabriel Assembly Third Reading",53,17,0,10,80
+1908130,1523456,2025-03-20,Assembly,"AB 145 Gabriel Assembly Third Reading",53,17,0,10,80
+1908131,1523513,2025-03-20,Assembly,"AB 146 Gabriel Assembly Third Reading",53,17,0,10,80
+1908132,1523720,2025-03-20,Assembly,"AB 147 Gabriel Assembly Third Reading",53,17,0,10,80
+1908133,1523514,2025-03-20,Assembly,"AB 148 Gabriel Assembly Third Reading",53,17,0,10,80
+1908134,1523439,2025-03-20,Assembly,"AB 149 Gabriel Assembly Third Reading",53,17,0,10,80
+1908135,1523583,2025-03-20,Assembly,"AB 150 Gabriel Assembly Third Reading",53,17,0,10,80
+1908136,1523648,2025-03-20,Assembly,"AB 151 Gabriel Assembly Third Reading",53,17,0,10,80
+1908137,1523633,2025-03-20,Assembly,"AB 152 Gabriel Assembly Third Reading",53,17,0,10,80
+1908138,1523598,2025-03-20,Assembly,"AB 153 Gabriel Assembly Third Reading",53,17,0,10,80
+1908139,1523617,2025-03-20,Assembly,"AB 154 Gabriel Assembly Third Reading",53,17,0,10,80
+1908140,1523676,2025-03-20,Assembly,"AB 155 Gabriel Assembly Third Reading",53,17,0,10,80
+1908141,1523486,2025-03-20,Assembly,"AB 156 Gabriel Assembly Third Reading",53,17,0,10,80
+1908142,1523572,2025-03-20,Assembly,"AB 157 Gabriel Assembly Third Reading",53,17,0,10,80
+1908143,1523702,2025-03-20,Assembly,"AB 158 Gabriel Assembly Third Reading",53,17,0,10,80
+1908144,1523447,2025-03-20,Assembly,"AB 159 Gabriel Assembly Third Reading",53,17,0,10,80
+1908145,1523477,2025-03-20,Assembly,"AB 160 Gabriel Assembly Third Reading",53,17,0,10,80
+1908146,1523491,2025-03-20,Assembly,"AB 161 Gabriel Assembly Third Reading",53,17,0,10,80
+1908147,1523463,2025-03-20,Assembly,"AB 162 Gabriel Assembly Third Reading",53,17,0,10,80
+1908148,1523473,2025-03-20,Assembly,"AB 163 Gabriel Assembly Third Reading",53,17,0,10,80
+1908149,1523666,2025-03-20,Assembly,"AB 164 Gabriel Assembly Third Reading",53,17,0,10,80
+1908150,1523442,2025-03-20,Assembly,"AB 165 Gabriel Assembly Third Reading",53,17,0,10,80
+1908151,1523683,2025-03-20,Assembly,"AB 166 Gabriel Assembly Third Reading",53,17,0,10,80
+1908152,1523471,2025-03-20,Assembly,"AB 167 Gabriel Assembly Third Reading",53,17,0,10,80
+1908153,1523608,2025-03-20,Assembly,"AB 168 Gabriel Assembly Third Reading",53,17,0,10,80
+1908154,1523679,2025-03-20,Assembly,"AB 169 Gabriel Assembly Third Reading",53,17,0,10,80
+1908155,1523621,2025-03-20,Assembly,"AB 170 Gabriel Assembly Third Reading",53,17,0,10,80
+1908156,1523647,2025-03-20,Assembly,"AB 171 Gabriel Assembly Third Reading",53,17,0,10,80
+1908157,1523541,2025-03-20,Assembly,"AB 172 Gabriel Assembly Third Reading",53,17,0,10,80
+1908158,1523476,2025-03-20,Assembly,"AB 173 Gabriel Assembly Third Reading",53,17,0,10,80
+1908159,1523451,2025-03-20,Assembly,"AB 174 Gabriel Assembly Third Reading",53,17,0,10,80
+1908160,1523517,2025-03-20,Assembly,"AB 175 Gabriel Assembly Third Reading",53,17,0,10,80
+1908161,1523542,2025-03-20,Assembly,"AB 176 Gabriel Assembly Third Reading",53,17,0,10,80
+1908162,1523440,2025-03-20,Assembly,"AB 177 Gabriel Assembly Third Reading",53,17,0,10,80
+1908163,1523700,2025-03-20,Assembly,"AB 178 Gabriel Assembly Third Reading",53,17,0,10,80
+1908164,1523588,2025-03-20,Assembly,"AB 179 Gabriel Assembly Third Reading",53,17,0,10,80
+1908165,1523454,2025-03-20,Assembly,"AB 180 Gabriel Assembly Third Reading",53,17,0,10,80
+1908166,1523461,2025-03-20,Assembly,"AB 181 Gabriel Assembly Third Reading",53,17,0,10,80
+1908167,1523681,2025-03-20,Assembly,"AB 182 Gabriel Assembly Third Reading",53,17,0,10,80
+1908168,1523655,2025-03-20,Assembly,"AB 183 Gabriel Assembly Third Reading",53,17,0,10,80
+1908169,1523532,2025-03-20,Assembly,"AB 184 Gabriel Assembly Third Reading",53,17,0,10,80
+1908170,1523718,2025-03-20,Assembly,"AB 185 Gabriel Assembly Third Reading",53,17,0,10,80
+1908171,1523667,2025-03-20,Assembly,"AB 186 Gabriel Assembly Third Reading",53,17,0,10,80
+1908172,1523678,2025-03-20,Assembly,"AB 187 Gabriel Assembly Third Reading",53,17,0,10,80
+1908173,1523580,2025-03-20,Assembly,"AB 188 Gabriel Assembly Third Reading",53,17,0,10,80
+1908174,1523540,2025-03-20,Assembly,"AB 189 Gabriel Assembly Third Reading",53,17,0,10,80
+1908175,1523707,2025-03-20,Assembly,"AB 190 Gabriel Assembly Third Reading",53,17,0,10,80
+1908176,1523639,2025-03-20,Assembly,"AB 191 Gabriel Assembly Third Reading",53,17,0,10,80
+1908177,1523680,2025-03-20,Assembly,"AB 192 Gabriel Assembly Third Reading",53,17,0,10,80
+1908178,1523609,2025-03-20,Assembly,"AB 193 Gabriel Assembly Third Reading",53,17,0,10,80
+1908179,1523616,2025-03-20,Assembly,"AB 194 Gabriel Assembly Third Reading",53,17,0,10,80
+1908180,1523526,2025-03-20,Assembly,"AB 195 Gabriel Assembly Third Reading",53,17,0,10,80
+1908181,1523569,2025-03-20,Assembly,"AB 196 Gabriel Assembly Third Reading",53,17,0,10,80
+1908182,1523552,2025-03-20,Assembly,"AB 197 Gabriel Assembly Third Reading",53,17,0,10,80
+1908183,1523643,2025-03-20,Assembly,"AB 198 Gabriel Assembly Third Reading",53,17,0,10,80
+1908184,1523561,2025-03-20,Assembly,"AB 199 Gabriel Assembly Third Reading",53,17,0,10,80
+1908185,1523488,2025-03-20,Assembly,"AB 200 Gabriel Assembly Third Reading",53,17,0,10,80
+1908186,1523533,2025-03-20,Assembly,"AB 201 Gabriel Assembly Third Reading",53,17,0,10,80
+1908187,1523706,2025-03-20,Assembly,"AB 202 Gabriel Assembly Third Reading",53,17,0,10,80
+1908188,1523563,2025-03-20,Assembly,"AB 203 Gabriel Assembly Third Reading",53,17,0,10,80
+1908189,1523627,2025-03-20,Assembly,"AB 204 Gabriel Assembly Third Reading",53,17,0,10,80
+1908190,1523641,2025-03-20,Assembly,"AB 205 Gabriel Assembly Third Reading",53,17,0,10,80
+1908191,1523668,2025-03-20,Assembly,"AB 206 Gabriel Assembly Third Reading",53,17,0,10,80
+1908192,1523444,2025-03-20,Assembly,"AB 207 Gabriel Assembly Third Reading",53,17,0,10,80
+1908193,1523543,2025-03-20,Assembly,"AB 208 Gabriel Assembly Third Reading",53,17,0,10,80
+1908194,1523475,2025-03-20,Assembly,"AB 209 Gabriel Assembly Third Reading",53,17,0,10,80
+1908195,1523638,2025-03-20,Assembly,"AB 210 Gabriel Assembly Third Reading",53,17,0,10,80
+1908196,1523452,2025-03-20,Assembly,"AB 211 Gabriel Assembly Third Reading",53,17,0,10,80
+1908197,1523481,2025-03-20,Assembly,"AB 212 Gabriel Assembly Third Reading",53,17,0,10,80
+1908198,1523548,2025-03-20,Assembly,"AB 213 Gabriel Assembly Third Reading",53,17,0,10,80
+1908199,1523455,2025-03-20,Assembly,"AB 214 Gabriel Assembly Third Reading",53,17,0,10,80
+1908200,1523559,2025-03-20,Assembly,"AB 215 Gabriel Assembly Third Reading",53,17,0,10,80
+1908201,1523584,2025-03-20,Assembly,"AB 216 Gabriel Assembly Third Reading",53,17,0,10,80
+1908202,1523558,2025-03-20,Assembly,"AB 217 Gabriel Assembly Third Reading",53,17,0,10,80
+1908203,1523595,2025-03-20,Assembly,"AB 218 Gabriel Assembly Third Reading",53,17,0,10,80
+1908204,1523539,2025-03-20,Assembly,"AB 219 Gabriel Assembly Third Reading",53,17,0,10,80
+1908207,1535033,2025-04-02,Assembly,"Do pass as amended and be re-referred to the Committee on [Privacy and Consumer Protection]",13,5,0,0,18
+1908208,1528263,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,1,0,5,18
+1908209,1474060,2025-01-23,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1908210,1538904,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",12,3,0,2,17
+1908213,1521969,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs]",7,0,0,0,7
+1908214,1473359,2025-01-22,Senate,"Do pass",8,2,0,0,10
+1908214,1474139,2025-01-23,Senate,"Senate 3rd Reading SB2 Wiener et al",28,8,0,3,39
+1908214,1479314,2025-02-03,Assembly,"SB 2 Wiener Senate Third Reading By GABRIEL Amend By CASTILLO Set #1 Motion to Lay on the Table By AGUIAR-CURRY First Extraordinary Session",55,18,0,6,79
+1908214,1479315,2025-02-03,Assembly,"SB 2 Wiener Senate Third Reading By GABRIEL First Extraordinary Session",58,17,0,4,79
+1909884,1505302,2025-03-04,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1909884,1511454,2025-03-10,Assembly,"AB 223 Pacheco Consent Calendar Second Day Regular Session",72,0,0,8,80
+1909886,1526937,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1909886,1542797,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1909887,1506678,2025-03-05,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,5,17
+1909887,1521983,2025-03-19,Assembly,"Do pass",15,0,0,0,15
+1909887,1533554,2025-04-01,Assembly,"AB 226 Calderon Third Reading Urgency",77,0,0,3,80
+1909888,1520436,2025-03-18,Assembly,"Be adopted as amended. To Consent Calendar",9,0,0,0,9
+1909889,1542720,2025-04-08,Senate,"Do pass and be ordered to the Consent Calendar",13,0,0,0,13
+1909892,1522024,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Revenue and Taxation]",2,5,0,0,7
+1909892,1522025,2025-03-19,Senate,"[First] hearing set for [03-19-2025]: Failed passage in Committee. Reconsideration granted",7,0,0,0,7
+1909893,1475142,2025-01-27,Senate,"Senate 3rd Reading SCR10 Grove",36,0,0,3,39
+1909893,1479229,2025-02-03,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+1909893,1483665,2025-02-06,Assembly,"SCR 10 Grove Consent Calendar Second Day Regular Session",72,0,0,7,79
+1909896,1475145,2025-01-27,Senate,"Senate 3rd Reading SR11 Alvarado-Gil et al",36,0,0,3,39
+1916608,1516580,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1916609,1505301,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1916612,1503922,2025-03-03,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation]",8,0,0,1,9
+1916613,1521949,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",19,0,0,3,22
+1916613,1542777,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1916614,1535029,2025-04-02,Assembly,"Do pass",16,0,0,1,17
+1916614,1538952,2025-04-07,Assembly,"AB 234 Calderon Third Reading Urgency",66,0,0,13,79
+1916615,1545049,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,1,0,1,9
+1916616,1503910,2025-03-03,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1916617,1505304,2025-03-04,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1916618,1503911,2025-03-03,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",6,0,0,3,9
+1916618,1505306,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,1,12
+1916618,1522001,2025-03-19,Assembly,"Do pass",13,0,0,2,15
+1916618,1538987,2025-04-07,Assembly,"AB 238 Harabedian Third Reading Urgency",70,0,0,9,79
+1916619,1528264,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Emergency Management]",11,0,0,0,11
+1916619,1540975,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1916621,1535140,2025-04-01,Senate,"Do pass and be ordered to the Consent Calendar",13,0,0,0,13
+1916621,1545050,2025-04-10,Senate,"Consent Calendar 2nd SB66 Umberg",35,0,0,5,40
+1916622,1521973,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs]",7,0,0,0,7
+1916623,1545025,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,0,0,0,11
+1916624,1474057,2025-01-23,Senate,"Senate 3rd Reading SCR12 Umberg",36,0,0,3,39
+1916625,1477880,2025-01-30,Senate,"Senate 3rd Reading SCR13 Grayson et al",36,0,0,3,39
+1916625,1485609,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1916626,1479226,2025-02-03,Senate,"Senate 3rd Reading SR12 Wahab et al",38,0,0,1,39
+1919265,1521971,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,1,10
+1919267,1533594,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1919268,1522017,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",8,0,0,2,10
+1919268,1540794,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1919271,1490596,2025-02-14,Senate,"Special Consent ACR14 Michelle Rodriguez",34,0,0,5,39
+1919272,1511440,2025-03-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1919272,1517611,2025-03-13,Assembly,"HR 9 Lackey Consent Calendar Second Day Regular Session",68,0,0,12,80
+1919274,1515275,2025-03-11,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",14,0,0,1,15
+1919274,1538918,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1919275,1521967,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Transportation]",8,0,0,0,8
+1919275,1542849,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",12,0,0,3,15
+1922275,1505320,2025-03-04,Assembly,"Do pass as amended",8,3,0,1,12
+1922276,1515250,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1922277,1515248,2025-03-11,Assembly,"Do pass",6,0,0,3,9
+1922277,1523727,2025-03-20,Assembly,"AB 248 Bryan Assembly Third Reading",51,12,0,17,80
+1922278,1528250,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Human Services]",11,0,0,0,11
+1922278,1540897,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",6,0,0,0,6
+1922279,1515264,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,2,0,1,12
+1922280,1526883,2025-03-25,Assembly,"Do pass",8,2,0,2,12
+1922280,1533524,2025-04-01,Assembly,"AB 251 Kalra Assembly Third Reading",57,8,0,15,80
+1922281,1538939,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",14,0,0,0,14
+1922282,1516581,2025-03-12,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1922282,1516582,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",11,0,0,1,12
+1922282,1522023,2025-03-19,Assembly,"Do pass",13,0,0,2,15
+1922282,1533547,2025-04-01,Assembly,"AB 253 Ward Third Reading Urgency",76,0,0,4,80
+1922284,1530386,2025-03-28,Assembly,"Be adopted. To third reading",7,0,0,4,11
+1922285,1540816,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,1,7
+1922287,1536767,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",7,0,0,0,7
+1922289,1526941,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1922289,1538892,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1922290,1515269,2025-03-11,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",13,0,0,2,15
+1922290,1538899,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1922291,1542883,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",15,0,0,0,15
+1926274,1526999,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1926276,1542896,2025-04-09,Assembly,"Do pass as amended",9,0,0,1,10
+1926277,1540981,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Business and Professions]",12,1,0,2,15
+1926279,1525460,2025-03-24,Assembly,"Do pass as amended, and be re-referred to the Committee on [Emergency Management] with recommendation: To Consent Calendar",13,0,0,1,14
+1926280,1540856,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,2,0,0,7
+1926281,1540982,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,3,0,1,13
+1926282,1544966,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,1,8
+1929338,1525470,2025-03-24,Assembly,"Do pass. To Consent Calendar",16,0,0,0,16
+1929338,1530389,2025-03-28,Assembly,"AB 266 Davies Consent Calendar Second Day Regular Session",62,0,0,18,80
+1929340,1535065,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Public Employment and Retirement]",19,0,0,3,22
+1929342,1474062,2025-01-23,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1929342,1477877,2025-01-30,Assembly,"ACR 17 Hadwick Consent Calendar Second Day",69,0,0,10,79
+1929342,1517820,2025-03-13,Senate,"Special Consent ACR17 Hadwick et al",36,0,0,4,40
+1929347,1479233,2025-02-03,Senate,"Senate 3rd Reading SCR14 Caballero et al",33,0,0,6,39
+1929347,1485617,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1929348,1477882,2025-01-30,Senate,"Senate 3rd Reading SCR15 Umberg",36,0,0,3,39
+1929348,1492765,2025-02-18,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1929348,1498297,2025-02-24,Assembly,"SCR 15 Umberg Consent Calendar Second Day",67,0,0,12,79
+1930767,1473420,2025-01-22,Senate,"Do pass",10,0,0,0,10
+1930775,1473424,2025-01-22,Senate,"Do pass",10,0,0,0,10
+1930775,1474136,2025-01-23,Senate,"Senate 3rd Reading SB3 Wiener et al",36,0,0,3,39
+1930775,1474137,2025-01-23,Assembly,"SB 3 Wiener Senate Third Reading By GABRIEL First Extraordinary Session",79,0,0,0,79
+1930793,1474131,2025-01-23,Senate,"Assembly 2nd Reading AB4 Gabriel et al. By Wiener",36,0,0,3,39
+1930793,1474132,2025-01-23,Assembly,"AB 4 Gabriel Assembly Third Reading Amend By GALLAGHER Set #1 Motion to Lay on the Table By AGUIAR-CURRY First Extraordinary Session",59,19,0,1,79
+1930793,1474133,2025-01-23,Assembly,"AB 4 Gabriel Assembly Third Reading First Extraordinary Session",79,0,0,0,79
+1933291,1540848,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",7,0,0,0,7
+1933293,1525421,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1933295,1525467,2025-03-24,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",13,0,0,1,14
+1933297,1515283,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Public Safety]",6,0,0,1,7
+1933297,1535131,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1933300,1516559,2025-03-12,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1933301,1533533,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,4,15
+1933303,1528249,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1933303,1538970,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1933304,1516585,2025-03-12,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1933304,1538996,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1936622,1516573,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",4,3,0,2,9
+1936622,1544973,2025-04-09,Assembly,"Do pass",5,3,0,1,9
+1936623,1528284,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",8,2,0,1,11
+1936623,1540906,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,3,0,0,12
+1936624,1522022,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1936626,1505300,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1936628,1528287,2025-03-26,Assembly,"Do pass",7,0,0,0,7
+1936628,1538947,2025-04-07,Assembly,"AB 287 Lackey Assembly Third Reading",72,0,0,7,79
+1936629,1534982,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Labor and Employment]",6,0,0,1,7
+1936630,1538931,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",15,0,0,1,16
+1936632,1545022,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Labor and Employment]",9,0,0,0,9
+1936634,1526971,2025-03-25,Assembly,"Do pass",11,2,0,0,13
+1936634,1533530,2025-04-01,Assembly,"AB 293 Bennett Assembly Third Reading",62,5,0,13,80
+1936635,1474059,2025-01-23,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1936635,1490597,2025-02-14,Senate,"Special Consent ACR18 Sharp-Collins et al",34,0,0,5,39
+1936636,1521959,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Natural Resources and Water]",8,0,0,0,8
+1936638,1515255,2025-03-11,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Natural Resources and Water]",13,0,0,2,15
+1936640,1520438,2025-03-18,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",9,1,0,1,11
+1936641,1533510,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,0,6
+1939170,1540815,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1939172,1536796,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Education]",5,2,0,0,7
+1939173,1505297,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",2,4,0,3,9
+1939175,1516584,2025-03-12,Assembly,"Do pass",11,0,0,1,12
+1939175,1533543,2025-04-01,Assembly,"AB 299 Gabriel Third Reading Urgency",77,0,0,3,80
+1939176,1525446,2025-03-24,Assembly,"Do pass as amended, and be re-referred to the Committee on [Emergency Management] with recommendation: To Consent Calendar",13,0,0,1,14
+1939177,1516576,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,1,12
+1939177,1521966,2025-03-19,Assembly,"Do pass",15,0,0,0,15
+1939177,1533542,2025-04-01,Assembly,"AB 301 Schiavo Third Reading Urgency",76,0,0,4,80
+1939180,1526979,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1939183,1516574,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,0,12
+1939183,1521974,2025-03-19,Assembly,"Do pass",14,0,0,1,15
+1939183,1533473,2025-04-01,Assembly,"AB 306 Schultz Third Reading Urgency",71,0,0,9,80
+1939186,1540875,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,1,0,2,15
+1939187,1520416,2025-03-18,Assembly,"Do pass",9,0,0,0,9
+1939187,1530384,2025-03-28,Assembly,"AB 310 Alanis Assembly Third Reading",61,0,0,19,80
+1939188,1505319,2025-03-04,Assembly,"Do pass",12,0,0,0,12
+1939188,1533482,2025-04-01,Assembly,"AB 311 McKinnor Third Reading Urgency",77,0,0,3,80
+1939189,1528317,2025-03-26,Assembly,"Do pass",7,0,0,1,8
+1939189,1533472,2025-04-01,Assembly,"AB 312 Alanis Assembly Third Reading",75,0,0,5,80
+1939190,1522016,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,1,10
+1939192,1526985,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1939193,1485619,2025-02-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1939193,1517821,2025-03-13,Senate,"Special Consent ACR19 Macedo et al",36,0,0,4,40
+1939194,1479230,2025-02-03,Assembly,"Be adopted. To third reading",11,0,0,0,11
+1939194,1517822,2025-03-13,Senate,"Special Consent ACR20 Macedo et al",36,0,0,4,40
+1939195,1479232,2025-02-03,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+1939195,1483667,2025-02-06,Assembly,"HR 10 Bennett Consent Calendar Second Day Regular Session",72,0,0,7,79
+1939196,1523472,2025-03-20,Senate,"Senate 3rd Reading SB100 B. & F.R. (Wiener)",28,10,0,2,40
+1939197,1523459,2025-03-20,Senate,"Senate 3rd Reading SB101 B. & F.R. (Wiener)",28,10,0,2,40
+1939198,1523599,2025-03-20,Senate,"Senate 3rd Reading SB102 B. & F.R. (Wiener)",28,10,0,2,40
+1939199,1523661,2025-03-20,Senate,"Senate 3rd Reading SB103 B. & F.R. (Wiener)",28,10,0,2,40
+1939200,1523578,2025-03-20,Senate,"Senate 3rd Reading SB104 B. & F.R. (Wiener)",28,10,0,2,40
+1939201,1523622,2025-03-20,Senate,"Senate 3rd Reading SB105 B. & F.R. (Wiener)",28,10,0,2,40
+1939202,1523573,2025-03-20,Senate,"Senate 3rd Reading SB106 B. & F.R. (Wiener)",28,10,0,2,40
+1939203,1523470,2025-03-20,Senate,"Senate 3rd Reading SB107 B. & F.R. (Wiener)",28,10,0,2,40
+1939204,1523581,2025-03-20,Senate,"Senate 3rd Reading SB108 B. & F.R. (Wiener)",28,10,0,2,40
+1939205,1523645,2025-03-20,Senate,"Senate 3rd Reading SB109 B. & F.R. (Wiener)",28,10,0,2,40
+1939206,1523449,2025-03-20,Senate,"Senate 3rd Reading SB110 B. & F.R. (Wiener)",28,10,0,2,40
+1939207,1523538,2025-03-20,Senate,"Senate 3rd Reading SB111 B. & F.R. (Wiener)",28,10,0,2,40
+1939208,1523555,2025-03-20,Senate,"Senate 3rd Reading SB112 B. & F.R. (Wiener)",28,10,0,2,40
+1939209,1523631,2025-03-20,Senate,"Senate 3rd Reading SB113 B. & F.R. (Wiener)",28,10,0,2,40
+1939210,1523699,2025-03-20,Senate,"Senate 3rd Reading SB114 B. & F.R. (Wiener)",28,10,0,2,40
+1939211,1523511,2025-03-20,Senate,"Senate 3rd Reading SB115 B. & F.R. (Wiener)",28,10,0,2,40
+1939212,1523692,2025-03-20,Senate,"Senate 3rd Reading SB116 B. & F.R. (Wiener)",28,10,0,2,40
+1939213,1523523,2025-03-20,Senate,"Senate 3rd Reading SB117 B. & F.R. (Wiener)",28,10,0,2,40
+1939214,1523589,2025-03-20,Senate,"Senate 3rd Reading SB118 B. & F.R. (Wiener)",28,10,0,2,40
+1939215,1523585,2025-03-20,Senate,"Senate 3rd Reading SB119 B. & F.R. (Wiener)",28,10,0,2,40
+1939216,1523610,2025-03-20,Senate,"Senate 3rd Reading SB120 B. & F.R. (Wiener)",28,10,0,2,40
+1939217,1523554,2025-03-20,Senate,"Senate 3rd Reading SB121 B. & F.R. (Wiener)",28,10,0,2,40
+1939219,1523604,2025-03-20,Senate,"Senate 3rd Reading SB122 B. & F.R. (Wiener)",28,10,0,2,40
+1939220,1523708,2025-03-20,Senate,"Senate 3rd Reading SB123 B. & F.R. (Wiener)",28,10,0,2,40
+1939221,1523450,2025-03-20,Senate,"Senate 3rd Reading SB124 B. & F.R. (Wiener)",28,10,0,2,40
+1939222,1523711,2025-03-20,Senate,"Senate 3rd Reading SB125 B. & F.R. (Wiener)",28,10,0,2,40
+1939223,1523464,2025-03-20,Senate,"Senate 3rd Reading SB126 B. & F.R. (Wiener)",28,10,0,2,40
+1939224,1523479,2025-03-20,Senate,"Senate 3rd Reading SB127 B. & F.R. (Wiener)",28,10,0,2,40
+1939225,1523582,2025-03-20,Senate,"Senate 3rd Reading SB128 B. & F.R. (Wiener)",28,10,0,2,40
+1939226,1523519,2025-03-20,Senate,"Senate 3rd Reading SB129 B. & F.R. (Wiener)",28,10,0,2,40
+1939227,1523437,2025-03-20,Senate,"Senate 3rd Reading SB130 B. & F.R. (Wiener)",28,10,0,2,40
+1939228,1523615,2025-03-20,Senate,"Senate 3rd Reading SB131 B. & F.R. (Wiener)",28,10,0,2,40
+1939229,1523640,2025-03-20,Senate,"Senate 3rd Reading SB132 B. & F.R. (Wiener)",28,10,0,2,40
+1939230,1523489,2025-03-20,Senate,"Senate 3rd Reading SB133 B. & F.R. (Wiener)",28,10,0,2,40
+1939231,1523553,2025-03-20,Senate,"Senate 3rd Reading SB134 B. & F.R. (Wiener)",28,10,0,2,40
+1939232,1523675,2025-03-20,Senate,"Senate 3rd Reading SB135 B. & F.R. (Wiener)",28,10,0,2,40
+1939233,1523660,2025-03-20,Senate,"Senate 3rd Reading SB136 B. & F.R. (Wiener)",28,10,0,2,40
+1939234,1523531,2025-03-20,Senate,"Senate 3rd Reading SB137 B. & F.R. (Wiener)",28,10,0,2,40
+1939235,1523597,2025-03-20,Senate,"Senate 3rd Reading SB138 B. & F.R. (Wiener)",28,10,0,2,40
+1939236,1523576,2025-03-20,Senate,"Senate 3rd Reading SB139 B. & F.R. (Wiener)",28,10,0,2,40
+1939237,1523534,2025-03-20,Senate,"Senate 3rd Reading SB140 B. & F.R. (Wiener)",28,10,0,2,40
+1939238,1523590,2025-03-20,Senate,"Senate 3rd Reading SB141 B. & F.R. (Wiener)",28,10,0,2,40
+1939239,1523446,2025-03-20,Senate,"Senate 3rd Reading SB142 B. & F.R. (Wiener)",28,10,0,2,40
+1939240,1523620,2025-03-20,Senate,"Senate 3rd Reading SB143 B. & F.R. (Wiener)",28,10,0,2,40
+1939241,1523507,2025-03-20,Senate,"Senate 3rd Reading SB144 B. & F.R. (Wiener)",28,10,0,2,40
+1939242,1523596,2025-03-20,Senate,"Senate 3rd Reading SB145 B. & F.R. (Wiener)",28,10,0,2,40
+1939243,1523686,2025-03-20,Senate,"Senate 3rd Reading SB146 B. & F.R. (Wiener)",28,10,0,2,40
+1939244,1523544,2025-03-20,Senate,"Senate 3rd Reading SB147 B. & F.R. (Wiener)",28,10,0,2,40
+1939245,1523703,2025-03-20,Senate,"Senate 3rd Reading SB148 B. & F.R. (Wiener)",28,10,0,2,40
+1939246,1523560,2025-03-20,Senate,"Senate 3rd Reading SB149 B. & F.R. (Wiener)",28,10,0,2,40
+1939247,1523687,2025-03-20,Senate,"Senate 3rd Reading SB150 B. & F.R. (Wiener)",28,10,0,2,40
+1939248,1523527,2025-03-20,Senate,"Senate 3rd Reading SB151 B. & F.R. (Wiener)",28,10,0,2,40
+1939249,1523547,2025-03-20,Senate,"Senate 3rd Reading SB152 B. & F.R. (Wiener)",28,10,0,2,40
+1939250,1523613,2025-03-20,Senate,"Senate 3rd Reading SB153 B. & F.R. (Wiener)",28,10,0,2,40
+1939252,1523637,2025-03-20,Senate,"Senate 3rd Reading SB154 B. & F.R. (Wiener)",28,10,0,2,40
+1939253,1523714,2025-03-20,Senate,"Senate 3rd Reading SB155 B. & F.R. (Wiener)",28,10,0,2,40
+1939254,1523557,2025-03-20,Senate,"Senate 3rd Reading SB156 B. & F.R. (Wiener)",28,10,0,2,40
+1939255,1523509,2025-03-20,Senate,"Senate 3rd Reading SB157 B. & F.R. (Wiener)",28,10,0,2,40
+1939256,1523677,2025-03-20,Senate,"Senate 3rd Reading SB158 B. & F.R. (Wiener)",28,10,0,2,40
+1939257,1523568,2025-03-20,Senate,"Senate 3rd Reading SB159 B. & F.R. (Wiener)",28,10,0,2,40
+1939258,1523564,2025-03-20,Senate,"Senate 3rd Reading SB160 B. & F.R. (Wiener)",28,10,0,2,40
+1939259,1523673,2025-03-20,Senate,"Senate 3rd Reading SB161 B. & F.R. (Wiener)",28,10,0,2,40
+1939260,1523654,2025-03-20,Senate,"Senate 3rd Reading SB162 B. & F.R. (Wiener)",28,10,0,2,40
+1939261,1523545,2025-03-20,Senate,"Senate 3rd Reading SB163 B. & F.R. (Wiener)",28,10,0,2,40
+1939262,1523636,2025-03-20,Senate,"Senate 3rd Reading SB164 B. & F.R. (Wiener)",28,10,0,2,40
+1939263,1523462,2025-03-20,Senate,"Senate 3rd Reading SB165 B. & F.R. (Wiener)",28,10,0,2,40
+1939264,1523619,2025-03-20,Senate,"Senate 3rd Reading SB166 B. & F.R. (Wiener)",28,10,0,2,40
+1939265,1523482,2025-03-20,Senate,"Senate 3rd Reading SB167 B. & F.R. (Wiener)",28,10,0,2,40
+1939266,1523632,2025-03-20,Senate,"Senate 3rd Reading SB168 B. & F.R. (Wiener)",28,10,0,2,40
+1939267,1523586,2025-03-20,Senate,"Senate 3rd Reading SB169 B. & F.R. (Wiener)",28,10,0,2,40
+1939268,1523448,2025-03-20,Senate,"Senate 3rd Reading SB170 B. & F.R. (Wiener)",28,10,0,2,40
+1939269,1523665,2025-03-20,Senate,"Senate 3rd Reading SB171 B. & F.R. (Wiener)",28,10,0,2,40
+1939270,1523657,2025-03-20,Senate,"Senate 3rd Reading SB172 B. & F.R. (Wiener)",28,10,0,2,40
+1939271,1523501,2025-03-20,Senate,"Senate 3rd Reading SB173 B. & F.R. (Wiener)",28,10,0,2,40
+1939272,1523571,2025-03-20,Senate,"Senate 3rd Reading SB174 B. & F.R. (Wiener)",28,10,0,2,40
+1939273,1523546,2025-03-20,Senate,"Senate 3rd Reading SB175 B. & F.R. (Wiener)",28,10,0,2,40
+1939274,1523684,2025-03-20,Senate,"Senate 3rd Reading SB176 B. & F.R. (Wiener)",28,10,0,2,40
+1939275,1523500,2025-03-20,Senate,"Senate 3rd Reading SB177 B. & F.R. (Wiener)",28,10,0,2,40
+1939276,1523611,2025-03-20,Senate,"Senate 3rd Reading SB178 B. & F.R. (Wiener)",28,10,0,2,40
+1939277,1523537,2025-03-20,Senate,"Senate 3rd Reading SB179 B. & F.R. (Wiener)",28,10,0,2,40
+1939278,1523496,2025-03-20,Senate,"Senate 3rd Reading SB180 B. & F.R. (Wiener)",28,10,0,2,40
+1939279,1523570,2025-03-20,Senate,"Senate 3rd Reading SB181 B. & F.R. (Wiener)",28,10,0,2,40
+1939280,1523693,2025-03-20,Senate,"Senate 3rd Reading SB182 B. & F.R. (Wiener)",28,10,0,2,40
+1939281,1523510,2025-03-20,Senate,"Senate 3rd Reading SB183 B. & F.R. (Wiener)",28,10,0,2,40
+1939282,1523602,2025-03-20,Senate,"Senate 3rd Reading SB184 B. & F.R. (Wiener)",28,10,0,2,40
+1939283,1523651,2025-03-20,Senate,"Senate 3rd Reading SB185 B. & F.R. (Wiener)",28,10,0,2,40
+1939284,1523649,2025-03-20,Senate,"Senate 3rd Reading SB186 B. & F.R. (Wiener)",28,10,0,2,40
+1939285,1523484,2025-03-20,Senate,"Senate 3rd Reading SB187 B. & F.R. (Wiener)",28,10,0,2,40
+1939286,1523492,2025-03-20,Senate,"Senate 3rd Reading SB188 B. & F.R. (Wiener)",28,10,0,2,40
+1939287,1523606,2025-03-20,Senate,"Senate 3rd Reading SB189 B. & F.R. (Wiener)",28,10,0,2,40
+1939288,1523460,2025-03-20,Senate,"Senate 3rd Reading SB190 B. & F.R. (Wiener)",28,10,0,2,40
+1939289,1523594,2025-03-20,Senate,"Senate 3rd Reading SB191 B. & F.R. (Wiener)",28,10,0,2,40
+1939291,1523549,2025-03-20,Senate,"Senate 3rd Reading SB192 B. & F.R. (Wiener)",28,10,0,2,40
+1939292,1523566,2025-03-20,Senate,"Senate 3rd Reading SB193 B. & F.R. (Wiener)",28,10,0,2,40
+1939293,1523441,2025-03-20,Senate,"Senate 3rd Reading SB194 B. & F.R. (Wiener)",28,10,0,2,40
+1939294,1523516,2025-03-20,Senate,"Senate 3rd Reading SB195 B. & F.R. (Wiener)",28,10,0,2,40
+1939295,1523529,2025-03-20,Senate,"Senate 3rd Reading SB196 B. & F.R. (Wiener)",28,10,0,2,40
+1939296,1523567,2025-03-20,Senate,"Senate 3rd Reading SB197 B. & F.R. (Wiener)",28,10,0,2,40
+1939297,1523670,2025-03-20,Senate,"Senate 3rd Reading SB198 B. & F.R. (Wiener)",28,10,0,2,40
+1939298,1523591,2025-03-20,Senate,"Senate 3rd Reading SB199 B. & F.R. (Wiener)",28,10,0,2,40
+1939299,1523524,2025-03-20,Senate,"Senate 3rd Reading SB200 B. & F.R. (Wiener)",28,10,0,2,40
+1939300,1523466,2025-03-20,Senate,"Senate 3rd Reading SB201 B. & F.R. (Wiener)",28,10,0,2,40
+1939301,1523518,2025-03-20,Senate,"Senate 3rd Reading SB202 B. & F.R. (Wiener)",28,10,0,2,40
+1939302,1523662,2025-03-20,Senate,"Senate 3rd Reading SB203 B. & F.R. (Wiener)",28,10,0,2,40
+1939303,1523562,2025-03-20,Senate,"Senate 3rd Reading SB204 B. & F.R. (Wiener)",28,10,0,2,40
+1939304,1523626,2025-03-20,Senate,"Senate 3rd Reading SB205 B. & F.R. (Wiener)",28,10,0,2,40
+1939305,1523575,2025-03-20,Senate,"Senate 3rd Reading SB206 B. & F.R. (Wiener)",28,10,0,2,40
+1939306,1523494,2025-03-20,Senate,"Senate 3rd Reading SB207 B. & F.R. (Wiener)",28,10,0,2,40
+1939307,1523515,2025-03-20,Senate,"Senate 3rd Reading SB208 B. & F.R. (Wiener)",28,10,0,2,40
+1939308,1523550,2025-03-20,Senate,"Senate 3rd Reading SB209 B. & F.R. (Wiener)",28,10,0,2,40
+1939309,1523704,2025-03-20,Senate,"Senate 3rd Reading SB210 B. & F.R. (Wiener)",28,10,0,2,40
+1939310,1523490,2025-03-20,Senate,"Senate 3rd Reading SB211 B. & F.R. (Wiener)",28,10,0,2,40
+1939311,1523443,2025-03-20,Senate,"Senate 3rd Reading SB212 B. & F.R. (Wiener)",28,10,0,2,40
+1939312,1523468,2025-03-20,Senate,"Senate 3rd Reading SB213 B. & F.R. (Wiener)",28,10,0,2,40
+1939313,1523705,2025-03-20,Senate,"Senate 3rd Reading SB214 B. & F.R. (Wiener)",28,10,0,2,40
+1939314,1523701,2025-03-20,Senate,"Senate 3rd Reading SB215 B. & F.R. (Wiener)",28,10,0,2,40
+1939315,1523530,2025-03-20,Senate,"Senate 3rd Reading SB216 B. & F.R. (Wiener)",28,10,0,2,40
+1939316,1523457,2025-03-20,Senate,"Senate 3rd Reading SB217 B. & F.R. (Wiener)",28,10,0,2,40
+1939317,1523713,2025-03-20,Senate,"Senate 3rd Reading SB218 B. & F.R. (Wiener)",28,10,0,2,40
+1939318,1523521,2025-03-20,Senate,"Senate 3rd Reading SB219 B. & F.R. (Wiener)",28,10,0,2,40
+1939320,1533471,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1939322,1538912,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",10,0,0,1,11
+1939324,1535050,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary] with the recommendation: To Consent Calendar",7,0,0,0,7
+1939324,1542920,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1939325,1521976,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",6,0,0,1,7
+1939325,1542927,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,1,0,1,13
+1941749,1526992,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",12,0,0,0,12
+1941750,1538941,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation]",14,0,0,0,14
+1941752,1515254,2025-03-11,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1941753,1515293,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",6,0,0,1,7
+1941754,1505322,2025-03-04,Assembly,"Do pass. To Consent Calendar",9,0,0,0,9
+1941754,1517623,2025-03-13,Assembly,"AB 321 Schultz Assembly Third Reading",52,6,0,22,80
+1941755,1516565,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",8,0,0,1,9
+1941755,1542825,2025-04-09,Assembly,"Do pass",10,0,0,5,15
+1941756,1521968,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,3,10
+1941759,1479228,2025-02-03,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+1941759,1483669,2025-02-06,Assembly,"ACR 22 Muratsuchi Consent Calendar Second Day",72,0,0,7,79
+1941759,1517823,2025-03-13,Senate,"Special Consent ACR22 Muratsuchi et al",36,0,0,4,40
+1943407,1540940,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Privacy and Consumer Protection]",9,3,0,0,12
+1943408,1522000,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,2,0,1,10
+1943409,1505309,2025-03-04,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1943411,1545041,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",2,7,0,0,9
+1943413,1528320,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Public Safety]",7,0,0,0,7
+1943414,1542889,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Insurance]",5,2,0,6,13
+1943414,1542890,2025-04-08,Senate,"[First] hearing set for [04-09-2025]: Failed passage in Committee. Reconsideration granted",10,0,0,3,13
+1943415,1535049,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Rules] with the recommendation: To Consent Calendar",11,0,0,0,11
+1943416,1526990,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",7,0,0,0,7
+1943416,1538943,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1943417,1535058,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1943418,1492763,2025-02-18,Senate,"Senate 3rd Reading SCR16 Alvarado-Gil",36,0,0,3,39
+1943418,1498300,2025-02-24,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+1943418,1501961,2025-02-27,Assembly,"SCR 16 Alvarado-Gil Consent Calendar Second Day",66,0,0,13,79
+1945196,1525454,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection] with recommendation: To Consent Calendar",16,0,0,0,16
+1945197,1521981,2025-03-18,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,2,0,0,10
+1945198,1505323,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",2,3,0,4,9
+1945199,1525438,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,1,14
+1945201,1521954,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",4,0,0,3,7
+1945202,1522020,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1945203,1542916,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Human Services] with recommendation: To Consent Calendar",10,0,0,0,10
+1945206,1538993,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Local Government]",10,0,0,1,11
+1945207,1535125,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",11,0,0,0,11
+1945208,1526983,2025-03-25,Senate,"Do pass and be ordered to the Consent Calendar",6,0,0,0,6
+1945208,1530374,2025-03-28,Senate,"Consent Calendar 2nd SB229 Alvarado-Gil",34,0,0,6,40
+1945209,1528310,2025-03-26,Senate,"Do pass and be ordered to the Consent Calendar",5,0,0,0,5
+1945209,1533475,2025-04-01,Senate,"Consent Calendar 2nd SB230 Laird et al",39,0,0,1,40
+1945210,1521987,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",8,0,0,0,8
+1945210,1538880,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1945211,1522010,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",8,0,0,0,8
+1945211,1538995,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1945212,1520417,2025-03-18,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",10,0,0,1,11
+1945212,1544995,2025-04-10,Senate,"Consent Calendar 2nd SB233 Seyarto et al",35,0,0,5,40
+1945213,1527003,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Environmental Quality] with the recommendation: To Consent Calendar",7,0,0,0,7
+1945214,1495956,2025-02-20,Senate,"Senate 3rd Reading SCR17 Niello",35,0,0,4,39
+1945214,1511417,2025-03-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1945214,1517617,2025-03-13,Assembly,"SCR 17 Niello Consent Calendar Second Day Regular Session",68,0,0,12,80
+1947434,1505316,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1947435,1521957,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",19,0,0,3,22
+1947435,1542872,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1947436,1521994,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1947438,1516566,2025-03-12,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1947442,1521975,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",8,0,0,0,8
+1947442,1538934,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1947446,1530377,2025-03-28,Senate,"Senate 3rd Reading SCR18 Archuleta et al",31,0,0,9,40
+1947447,1523474,2025-03-20,Senate,"Senate 3rd Reading SR13 Archuleta",38,0,0,2,40
+1949670,1526959,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1949672,1542754,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1949673,1505296,2025-03-04,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1949676,1515272,2025-03-11,Assembly,"Do pass as amended and be re-referred to the Committee on [Privacy and Consumer Protection]",6,0,0,3,9
+1949677,1528300,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1949678,1540990,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",17,0,0,1,18
+1949679,1516586,2025-03-12,Assembly,"Do pass as amended",7,0,0,2,9
+1949680,1540852,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Environmental Safety and Toxic Materials]",9,0,0,4,13
+1949683,1536847,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",5,2,0,0,7
+1949685,1528272,2025-03-26,Senate,"Do pass and be ordered to the Consent Calendar",7,0,0,0,7
+1949685,1533469,2025-04-01,Senate,"Consent Calendar 2nd SB241 Cervantes",39,0,0,1,40
+1949687,1542766,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Health]",12,0,0,1,13
+1949688,1535110,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Governmental Organization]",7,0,0,0,7
+1949690,1535031,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",11,0,0,0,11
+1949692,1526980,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,1,0,0,6
+1949692,1538913,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1949693,1542856,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Elections and Constitutional Amendments]",5,2,0,0,7
+1949694,1528293,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",10,0,0,1,11
+1949694,1538862,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1953052,1521953,2025-03-18,Assembly,"Do pass as amended and be re-referred to the Committee on [Human Services]",7,1,0,2,10
+1953052,1540861,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,1,0,0,6
+1953054,1528268,2025-03-26,Assembly,"Do pass as amended, and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",18,0,0,0,18
+1953054,1540938,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1953056,1540841,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Utilities and Energy]",6,1,0,0,7
+1953057,1535089,2025-04-02,Assembly,"Do pass as amended, and be re-referred to the Committee on [Natural Resources] with recommendation: To Consent Calendar",18,0,0,0,18
+1953058,1540872,2025-04-08,Assembly,"Do pass as amended. To Consent Calendar",12,0,0,0,12
+1953059,1515265,2025-03-11,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1953059,1542895,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1953061,1540953,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Environmental Safety and Toxic Materials]",7,0,0,0,7
+1953062,1515249,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Human Services]",9,0,0,3,12
+1953062,1526890,2025-03-25,Assembly,"Do pass",6,0,0,1,7
+1953062,1538910,2025-04-07,Assembly,"AB 373 Blanca Rubio Assembly Third Reading",64,0,0,15,79
+1953063,1522004,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Higher Education]",6,0,0,1,7
+1953064,1540796,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1953066,1525431,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1953067,1522005,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Education]",6,0,0,1,7
+1953067,1529533,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,2,0,0,9
+1953069,1515259,2025-03-11,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,0,0,4,9
+1953070,1534992,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Labor and Employment]",21,0,0,1,22
+1953072,1515261,2025-03-11,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1953076,1515253,2025-03-11,Assembly,"Do pass",11,1,0,0,12
+1953076,1517619,2025-03-13,Assembly,"AB 387 Alanis Assembly Third Reading",67,0,0,13,80
+1953079,1525478,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",16,0,0,0,16
+1953079,1542737,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1953081,1535040,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",14,0,0,1,15
+1953082,1521972,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1953083,1534996,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",9,0,0,0,9
+1953084,1545044,2025-04-09,Assembly,"Do pass as amended, and be re-referred to the Committee on [Higher Education] with recommendation: To Consent Calendar",9,0,0,0,9
+1953093,1536809,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",7,0,0,0,7
+1953098,1533560,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Insurance]",6,0,0,0,6
+1953099,1528323,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",4,1,0,0,5
+1953099,1542837,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",11,0,0,2,13
+1953100,1520448,2025-03-18,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",7,2,0,2,11
+1953101,1527004,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Business, Professions and Economic Development]",14,0,0,1,15
+1953108,1533540,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",5,0,0,0,5
+1953109,1501957,2025-02-27,Senate,"Senate 3rd Reading SCR19 Wahab et al",36,0,0,3,39
+1955745,1525476,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,3,0,2,14
+1955746,1515268,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1955747,1529518,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1955748,1521985,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,1,10
+1955749,1526964,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1955751,1542814,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Natural Resources]",5,2,0,0,7
+1955752,1528304,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",18,0,0,0,18
+1955755,1542905,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Higher Education]",8,0,0,2,10
+1955756,1535021,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,1,0,2,15
+1955757,1528270,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",8,0,0,0,8
+1955758,1520437,2025-03-18,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",10,3,0,2,15
+1955760,1515266,2025-03-11,Assembly,"Do pass as amended. To Consent Calendar",12,0,0,0,12
+1955760,1523694,2025-03-20,Assembly,"AB 414 Pellerin Consent Calendar Second Day",66,1,0,13,80
+1955762,1535113,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1955763,1526896,2025-03-25,Senate,"Do pass and be ordered to the Consent Calendar",14,0,0,1,15
+1955763,1533494,2025-04-01,Senate,"Consent Calendar 2nd SB272 Becker",39,0,0,1,40
+1955766,1528298,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1955766,1538914,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1955767,1521948,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",7,0,0,0,7
+1955768,1540923,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,1,6
+1955769,1528318,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary] with the recommendation: To Consent Calendar",10,0,0,1,11
+1955769,1542764,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1958461,1533567,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",15,0,0,0,15
+1958462,1528296,2025-03-26,Assembly,"Do pass as amended",7,0,0,3,10
+1958462,1533520,2025-04-01,Assembly,"AB 417 Carrillo Assembly Third Reading",62,0,0,18,80
+1958463,1515267,2025-03-10,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1958463,1526970,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1958463,1542802,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1958464,1529522,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",7,2,0,0,9
+1958464,1540888,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,1,0,2,12
+1958467,1545005,2025-04-09,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1958471,1540820,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",7,0,0,0,7
+1958472,1540955,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",16,0,0,2,18
+1958473,1534999,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",17,0,0,0,17
+1958473,1542860,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1958480,1485611,2025-02-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1958480,1517824,2025-03-13,Senate,"Special Consent ACR26 Bonta et al",36,0,0,4,40
+1958481,1492774,2025-02-18,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1958481,1517825,2025-03-13,Senate,"Special Consent ACR27 Blanca Rubio et al",36,0,0,4,40
+1958482,1492766,2025-02-18,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1958482,1536795,2025-04-03,Senate,"Special Consent ACR28 Ortega et al",39,0,0,1,40
+1958483,1492777,2025-02-18,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1958484,1521982,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",7,0,0,1,8
+1958484,1538961,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1958485,1533541,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1958486,1526989,2025-03-25,Senate,"Do pass",5,1,0,0,6
+1958487,1538915,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",13,0,0,4,17
+1958490,1536855,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,2,0,0,8
+1961044,1525453,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,4,16
+1961045,1525469,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",13,0,0,1,14
+1961045,1542806,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1961046,1520453,2025-03-18,Assembly,"Do pass as amended",9,0,0,0,9
+1961046,1530388,2025-03-28,Assembly,"AB 437 Lackey Assembly Third Reading",62,0,0,18,80
+1961048,1525449,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,1,0,2,14
+1961048,1542817,2025-04-09,Assembly,"Do pass",10,2,0,3,15
+1961049,1540801,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1961050,1540889,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1961052,1535121,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",18,0,0,0,18
+1961052,1537461,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources] with recommendation: To Consent Calendar",18,0,0,0,18
+1961055,1520418,2025-03-18,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",10,3,0,2,15
+1961056,1540894,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Health]",15,0,0,3,18
+1961058,1527002,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,2,12
+1961060,1515273,2025-03-11,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",8,0,0,1,9
+1961061,1538907,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,0,0,4,14
+1961062,1545007,2025-04-09,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1961063,1526931,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,3,0,0,13
+1961063,1542878,2025-04-09,Assembly,"Do pass",10,4,0,1,15
+1961064,1540884,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Environmental Safety and Toxic Materials] with recommendation: To Consent Calendar",12,0,0,0,12
+1961066,1542816,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1961067,1535128,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1961069,1533532,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1961070,1540851,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Public Safety]",5,1,0,0,6
+1961071,1516564,2025-03-12,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,1,12
+1961071,1522013,2025-03-19,Assembly,"Do pass",15,0,0,0,15
+1961071,1533550,2025-04-01,Assembly,"AB 462 Lowenthal Third Reading Urgency",77,0,0,3,80
+1961073,1515251,2025-03-11,Assembly,"Do pass as amended, and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",8,0,0,1,9
+1961073,1526972,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,0,0,0,12
+1961074,1535090,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,2,7
+1961075,1522041,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1961076,1542915,2025-04-09,Assembly,"Do pass as amended",9,0,0,1,10
+1961077,1542924,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1961080,1525465,2025-03-24,Assembly,"Do pass",13,0,0,1,14
+1961080,1544959,2025-04-10,Assembly,"AB 471 Hart Assembly Third Reading",66,2,0,11,79
+1961081,1535048,2025-04-02,Assembly,"Do pass as amended, and be re-referred to the Committee on [Natural Resources] with recommendation: To Consent Calendar",18,0,0,0,18
+1961083,1527009,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Human Services]",8,3,0,1,12
+1961083,1540933,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation] with recommendation: To Consent Calendar",6,0,0,0,6
+1961085,1485607,2025-02-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1961085,1517826,2025-03-13,Senate,"Special Consent ACR29 Irwin et al",36,0,0,4,40
+1961086,1540867,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,0,6
+1961090,1540853,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1961093,1542828,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",5,0,0,0,5
+1961096,1501963,2025-02-27,Senate,"Senate 3rd Reading SR15 Ochoa Bogh et al",36,0,0,3,39
+1964662,1526956,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,1,0,2,9
+1964664,1545038,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1964667,1528299,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation] with recommendation: To Consent Calendar",10,0,0,1,11
+1964668,1533531,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",15,0,0,3,18
+1964669,1528258,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,0,8
+1964669,1542823,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1964670,1535042,2025-04-01,Assembly,"Do pass",9,4,0,2,15
+1964670,1538938,2025-04-07,Assembly,"AB 483 Irwin Assembly Third Reading",47,12,0,20,79
+1964671,1540870,2025-04-08,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1964672,1521984,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,2,7
+1964673,1526928,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1964674,1535102,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,0,17
+1964676,1533592,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",17,0,0,1,18
+1964678,1525436,2025-03-24,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,3,0,2,14
+1964679,1533466,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1964680,1520449,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1964680,1521986,2025-03-19,Assembly,"Do pass as amended",15,0,0,0,15
+1964680,1533534,2025-04-01,Assembly,"AB 493 Harabedian Third Reading Urgency",77,0,0,3,80
+1964685,1526933,2025-03-25,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1964685,1533499,2025-04-01,Assembly,"AB 498 Michelle Rodriguez Consent Calendar Second Day",76,0,0,4,80
+1964686,1526942,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,3,15
+1964687,1542815,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Education]",10,0,0,0,10
+1964689,1528319,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1964689,1542936,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1964690,1544951,2025-04-09,Assembly,"Do pass. To Consent Calendar",9,0,0,0,9
+1964693,1540838,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Business and Professions] with recommendation: To Consent Calendar",12,0,0,0,12
+1964696,1521963,2025-03-19,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",19,0,0,3,22
+1964698,1533504,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1964702,1540886,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1964703,1533513,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1964704,1540818,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1964705,1542855,2025-04-09,Assembly,"Do pass as amended",10,1,0,1,12
+1964708,1533528,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",17,0,0,1,18
+1964708,1540800,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1964713,1535127,2025-04-02,Assembly,"Do pass as amended, and be re-referred to the Committee on [Natural Resources] with recommendation: To Consent Calendar",18,0,0,0,18
+1964715,1492780,2025-02-18,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1964716,1528244,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs]",5,0,0,0,5
+1964717,1544974,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",10,0,0,1,11
+1964718,1538982,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Environmental Quality]",14,0,0,3,17
+1964722,1528297,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",5,0,0,0,5
+1964722,1538920,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1964730,1542827,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",4,1,0,0,5
+1964732,1538972,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Agriculture]",10,0,0,1,11
+1964736,1501951,2025-02-27,Senate,"Senate 3rd Reading SCR20 Ochoa Bogh et al",35,0,0,4,39
+1964736,1519120,2025-03-17,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1964736,1523574,2025-03-20,Assembly,"SCR 20 Ochoa Bogh Consent Calendar Second Day Regular Session",67,0,0,13,80
+1965842,1526888,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1965843,1533490,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1965844,1522006,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,1,10
+1965845,1535000,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",18,0,0,0,18
+1965845,1537459,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources] with recommendation: To Consent Calendar",18,0,0,0,18
+1965847,1528252,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,2,10
+1965847,1542852,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1965848,1526960,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1965849,1526950,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1965850,1540978,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1965852,1521955,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1965854,1526929,2025-03-25,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1965854,1533485,2025-04-01,Assembly,"AB 540 Connolly Consent Calendar Second Day Regular Session",76,0,0,4,80
+1965855,1540912,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,0,12
+1965858,1538901,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1965859,1538927,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1965863,1540918,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Arts, Entertainment, Sports, and Tourism]",7,0,0,0,7
+1965865,1540868,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,1,0,2,15
+1965866,1536846,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1965867,1526898,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1965867,1542894,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1965869,1492767,2025-02-18,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1965871,1521964,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Elections and Constitutional Amendments]",5,1,0,1,7
+1965875,1526915,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",5,1,0,0,6
+1965879,1535037,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",11,0,0,0,11
+1965881,1526978,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Natural Resources and Water] with the recommendation: To Consent Calendar",13,0,0,2,15
+1965883,1536782,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Revenue and Taxation]",8,0,0,0,8
+1965884,1528308,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",10,0,0,1,11
+1965885,1498289,2025-02-24,Senate,"Senate 3rd Reading SCR21 Smallwood-Cuevas",37,0,0,2,39
+1965885,1519136,2025-03-17,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1965885,1523438,2025-03-20,Assembly,"SCR 21 Smallwood-Cuevas Consent Calendar Second Day Regular Session",66,0,0,14,80
+1965886,1495961,2025-02-20,Senate,"Senate 3rd Reading SR16 Caballero et al",36,0,0,3,39
+1968197,1522021,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Military and Veterans Affairs]",8,0,0,2,10
+1968197,1545004,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,2,8
+1968200,1533464,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",17,0,0,1,18
+1968200,1540930,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1968202,1526927,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1968203,1526949,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1968203,1542800,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1968204,1540804,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Education]",6,0,0,0,6
+1968206,1526907,2025-03-25,Assembly,"Do pass as amended. To Consent Calendar",12,0,0,0,12
+1968206,1536806,2025-04-03,Assembly,"AB 565 Dixon Consent Calendar Second Day",74,0,0,5,79
+1968207,1535134,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,6,15
+1968209,1527012,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1968211,1535001,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,0,17
+1968212,1538976,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Military and Veterans Affairs]",14,0,0,0,14
+1968213,1526969,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,2,0,2,9
+1968213,1542788,2025-04-09,Assembly,"Do pass",10,4,0,1,15
+1968219,1520442,2025-03-18,Assembly,"Do pass as amended",14,0,0,1,15
+1968221,1525458,2025-03-24,Assembly,"Do pass as amended and be re-referred to the Committee on [Water, Parks, and Wildlife]",13,0,0,1,14
+1968222,1526900,2025-03-25,Assembly,"Do pass. To Consent Calendar",13,0,0,0,13
+1968222,1530382,2025-03-28,Assembly,"AB 581 Bennett Consent Calendar Second Day Regular Session",61,0,0,19,80
+1968224,1533529,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1968225,1526930,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1968225,1542679,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1968227,1533467,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",17,0,0,1,18
+1968233,1535063,2025-04-02,Assembly,"Do pass as amended and be re-referred to the Committee on [Health]",18,0,0,4,22
+1968235,1540913,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1968236,1530394,2025-03-28,Assembly,"Be adopted. To third reading",7,0,0,4,11
+1968238,1544998,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",8,0,0,3,11
+1968240,1521989,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Revenue and Taxation]",5,2,0,0,7
+1968240,1542715,2025-04-09,Senate,"Do pass",4,1,0,0,5
+1968241,1535027,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",6,0,0,1,7
+1968247,1533544,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,0,0,0,11
+1968248,1522019,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Agriculture]",6,0,0,1,7
+1968252,1526953,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,2,15
+1968252,1538971,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1968253,1521960,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",7,0,0,0,7
+1968256,1526923,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety] with the recommendation: To Consent Calendar",14,0,0,1,15
+1968257,1522014,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Energy, Utilities and Communications]",6,1,0,1,8
+1968259,1540843,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Governmental Organization] with the recommendation: To Consent Calendar",5,0,0,0,5
+1968261,1542760,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,2,0,0,7
+1968262,1542841,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Rules]",5,0,0,0,5
+1968263,1540835,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",4,2,0,0,6
+1968266,1533493,2025-04-01,Senate,"Senate 3rd Reading SCR22 Alvarado-Gil",39,0,0,1,40
+1970384,1522015,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1970385,1521977,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",17,0,0,0,17
+1970385,1521978,2025-03-19,Assembly,"Do pass as amended",15,0,0,0,15
+1970385,1533465,2025-04-01,Assembly,"AB 597 Harabedian Third Reading Urgency",77,0,0,3,80
+1970386,1529535,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Emergency Management] with recommendation: To Consent Calendar",9,0,0,0,9
+1970387,1528305,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1970389,1540807,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Public Safety]",6,0,0,0,6
+1970392,1528240,2025-03-26,Assembly,"Do pass. To Consent Calendar",7,0,0,0,7
+1970392,1533483,2025-04-01,Assembly,"AB 604 Berman Consent Calendar Second Day Regular Session",75,1,0,4,80
+1970394,1544960,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1970395,1526934,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1970400,1525429,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",16,0,0,0,16
+1970402,1526940,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",11,0,0,1,12
+1970403,1540822,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Utilities and Energy]",7,0,0,0,7
+1970404,1526887,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,0,13
+1970406,1533486,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1970407,1538936,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Public Safety]",14,0,0,0,14
+1970408,1525441,2025-03-24,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1970409,1520450,2025-03-18,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",15,0,0,0,15
+1970409,1540797,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1970410,1542799,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,4,9
+1970414,1542807,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1970415,1533491,2025-04-01,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1970416,1526904,2025-03-25,Assembly,"Do pass as amended",9,1,0,2,12
+1970416,1538905,2025-04-07,Assembly,"AB 628 McKinnor Assembly Third Reading",54,10,0,15,79
+1970417,1529515,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1970419,1533487,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",17,0,0,1,18
+1970420,1542804,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",8,0,0,2,10
+1970423,1542716,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",9,1,0,2,12
+1970424,1533555,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1970426,1528271,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1970427,1526943,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",13,0,0,0,13
+1970427,1542682,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1970428,1545014,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,2,9
+1970429,1540976,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1970430,1529532,2025-03-26,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1970436,1521961,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",7,3,0,0,10
+1970439,1542937,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",9,0,0,0,9
+1970440,1538945,2025-04-07,Assembly,"Do pass",13,0,0,1,14
+1970446,1517615,2025-03-13,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1970446,1523710,2025-03-20,Assembly,"ACR 32 Carrillo Consent Calendar Second Day Regular Session",67,0,0,13,80
+1970447,1498282,2025-02-24,Assembly,"Be adopted. To third reading",11,0,0,0,11
+1970449,1527008,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1970449,1538997,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1970450,1535006,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1970451,1534998,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Rules]",7,0,0,0,7
+1970452,1544967,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",9,2,0,0,11
+1970455,1540984,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Labor, Public Employment and Retirement ]",13,0,0,2,15
+1970456,1544964,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",11,0,0,0,11
+1970458,1526935,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Governmental Organization]",6,0,0,1,7
+1970462,1542740,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1970463,1542746,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1970468,1533478,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1970469,1526988,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1970469,1538877,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1971689,1533468,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1971691,1526977,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,2,0,0,7
+1971693,1538926,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",14,0,0,0,14
+1971697,1540814,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Health]",15,0,0,3,18
+1971698,1534995,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",20,0,0,2,22
+1971700,1528245,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Local Government]",10,0,0,1,11
+1971700,1542842,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1971702,1521947,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",6,0,0,1,7
+1971702,1540874,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,3,12
+1971704,1538935,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",15,0,0,1,16
+1971707,1529524,2025-03-26,Assembly,"Do pass",9,0,0,0,9
+1971707,1545011,2025-04-10,Assembly,"AB 677 Bryan Assembly Third Reading",74,0,0,5,79
+1971709,1526884,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,3,0,0,13
+1971709,1542805,2025-04-09,Assembly,"Do pass",10,4,0,1,15
+1971710,1526982,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1971711,1522009,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,2,0,0,10
+1971711,1542801,2025-04-09,Assembly,"Do pass",10,4,0,1,15
+1971714,1542866,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Governmental Organization]",10,0,0,0,10
+1971716,1533535,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1971717,1538992,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,2,0,2,14
+1971718,1526924,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1971719,1526913,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1971720,1526986,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1971722,1536792,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",5,0,0,2,7
+1971723,1542759,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,1,0,0,10
+1971724,1536760,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Higher Education] with recommendation: To Consent Calendar",7,0,0,0,7
+1971726,1528315,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1971731,1526919,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1971733,1542717,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1971734,1526910,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,2,9
+1971738,1520443,2025-03-18,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",9,0,0,0,9
+1971738,1526909,2025-03-25,Assembly,"Do pass as amended. To Consent Calendar",12,0,0,0,12
+1971738,1536825,2025-04-03,Assembly,"AB 708 Valencia Consent Calendar Second Day Regular Session",74,0,0,5,79
+1971741,1526993,2025-03-25,Assembly,"Do pass",12,0,0,0,12
+1971742,1542776,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",11,0,0,1,12
+1971744,1542753,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Business and Professions]",9,0,0,1,10
+1971747,1540924,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",13,0,0,0,13
+1971750,1521979,2025-03-19,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",19,0,0,3,22
+1971750,1542734,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1971753,1535149,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1971755,1492770,2025-02-18,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1971755,1517827,2025-03-13,Senate,"Special Consent ACR33 Zbur et al",36,0,0,4,40
+1971756,1498302,2025-02-24,Assembly,"Be adopted. To third reading",11,0,0,0,11
+1971761,1526996,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1971762,1535010,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",11,0,0,0,11
+1971763,1538878,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",10,0,0,1,11
+1971764,1526965,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,2,0,2,15
+1971764,1538874,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1971765,1528325,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Business, Professions and Economic Development] with the recommendation: To Consent Calendar",7,0,0,0,7
+1971767,1535059,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",7,0,0,0,7
+1971770,1521990,2025-03-19,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",7,0,0,0,7
+1971770,1535061,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1971771,1540895,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1971772,1540890,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1971774,1533489,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",5,0,0,0,5
+1971775,1521995,2025-03-19,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",6,0,0,1,7
+1971780,1536811,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",7,0,0,1,8
+1971787,1535004,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Human Services]",7,0,0,0,7
+1971789,1542729,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1974443,1528282,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Local Government] with recommendation: To Consent Calendar",10,0,0,1,11
+1974443,1542718,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",10,0,0,0,10
+1974444,1545033,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,2,0,0,9
+1974448,1542690,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Education]",9,0,0,1,10
+1974449,1542835,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",8,0,0,0,8
+1974453,1542813,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,1,0,1,12
+1974454,1534984,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",18,0,0,0,18
+1974455,1538893,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,1,0,3,14
+1974458,1526912,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1974458,1542697,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1974459,1540970,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",12,2,0,4,18
+1974461,1535030,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",21,0,0,1,22
+1974464,1540910,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,3,12
+1974467,1528269,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",10,0,0,1,11
+1974467,1540898,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,0,0,2,12
+1974468,1536788,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1974470,1540885,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Education]",6,0,0,0,6
+1974478,1542795,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation]",8,2,0,0,10
+1974479,1542893,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Business and Professions]",4,1,0,2,7
+1974481,1526966,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,0,13
+1974481,1542803,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1974482,1536762,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Insurance] with recommendation: To Consent Calendar",7,0,0,0,7
+1974487,1535069,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",20,0,0,2,22
+1974489,1544953,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1974492,1528255,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1974500,1535151,2025-04-02,Assembly,"Do pass as amended and be re-referred to the Committee on [Emergency Management]",16,3,0,3,22
+1974502,1526899,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Health]",8,0,0,1,9
+1974504,1533470,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1974505,1535139,2025-04-01,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1974506,1533517,2025-04-01,Assembly,"Do pass",13,0,0,2,15
+1974509,1535096,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,2,7
+1974510,1540956,2025-04-08,Assembly,"Do pass as amended",12,0,0,0,12
+1974511,1542687,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,2,0,0,7
+1974516,1526901,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1974517,1527010,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,1,0,2,9
+1974519,1534988,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1974521,1540836,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,1,0,1,15
+1974525,1525462,2025-03-24,Assembly,"Be adopted. To third reading",11,0,0,0,11
+1974525,1545012,2025-04-10,Assembly,"ACR 34 Ta Assembly Third Reading",61,2,0,16,79
+1974526,1511496,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1974528,1544942,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",9,0,0,2,11
+1974530,1542781,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Governmental Organization]",11,1,0,1,13
+1974531,1533558,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",2,3,0,1,6
+1974531,1533559,2025-04-01,Senate,"[First] hearing set for [04-01-2025]: Failed passage in Committee. Reconsideration granted",6,0,0,0,6
+1974532,1528283,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Human Services] with the recommendation: To Consent Calendar",5,0,0,0,5
+1974537,1540945,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1974538,1526902,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,2,15
+1974538,1538962,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1974541,1533545,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1974542,1533568,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,0,6
+1974543,1540824,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1974544,1540854,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",4,1,0,0,5
+1974547,1528279,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,2,0,0,7
+1974548,1528260,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1974548,1538960,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1974549,1545070,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",11,0,0,0,11
+1974552,1528311,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",4,1,0,0,5
+1974553,1528259,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",5,0,0,0,5
+1974554,1540881,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1974556,1534989,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",12,0,0,1,13
+1974557,1528275,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1974557,1538911,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1974558,1540883,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",6,0,0,0,6
+1974560,1535047,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,0,0,2,13
+1974561,1540871,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety] with the recommendation: To Consent Calendar",15,0,0,0,15
+1974562,1540827,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,0,0,0,5
+1976395,1542917,2025-04-09,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1976396,1526893,2025-03-25,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1976397,1542870,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Privacy and Consumer Protection]",9,1,0,0,10
+1976398,1545055,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1976399,1526925,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1976404,1535099,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",21,0,0,1,22
+1976408,1545039,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1976409,1540791,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,1,6
+1976410,1538871,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Environmental Safety and Toxic Materials]",10,4,0,0,14
+1976411,1535067,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",9,0,0,0,9
+1976411,1540793,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1976413,1545030,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",8,0,0,0,8
+1976416,1540833,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation] with recommendation: To Consent Calendar",15,0,0,0,15
+1976418,1534993,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",21,0,0,1,22
+1976420,1529549,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1976423,1540864,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1976424,1526954,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1976428,1540882,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Labor and Employment]",7,0,0,0,7
+1976430,1526991,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,2,15
+1976431,1533495,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Education]",2,6,0,1,9
+1976433,1540957,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",13,0,0,0,13
+1976438,1526914,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,0,0,0,12
+1976444,1529534,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,2,0,0,9
+1976446,1540951,2025-04-08,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1976447,1545000,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1976449,1529546,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,2,0,0,9
+1976452,1529509,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1976453,1540969,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Banking and Finance]",12,0,0,0,12
+1976454,1533527,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,5,18
+1976456,1535068,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1976460,1540929,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",17,0,0,1,18
+1976465,1526903,2025-03-25,Assembly,"Do pass",9,1,0,2,12
+1976467,1535002,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",21,0,0,1,22
+1976469,1540948,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",8,0,0,4,12
+1976474,1529541,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1976476,1536805,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1976477,1540837,2025-04-08,Assembly,"Do pass",6,0,0,0,6
+1976478,1538932,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,4,0,0,16
+1976480,1542826,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",10,1,0,1,12
+1976485,1526963,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1976487,1538964,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",14,0,0,0,14
+1976490,1529519,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1976494,1538919,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",14,0,0,0,14
+1976495,1544991,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,2,0,0,9
+1976503,1528313,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Health]",5,2,0,0,7
+1976504,1529511,2025-03-26,Assembly,"Do pass",6,2,0,1,9
+1976506,1542750,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1976509,1542885,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Public Safety]",10,0,0,0,10
+1976510,1542859,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,3,9
+1976512,1542884,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,2,0,2,12
+1976513,1526908,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Human Services]",9,0,0,3,12
+1976513,1540863,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1976514,1529526,2025-03-26,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1976515,1528257,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",6,1,0,1,8
+1976515,1540892,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,1,0,1,12
+1976518,1540813,2025-04-08,Assembly,"Do pass as amended",12,0,0,0,12
+1976519,1540790,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",6,0,0,3,9
+1976522,1540947,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Education]",9,1,0,2,12
+1976523,1526892,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1976524,1528265,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,0,8
+1976525,1526916,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,1,0,1,9
+1976528,1535038,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",17,0,0,1,18
+1976530,1534987,2025-04-02,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",17,0,0,0,17
+1976533,1519114,2025-03-17,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1976533,1523625,2025-03-20,Assembly,"HR 15 Aguiar-Curry Consent Calendar Second Day Regular Session",67,0,0,13,80
+1976536,1536815,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",8,0,0,0,8
+1976538,1538929,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",10,0,0,1,11
+1976540,1533575,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",5,0,0,0,5
+1976541,1533549,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary] with the recommendation: To Consent Calendar",6,0,0,0,6
+1976543,1540828,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Local Government] with the recommendation: To Consent Calendar",15,0,0,0,15
+1976544,1540849,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1976545,1540795,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Local Government] with the recommendation: To Consent Calendar",6,0,0,1,7
+1976549,1526961,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",11,3,0,1,15
+1976549,1538875,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1976552,1526995,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",9,1,0,5,15
+1976552,1542910,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",10,1,0,2,13
+1976553,1540954,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary] with the recommendation: To Consent Calendar",5,0,0,0,5
+1976555,1538986,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",15,0,0,2,17
+1976560,1542873,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1976562,1526894,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1976565,1526948,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1976565,1538917,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1976566,1540859,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Housing]",6,0,0,1,7
+1976567,1536800,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Public Safety] with the recommendation: To Consent Calendar",7,0,0,0,7
+1976568,1533502,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Environmental Quality]",11,0,0,0,11
+1976573,1525461,2025-03-24,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",16,0,0,1,17
+1976576,1528289,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Education]",4,1,0,0,5
+1976578,1536859,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Transportation]",8,0,0,0,8
+1976579,1542768,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",11,2,0,0,13
+1976580,1526981,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,1,6
+1976580,1538872,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1976583,1536758,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",6,0,0,2,8
+1976585,1545037,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Governmental Organization]",10,0,0,1,11
+1976586,1528281,2025-03-26,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary] with the recommendation: To Consent Calendar",10,0,0,1,11
+1976588,1542844,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",15,0,0,0,15
+1976590,1538994,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",10,0,0,1,11
+1976591,1533518,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Governmental Organization]",6,0,0,0,6
+1976591,1540963,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",15,0,0,0,15
+1976594,1526897,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,2,15
+1976594,1545024,2025-04-10,Senate,"Consent Calendar 2nd SB512 McGuire",35,0,0,5,40
+1976595,1528247,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,0,5
+1976596,1540936,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",6,0,0,1,7
+1976597,1536776,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",5,2,0,0,7
+1976604,1542696,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",10,2,0,1,13
+1976606,1525417,2025-03-24,Senate,"Be adopted as amended",16,0,0,1,17
+1976606,1538979,2025-04-07,Senate,"Senate 3rd Reading SCR25 Blakespear et al",36,0,0,4,40
+1976607,1501955,2025-02-27,Senate,"Senate 3rd Reading SR17 Rubio et al",36,0,0,3,39
+1976608,1501952,2025-02-27,Senate,"Senate 3rd Reading SR18 Richardson",36,0,0,3,39
+1978538,1540950,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Emergency Management] with recommendation: To Consent Calendar",15,0,0,0,15
+1978539,1540967,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1978540,1545020,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1978541,1542850,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1978542,1542711,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Housing and Community Development]",10,0,0,0,10
+1978544,1545018,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1978546,1542786,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1978548,1535107,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1978556,1542829,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",8,1,0,3,12
+1978559,1540812,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",13,0,0,0,13
+1978561,1542692,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Utilities and Energy]",11,0,0,1,12
+1978564,1542752,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1978565,1528295,2025-03-26,Assembly,"Do pass. To Consent Calendar",8,0,0,2,10
+1978565,1533548,2025-04-01,Assembly,"AB 1030 Papan Consent Calendar Second Day Regular Session",76,0,0,4,80
+1978570,1542713,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,2,0,0,10
+1978571,1535123,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,2,9
+1978572,1540932,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",11,3,0,1,15
+1978576,1533474,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,0,0,3,15
+1978577,1542703,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,0,8
+1978579,1540925,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Local Government]",13,0,0,0,13
+1978581,1538876,2025-04-07,Assembly,"Do pass as amended",14,0,0,0,14
+1978584,1540931,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,1,0,0,6
+1978585,1527001,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,1,0,2,12
+1978596,1528290,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Local Government]",8,2,0,1,11
+1978600,1540842,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Banking and Finance]",7,3,0,2,12
+1978607,1542882,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1978609,1540840,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,1,0,0,6
+1978610,1540803,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",6,1,0,0,7
+1978611,1542880,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1978613,1542686,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,2,0,1,9
+1978614,1526944,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Elections]",7,3,0,2,12
+1978617,1533481,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",14,0,0,4,18
+1978619,1526918,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Health]",9,1,0,2,12
+1978624,1540806,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",11,0,0,2,13
+1978627,1535009,2025-04-01,Assembly,"Do pass",2,4,0,3,9
+1978627,1542869,2025-04-08,Assembly,Reconsideration,7,1,0,1,9
+1978628,1542847,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,1,0,2,10
+1978629,1535043,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1978633,1542694,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",10,0,0,0,10
+1978635,1542745,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,4,9
+1978640,1540946,2025-04-08,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1978642,1540979,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Public Safety] with recommendation: To Consent Calendar",17,0,0,1,18
+1978643,1542775,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Local Government]",8,0,0,1,9
+1978644,1540866,2025-04-08,Assembly,"Do pass",9,0,0,3,12
+1978645,1536763,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1978646,1545032,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Transportation]",8,1,0,0,9
+1978651,1542867,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,2,0,0,7
+1978652,1535057,2025-04-02,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",14,0,0,4,18
+1978654,1529558,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1978655,1540959,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",6,0,0,0,6
+1978657,1542901,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Education]",9,0,0,1,10
+1978658,1544968,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1978662,1542838,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",7,1,0,1,9
+1978663,1529544,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1978666,1542876,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Local Government] with recommendation: To Consent Calendar",12,0,0,0,12
+1978669,1542834,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",8,0,0,1,9
+1978671,1536841,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",6,0,0,1,7
+1978674,1538937,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Water, Parks, and Wildlife]",13,0,0,1,14
+1978675,1542685,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1978676,1542719,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Transportation] with recommendation: To Consent Calendar",10,0,0,0,10
+1978677,1528262,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,0,8
+1978677,1542723,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1978678,1540943,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",7,0,0,0,7
+1978679,1542783,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,0,0,4,9
+1978683,1542839,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",5,2,0,0,7
+1978684,1538949,2025-04-07,Assembly,"Do pass. To Consent Calendar",16,0,0,0,16
+1978685,1535114,2025-04-01,Assembly,"Do pass",12,1,0,2,15
+1978685,1545027,2025-04-10,Assembly,"AB 1150 Schultz Assembly Third Reading",66,1,0,12,79
+1978688,1538957,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",14,0,0,0,14
+1978689,1528246,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Local Government] with recommendation: To Consent Calendar",10,0,0,1,11
+1978689,1542712,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1978695,1542709,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",8,0,0,1,9
+1978696,1540831,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Health]",6,0,0,0,6
+1978699,1528291,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,0,8
+1978700,1544976,2025-04-09,Assembly,"Do pass as amended",9,0,0,0,9
+1978703,1526957,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",15,0,0,0,15
+1978703,1542707,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1978704,1535003,2025-04-01,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1978706,1538948,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,4,0,0,16
+1978709,1540971,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Governmental Organization]",12,0,0,6,18
+1978711,1529510,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1978713,1528322,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1978714,1545021,2025-04-09,Assembly,"Do pass. To Consent Calendar",9,0,0,0,9
+1978721,1540942,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",6,0,0,0,6
+1978722,1540968,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Public Safety]",6,0,0,0,6
+1978725,1538977,2025-04-07,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",14,0,0,0,14
+1978729,1542741,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1978730,1538889,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1978740,1542819,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Education]",8,0,0,2,10
+1978741,1535025,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Public Employment and Retirement]",20,0,0,2,22
+1978742,1542762,2025-04-08,Assembly,"Do pass. To Consent Calendar",7,0,0,0,7
+1978745,1542919,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1978749,1540869,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Transportation] with recommendation: To Consent Calendar",6,0,0,0,6
+1978757,1540880,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,1,0,0,6
+1978763,1544983,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",9,0,0,2,11
+1978766,1525423,2025-03-24,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Transportation]",16,0,0,1,17
+1978766,1542749,2025-04-08,Senate,"Do pass and be ordered to the Consent Calendar",15,0,0,0,15
+1978767,1538921,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",10,0,0,1,11
+1978772,1542751,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",7,0,0,0,7
+1978777,1525459,2025-03-24,Senate,"Do pass, but first be re-referred to the Committee on [Transportation]",16,0,0,1,17
+1978777,1542851,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",15,0,0,0,15
+1978778,1542725,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",11,1,0,3,15
+1978785,1533496,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",6,0,0,0,6
+1978786,1533538,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",6,0,0,0,6
+1978788,1542862,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,0,5
+1978789,1540934,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,1,7
+1978792,1525450,2025-03-24,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",13,0,0,4,17
+1978793,1540887,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",4,0,0,1,5
+1978794,1536786,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",8,0,0,0,8
+1978800,1526926,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Environmental Quality]",7,0,0,0,7
+1978801,1542702,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1978811,1528266,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,0,5
+1978811,1538930,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1978812,1527011,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",12,0,0,3,15
+1978816,1542881,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1978819,1542909,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Natural Resources and Water]",14,0,0,1,15
+1978823,1542923,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1978826,1538888,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",13,3,0,1,17
+1978827,1536794,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,3,8
+1978830,1542782,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,0,0,0,5
+1978833,1542845,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,0,5
+1978834,1536774,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",5,3,0,0,8
+1978838,1528301,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,0,5
+1978838,1538958,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1978841,1535035,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Health]",5,2,0,0,7
+1978841,1545028,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",8,0,0,3,11
+1978842,1526885,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary] with the recommendation: To Consent Calendar",7,0,0,0,7
+1978842,1542935,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1978844,1536764,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",7,0,0,0,7
+1978846,1536799,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Energy, Utilities and Communications]",6,1,0,1,8
+1978848,1536770,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Transportation]",6,0,0,2,8
+1978849,1542902,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",7,0,0,0,7
+1978852,1542874,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",7,0,0,0,7
+1978857,1540825,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1978860,1536780,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Housing] with the recommendation: To Consent Calendar",7,0,0,0,7
+1978865,1542857,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",4,1,0,0,5
+1978866,1536804,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,1,0,1,8
+1978868,1536834,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Public Safety]",5,2,0,0,7
+1978869,1538879,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",13,3,0,1,17
+1978872,1540857,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",6,0,0,1,7
+1978874,1538882,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Public Safety]",10,0,0,1,11
+1978878,1542822,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,0,0,2,13
+1978879,1535019,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Environmental Quality]",11,0,0,0,11
+1978881,1542765,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,0,0,0,5
+1978883,1540826,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary] with the recommendation: To Consent Calendar",6,0,0,1,7
+1978887,1536791,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,0,0,2,8
+1978895,1540873,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",6,0,0,1,7
+1978896,1542865,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1978902,1545042,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",11,0,0,0,11
+1978904,1542811,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",15,0,0,0,15
+1978906,1508041,2025-03-06,Senate,"Senate 3rd Reading SCR26 Weber Pierson By Senator Becker",34,0,0,5,39
+1980061,1542798,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980066,1540821,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",13,0,0,0,13
+1980067,1526936,2025-03-25,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1980067,1533576,2025-04-01,Assembly,"AB 1170 Dixon Consent Calendar Second Day Regular Session",76,0,0,4,80
+1980069,1540805,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",6,0,0,0,6
+1980072,1540788,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",17,0,0,1,18
+1980078,1536783,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980083,1540917,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1980084,1542722,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",6,2,0,1,9
+1980089,1540911,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Public Safety] with recommendation: To Consent Calendar",6,0,0,0,6
+1980092,1542693,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Human Services] with recommendation: To Consent Calendar",9,0,0,0,9
+1980095,1536848,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980098,1526974,2025-03-25,Assembly,"Do pass as amended and be re-referred to the Committee on [Human Services]",9,3,0,0,12
+1980103,1528254,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Local Government]",11,0,0,0,11
+1980103,1542863,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",10,0,0,0,10
+1980106,1535130,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Business and Professions]",15,2,0,0,17
+1980107,1542853,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1980108,1540964,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,1,0,0,6
+1980109,1542908,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Housing and Community Development]",8,1,0,1,10
+1980110,1542887,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1980111,1542891,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",2,4,0,1,7
+1980111,1542892,2025-04-09,Assembly,Reconsideration,7,0,0,0,7
+1980113,1529528,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1980113,1542871,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1980114,1542912,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Education]",8,0,0,2,10
+1980118,1536781,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",5,0,0,2,7
+1980121,1529551,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1980121,1542793,2025-04-09,Assembly,"Do pass",14,0,0,1,15
+1980126,1528285,2025-03-26,Assembly,"Do pass and be re-referred to the Committee on [Public Safety]",8,0,0,3,11
+1980127,1544994,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1980128,1542767,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,2,0,2,9
+1980131,1536756,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",4,0,0,3,7
+1980132,1536845,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Higher Education]",7,0,0,0,7
+1980134,1538978,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Arts, Entertainment, Sports, and Tourism]",12,3,0,1,16
+1980137,1526952,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,1,0,2,12
+1980144,1535039,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Higher Education]",5,0,0,2,7
+1980146,1542784,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,2,0,0,7
+1980148,1536801,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",7,0,0,0,7
+1980155,1542714,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,2,9
+1980160,1542684,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",7,0,0,2,9
+1980161,1545031,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Environmental Safety and Toxic Materials]",8,0,0,1,9
+1980162,1542700,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Revenue and Taxation] with recommendation: To Consent Calendar",12,0,0,0,12
+1980166,1542875,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,2,9
+1980168,1542831,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Business and Professions]",9,0,0,1,10
+1980169,1538985,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1980170,1535106,2025-04-02,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",18,0,0,0,18
+1980173,1542704,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Local Government] with recommendation: To Consent Calendar",12,0,0,0,12
+1980176,1542794,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",5,1,0,3,9
+1980177,1535120,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Natural Resources]",17,0,0,1,18
+1980181,1540879,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980182,1540802,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980183,1542888,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980184,1535005,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",21,0,0,1,22
+1980191,1542922,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Local Government] with recommendation: To Consent Calendar",12,0,0,0,12
+1980194,1527000,2025-03-25,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1980194,1533463,2025-04-01,Assembly,"AB 1297 Stefani Consent Calendar Second Day Regular Session",76,0,0,4,80
+1980196,1538974,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",16,0,0,0,16
+1980200,1542820,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",8,2,0,0,10
+1980203,1545013,2025-04-09,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",9,0,0,0,9
+1980204,1533522,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",17,0,0,1,18
+1980206,1535146,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980211,1540792,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",6,0,0,0,6
+1980224,1535041,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",14,0,0,1,15
+1980228,1536761,2025-04-02,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",5,0,0,2,7
+1980234,1534997,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",12,0,0,3,15
+1980235,1542744,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980241,1542810,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",8,0,0,1,9
+1980243,1542903,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Military and Veterans Affairs]",9,0,0,1,10
+1980246,1540844,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Privacy and Consumer Protection]",7,0,0,2,9
+1980255,1538984,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",9,4,0,1,14
+1980258,1542730,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",10,0,0,0,10
+1980266,1545019,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",9,0,0,0,9
+1980267,1542824,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",7,0,0,0,7
+1980275,1540877,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary] with recommendation: To Consent Calendar",6,0,0,0,6
+1980281,1540935,2025-04-08,Assembly,"Do pass. To Consent Calendar",12,0,0,0,12
+1980282,1540830,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",10,2,0,0,12
+1980284,1542724,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection] with recommendation: To Consent Calendar",9,0,0,0,9
+1980286,1535077,2025-04-02,Assembly,"Do pass. To Consent Calendar",21,0,0,1,22
+1980286,1544988,2025-04-10,Assembly,"AB 1389 Blanca Rubio Consent Calendar Second Day",67,0,0,12,79
+1980287,1529520,2025-03-26,Assembly,"Do pass",7,0,0,2,9
+1980289,1536819,2025-04-02,Assembly,"Do pass. To Consent Calendar",7,0,0,0,7
+1980289,1544954,2025-04-10,Assembly,"AB 1392 Flora Consent Calendar Second Day Regular Session",67,0,0,12,79
+1980290,1535044,2025-04-02,Assembly,"Do pass. To Consent Calendar",21,0,0,1,22
+1980290,1544979,2025-04-10,Assembly,"AB 1393 Blanca Rubio Consent Calendar Second Day Regular Session",67,0,0,12,79
+1980298,1545047,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Privacy and Consumer Protection]",2,5,0,2,9
+1980302,1534994,2025-04-01,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",11,1,0,3,15
+1980308,1542848,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",5,0,0,2,7
+1980309,1545036,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Military and Veterans Affairs]",9,0,0,0,9
+1980310,1540991,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Judiciary]",9,4,0,0,13
+1980311,1540949,2025-04-08,Assembly,"Do pass",12,0,0,0,12
+1980315,1540952,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1980321,1542738,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Labor and Employment]",6,2,0,1,9
+1980323,1540893,2025-04-08,Assembly,"Do pass as amended and be re-referred to the Committee on [Natural Resources]",10,2,0,1,13
+1980330,1542918,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Military and Veterans Affairs]",9,0,0,1,10
+1980335,1529536,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Appropriations]",9,0,0,0,9
+1980337,1528306,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1980338,1542728,2025-04-09,Assembly,"Do pass as amended and be re-referred to the Committee on [Local Government]",5,2,0,0,7
+1980341,1527007,2025-03-25,Assembly,"Do pass",12,0,0,0,12
+1980344,1540811,2025-04-08,Assembly,"Do pass as amended, and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",12,0,0,0,12
+1980352,1538916,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,0,0,2,14
+1980354,1538928,2025-04-07,Assembly,"Do pass and be re-referred to the Committee on [Emergency Management] with recommendation: To Consent Calendar",14,0,0,0,14
+1980356,1528277,2025-03-25,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",7,0,0,0,7
+1980356,1542778,2025-04-09,Assembly,"Do pass. To Consent Calendar",14,0,0,1,15
+1980363,1540809,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Judiciary]",9,4,0,0,13
+1980376,1542864,2025-04-09,Assembly,"Do pass. To Consent Calendar",10,0,0,0,10
+1980383,1528276,2025-03-26,Assembly,"Do pass as amended and be re-referred to the Committee on [Natural Resources]",8,0,0,0,8
+1980393,1540850,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",17,0,0,1,18
+1980397,1540974,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",12,1,0,2,15
+1980399,1525444,2025-03-24,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+1980399,1530397,2025-03-28,Assembly,"ACR 39 Ramos Consent Calendar Second Day",62,0,0,18,80
+1980400,1521951,2025-03-18,Assembly,"Be adopted. To third reading",6,1,0,3,10
+1980401,1511418,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1980406,1536777,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Rules]",8,0,0,0,8
+1980410,1540855,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,1,0,1,6
+1980412,1536817,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Health]",5,3,0,0,8
+1980413,1542758,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",13,0,0,0,13
+1980414,1536802,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,3,0,0,8
+1980415,1542779,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,1,7
+1980416,1533511,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",11,0,0,0,11
+1980418,1526994,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",13,0,0,2,15
+1980418,1538898,2025-04-07,Senate,"Placed on suspense file",7,0,0,0,7
+1980427,1527006,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,0,0,2,7
+1980428,1538867,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",13,3,0,1,17
+1980431,1540834,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,0,6
+1980432,1527005,2025-03-25,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",13,0,0,2,15
+1980433,1542854,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Labor, Public Employment and Retirement ]",11,3,0,1,15
+1980437,1536808,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",5,0,0,2,7
+1980442,1542898,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",12,2,0,1,15
+1980447,1528280,2025-03-26,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",10,0,0,1,11
+1980450,1542743,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",12,0,0,3,15
+1980458,1538981,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,0,0,2,7
+1980459,1540915,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",15,0,0,0,15
+1980461,1526951,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1980463,1533488,2025-04-01,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",11,0,0,0,11
+1980464,1533557,2025-04-01,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,0,6
+1980465,1536798,2025-04-02,Senate,"Do pass and be ordered to the Consent Calendar",7,0,0,0,7
+1980465,1545008,2025-04-10,Senate,"Consent Calendar 2nd SB735 L. GOV. (Durazo) Urgency Clause",35,0,0,5,40
+1980466,1536849,2025-04-02,Senate,"Do pass and be ordered to the Consent Calendar",7,0,0,0,7
+1980466,1544940,2025-04-10,Senate,"Consent Calendar 2nd SB736 L. GOV. (Durazo) Urgency Clause",35,0,0,5,40
+1980467,1536839,2025-04-02,Senate,"Do pass and be ordered to the Consent Calendar",7,0,0,0,7
+1980467,1545023,2025-04-10,Senate,"Consent Calendar 2nd SB737 L. GOV. (Durazo)",35,0,0,5,40
+1980469,1540832,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1980470,1536789,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Environmental Quality] with the recommendation: To Consent Calendar",7,0,0,0,7
+1980473,1542761,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",4,0,0,3,7
+1980474,1542721,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",7,0,0,0,7
+1980478,1540928,2025-04-07,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Housing]",5,0,0,0,5
+1980487,1536787,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",7,0,0,0,7
+1980491,1542796,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Human Services]",7,0,0,0,7
+1980493,1542699,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Public Safety]",11,2,0,0,13
+1980494,1545015,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",11,0,0,0,11
+1980495,1540862,2025-04-08,Senate,"Do pass",15,0,0,0,15
+1980496,1542787,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",9,3,0,3,15
+1980507,1536769,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",6,1,0,0,7
+1980508,1540920,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,0,5
+1980509,1538881,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",10,0,0,1,11
+1980511,1538863,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Local Government]",10,0,0,1,11
+1980513,1542748,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",14,0,0,1,15
+1980514,1535101,2025-04-02,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary]",5,0,0,2,7
+1980522,1540965,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1980523,1540966,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",15,0,0,0,15
+1980529,1542809,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Revenue and Taxation]",10,2,0,1,13
+1980533,1540823,2025-04-08,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations]",6,0,0,1,7
+1980538,1542763,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations] with the recommendation: To Consent Calendar",13,0,0,0,13
+1980539,1542785,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",4,1,0,0,5
+1980544,1540829,2025-04-07,Senate,"Do pass, but first be re-referred to the Committee on [Housing] with the recommendation: To Consent Calendar",5,0,0,0,5
+1980551,1540865,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,1,6
+1980553,1545017,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",11,0,0,0,11
+1980555,1535024,2025-04-02,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,2,0,0,7
+1980559,1544965,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Natural Resources and Water]",8,2,0,1,11
+1980560,1540808,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary] with the recommendation: To Consent Calendar",6,0,0,0,6
+1980561,1540799,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",5,0,0,2,7
+1980565,1542736,2025-04-09,Senate,"Do pass",6,0,0,1,7
+1980569,1540977,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Environmental Quality]",5,0,0,2,7
+1980574,1526920,2025-03-25,Senate,"Do pass, but first be re-referred to the Committee on [Appropriations]",12,0,0,3,15
+1980575,1542698,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Labor, Public Employment and Retirement ]",7,0,0,0,7
+1980577,1542726,2025-04-09,Senate,"Do pass, but first be re-referred to the Committee on [Judiciary]",5,0,0,0,5
+1980581,1503912,2025-03-03,Senate,"Senate 3rd Reading SCR27 Choi",37,0,0,2,39
+1980582,1508042,2025-03-06,Senate,"Senate 3rd Reading SR19 Wahab et al",34,0,0,5,39
+1980585,1525437,2025-03-24,Senate,"Senate 3rd Reading SR22 Wiener et al",26,1,0,13,40
+1982221,1503915,2025-03-03,Assembly,"Be adopted. To third reading",6,0,0,5,11
+1982222,1511500,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1983853,1511455,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1983854,1519129,2025-03-17,Senate,"Senate 3rd Reading SCR29 McNerney",37,0,0,3,40
+1983855,1508044,2025-03-06,Senate,"Senate 3rd Reading SCR30 Smallwood-Cuevas",34,0,0,5,39
+1983855,1519116,2025-03-17,Assembly,"Be adopted. To Consent Calendar",10,0,0,1,11
+1983855,1523556,2025-03-20,Assembly,"SCR 30 Smallwood-Cuevas Consent Calendar Second Day Regular Session",67,0,0,13,80
+1983856,1517829,2025-03-13,Senate,"Senate 3rd Reading SR23 Rubio et al",28,2,0,10,40
+1983857,1523506,2025-03-20,Senate,"Senate 3rd Reading SR24 Wahab et al",38,0,0,2,40
+1983858,1511456,2025-03-10,Senate,"Senate 3rd Reading SR25 Limón",38,0,0,1,39
+1983859,1523551,2025-03-20,Senate,"Senate 3rd Reading SR26 Padilla et al",38,0,0,2,40
+1986151,1542732,2025-04-09,Assembly,"Do pass and be re-referred to the Committee on [Appropriations] with recommendation: To Consent Calendar",8,0,0,0,8
+1986152,1530381,2025-03-28,Assembly,"Be adopted. To Consent Calendar",7,0,0,4,11
+1986152,1536814,2025-04-03,Assembly,"ACR 42 Pacheco Consent Calendar Second Day Regular Session",74,0,0,5,79
+1986153,1503918,2025-03-03,Assembly,"Be adopted. To Consent Calendar",6,0,0,5,11
+1986153,1508048,2025-03-06,Assembly,"ACR 43 Pacheco Consent Calendar Second Day",76,0,0,4,80
+1986153,1536793,2025-04-03,Senate,"Special Consent ACR43 Pacheco et al",39,0,0,1,40
+1986154,1503928,2025-03-03,Assembly,"Be adopted. To Consent Calendar",6,0,0,5,11
+1986154,1508045,2025-03-06,Assembly,"HR 20 Ransom Consent Calendar Second Day Regular Session",76,0,0,4,80
+1987923,1530378,2025-03-28,Assembly,"Be adopted. To third reading",7,0,0,4,11
+1987926,1519126,2025-03-17,Senate,"Senate 3rd Reading SCR31 Allen",37,0,0,3,40
+1987927,1525432,2025-03-24,Senate,"Senate 3rd Reading SCR32 Allen",35,0,0,5,40
+1990391,1544975,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,1,8
+1990392,1545016,2025-04-08,Assembly,"Do pass and be re-referred to the Committee on [Appropriations]",7,0,0,1,8
+1990395,1519117,2025-03-17,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1990396,1528309,2025-03-26,Senate,"Be adopted as amended",4,1,0,0,5
+1990396,1538955,2025-04-07,Senate,"Senate 3rd Reading SJR2 Cortese et al",29,7,0,4,40
+1991548,1511484,2025-03-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1991548,1517621,2025-03-13,Assembly,"ACR 46 Soria Consent Calendar Second Day",68,0,0,12,80
+1991548,1536820,2025-04-03,Senate,"Special Consent ACR46 Soria et al",39,0,0,1,40
+1991549,1511462,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1991549,1536816,2025-04-03,Senate,"Special Consent ACR47 Chen et al",39,0,0,1,40
+1991550,1511493,2025-03-10,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1991551,1511419,2025-03-10,Assembly,"Be adopted. To Consent Calendar",9,0,0,2,11
+1991551,1517614,2025-03-13,Assembly,"HR 22 Soria Consent Calendar Second Day Regular Session",68,0,0,12,80
+1991552,1525425,2025-03-24,Assembly,"Be adopted. To third reading",11,0,0,0,11
+1991553,1542791,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Judiciary] with the recommendation: To Consent Calendar",5,0,0,0,5
+1991554,1542790,2025-04-09,Senate,"Do pass as amended, but first amend, and re-refer to the Committee on [Appropriations] with the recommendation: To Consent Calendar",5,0,0,0,5
+1991556,1517830,2025-03-13,Senate,"Senate 3rd Reading SR28 Hurtado et al",36,0,0,4,40
+1992995,1519115,2025-03-17,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1992996,1519128,2025-03-17,Assembly,"Be adopted. To third reading",10,0,0,1,11
+1994335,1517616,2025-03-13,Assembly,"Be adopted. To third reading",9,0,0,2,11
+1994336,1540958,2025-04-08,Senate,"Do pass, but first be re-referred to the Committee on [Military and Veterans Affairs] with the recommendation: To Consent Calendar",15,0,0,0,15
+1994338,1523642,2025-03-20,Senate,"Senate 3rd Reading SCR35 Grayson",38,0,0,2,40
+1994339,1530379,2025-03-28,Senate,"Senate 3rd Reading SR29 Arreguín et al",34,0,0,6,40
+1997030,1536785,2025-04-03,Senate,"Senate 3rd Reading SCR36 Seyarto et al",39,0,0,1,40
+1997031,1519125,2025-03-17,Senate,"Senate 3rd Reading SCR37 Wiener",37,0,0,3,40
+1997032,1523691,2025-03-20,Senate,"Senate 3rd Reading SCR38 Grove et al",38,0,0,2,40
+2000329,1517607,2025-03-13,Assembly,"Be adopted. To third reading",9,0,0,2,11
+2000329,1536797,2025-04-03,Senate,"Special Consent ACR51 Haney et al",39,0,0,1,40
+2009611,1525413,2025-03-24,Assembly,"Be adopted. To Consent Calendar",11,0,0,0,11
+2009611,1530396,2025-03-28,Assembly,"ACR 53 Bonta Consent Calendar Second Day Regular Session",61,0,0,19,80
+2009614,1525424,2025-03-24,Senate,"Senate 3rd Reading SCR39 Durazo et al",35,0,0,5,40
+2009615,1536830,2025-04-03,Senate,"Senate 3rd Reading SCR40 Blakespear et al",39,0,0,1,40
+2009616,1525468,2025-03-24,Senate,"Senate 3rd Reading SCR41 Ashby et al",35,0,0,5,40
+2011456,1525443,2025-03-24,Assembly,"Be adopted. To third reading",11,0,0,0,11
+2011457,1538908,2025-04-07,Assembly,"Be adopted. To third reading",7,0,0,4,11
+2011458,1538902,2025-04-07,Assembly,"Be adopted. To Consent Calendar",7,0,0,4,11
+2011458,1544996,2025-04-10,Assembly,"ACR 57 Patterson Consent Calendar Second Day Regular Session",67,0,0,12,79
+2011459,1538869,2025-04-07,Assembly,"Be adopted. To third reading",7,0,0,4,11
+2012252,1525427,2025-03-24,Assembly,"Be adopted. To third reading",11,0,0,0,11
+2013762,1533484,2025-04-01,Senate,"Senate 3rd Reading SCR44 Valladares",39,0,0,1,40
+2015523,1542897,2025-04-09,Assembly,"Be adopted. To third reading",8,0,0,0,8
+2015524,1545029,2025-04-09,Assembly,"Be adopted. To third reading",9,0,0,0,9
+2015526,1538925,2025-04-07,Senate,"Senate 3rd Reading SCR49 Wahab",36,0,0,4,40
+2016196,1535045,2025-04-02,Assembly,"Be adopted. To third reading",7,0,0,0,7
+2016655,1538989,2025-04-07,Assembly,"Be adopted. To Consent Calendar",7,0,0,4,11
+2016655,1544982,2025-04-10,Assembly,"HR 29 Gabriel Consent Calendar Second Day Regular Session",67,0,0,12,79
+2016659,1538903,2025-04-07,Senate,"Senate 3rd Reading SR34 Choi et al",36,0,0,4,40
+2018617,1538887,2025-04-07,Assembly,"Be adopted. To Consent Calendar",7,0,0,4,11
+2018617,1545009,2025-04-10,Assembly,"ACR 61 Stefani Consent Calendar Second Day Regular Session",67,0,0,12,79
+2018619,1538886,2025-04-07,Assembly,"Be adopted. To third reading",7,0,0,4,11
+2019484,1544958,2025-04-10,Senate,"Senate 3rd Reading SCR57 Reyes et al. By Limón",33,0,0,7,40

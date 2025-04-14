@@ -48,7 +48,13 @@ load(file.path("aiBills.RData"))
 # 3. Import AI Bill Data ####
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+#' @title Create RIS Data
+#' @description Generates an RIS file for a specific bill.
+#' @param bill A string representing the bill identifier (e.g., "AB-123").
+#' @return None. The function creates an RIS file in the specified directory.
+#' @examples
+#' createRisData("AB-123")
+#' @export createRisData
 createRisData <- function(bill) {
     # Set the working directory to the ris data directory
     setwd(file.path(prjDirs$dataPath, "ris"))
@@ -195,7 +201,13 @@ createRisData <- function(bill) {
 }
 
 
-# Create a function that generates a single ris file for all the bills
+#' @title Batch RIS Data
+#' @description Generates a single RIS file for multiple bills.
+#' @param file A list containing metadata for multiple bills.
+#' @return None. The function creates an RIS file in the specified directory.
+#' @examples
+#' batchRisData(billList)
+#' @export batchRisData
 batchRisData <- function(file) {
     # Set the working directory to the ris data directory
     setwd(file.path(prjDirs$dataPath, "ris"))

@@ -1,0 +1,168 @@
+people_id,name,first_name,middle_name,last_name,suffix,nickname,party_id,party,role_id,role,district,followthemoney_eid,votesmart_id,opensecrets_id,ballotpedia,knowwho_pid,committee_id
+1504,"Steven Bradford",Steven,,Bradford,,,1,D,2,Sen,SD-035,357173,56752,,Steven_Bradford,281132,0
+1507,"Anna Caballero",Anna,M.,Caballero,,,1,D,2,Sen,SD-012,775712,58583,,Anna_Caballero,248446,0
+1552,"Jim Nielsen",Jim,,Nielsen,,,2,R,2,Sen,SD-004,13008412,104331,,Jim_Nielsen,267695,0
+1556,"Anthony Portantino",Anthony,J.,Portantino,,,1,D,2,Sen,SD-025,22560,69513,,"Anthony_Portantino,_Jr.",248462,0
+1561,"Nancy Skinner",Nancy,C.,Skinner,,,1,D,2,Sen,SD-009,81851,104350,,Nancy_Skinner_(California),267715,0
+10959,"Toni Atkins",Toni,,Atkins,,,1,D,2,Sen,SD-039,145632,70372,,Toni_Atkins_(California),291013,0
+10970,"Richard Pan",Richard,,Pan,,,1,D,2,Sen,SD-006,13008437,120159,,Richard_Pan,290901,0
+10972,"Bob Wieckowski",Bob,,Wieckowski,,,1,D,2,Sen,SD-010,13008529,71025,,Bob_Wieckowski,289354,0
+11611,"Shannon Grove",Shannon,L.,Grove,,,2,R,2,Sen,SD-016,13008592,120204,,Shannon_Grove,290948,0
+11612,"Benjamin Hueso",Benjamin,,Hueso,,Ben,1,D,2,Sen,SD-040,654343,70366,,Ben_Hueso,289431,0
+14091,"Franklin Bigelow",Franklin,E.,Bigelow,,Frank,2,R,1,Rep,HD-005,13008441,82440,,Frank_Bigelow,390004,0
+14092,"Richard Bloom",Richard,,Bloom,,,1,D,1,Rep,HD-050,11022796,70734,,Richard_Bloom,390005,0
+14094,"Rob Bonta",Rob,,Bonta,,Bob,1,D,1,Rep,HD-018,13008519,129483,,Rob_Bonta,390007,0
+14096,"Edwin Chau",Edwin,,Chau,,Ed,1,D,1,Rep,HD-049,702180,104286,,Edwin_Chau,266766,0
+14098,"Ken Cooley",Ken,,Cooley,,,1,D,1,Rep,HD-008,717012,71245,,Ken_Cooley,280176,0
+14099,"Brian Dahle",Brian,,Dahle,,,2,R,2,Sen,SD-001,13008404,82387,,Brian_Dahle,397013,0
+14100,"Tom Daly",Tom,,Daly,,,1,D,1,Rep,HD-069,11022817,138462,,Tom_Daly,390030,0
+14101,"Susan Eggman",Susan,Talamantes,Eggman,,,1,D,2,Sen,SD-005,1262442,70866,,Susan_Talamantes_Eggman,390043,0
+14103,"Jim Frazier",Jim,,Frazier,,,1,D,1,Rep,HD-011,11022751,113539,,Jim_Frazier,397019,0
+14104,"Cristina Garcia",Cristina,,Garcia,,,1,D,1,Rep,HD-058,13008754,140262,,Cristina_Garcia,337126,0
+14106,"Adam Gray",Adam,,Gray,,,1,D,1,Rep,HD-021,11022764,138552,,Adam_Gray,256700,0
+14107,"Chris Holden",Chris,R.,Holden,,,1,D,1,Rep,HD-041,11022784,71235,,Chris_Holden,390127,0
+14109,"Reginald Jones-Sawyer",Reginald,B.,Jones-Sawyer,Sr.,Reggie,1,D,1,Rep,HD-059,770807,120229,,Reginald_Jones-Sawyer,289387,0
+14110,"Marc Levine",Marc,B.,Levine,,,1,D,1,Rep,HD-010,779330,126593,,Marc_Levine_(California),390153,0
+14112,"Brian Maienschein",Brian,,Maienschein,,,1,D,1,Rep,HD-077,13008880,70360,,Brian_Maienschein,390179,0
+14113,"Jose Medina",Jose,,Medina,,,1,D,1,Rep,HD-061,386803,29082,,Jose_Medina,290996,0
+14114,"Melissa Melendez",Melissa,A.,Melendez,,,2,R,2,Sen,SD-028,13008813,111859,,Melissa_Melendez,390303,0
+14115,"Kevin Mullin",Kevin,,Mullin,,,1,D,1,Rep,HD-022,13008543,105586,,Kevin_Mullin_(California),390304,0
+14116,"Al Muratsuchi",Al,,Muratsuchi,,,1,D,1,Rep,HD-066,11022814,138450,,Al_Muratsuchi,390306,0
+14117,"Jim Patterson",Jim,,Patterson,,,2,R,1,Rep,HD-023,1516357,28881,,Jim_Patterson_(California),284029,0
+14118,"Sharon Quirk-Silva",Sharon,,Quirk-Silva,,,1,D,1,Rep,HD-065,11022813,71051,,Sharon_Quirk-Silva,408041,0
+14119,"Bill Quirk",Bill,,Quirk,,,1,D,1,Rep,HD-020,196435,109721,,Bill_Quirk,390320,0
+14120,"Anthony Rendon",Anthony,,Rendon,,,1,D,1,Rep,HD-063,37194,138445,,Anthony_Rendon,390323,0
+14121,"Mark Stone",Mark,,Stone,,,1,D,1,Rep,HD-029,299544,81650,,Mark_Stone,390336,0
+14122,"Philip Ting",Philip,Y.,Ting,,Phil,1,D,1,Rep,HD-019,11022760,138545,,Phil_Ting,390346,0
+14123,"Marie Waldron",Marie,,Waldron,,,2,R,1,Rep,HD-075,400355,57320,,Marie_Waldron,390360,0
+14124,"Shirley Weber",Shirley,N.,Weber,,,1,D,1,Rep,HD-079,13008894,138421,,Shirley_Weber,390366,0
+14125,"Scott Wilk",Scott,Thomas,Wilk,,,2,R,2,Sen,SD-021,11023296,138539,,Scott_Wilk,336303,0
+14134,"Richard Roth",Richard,,Roth,,,1,D,2,Sen,SD-031,11022836,138416,,Richard_Roth,397082,0
+14219,"Adrin Nazarian",Adrin,,Nazarian,,,1,D,1,Rep,HD-046,11022792,138510,,Adrin_Nazarian,255975,0
+16033,"Lorena Gonzalez Fletcher",Lorena,,"Gonzalez Fletcher",,,1,D,1,Rep,HD-080,133178,144488,,Lorena_Gonzalez_Fletcher,460820,0
+16087,"Freddie Rodriguez",Freddie,,Rodriguez,,,1,D,1,Rep,HD-052,18912284,144673,,Freddie_Rodriguez,470803,0
+16221,"Brian Jones",Brian,W.,Jones,,,2,R,2,Sen,SD-038,13008835,70781,,Brian_Jones_(California),247950,0
+16280,"Autumn Burke",Autumn,,Burke,,,1,D,1,Rep,HD-062,23421292,151700,,Autumn_Burke,494195,0
+16282,"David Chiu",David,,Chiu,,,1,D,1,Rep,HD-017,673999,112071,,David_Chiu_(California),494065,0
+16284,"Jim Cooper",Jim,,Cooper,,,1,D,1,Rep,HD-009,23421159,151721,,Jim_Cooper_(California),494022,0
+16285,"Bill Dodd",Bill,,Dodd,,,1,D,2,Sen,SD-003,18694309,82641,,Bill_Dodd,494008,0
+16286,"Eduardo Garcia",Eduardo,,Garcia,,,1,D,1,Rep,HD-056,23421285,111663,,Eduardo_Garcia,494189,0
+16287,"James Gallagher",James,,Gallagher,,,2,R,1,Rep,HD-003,23421142,114778,,James_Gallagher_(California),494004,0
+16288,"Mike Gipson",Mike,,Gipson,,,1,D,1,Rep,HD-064,775723,70443,,Mike_Gipson,390069,0
+16291,"Jacqui Irwin",Jacqui,,Irwin,,,1,D,1,Rep,HD-044,667092,70919,,Jacqui_Irwin,494153,0
+16293,"Tom Lackey",Tom,,Lackey,,,2,R,1,Rep,HD-036,11023291,71099,,Tom_Lackey,407978,0
+16294,"Evan Low",Evan,,Low,,,1,D,1,Rep,HD-028,595416,70415,,Evan_Low,256699,0
+16295,"Devon Mathis",Devon,,Mathis,,,2,R,1,Rep,HD-026,23421211,151908,,Devon_Mathis,494097,0
+16296,"Kevin McCarty",Kevin,,McCarty,,,1,D,1,Rep,HD-007,13008471,70260,,Kevin_McCarty_(California),293422,0
+16297,"Patrick O'Donnell",Patrick,,O'Donnell,,,1,D,1,Rep,HD-070,23421316,70449,,Patrick_O%27Donnell,390309,0
+16299,"Miguel Santiago",Miguel,,Santiago,,,1,D,1,Rep,HD-053,23421278,151853,,Miguel_Santiago_(California),294448,0
+16303,"Jim Wood",Jim,,Wood,,,1,D,1,Rep,HD-002,90105,71013,,Jim_Wood,494001,0
+16304,"Benjamin Allen",Benjamin,,Allen,,Ben,1,D,2,Sen,SD-026,23421111,151677,,Ben_Allen,493951,0
+16305,"Patricia Bates",Patricia,C,Bates,,Pat,2,R,2,Sen,SD-036,11022372,82706,,Patricia_C._Bates,193101,0
+16306,"Bob Hertzberg",Bob,,Hertzberg,,,1,D,2,Sen,SD-018,6413709,9756,,Robert_Hertzberg,193069,0
+16307,"Connie Leyva",Connie,M,Leyva,,,1,D,2,Sen,SD-020,1263904,151805,,Connie_M._Leyva,493945,0
+16308,"Mike McGuire",Mike,,McGuire,,,1,D,2,Sen,SD-002,23421088,129749,,Mike_McGuire,493936,0
+16309,"Janet Nguyen",Janet,,Nguyen,,,2,R,1,Rep,HD-072,1272718,82721,,Janet_Nguyen,493964,0
+16316,"Chad Mayes",Chad,,Mayes,,,3,I,1,Rep,HD-042,785335,151815,,Chad_Mayes,494148,0
+17428,"Rudy Salas",Rudy,,Salas,,,1,D,1,Rep,HD-032,255857,129492,,Rudy_Salas,235058,0
+17701,"Steve Glazer",Steve,,Glazer,,,1,D,2,Sen,SD-007,1348234,151749,,Steve_Glazer,494058,0
+18063,"Steven Choi",Steven,S.,Choi,,,2,R,1,Rep,HD-068,379694,70192,,Steven_S._Choi,291005,0
+18064,"Eloise Reyes",Eloise,,Reyes,,,1,D,1,Rep,HD-047,2536758,169395,,Eloise_Gomez_Reyes,474456,0
+18065,"Ash Kalra",Ash,,Kalra,,,1,D,1,Rep,HD-027,161609,112088,,Ash_Kalra,577820,0
+18066,"Phillip Chen",Phillip,,Chen,,,2,R,1,Rep,HD-055,23421283,151715,,Phillip_Chen,494187,0
+18067,"Cecilia Aguiar-Curry",Cecilia,,Aguiar-Curry,,,1,D,1,Rep,HD-004,292811,169297,,Cecilia_Aguiar-Curry,577746,0
+18068,"Scott Wiener",Scott,,Wiener,,,1,D,2,Sen,SD-011,32203683,129655,,Scott_Wiener,577701,0
+18069,"Heath Flora",Heath,,Flora,,,2,R,1,Rep,HD-012,38586307,169309,,Heath_Flora,577761,0
+18070,"Henry Stern",Henry,,Stern,,,1,D,2,Sen,SD-027,39707348,169182,,Henry_Stern,392392,0
+18071,"Kevin Kiley",Kevin,,Kiley,,,2,R,1,Rep,HD-006,39707379,169303,,Kevin_Kiley,577754,0
+18072,"Tim Grayson",Tim,,Grayson,,,1,D,1,Rep,HD-014,38562212,129519,,Tim_Grayson,577768,0
+18073,"Marc Berman",Marc,,Berman,,,1,D,1,Rep,HD-024,147046,146412,,Marc_Berman,577793,0
+18074,"Jordan Cunningham",Jordan,,Cunningham,,,2,R,1,Rep,HD-035,35967276,169360,,Jordan_Cunningham,577842,0
+18075,"Monique Limon",Monique,,Limon,,,1,D,2,Sen,SD-019,15733884,169364,,S._Monique_Lim%C3%B3n,577850,0
+18077,"Laura Friedman",Laura,,Friedman,,,1,D,1,Rep,HD-043,39707454,111792,,Laura_Friedman,577886,0
+18078,"Blanca Rubio",Blanca,E.,Rubio,,,1,D,1,Rep,HD-048,377819,169399,,Blanca_Rubio,577902,0
+18079,"Sabrina Cervantes",Sabrina,,Cervantes,,,1,D,1,Rep,HD-060,38566119,169409,,Sabrina_Cervantes,455235,0
+18080,"Randy Voepel",Randy,,Voepel,,,2,R,1,Rep,HD-071,39707495,70784,,Randy_Voepel,577951,0
+18082,"Josh Newman",Josh,,Newman,,,1,D,2,Sen,SD-029,17794889,169187,,Josh_Newman,577733,0
+18877,"Budget and Fiscal Review",,,,,,0,,2,Sen,,0,0,,,0,476
+19216,"Governance and Finance",,,,,,0,,2,Sen,,0,0,,,0,1795
+19298,Agriculture,,,,,,0,,1,Rep,,0,0,,,0,448
+19299,"Banking and Financial Institutions",,,,,,0,,2,Sen,,0,0,,,0,3675
+19300,Insurance,,,,,,0,,2,Sen,,0,0,,,0,2449
+19301,"Environmental Safety and Toxic Materials",,,,,,0,,1,Rep,,0,0,,,0,454
+19311,Health,,,,,,0,,1,Rep,,0,0,,,0,457
+19327,"Labor and Employment",,,,,,0,,1,Rep,,0,0,,,0,464
+19328,Insurance,,,,,,0,,1,Rep,,0,0,,,0,461
+19329,Judiciary,,,,,,0,,1,Rep,,0,0,,,0,463
+19330,"Vince Fong",Vince,,Fong,,,2,R,1,Rep,HD-034,39707425,169357,,Vince_Fong,224498,0
+19332,"Business and Professions",,,,,,0,,1,Rep,,0,0,,,0,451
+19339,"Natural Resources and Water",,,,,,0,,2,Sen,,0,0,,,0,485
+19341,"Natural Resources",,,,,,0,,1,Rep,,0,0,,,0,466
+19343,"Housing and Community Development",,,,,,0,,1,Rep,,0,0,,,0,459
+19346,"Jobs, Economic Development, and the Economy",,,,,,0,,1,Rep,,0,0,,,0,462
+19347,"Public Safety",,,,,,0,,2,Sen,,0,0,,,0,487
+19349,"Revenue and Taxation",,,,,,0,,1,Rep,,0,0,,,0,469
+19350,"Governmental Organization",,,,,,0,,1,Rep,,0,0,,,0,456
+19354,"Local Government",,,,,,0,,1,Rep,,0,0,,,0,465
+19357,"Governmental Organization",,,,,,0,,2,Sen,,0,0,,,0,479
+19361,"Business, Professions and Economic Development",,,,,,0,,2,Sen,,0,0,,,0,493
+19386,Education,,,,,,0,,2,Sen,,0,0,,,0,477
+19396,Budget,,,,,,0,,1,Rep,,0,0,,,0,452
+19459,"Joaquin Arambula",Joaquin,,Arambula,,,1,D,1,Rep,HD-031,38179528,169272,,Joaquin_Arambula,577832,0
+19487,"Wendy Carrillo",Wendy,,Carrillo,,,1,D,1,Rep,HD-051,32687878,176116,,Wendy_Carrillo,615691,0
+19589,Judiciary,,,,,,0,,2,Sen,,0,0,,,0,482
+19590,Transportation,,,,,,0,,1,Rep,,0,0,,,0,471
+19595,Health,,,,,,0,,2,Sen,,0,0,,,0,480
+19607,"Banking and Finance",,,,,,0,,1,Rep,,0,0,,,0,450
+19610,"Higher Education",,,,,,0,,1,Rep,,0,0,,,0,458
+19627,"Sydney Kamlager-Dove",Sydney,,Kamlager-Dove,,,1,D,1,Rep,HD-054,26628958,178079,,Sydney_Kamlager-Dove,312779,0
+19658,"Jesse Gabriel",Jesse,,Gabriel,,,1,D,1,Rep,HD-045,7025840,178075,,Jesse_Gabriel,660476,0
+19659,"Luz Rivas",Luz,Maria,Rivas,,,1,D,1,Rep,HD-039,44423598,178070,,Luz_Maria_Rivas,660459,0
+19716,"Rebecca Bauer-Kahan",Rebecca,,Bauer-Kahan,,,1,D,1,Rep,HD-016,44493620,180050,,Rebecca_Bauer-Kahan,660427,0
+19717,"Tasha Horvath",Tasha,,"Boerner Horvath",,,1,D,1,Rep,HD-076,42673378,180144,,Tasha_Boerner_Horvath,660541,0
+19719,"Cottie Petrie-Norris",Cottie,,Petrie-Norris,,,1,D,1,Rep,HD-074,44157744,180141,,Cottie_Petrie-Norris,660538,0
+19720,"James Ramos",James,C.,Ramos,,,1,D,1,Rep,HD-040,31972619,144120,,James_Ramos,285901,0
+19721,"Robert Rivas",Robert,,Rivas,,,1,D,1,Rep,HD-030,44493661,129744,,Robert_Rivas,235930,0
+19723,"Buffy Wicks",Buffy,,Wicks,,,1,D,1,Rep,HD-015,44493619,180048,,Buffy_Wicks,278108,0
+19724,"Andreas Borgeas",Andreas,,Borgeas,,,2,R,2,Sen,SD-008,44493890,111778,,Andreas_Borgeas,660313,0
+19725,"Bob Archuleta",Bob,J.,Archuleta,,,1,D,2,Sen,SD-032,146917,71279,,Bob_Archuleta,445332,0
+19726,"Maria Durazo",Maria,Elena,Durazo,,,1,D,2,Sen,SD-024,2018933,179971,,Maria_Elena_Durazo,660378,0
+19727,"Melissa Hurtado",Melissa,,Hurtado,,,1,D,2,Sen,SD-014,44493605,179956,,Melissa_Hurtado,660326,0
+19728,"Tom Umberg",Tom,,Umberg,,,1,D,2,Sen,SD-034,6398641,29299,,Tom_Umberg,226490,0
+19733,"Susan Rubio",Susan,,Rubio,,,1,D,2,Sen,SD-022,44493639,129493,,Susan_Rubio,660377,0
+21253,"Public Employment and Retirement",,,,,,0,,1,Rep,,0,0,,,0,3914
+21275,Education,,,,,,0,,1,Rep,,0,0,,,0,455
+21276,Transportation,,,,,,0,,2,Sen,,0,0,,,0,3948
+21282,"Labor, Public Employment and Retirement",,,,,,0,,2,Sen,,0,0,,,0,3973
+21329,Agriculture,,,,,,0,,2,Sen,,0,0,,,0,2523
+21374,"Lena Gonzalez",Lena,,Gonzalez,,,1,D,2,Sen,SD-033,29336335,157372,,Lena_Gonzalez,709291,0
+21440,"Megan Dahle",Megan,,Dahle,,,2,R,1,Rep,HD-001,13477063,186798,,Megan_Dahle,722712,0
+21608,Housing,,,,,,0,,2,Sen,,0,0,,,0,3949
+21717,"Steve Bennett",Steve,,Bennett,,,1,D,1,Rep,HD-037,48644341,81822,,Steve_Bennett,390609,0
+21718,"Laurie Davies",Laurie,,Davies,,,2,R,1,Rep,HD-073,26406472,146356,,Laurie_Davies,727357,0
+21719,"Alex Lee",Alex,,Lee,,,1,D,1,Rep,HD-025,48644320,188786,,Alex_Lee,529817,0
+21720,"Kelly Seyarto",Kelly,,Seyarto,,,2,R,1,Rep,HD-067,48644525,188881,,Kelly_Seyarto,727410,0
+21721,"Suzette Martinez Valladares",Suzette,Martinez,Valladares,,,2,R,1,Rep,HD-038,48160752,188814,,Suzette_Martinez_Valladares,703182,0
+21722,"Carlos Villapudua",Carlos,,Villapudua,,,1,D,1,Rep,HD-013,31972445,114677,,Carlos_Villapudua,660412,0
+21723,"Chris Ward",Chris,,Ward,,,1,D,1,Rep,HD-078,40697966,176914,,Christopher_Ward_(California),727294,0
+21724,"Josh Becker",Josh,,Becker,,,1,D,2,Sen,SD-013,6503297,120184,,Josh_Becker,290928,0
+21725,"Dave Cortese",Dave,,Cortese,,,1,D,2,Sen,SD-015,44050174,114701,,Dave_Cortese_(California),510772,0
+21726,"John Laird",John,,Laird,,,1,D,2,Sen,SD-017,2576990,29614,,John_Laird,211749,0
+21727,"Dave Min",Dave,,Min,,,1,D,2,Sen,SD-037,44044442,179392,,Dave_Min,621307,0
+21728,"Rosilicie Ochoa Bogh",Rosilicie,,"Ochoa Bogh",,,2,R,2,Sen,SD-023,48644476,188758,,Rosilicie_Ochoa_Bogh,539403,0
+22654,"Lisa Calderon",Lisa,,Calderon,,,1,D,1,Rep,HD-057,48644371,188854,,Lisa_Calderon_(California),727473,0
+22851,"Thurston Smith",Thurston,,Smith,,Smitty,2,R,1,Rep,HD-033,42125044,70100,,"Thurston_""Smitty""_Smith_(California)",727445,0
+22882,"Military and Veterans Affairs",,,,,,0,,1,Rep,,0,0,,,0,4469
+22889,"Emergency Management",,,,,,0,,1,Rep,,0,0,,,0,4330
+22904,Elections,,,,,,0,,1,Rep,,0,0,,,0,4331
+22917,"Privacy and Consumer Protection",,,,,,0,,1,Rep,,0,0,,,0,3626
+22918,"Akilah Weber",Akilah,,Weber,,,1,D,1,Rep,HD-079,52996838,195832,,Akilah_Weber,773952,0
+22932,"Isaac Bryan",Isaac,,Bryan,,,1,D,1,Rep,HD-054,0,195907,,Isaac_Bryan,722792,0
+22948,"Mia Bonta",Mia,,Bonta,,,1,D,1,Rep,HD-018,53819060,196283,,Mia_Bonta,786168,0
+23099,"Mike Fong",Mike,,Fong,,,1,D,1,Rep,HD-049,54481568,176686,,Mike_Fong,799694,0
+23100,"Military and Veterans Affairs",,,,,,0,,2,Sen,,0,0,,,0,4480
+23119,"Water, Parks, and Wildlife",,,,,,0,,1,Rep,,0,0,,,0,474
+23128,"Lori Wilson",Lori,D.,Wilson,,,1,D,1,Rep,HD-011,54921399,202065,,Lori_Wilson,804412,0
+23137,"Matt Haney",Matt,,Haney,,,1,D,1,Rep,HD-017,32894541,187414,,Matt_Haney,805247,0
+23152,"David Alvarez",David,,Alvarez,,,1,D,1,Rep,HD-080,15734436,129652,,David_Alvarez_(California),244909,0
+23155,"Tina McKinnor",Tina,Simone,McKinnor,,,1,D,1,Rep,HD-062,54921400,205324,,Tina_McKinnor,333099,0

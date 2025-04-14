@@ -16,5 +16,7 @@
   "here",
   "tidyr",
   "knitr",
-  "labelled"
+  "labelled",
+  "readxl",
+  "httr"  
 ]
