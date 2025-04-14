@@ -92,8 +92,8 @@ save(datasetList, file = file.path(prjDirs$pathData, "datasetList.RData"))
 # Store the dataset data for each session in the dataset list (the archived sessions from 2013 to 2024 don't need to be updated. Only the 2025-2026 session needs to be updated).
 #storeDatasetData(datasetList$Y20132014)
 #storeDatasetData(datasetList$Y20172018)
-storeDatasetData(datasetList$Y20192020)
-storeDatasetData(datasetList$Y20212022)
+#storeDatasetData(datasetList$Y20192020)
+#storeDatasetData(datasetList$Y20212022)
 storeDatasetData(datasetList$Y20232024)
 storeDatasetData(datasetList$Y20252026)
 
